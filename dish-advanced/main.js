@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const li = document.createElement('li');
     appendToLI('span', 'textContent', text);   
     appendToLI('p', 'innerHTML', text2.replace(/\n/g, '<br />')); 
-    appendToLI('span', 'textContent', 'edit: dish rating');
+    //appendToLI('span', 'textContent', 'edit: dish rating');
     //appendToLI()
     appendToLI('button', 'textContent', 'edit');
     appendToLI('button', 'textContent', 'remove');
