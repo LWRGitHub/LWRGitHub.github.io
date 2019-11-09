@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://s3.amazonaws.com/codecademy-content/projects/personal_portfolio/background.jpeg');
+      background-size: cover;
+      color: white;
+    }
+    body{
+      background: url(https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png);
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+    button{
+      background-color: #1a75ff;
+      color: white;
+      border: 1px solid #52667a;
+      border-radius: 8px;
+      transition-duration: 0.4s;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      font-size: 20px;
+    }
+    #blog-link{
+      color: black; 
+    }
+    img{
+      width: 300px
+    }
+    a{
+     color: black; 
+    }
+    container{
+       right: 24px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <img src="https://lwrgithub.github.io/images/me.jpeg">
+    <h1>LWR's Blog</h1>
+    <ul>
+      <li><button onclick="window.location.href = 'https://lwrgithub.github.io/about.html';">About Me</button></li>
+      <li><button onclick="window.location.href ='https://lwrgithub.github.io/education.html';">Education</button></li>
+      <li><button onclick="window.location.href = 'https://lwrgithub.github.io/experience.html';">Experience</button></li>
+      <li><button onclick="window.location.href = 'https://lwrgithub.github.io/contact.html';">Contact</button></li>
+    </ul>
+  </header>
+  
+  <article>
+    <h2>Technology Enthusiast</h2>
+    <p>Retail manager turned technology enthusiast seeking a programming role where I can work in a team to build apps that maximize organizations’ creativity and potential.</p>
+    <button class="like">Like</button>
+  </article>
+  <article>
+    <h2>fast Paced Learner</h2>
+    <p>I have a knack for technology and I've been able to pick up skills quickly while working in a variety of settings. I enjoy growing my toolbelt through building projects like interactive games.</p>
+    <button class="like">Like</button>
+  </article>
+  <article>
+    <h2><a id="blog-link"href="https://lwrgithub.github.io/index.html">LWRGitHub.GitHub.io</a></h2>
+    <p>I started my journey of becoming a Software Engineer less than four months ago and It all started at Code Tenderloin. I have created some awesome projects and filled up almost everyday with tons of self study. Basically I get up in the morning and go down to the coffee shop and I’m there tell it closes. I do my best everyday and I have put together an awesome portfolio website that I would love for you all to see! Just click the link above! </p>
+    <button class="like">Like</button>
+  </article>
+  
+  <br />
+  <br />
+  <footer class="container">
+    <p >&copy; 2019 Personal Blog</p>
+    <a href="https://github.com/LWRGitHub">GitHub</a>
+  </footer>
+  
+  <script>
+    $(".like").on("click", function() {
+      alert("THANK YOU FOR THE LIKE!");
+    });
+  </script>
+</body>
