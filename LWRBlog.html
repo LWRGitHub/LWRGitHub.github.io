@@ -107,9 +107,10 @@
   
   <script>
     const like = document.querySelectorAll('button.like');
-    console.log(like);
-    like.addEventListener("click", function() {
-      alert("THANK YOU FOR THE LIKE!");
-    });
+    for(let i = 0; i < like.length; i++){
+      like[i].addEventListener("click", function() {
+        alert("THANK YOU FOR THE LIKE!");
+      });
+    }
   </script>
 </body>
