@@ -137,7 +137,7 @@ button:hover {
     text-decoration:none;
 }
 
-@media (max-width: 750px){
+/*@media (max-width: 750px){
     
     header {
         padding: 20px 0;
@@ -306,4 +306,4 @@ button:hover {
     #liEd{
         font-size: 27px;
     }
-}
+}*/
