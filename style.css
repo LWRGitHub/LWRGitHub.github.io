@@ -132,7 +132,7 @@ button:hover {
     
 }
 
-@media (min-width: 500px){
+@media (max-width: 500px){
     
     header {
         padding: 20px 0;
