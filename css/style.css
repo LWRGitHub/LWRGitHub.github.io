@@ -232,7 +232,22 @@ li{
     padding: 10px;
 }
 
-/* ======   Experience Page Cards   ====== */
+/* ------ Slide show extended -------- */
+#single-slide-div{
+    text-align: center;
+}
+
+#slide-img-4{
+    max-width: 400px;
+}
+
+#slide-img-2{
+    max-width: 200px;
+}
+/* ------ /Slide show extended -------- */
+
+
+/* -----------------  Experience Page Cards   ------------------ */
 @media (min-width: 36em) {
     .card-columns {
         -webkit-column-count: 2;
@@ -249,7 +264,28 @@ li{
 }
 .card-header{
     background-color: rgba(0,0,0,.045);
+    /* ------ Badge font-size ------- */
     font-size: 11px;
     padding: 0;
 }
-/* ======   /Experience Page Cards   ====== */
+/* -----------------  /Experience Page Cards   ------------------ */
+
+/* ----------------   Skill Level Badges   ------------------ */
+#main-lang-bg{
+    font-size: 10px;
+}
+
+#skill-bg{
+    font-size: 7px;
+}
+#ext-knowledge-bg{
+    font-size: 25px
+}
+/* ----------------   /Skill Level Badges   ------------------ */
+
+/* ------------ Resume Button ----------------- */
+#resume-btn{
+    width: 50px;
+    height: 46px;
+}
+/* ------------ /Resume Button ----------------- */
