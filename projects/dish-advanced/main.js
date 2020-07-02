@@ -1,17 +1,14 @@
-// import React from 'react';
 
 document.addEventListener('DOMContentLoaded', () => {
   let storageKey = "savedDishes";
+
   // contain all the dishes throughout the program
   let dishList = [];
-  //let dishContent = {};
 
   // setup elements
   const form = document.getElementById('registrar');
   const input = form.querySelector('input');
   const textarea = form.querySelector('textarea');
-  // const name = form.getElementById('name');
-  // const ingredients = form.getElementById('ingredients');
   
   const mainDiv = document.querySelector('.main');
   const ul = document.getElementById('foodList');
@@ -22,12 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
   div.appendChild(filterLabel);
 
   mainDiv.insertBefore(div, ul);
-
-  // function br() {
-  //   return (
-  //     <br />
-  //   )
-  // }
  
   function createLI(text, text2) {
     function createElement(elementName, property, value) {
@@ -39,19 +30,14 @@ document.addEventListener('DOMContentLoaded', () => {
     function appendToLI(elementName, property, value) {
       const element = createElement(elementName, property, value);     
       li.appendChild(element); 
-      //localStorage.setItem(element);
       return element;
     }
     
     const li = document.createElement('li');
     appendToLI('span', 'textContent', text);   
     appendToLI('p', 'innerHTML', text2.replace(/\n/g, '<br />')); 
-    //appendToLI('span', 'textContent', 'edit: dish rating');
-    //appendToLI()
     appendToLI('button', 'textContent', 'edit');
     appendToLI('button', 'textContent', 'remove');
-    
-    //localStorage.setItem(li);
     return li;
   }
 
@@ -71,7 +57,6 @@ document.addEventListener('DOMContentLoaded', () => {
     dishContent.name = newDish;
     dishContent.ingredients = text2;
     dishList.push(dishContent);
-    //dishList.push(newDish);
     storeDishList();
   }
 
@@ -91,8 +76,6 @@ document.addEventListener('DOMContentLoaded', () => {
     e.preventDefault();
     const text = input.value;
     const text2 = textarea.value;
-    // const text2br = text2.replace("\n", br());
-    // console.log(text2);
     if(text === ""){
       alert(`Ooooops, no input.\nPlease enter a dish name.`);
     } else {
@@ -132,8 +115,6 @@ document.addEventListener('DOMContentLoaded', () => {
           input.value = span.textContent;
        
           input2.value = p.innerHTML.replace(/<br>/g, '\n');
-          // input2.replace(/<br>/g, '\n')
-          // const input2br = input2.replace("\n", br());
           li.insertBefore(input, span);
           li.insertBefore(input2, p);
           li.removeChild(span);
@@ -147,25 +128,17 @@ document.addEventListener('DOMContentLoaded', () => {
           const p = document.createElement('p');
           span.textContent = input.value;
           p.innerHTML = input2.value.replace(/\n/g, '<br />');
-          // const input2br = input2.replace("\n", br());
           li.insertBefore(span, input);
           li.insertBefore(p, input2);
           li.removeChild(input);
           li.removeChild(input2);
           button.textContent = 'edit';
-          editDish(indexOfLi, input.value, input2.value); 
-          //editDish(indexOfLi, );        
+          editDish(indexOfLi, input.value, input2.value);        
         }
       };
       nameActions[action]();
     }
   });  
-
-
-   // XXX fake stored dishes - this is just for testing
-
-   // let fakeDishList = ["potatoes", "ratatouille", "casserole", "steak"];
-   // localStorage.setItem(storageKey, JSON.stringify(fakeDishList))
  
    // retrieve stored dishes
    // and render them on the page.

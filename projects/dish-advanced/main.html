@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dish App</title>
+
+  <!-- Styles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
   <link href="main.css" rel="stylesheet">
+  <!-- /Styles -->
   
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156036592-1"></script>
@@ -16,25 +19,39 @@
 
   gtag('config', 'UA-156036592-1');
   </script>
+  <!-- /Global site tag (gtag.js) - Google Analytics -->
 
 </head>
 <body>
   <div class="wrapper">
     <header>
+
+       <!-- Page heading  -->
       <h1>DISH</h1>
       <p id="yumy">Yumy Food</p>
+       <!-- /Page heading -->
+
+      <!-- form submit area -->
       <form id="registrar">
         <input type="text" id="Name" placeholder="Dish Name">
-        <textarea name="ingredients" rows="10" cols="30">ingredients</textarea>
+        <textarea name="ingredients" rows="10" cols="30" placeholder="ingredients"></textarea>
         <button type="submit" name="submit" value="submit">Submit</button>
       </form>
+      <!-- /form submit area -->
     </header>
-		
+    
+    <!-- Dish list area -->
     <div class="main">	
       <h2>Dishes</h2>
       <ul id="foodList"></ul>	
     </div>
+    <!-- /Dish list area -->
+
   </div>
+
+  <!-- js -->
   <script src="main.js"></script>
+  <!-- /js -->
+
 </body>
 </html>

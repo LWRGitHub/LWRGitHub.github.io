@@ -1,15 +1,14 @@
 <!doctype html>
-
 <html lang="en">
 <head>
-  <meta charset="utf-8">
 
+  <!-- Styles, meta & title -->
+  <meta charset="utf-8">
   <title>JavaScript ES6 and CSS Animations</title>
   <meta name="description" content="JavaScript ES6 and CSS Animations">
   <meta name="author" content="LWR">
-
   <link rel="stylesheet" href="css/style.css">
-  
+  <!-- /Styles, meta & title -->
   
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156036592-1"></script>
@@ -20,12 +19,15 @@
 
   gtag('config', 'UA-156036592-1');
   </script>
+  <!-- /Global site tag (gtag.js) - Google Analytics -->
 
 </head>
 
 <body>
   <hp-content>
     <hp-presentation>
+
+      <!-- img to animate -->
       <hp-slide class="active">
         <hp-title>Which shape</hp-title>
         <hp-chooser>
@@ -92,7 +94,9 @@
         </hp-learn>
         <hp-title>;)</hp-title>
       </hp-slide>
+     <!-- /img to animate -->
 
+      <!-- SVG -->
       <hp-slide data-onshow="animateSVG">
         <svg class="hidden" width="100%" height="100%" viewBox="0 0 640 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
             <path d="M93.724,81.381C93.724,86.784 93.724,92.187 93.724,97.59C93.724,98.245 94.253,101.8 93.183,101.8"/>
@@ -154,9 +158,14 @@
         <svg width="100%" height="100%" viewBox="0 0 640 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
         </svg>
       </hp-slide>
+      <!-- /SVG -->
       
     </hp-presentation>
   </hp-content>
+
+  <!-- js -->
   <script src="js/main.js"></script>
+  <!-- /js -->
+
 </body>
 </html>

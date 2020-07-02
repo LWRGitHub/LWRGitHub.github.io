@@ -230,8 +230,9 @@ li{
     margin: auto;
     width: 100%;
     padding: 10px;
-  }
+}
 
+/* ======   Experience Page Cards   ====== */
 @media (min-width: 36em) {
     .card-columns {
         -webkit-column-count: 2;
@@ -239,7 +240,6 @@ li{
         column-count: 2;
     }
 }
-
 @media (min-width: 48em) {
     .card-columns {
         -webkit-column-count: 3;
@@ -247,3 +247,4 @@ li{
         column-count: 3;
     }
 }
+/* ======   /Experience Page Cards   ====== */

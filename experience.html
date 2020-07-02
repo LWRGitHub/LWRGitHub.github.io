@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>My Personal Portfolio</title>
+        <title>Logan Reynolds' Sofware Engineering Portfolio website</title>
+
+        <!-- Styles & mobile functionality -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
         <link href="style.css" type="text/css" rel="stylesheet">
+        <!-- /Styles & mobile functionality -->
     
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156036592-1"></script>
@@ -17,8 +20,12 @@
 
           gtag('config', 'UA-156036592-1');
         </script>
+        <!-- /Global site tag (gtag.js) - Google Analytics -->
+
     </head>
     <body>
+
+        <!-- My name & nav -->
         <header class="container">
             <div class="row">
                 <h1><a href="index.html" id="LWR">Logan Reynolds</a></h1>
@@ -30,6 +37,9 @@
                 </nav>
             </div>
         </header>
+        <!-- /My name & nav -->
+
+        <!-- Jumbotron -->
         <section class="jumbotron">
             <div class="container">
                 <div class="row">
@@ -37,7 +47,10 @@
                 </div>
             </div>
         </section>
-        <section class="container">
+        <!-- /Jumbotron -->
+
+        <!-- Programming languages & Skill set specific to that language -->
+        <section class="container my-5">
             <div class="row">
                 <div class="col-sm-6 col-md-3">
                     <h5>JavaScript  <span style="font-size:10px;" class="badge badge-pill badge-light">Expert</span></h5>
@@ -57,9 +70,6 @@
                 <div class="col-sm-6 col-md-3">
                     <h5>Python  <span style="font-size:10px;" class="badge badge-pill badge-light">Novice</span></h5>
                     <img src="images/python.png" alt="Python 1, 2 & 3 Logo for the computer Science programming language">
-                    <!-- <ul>
-                        <li></li>
-                    </ul> -->
                 </div>
                 <div class="col-sm-6 col-md-3">
                     <h5>Ruby  <span style="font-size:10px;" class="badge badge-pill badge-light">Novice</span></h5>
@@ -80,9 +90,11 @@
                 </div>
             </div> 
         </section>
-        <br><br>
+        <!-- /Programming languages & Skill set specific to that language -->
+
+        <!-- Extended Knowledge -->
         <section class="container">
-            <h2 class="mb-4">Extended Knowledge</h2>
+            <h2 class="my-5">Extended Knowledge</h2>
             <div class="row">
                 <div class="col-sm-6 col-md">
                     <h3 style="font-size:25px;" class="badge badge-pill badge-light">Expert</h3>
@@ -98,10 +110,11 @@
                 </div>
             </div>
         </section>
-        <br><br>
-        <section class="container">
-            <h2 class="mb-5">Professional Projects</h2>
+        <!-- /Extended Knowledge -->
 
+        <!-- Professional Projects -->
+        <section class="container">
+            <h2 class="my-5">Professional Projects</h2>
             <div class="card-columns">
                 <div class="card">
                     <a style="padding:0;" href="http://dance4healing.com/sandbox/index.html">
@@ -125,7 +138,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <a style="padding:0;" href="dish-advanced/main.html">
+                    <a style="padding:0;" href="projects/dish-advanced/main.html">
                         <img class="card-img-top" src="images/slide-show/desktop-dish-submitter.png" alt="dish submitter website, add food & cooking Instructions to the local storage on your internet browser.blue & green faded background on baner the rest of the background is very light green. there are two example Food items/dishes with example cooking Instructions that provide a visual explanation of how to use the app.">
                     </a>
                     <div class="card-body">
@@ -138,28 +151,27 @@
                             <div class="card-body">
                                 <h5 class="card-title">How to Use:</h5>
                                 <p class="card-text">Type in the name of your dish along with the ingredients & submit it. You can then edit or remove the dish if you like.</p>
-                                <a type="a" class="btn btn-outline-secondary p-1 mb-1" href="dish-advanced/main.html">Project</a> 
+                                <a type="a" class="btn btn-outline-secondary p-1 mb-1" href="projects/dish-advanced/main.html">Project</a> 
                                 <a type="a" class="btn btn-outline-secondary p-1 mb-1" href="https://github.com/LWRGitHub/Dish-submitter">GitHub Code</a>  
                             </div>
                         </div>
                     </div>
                 </div>
             </div> 
-
         </section>
+        <!-- /Professional Projects -->
+
+        <!-- Personal Projects -->
         <section class="container">
             <h2 class="my-5">Personal Projects</h2>
-
             <div class="card-columns">
                 <div class="card">
-                    <a style="padding:0;" href="game1.html">
+                    <a style="padding:0;" href="projects/game1.html">
                         <img class="card-img-top" src="images/slide-show/pong-like-game-paddle.png" alt="Screenshot of paddle game that is kind of like pong Where are you trying to destroy the bricks by moving the ball around. Video game online for the computer. This video game is in mid play and most of the bricks have been destroyed player is about to win.">
                     </a>
                     <div class="card-body">
-                        
                         <h5 class="card-title">Game made with JavaScript, DOM, HTML & CSS</h5>
                         <p class="card-text">I created an awesome game that uses the DOM "a tightly integrated part of JavaScript." The game is on one HTML document with the CSS, DOM & JavaScript on the same page. I had fun making it I hope you enjoy playing it.</p>
-
                         <div class="card text-center">
                             <div class="card-header">
                                 <span style="font-size:10px;" class="badge badge-pill badge-light">Computer Game</span>
@@ -167,7 +179,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">How to play:</h5>
                                 <p class="card-text">Use a desktop or laptop computer not a phone. Moving the mouse around the play area will move the board at the bottom.</p>
-                                <a type="a" class="btn btn-outline-secondary p-1 mb-1" href="game1.html">Play</a> 
+                                <a type="a" class="btn btn-outline-secondary p-1 mb-1" href="projects/game1.html">Play</a> 
                                 <a type="a" class="btn btn-outline-secondary p-1 mb-1" href="https://github.com/LWRGitHub/gameUpload/commit/f8e9802093d598407fc634c43a514fb16cdadf97">GitHub Code</a> 
                             </div>
                         </div>
@@ -194,7 +206,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <a style="padding:0;" href="css-js-project/InteractiveAnimation.html">
+                    <a style="padding:0;" href="projects/css-js-project/InteractiveAnimation.html">
                         <img class="card-img-top" src="images/js-animation.png" alt="This is an image of a JavaScript animation game. Action has yet to get taken on the animation. Image shows a triangle circle and two squares one twisted sideways. The image also has words saying which shape has no corner, This is to entice you to click on the shape you think it is, which will begin the animation.">
                     </a>
                     <div class="card-body">
@@ -207,15 +219,14 @@
                             <div class="card-body">
                                 <h5 class="card-title">How to Use:</h5>
                                 <p class="card-text">Click once to select a shape in the animation & it will play itself through to the end. If you keep clicking it will quickly go through animation.</p>
-                                <a type="a" class="btn btn-outline-secondary p-1 mb-1" href="css-js-project/InteractiveAnimation.html">Project</a> 
+                                <a type="a" class="btn btn-outline-secondary p-1 mb-1" href="projects/css-js-project/InteractiveAnimation.html">Project</a> 
                                 <a type="a" class="btn btn-outline-secondary p-1 mb-1" href="https://github.com/LWRGitHub/OtherProjects/tree/master/css-js-project">GitHub Code</a>  
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="card">
-                    <a style="padding:0;" href="phaser-game/index.html">
+                    <a style="padding:0;" href="projects/phaser-game/index.html">
                         <img class="card-img-top" src="images/slide-show/phaser-io-game-like-mario.png" alt="This is a screenshot of an interactive computer game that looks kind of like Super Mario. There are coins spinning on screen, poison bottles as well as a Barely visible spinning star. The upper left corner says score is 15. Player in the game is jumping from what appears to be floating pieces of land and floating pieces of metal there are coins and items all over the screen. Player appears in midair.">
                     </a>
                     <div class="card-body">
@@ -228,15 +239,14 @@
                             <div class="card-body">
                                 <h5 class="card-title">How to Use:</h5>
                                 <p class="card-text">"Space bar" = jump, "Left & Right arrows" = move</p>
-                                <a type="a" class="btn btn-outline-secondary p-1 mb-1" href="phaser-game/index.html">Play</a> 
+                                <a type="a" class="btn btn-outline-secondary p-1 mb-1" href="projects/phaser-game/index.html">Play</a> 
                                 <a type="a" class="btn btn-outline-secondary p-1 mb-1" href="https://github.com/LWRGitHub/gameUpload/tree/master/game-js-html5">GitHub Code</a>  
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="card">
-                    <a style="padding:0;" href="fourInARow/index.html">
+                    <a style="padding:0;" href="projects/fourInARow/index.html">
                         <img class="card-img-top" src="images/slide-show/connect-four-in-a-row-game.png" alt="This is a screenshot of the completed connect four game. We're player one is the winner, This shows that the red coins have four in a row going vertically, yellow came close though. Shows is clearly as a computer game designed to get played by two people on one computer.">
                     </a>
                     <div class="card-body">
@@ -249,13 +259,12 @@
                             <div class="card-body">
                                 <h5 class="card-title">How to Use:</h5>
                                 <p class="card-text">Use the mouse to click "Start." use the left, right & down arrows to place token.</p>
-                                <a type="a" class="btn btn-outline-secondary p-1 mb-1" href="fourInARow/index.html">Play</a> 
+                                <a type="a" class="btn btn-outline-secondary p-1 mb-1" href="projects/fourInARow/index.html">Play</a> 
                                 <a type="a" class="btn btn-outline-secondary p-1 mb-1" href="https://github.com/LWRGitHub/gameUpload/tree/master/fourInARow">GitHub Code</a>  
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="card">
                     <a style="padding:0;" href="projects/video-audio-vtt-mediaelement/index.html">
                         <img class="card-img-top" src="images/video-audio-project.png" alt="Screenshot of a webpage that includes video of a river In what seems like farmland but more so the wild and lots of trees, with a subtitle saying birds chirping. Audio recording below and a title on the web page stating HTML video and audio. Other heading tags stating audio example and video example. White background & Black outlines on the video area and audio area">
@@ -266,7 +275,6 @@
                         <div class="card text-center">
                             <div class="card-header">
                                 <span style="font-size:10px;" class="badge badge-pill badge-light">Desktop</span>
-                                <!-- <span style="font-size:10px;" class="badge badge-pill badge-light">Mobile</span> -->
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Details:</h5>
@@ -277,20 +285,17 @@
                         </div>
                     </div>
                 </div>
-
             </div> 
         </section>
-        <section class="container">
-            <!--<div class="row justify-content-center">
-                <button onclick="window.location.href = 'LWRBlog.html';">LWR'S Blog</button>
-            </div>-->
-        </section>
+        <!-- /Personal Projects -->
+
+        <!-- footer -->
         <footer class="container">
-            
             <div class="col-sm-2"><a href="https://github.com/LWRGitHub">GitHub</a><a href="https://www.linkedin.com/in/logan-reynolds/">Linkedin</a></div>
             <br>
             <p>Logan Reynolds Personal Portfolio 2020&copy;</p>
-
         </footer>
+        <!-- /footer -->
+
     </body>
 </html>
