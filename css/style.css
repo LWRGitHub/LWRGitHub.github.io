@@ -289,3 +289,14 @@ li{
     height: 46px;
 }
 /* ------------ /Resume Button ----------------- */
+
+/* --------- p5*js cards page -------------- */
+#p5-jumbotron{
+    height: 200px;
+}
+
+#p5-card-head{
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.05);
+}
+/* --------- p5*js cards page -------------- */
