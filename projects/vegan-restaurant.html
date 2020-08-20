@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <script src="/assets/jquery.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Stoke&display=swap" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156036592-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-156036592-1');
+  </script>
+  <!-- /Global site tag (gtag.js) - Google Analytics -->
+
+  <style>
+    body {
+      font-family: helvetica, sans-serif;
+      margin: 0 auto;
+      max-width: 600px;
+      background: #ebfafa;
+    }
+    
+    div {
+      height: 200px;
+      background-size: cover;
+      position: relative;
+      margin: 40px 0 0 0;
+      border-radius: 12px;
+    }
+    
+    h1 {
+      font-family: 'Stoke', serif;
+      text-align: center;
+      font-size: 53px;
+      color: rgba(200,150,150,1);;
+      margin: 60px 0 0 0;
+    }
+    
+    h2 {
+      text-align: center;
+      color: rgba(100,205,155,1);
+      margin: 0px 0 70px 0;
+    }
+    
+    .email{
+      margin: auto;
+      width: 50%;
+      height: 40px;
+    }
+    
+    input {
+      margin: 0 auto;
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    
+    input[type="submit"] {
+      background: #1a75ff;
+      color: white;
+    }
+    
+    p {
+      color: rgba(255,255,255,1);
+      background: black;
+      background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+      background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+      background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+      padding: 10px;
+      line-height: 28px;
+      text-align: justify;
+      position: absolute;
+      bottom: 0;
+      margin: 0;
+      height: 30px;
+      transition: height .5s;
+      -webkit-transition: height .5s;
+      -moz-transition: height .5s;
+    }
+    
+    small {
+      opacity: 0;
+    }
+    .show-description p {
+      height: 150px;
+    }
+    .show-description small {
+      opacity: 1;
+    }
+    
+    .first{
+      background-image: url("https://i.imgur.com/z3BkIoW.png");
+    }
+    .second{
+      background-image: url("https://i.imgur.com/3KA9Yex.png");
+    }
+    .dessert{
+      background-image: url("https://i.imgur.com/Qr5VEKh.png");
+    }
+    .price {
+      float: right;
+    }
+    
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 33px;
+        margin-top: 20px;
+        line-height: 40px;
+      }
+      h2 {
+        font-size: 15px;
+        margin: 20px 0 30px 0;
+      }
+      .email{
+      margin: auto;
+      width: 50%;
+      height: 60px;
+      }
+      input {
+        width: 160px;
+        margin: 0 auto;
+        border: 0;
+        padding: 5px;
+        font-size: 18px;
+      }
+      input[type="submit"] {
+        background: #1a75ff;
+        color: white;
+      }
+      div {
+        margin: 20px 12px 0 12px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 24px;
+      }
+      small {
+        font-size: 16px;
+      }
+    }
+    
+  </style>
+
+</head>
+
+<body>
+  <h1>LWR's VEGAN restaurant</h1>
+  <h2>a San Francisco eatery</h2>
+  
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7194.1701308899255!2d-122.40746585132484!3d37.7847551503057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858085de1e33eb%3A0x1a31405067f79d69!2sWestfield%20San%20Francisco%20Centre!5e0!3m2!1sen!2sus!4v1572414913747!5m2!1sen!2sus" width="600" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+  
+  <div class="email">
+    <br >
+    <input type="email" placeholder="Get email updates">
+    <input type="submit">
+  </div>
+  <div class="first">
+    <p>Vegan Min Cakes<span class="price">$14</span>
+    <br />
+    <small>Yummy small pancakes! Powdered sugar on top optional maple syrup and a side of wonderful froot. MMMMMMM YUUUUMMMMYYYYYYY!!!!!!!! </small></p>
+  </div>
+  
+  <div class="second">
+    <p>Vegan white dipping Frise<span class="price">$7</span>
+    <br />
+    <small>This vegan special has been a top hit since the opening day. get your yummy vegan white dip fries any day of the week. Mmmmm!</small></p>
+  </div>
+    
+  <div class="dessert">
+    <p>Vegan Chocolate Toast <span class="price">$8</span>
+    <br />
+    <small>Yummy desserts all just for you including the vegan chocolate toast yummy! available during breakfast and breakfast is all day! YES!</small>
+    </p>
+  </div>
+  
+  <script>
+    $('div').on('click', function() {
+        $(this).toggleClass('show-description');
+    });
+  </script>
+  
+  <br />
+  <footer>
+    <span>&copy; 2019 Vegan Eatery</span>
+  </footer>
+  <br />
+
+</body>

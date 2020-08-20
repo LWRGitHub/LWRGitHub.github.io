@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Video and Audio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+
+    <!--  links for editing vidio/audio css & functionality  -->
+    <script src="js/jquery.js"></script>
+    <script src="js/mediaelement-and-player.min.js"></script>
+    <link href="css/mediaelementplayer.css" rel="stylesheet">
+    <script src="skip-back/skip-back.min.js"></script>
+    <script src="skip-back/skip-back.i18n.js"></script>
+    <link href="skip-back/skip-back.min.css" rel="stylesheet">
+    <!--  /links for editing vidio/audio css & functionality  -->
+
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156036592-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-156036592-1');
+    </script>
+    <!-- /Global site tag (gtag.js) - Google Analytics -->
+
+  </head>
+  <body>
+    <h1>HTML Video and Audio</h1>
+    <div class="wrapper">
+      <h2>Video Example</h2>
+      
+      <!-- video -->
+      <div class="videoWrapper">
+       <video width="852" height="480">
+          <source src="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge.mp4" type="video/mp4">
+          <source src="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge.ogg" type="video/ogg">
+          <track label="English" kind="subtitles" srclang="en" src="bridge-captions.vtt" default>
+        </video>
+      </div>
+      <!-- /video -->
+
+      <h2>Audio Example</h2>
+
+      <!-- audio -->
+      <div class="audioWrapper">
+        <audio>
+          <source src="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge-audio.mp3" type="audio/mp3">
+        </audio>
+      </div>
+      <!-- /audio -->
+        
+    </div>
+    
+    <!-- jQuery video/audio tags display featurers -->
+    <script>
+      $('video, audio').mediaelementplayer({
+        features: ['playpause', 'tracks', 'progress', 'skipback'],
+        startLanguage: 'en',
+        skipBackInterval: 4
+      });
+    </script>
+    <!-- /jQuery video/audio tags display featurers -->
+    
+  </body>
+</html>
+
+
+
+
+
