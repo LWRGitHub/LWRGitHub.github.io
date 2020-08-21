@@ -8,7 +8,6 @@ import EdSectionContainer from './education/edSections/EdSectionContainer'
 import {education} from '../data/education';
 
 const MainContent = () => (
-    // <!-- Education columns -->
     <section className="container">
       <div className="row">
 
