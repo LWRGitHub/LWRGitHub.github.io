@@ -79,7 +79,7 @@ export const PersonalProj = [
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi, focus.data], 
-            tech: [tech.react.id, tech.reactBootstrap.id, tech.js.id, tech.html.id, tech.css.id, tech.bootstrap.id, tech.google.analytic.id, tech.dom.id, tech.google.map.id, tech.CI_CD.id, tech.git.id, tech.gitHub.id, tech.adobe.photo.id, tech.sketchApp.id, tech.img.png.id, tech.img.jpg.id, tech.img.svg.id]
+            tech: [tech.react.id, tech.reactBootstrap.id, tech.reactRouter.id, tech.js.id, tech.html.id, tech.css.id, tech.bootstrap.id, tech.google.analytic.id, tech.dom.id, tech.google.map.id, tech.CI_CD.id, tech.git.id, tech.gitHub.id, tech.adobe.photo.id, tech.sketchApp.id, tech.img.png.id, tech.img.jpg.id, tech.img.svg.id]
         },
         paragraph2: 'You are currently viewing this project.',
         projectLink: 'index.html',
