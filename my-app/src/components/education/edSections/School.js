@@ -18,9 +18,6 @@ const schoolName = (school, location, href) => {
 
 const secondUl = (focus, skills, moreInfo) => {
     let focusStr = '';
-    // focus.map((focus) => {
-    //     focusStr += ` ${focus},`;
-    // });
     focusStr = focus.join(' - ');
     let skillStr = '';
     skills.map((skill) => {
