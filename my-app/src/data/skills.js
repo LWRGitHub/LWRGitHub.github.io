@@ -84,6 +84,16 @@ export const tech = {
         langType: mainLang.py.id, 
         level: expertise.novice
     },
+    flask: {
+        id:'Flask', 
+        langType: mainLang.py.id, 
+        level: expertise.novice
+    },
+    jinja2: {
+        id:'Jinja2', 
+        langType: mainLang.py.id, 
+        level: expertise.novice
+    },
     express: {
         id: 'Express.js', 
         langType: mainLang.js.id, 
