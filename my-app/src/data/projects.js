@@ -155,7 +155,7 @@ export const PersonalProj = [
             alt: "This is a screenshot of an online form. The background is white the form is gray and it is a sign up form. The first section is called your basic info which includes name email password and age, greater than 13 or under 13. The second section is called your profile it includes biography charbroil interest interest include development design and business. There's a drop-down menu select your job role you can select from front end developer and many more options at the bottom of the form there is a button labeled sign up."
         },
         title: 'Form',
-        paragraph1: 'This is just one example of a type of form I can creat. Farmers can be made in a variety of different ways depending upon what the is requested.',
+        paragraph1: 'This is just one example of a type of form I can create. Forms can be made in a variety of different ways depending upon what is requested.',
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, focus.dev.type.wma, focus.design.xi, focus.data], 
