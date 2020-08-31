@@ -203,7 +203,7 @@ export const PersonalProj = [
             alt: "This is an image scoreboard. The scoreboard is purple and has four players listed on it player two is winning. Play or two has a crown Player one score has gone negative and the other is a trailing behind player two. A timer is counting up in the corner currently at 47 seconds. The background is white."
         },
         title: 'React Scoreboard',
-        paragraph1: 'This is his screboard application designed with React.js. It keeps track of players scores throughout the game, you can add and remove the players & the current leader will have a crown.',
+        paragraph1: 'This is a scoreboard application designed with React.js. It keeps track of players scores throughout the game, you can add and remove the players & the current leader will have a crown.',
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wa}`, focus.design.xi], 
