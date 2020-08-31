@@ -257,7 +257,7 @@ export const PersonalProj = [
             focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wm}`, focus.design.xi], 
             tech: [tech.html.id, tech.css.id, tech.js.id, tech.jquery.id, tech.google.analytic.id, tech.google.map.id, tech.google.font.id]
         },
-        paragraph2: 'Vegan restarant website demo.',
+        paragraph2: 'Vegan restaurant website demo.',
         projectLink: "/projects/vegan-restaurant.html",
         codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/projects/vegan-restaurant.html"
     }
