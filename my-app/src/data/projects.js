@@ -187,7 +187,7 @@ export const PersonalProj = [
             alt: "White background screenshot of an HTML table. HTML table is Different shades of gray. It has heading of employee information, The categories include name, email and job rule. Below each category are some names and emails & some different job rolls in the computer science industry. At the bottom it has italicized refreshes every 15 minutes."
         },
         title: 'HTML Table',
-        paragraph1: 'This is an example of an HTML table. If I had a good explanation of my capabilities, although There are so many different ways to make tables.',
+        paragraph1: 'This is an example of an HTML table. If I had a good explanation of my capabilities, although there are so many different ways to make tables.',
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, focus.dev.type.w, focus.design.xi, focus.data], 
