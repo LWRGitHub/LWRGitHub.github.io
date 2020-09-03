@@ -260,7 +260,23 @@ export const PersonalProj = [
         paragraph2: 'Vegan restaurant website demo.',
         projectLink: "/projects/vegan-restaurant.html",
         codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/projects/vegan-restaurant.html"
-    }
+    },
+    {
+    img: {
+        src: 'images/experience/student-enrollment-program.png', 
+        alt: 'This is a screen shot of a student enrollment app that is on the web. buttons are students courses & add a student. below buttons are a list of students in boxes.'
+    },
+    title: 'Student Enrollment',
+    paragraph1: 'This web application is an example student enrollment platform. It alows the teacher to edit, add or remove students at any time.',
+    skills: {
+        platform: [platform.des, platform.mob], 
+        focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wa}`, focus.design.xi, focus.data], 
+        tech: [tech.html.id, tech.css.id, tech.js.id, tech.img.png.id, tech.google.analytic.id, tech.google.font.id, tech.bootstrap.id, tech.api.api.id, ]
+    },
+    paragraph2: 'Click on "Students" to edite & add them to a course, use "Courses" to add student to course, & add a new student with "New Student',
+    projectLink: '/projects/student/index.html',
+    codeLink: 'https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/projects/studnet'
+}
 ];
 
 // {
