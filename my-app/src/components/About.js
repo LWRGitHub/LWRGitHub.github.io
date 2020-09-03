@@ -8,7 +8,7 @@ const MainContent = () => (
         <div className="col-sm-6">
 
           {/* Self info & img */}
-          <img src="images/about/me.jpeg" alt="Cartoon Sketch drawing image of computer programmer Software Engineer LWR."/>
+          <img className='rounded' src="images/about/me.jpeg" alt="Cartoon Sketch drawing image of computer programmer Software Engineer LWR."/>
           <p>Hello,</p>
           <p>My name is Logan and I'm passionate about providing quality computer science service in the San Francisco area. I always go above and beyond to ensure I get the job done right the first time. My work stands out because I pay close attention to all details of the job.</p>
           <p>I’ve been doing computer science work for a while now, and I love it because it gives me the chance to have fun with computer programing by designing applications that everybody loves.</p>
