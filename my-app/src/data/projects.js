@@ -109,7 +109,7 @@ export const PersonalProj = [
         title: 'Phaser Game',
         paragraph1: 'This project is a one-page game using the framework Phaser. This framework "Phaser" is an HTML & JS gaming framework basically it makes it easy to make a game with JavaScript. I hope you all have fun with it!',
         skills: {
-            platform: [platform.des, platform.mob], 
+            platform: [platform.des], 
             focus: [focus.sofEngr, focus.dev.type.wa, focus.design.xi, focus.game.desDev], 
             tech: [tech.html.id, tech.css.id, tech.js.id, tech.phaser.id, tech.img.png.id, tech.dom.id, tech.google.analytic.id]
         },
