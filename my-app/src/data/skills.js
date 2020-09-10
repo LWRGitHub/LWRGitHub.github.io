@@ -30,7 +30,7 @@ export const platform = {
 };
 
 export const focus = {
-    sofEngr: 'Sofware Engr',
+    sofEngr: 'Software Engr',
     dev: {
         area: {
             fs: '(Full-Stack)',
