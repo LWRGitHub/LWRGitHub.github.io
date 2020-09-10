@@ -8,11 +8,11 @@ export const ProProj = [
             alt: "screen shot of www.dance4healing.com this is an image of the dance for healing website mobile site or small version has many people in the image dancing woman has dance for healing logo. a slide show would move if you on the site but this is a still image."
         },
         title: 'Dance4Healing.com',
-        paragraph1: 'Full-stack intern work experience at Dance for Healing. This website provides trainings on how to dance, alone or with a buddy.',
+        paragraph1: 'Continuous integration and continuous deployment of the website. Including aspects such as web design, web publishing, web programming, & database management. Creating a computer program or a set of programs to perform the different tasks that the business requires. Building economical software which is reliable & works efficiently on the real machines. Worked closely with business stakeholders to understand their goals & determine how data can be used to achieve those goals.',
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi, focus.data], 
-            tech: [tech.ai.id, tech.express.id, tech.heroku.id, tech.node.id, tech.jade.id, tech.mongo.id, tech.mongoose.id, tech.twilio.id, tech.js.id, tech.html.id, tech.css.id, tech.passport.id, tech.vimeo.id, tech.bitBucket.id, tech.git.id, tech.gitHub.id, tech.browserify.id, tech.CI_CD.id, tech.adobe.photo.id, tech.img.png.id, tech.img.jpg.id, tech.trello.id]
+            tech: [tech.ai.id, tech.express.id, tech.heroku.id, tech.node.id, tech.jade.id, tech.mongo.id, tech.mongoose.id, tech.twilio.id, tech.js.id, tech.html.id, tech.css.id, tech.passport.id, tech.vimeo.id, tech.bitBucket.id, tech.git.id, tech.gitHub.id, tech.browserify.id, tech.CI_CD.id, tech.adobe.photo.id, tech.img.png.id, tech.img.jpg.id, tech.trello.id, tech.google.analytic.id, tech.google.font.id, tech.sketchApp.id, tech.npm.id, tech.yarn.id]
         },
         paragraph2: 'Once on the site, sign up to begin learning different dance moves.',
         projectLink: "http://dance4healing.com/sandbox/index.html",
