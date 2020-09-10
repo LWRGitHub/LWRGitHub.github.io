@@ -40,7 +40,7 @@ export const ProProj = [
             alt: "This is a screenshot of the homepage for stage four .org. Stage IV.org is tan e-commerce website."
         },
         title: 'StageIV.org',
-        paragraph1: 'Full-stack Software Engineering & WordPress internship at Stage IV. This website is geared towards art enthusiast, displaying blogs, slideshows, & more.',
+        paragraph1: 'Building, creating, & maintaining the website. Analyzing user requirements & then designing, building, and testing software applications that satisfy those requirements. Juggle multiple problems & projects using domain expertise, programming skills, & knowledge of mathematics & statistics to extract meaningful insights from data, both structured & unstructured.',
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wm}`, focus.design.xi, focus.data], 
