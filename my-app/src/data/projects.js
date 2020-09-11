@@ -32,7 +32,7 @@ export const ProProj = [
         },
         paragraph2: 'Type in the name of your dish along with the ingredients & submit it. You can then edit or remove the dish if you like.',
         projectLink: 'projects/dish-advanced/main.html',
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/tree/master/projects/dish-advanced"
+        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/tree/master/my-app/public/projects/dish-advanced"
     },
     {
         img: {
@@ -67,7 +67,7 @@ export const PersonalProj = [
         },
         paragraph2: 'Use a desktop or laptop computer not a phone. Moving the mouse around the play area will move the board at the bottom.',
         projectLink: 'projects/game1.html',
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/projects/game1.html"
+        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/my-app/public/projects/game1.html"
     },
     {
         img: {
@@ -99,7 +99,7 @@ export const PersonalProj = [
         },
         paragraph2: 'Click once to select a shape in the animation & it will play itself through to the end. If you keep clicking it will quickly go through animation.',
         projectLink: "projects/css-js-project/InteractiveAnimation.html",
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/tree/master/projects/css-js-project"
+        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/tree/master/my-app/public/projects/css-js-project"
     },
     {
         img: {
@@ -131,7 +131,7 @@ export const PersonalProj = [
         },
         paragraph2: 'Use the mouse to click "Start." use the left, right & down arrows to place token.',
         projectLink: "projects/fourInARow/index.html",
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/tree/master/projects/fourInARow"
+        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/tree/master/my-app/public/projects/fourInARow"
     },
     {
         img: {
@@ -147,7 +147,7 @@ export const PersonalProj = [
         },
         paragraph2: 'Use your mouse to control the video & audio elements on the screen.',
         projectLink: "projects/video-audio-vtt-mediaelement/index.html",
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/tree/master/projects/video-audio-vtt-mediaelement"
+        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/tree/master/my-app/public/projects/video-audio-vtt-mediaelement"
     },
     {
         img: {
@@ -163,7 +163,7 @@ export const PersonalProj = [
         },
         paragraph2: 'Simply fill out the form and click submit.',
         projectLink: "projects/form/index.html",
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/projects/form"
+        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/my-app/public/projects/form"
     },
     {
         img: {
@@ -179,7 +179,7 @@ export const PersonalProj = [
         },
         paragraph2: 'Scrolling down the website you will find a pop up registration form, along with the schedule, speakers, & other necessary information.',
         projectLink: "projects/tech-conf/index.html",
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/projects/tech-conf"
+        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/my-app/public/projects/tech-conf"
     },
     {
         img: {
@@ -195,7 +195,7 @@ export const PersonalProj = [
         },
         paragraph2: 'This is a table of employee information.',
         projectLink: "projects/html-table/index.html",
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/projects/html-table"
+        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/my-app/public/projects/html-table"
     },
     {
         img: {
@@ -227,7 +227,7 @@ export const PersonalProj = [
         },
         paragraph2: 'Some projects are interactive to a click of the mouse or movement of the mouse others just move on their own.',
         projectLink: "projects/p5*js/p5.html",
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/projects/p5*js"
+        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/my-app/public/projects/p5*js"
     },
     {
         img: {
@@ -259,7 +259,7 @@ export const PersonalProj = [
         },
         paragraph2: 'Vegan restaurant website demo.',
         projectLink: "/projects/vegan-restaurant.html",
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/projects/vegan-restaurant.html"
+        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/my-app/public/projects/vegan-restaurant.html"
     },
     {
     img: {
@@ -275,7 +275,7 @@ export const PersonalProj = [
     },
     paragraph2: 'Click on "Students" to edite & add them to a course, use "Courses" to add student to course, & add a new student with "New Student',
     projectLink: '/projects/student/index.html',
-    codeLink: 'https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/projects/studnet'
+    codeLink: 'https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/my-app/public/projects/studnet'
 }
 ];
 
