@@ -78,7 +78,8 @@ export const otherFocus = {
     photography: 'Photography',
     electives: {
         photo: 'Photography',
-        video: 'Video Production'
+        video: 'Video Production',
+        typing: 'Typing'
     },
     language: 'Language'
 };
