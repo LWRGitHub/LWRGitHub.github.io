@@ -115,7 +115,7 @@ export const PersonalProj = [
         },
         paragraph2: '"Space bar" = jump, "Left & Right arrows" = move',
         projectLink: "projects/phaser-game/index.html",
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/tree/master/projects/phaser-game"
+        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/tree/master/my-app/public/projects/phaser-game"
     },
     {
         img: {
