@@ -75,7 +75,11 @@ export const otherFocus = {
     science: 'Science',
     history: 'History',
     english: 'English',
-    electives: 'Electives',
+    photography: 'Photography',
+    electives: {
+        photo: 'Photography',
+        video: 'Video Production'
+    },
     language: 'Language'
 };
 

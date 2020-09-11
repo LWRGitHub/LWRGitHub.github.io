@@ -140,7 +140,7 @@ export const education = [
         schools: [
             {
                 school: 'SRVHS: Danville, CA | Vanguard: Lake Wales, FL',
-                focus: [otherFocus.math, otherFocus.science, otherFocus.history, otherFocus.english, otherFocus.electives, otherFocus.language],
+                focus: [otherFocus.math, otherFocus.science, otherFocus.history, otherFocus.english, otherFocus.electives.photo, otherFocus.electives.video, otherFocus.language],
                 skills: [tech.imove.id, skill.darkRoomPhoto.id, skill.ASL.id, skill.highSpeedKey.id]
             }
         ],
