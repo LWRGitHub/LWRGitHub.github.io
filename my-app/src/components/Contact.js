@@ -11,9 +11,7 @@ const ContactInfo = () => (
             <li>GitHub: <a className="p-0" href="https://github.com/LWRGitHub">GitHub.com/LWRGitHub</a> </li>
             <li>LinkedIn: <a className="p-0" href="https://www.linkedin.com/in/logan-reynolds/">Linkedin.com/in/Logan-Reynolds</a></li>
             <li>Resume: <a className="p-0" href="files/logan-reynolds-resume.pdf">PDF</a></li>
-        </ul>
-
-        
+        </ul>  
 </div>
 );
 const GMap = () => (
