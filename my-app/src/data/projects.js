@@ -234,7 +234,7 @@ export const PersonalProj = [
             src: "images/experience/react-router.png", 
             alt: "Image of react router side, background green with a different box that is white with the light gray bar on top that has home about teachers and tech courses as links to click on to move to the site.Upper left corner has a dark box with two opening and closing brackets below the light color gray bar, You find a header that says front in course directory below that it says the fun directory is a project using react router emphasized. Hello settings is whole bunch of lorem ipsum text. Hello that is an area called featured teachers or you can type in the name of the teacher and the topic and press the button go and it'll bring you to another page. Basically this is a screenshot of the website."
         },
-        title: 'React Router',
+        title: 'Course Directory Site',
         paragraph1: 'This is a website coded with React Router. React Router alows you to have all of your content on one page but it seems like multiple pages.',
         skills: {
             platform: [platform.des, platform.mob], 
@@ -242,8 +242,8 @@ export const PersonalProj = [
             tech: [tech.html.id, tech.css.id, tech.google.analytic.id, tech.react.id, tech.js.id, tech.reactRouter.id, tech.reactBootstrap.id, tech.dom.id]
         },
         paragraph2: 'This site is an example of my React Router work. The site is about different technologies to learn!',
-        projectLink: "http://LWRGitHub.github.io/React-Router",
-        codeLink: "https://github.com/LWRGitHub/React-Router"
+        projectLink: "http://LWRGitHub.github.io/Course-Directory-Site",
+        codeLink: "https://github.com/LWRGitHub/Course-Directory-Site"
     },
     {
         img: {
