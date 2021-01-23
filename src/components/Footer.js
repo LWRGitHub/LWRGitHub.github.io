@@ -8,7 +8,7 @@ const Footer = () => (
             <a href="https://lwrgithub.github.io/files/logan-reynolds-resume.pdf">Resume</a>
         </div>
         <br />
-        <p>Logan Reynolds Personal Portfolio 2020&copy;</p>
+        <p>Logan Reynolds &copy;2021</p>
     </footer>
 );
 

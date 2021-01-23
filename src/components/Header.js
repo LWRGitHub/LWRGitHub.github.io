@@ -23,7 +23,10 @@ const Header = (props) => (
       <div className="container">
         <div className="row">
           <h2>{props.page}</h2>
-          {h4(props.focus)}
+          
+        </div>
+        <div className="row">
+        {h4(props.focus)}
         </div>
       </div>
     </section>
