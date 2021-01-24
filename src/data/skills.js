@@ -597,17 +597,17 @@ export const tech = {
         api: {
             id: 'API', 
             langType: false, 
-            level: expertise.novice
+            level: expertise.expert
         },
         fetch: {
             id: 'Fetch API', 
             langType: false, 
-            level: expertise.novice
+            level: expertise.expert
         },
         rest: {
             id: 'REST API', 
             langType: false, 
-            level: expertise.novice
+            level: expertise.expert
         }
     },
     garageband: {
