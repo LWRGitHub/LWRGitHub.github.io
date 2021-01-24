@@ -16,7 +16,7 @@ const schoolName = (school, location, href) => {
     }
 }
 
-const secondUl = (focus, skills, moreInfo) => {
+const secondUl = (focus, skills, moreInfo, credentials) => {
     let focusStr = '';
     focusStr = focus.join(' - ');
     let skillStr = '';
@@ -24,9 +24,15 @@ const secondUl = (focus, skills, moreInfo) => {
         skillStr += ` ${skill},`;
     });
 
+    let liCredentailTag = ''
+    if(credentials){
+        liCredentailTag = <li><a className="p-0 font-weight-bold" href={credentials.href}>{credentials.aText}</a></li>
+    } 
+
     if(moreInfo){
         return (
             <ul>
+                {liCredentailTag}
                 <li><span className="font-weight-bold">Concentrations: </span>{focusStr}</li>
                 <li><span className="font-weight-bold">Skills:</span>{skillStr} & More</li>
                 <li>{moreInfo}</li>
@@ -35,6 +41,7 @@ const secondUl = (focus, skills, moreInfo) => {
     } else {
         return (
             <ul>
+                {liCredentailTag}
                 <li><span className="font-weight-bold">Concentrations: </span>{focusStr}</li>
                 <li><span className="font-weight-bold">Skills:</span>{skillStr} & More</li>
             </ul>
@@ -46,7 +53,7 @@ const School = (props) => {
     return (
         <ul>
             {schoolName(props.school, props.location, props.href)}
-            {secondUl(props.focus, props.skills, props.moreInfo)}
+            {secondUl(props.focus, props.skills, props.moreInfo, props.credentials)}
         </ul>
     );
 }

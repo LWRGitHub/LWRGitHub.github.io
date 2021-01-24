@@ -12,7 +12,7 @@ export const education = [
             {
                 school: 'MakeSchool.com',
                 location: ': SF, CA',
-                certTranDegr: {
+                credentials: {
                     aText: 'Acceptance Letter',
                     href: 'https://lwrgithub.github.io/files/education-credentials/make-school-acceptance-letter.jpeg'
                 },
@@ -69,7 +69,7 @@ export const education = [
             {
                 school: 'www.dvc.edu',
                 location: ': PleasantHill, CA',
-                certTranDegr: {
+                credentials: {
                     aText: 'Transcripts',
                     href: 'https://lwrgithub.github.io/files/education-credentials/dvc-transcripts.pdf'
                 },
@@ -104,6 +104,10 @@ export const education = [
             {
                 school: 'Code Tenderloin',
                 location: ': SF, CA',
+                credentials: {
+                    aText: 'Certificates',
+                    href: 'https://lwrgithub.github.io/files/education-credentials/code-tl-certificates.pdf'
+                },
                 focus: [
                     focus.sofEngr, 
                     // focus.game.desDev
@@ -113,6 +117,10 @@ export const education = [
             {
                 school: 'Code The Dream',
                 location: ': Durham, NC',
+                credentials: {
+                    aText: 'Certificate',
+                    href: 'https://lwrgithub.github.io/files/education-credentials/ctd-certificate.pdf'
+                },
                 focus: [
                     focus.sofEngr, 
                     // `${focus.dev.type.wma} ${focus.dev.area.fs}`,
@@ -155,6 +163,10 @@ export const education = [
             {
                 school: 'Meda Mission Techies',
                 location: ': SF, CA',
+                credentials: {
+                    aText: 'Certificate',
+                    href: 'https://lwrgithub.github.io/files/education-credentials/meda-mt-certificate.pdf'
+                },
                 focus: [
                     focus.sofEngr, 
                     // `${focus.dev.type.wma} ${focus.dev.area.fs}`, 

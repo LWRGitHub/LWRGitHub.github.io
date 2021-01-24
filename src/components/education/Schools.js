@@ -6,6 +6,7 @@ const Schools = (props) => {
     let schools = props.data.map((element) => {
         return <School  school={element.school}
                         location={element.location}
+                        credentials={element.credentials}
                         href={element.href}
                         focus={element.focus}
                         skills={element.skills}
