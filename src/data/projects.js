@@ -189,7 +189,7 @@ export const PersonalProj = [
             alt: "This is a screenshot of the completed connect four game. We're player one is the winner, This shows that the red coins have four in a row going vertically, yellow came close though. Shows is clearly as a computer game designed to get played by two people on one computer."
         },
         title: 'Connect Four',
-        paragraph1: 'I am happy to say that the game uses JavaScript classes a new that was added in 2015. The game is called "Connect Four" also known as "Four in a Row."  You may just be one of these people that have played the game in real life, I hope you like it!</p><p class="card-text">PS: This game has some beautiful comments in the JS files.',
+        paragraph1: 'I am happy to say that the game uses JavaScript, classes a new feature that was added in 2015. The game is called "Connect Four" also known as "Four in a Row."  You may just be one of these people that have played the game in real life, I hope you like it! TAKE NOTE: This game has some beautiful comments in the JS files.',
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, focus.dev.type.wa, focus.design.xi, focus.game.desDev], 
