@@ -100,6 +100,11 @@ export const tech = {
     //     langType: mainLang.py.id,
     //     level: expertise.novice
     // },
+    // Handlebars: {
+    //     id: 'Handlebars',
+    //     langType: mainLang.js.id,
+    //     level: expertise.novice
+    // },
     flask: {
         id:'Flask', 
         langType: mainLang.py.id, 
