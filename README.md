@@ -51,10 +51,10 @@ git push
 <img alt="This is a screenshot of the about page on lwr.github.Io. This page includes a sliver at the top of the Jumbotron that has a background image of the sky. Then we see your black-and-white image of Logan Reynolds dressed up with a tie. Then we move below the image and we see a description about Logan and below that is a blue folder with the words résumé next to it." src="https://github.com/lwrgithub/LWRGitHub.github.io/blob/master/public/images/readme/about-pg-desktop.png" width="73%" />
 
 
-<!-- ***Education*** -->
+***Education***
 
-<!-- <img alt="" src="https://github.com/lwrgithub/LWRGitHub.github.io/blob/master/public/images/readme/..." width="22%" align="right" />
-<img alt="" src="https://github.com/lwrgithub/LWRGitHub.github.io/blob/master/public/images/readme/..." width="73%" /> -->
+<img alt="Screenshot of education page on an iPhone. At the top it says make school Dominican University CS bachelors.There is an image of make school and below that are details on the skills, concentration, an acceptance letter and a link to makeschool.com" src="https://github.com/lwrgithub/LWRGitHub.github.io/blob/master/public/images/readme/education-pg-mobile.png" width="22%" align="right" />
+<img alt="This is a desktop screenshot of the Portfolio website education page. Here you can see four different areas containing information On what has been learned at Make School, DVC, Code Tenderloin, Meda Mision Techies, Code The Dream, & many online/in-person courses." src="https://github.com/lwrgithub/LWRGitHub.github.io/blob/master/public/images/readme/education-pg-desktop.png" width="73%" />
 
 <!-- ***Experience*** -->
 
