@@ -87,7 +87,7 @@ export const PersonalProj = [
     },
     {
         img: {
-            src: "images/experience/mobile-home-page-portfolio-site.jpg", 
+            src: "images/experience/mobile-home-page-portfolio-site.png", 
             alt: "Screenshot on the mobile phone of Logan Reynolds' software engineering portfolio website. This is the homepage otherwise known as the index page. Shows a list of programming languages such as JavaScript ESS6 Ruby python & C#. Shows navigation bar in blue. Has a big jumbotron image in the background"
         },
         title: 'Portfolio Site',
