@@ -64,4 +64,4 @@ git push
 ***Contact***
 
 <img alt="Clearly a screenshot on an iPhone of the contact page on Logan's portfolio website.Includes contact info and a map from Google of San Francisco with links at the bottom to get up and getting resumes." src="https://github.com/lwrgithub/LWRGitHub.github.io/blob/master/public/images/readme/contact-pg-mobile.png" width="22%" align="right" />
-<img alt="Screenshot of the desktop portfolio website contact page. Includes contact info and a map from Google of San Francisco with links at the bottom to github LinkedIn and a résumé with a copy right as well." src="https://github.com/lwrgithub/LWRGitHub.github.io/blob/master/public/images/readme/contact-pg-desktop" width="73%" />
+<img alt="Screenshot of the desktop portfolio website contact page. Includes contact info and a map from Google of San Francisco with links at the bottom to github LinkedIn and a résumé with a copy right as well." src="https://github.com/lwrgithub/LWRGitHub.github.io/blob/master/public/images/readme/contact-pg-desktop.png" width="73%" />
