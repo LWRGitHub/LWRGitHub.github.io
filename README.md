@@ -51,17 +51,17 @@ git push
 <img alt="This is a screenshot of the about page on lwr.github.Io. This page includes a sliver at the top of the Jumbotron that has a background image of the sky. Then we see your black-and-white image of Logan Reynolds dressed up with a tie. Then we move below the image and we see a description about Logan and below that is a blue folder with the words résumé next to it." src="https://github.com/lwrgithub/LWRGitHub.github.io/blob/master/public/images/readme/about-pg-desktop.png" width="73%" />
 
 
-***Education***
+<!-- ***Education*** -->
 
 <!-- <img alt="" src="https://github.com/lwrgithub/LWRGitHub.github.io/blob/master/public/images/readme/..." width="22%" align="right" />
 <img alt="" src="https://github.com/lwrgithub/LWRGitHub.github.io/blob/master/public/images/readme/..." width="73%" /> -->
 
-***Experience***
+<!-- ***Experience*** -->
 
 <!-- <img alt="" src="https://github.com/lwrgithub/LWRGitHub.github.io/blob/master/public/images/readme/..." width="22%" align="right" />
 <img alt="" src="https://github.com/lwrgithub/LWRGitHub.github.io/blob/master/public/images/readme/..." width="73%" /> -->
 
 ***Contact***
 
-<!-- <img alt="" src="https://github.com/lwrgithub/LWRGitHub.github.io/blob/master/public/images/readme/..." width="22%" align="right" />
-<img alt="" src="https://github.com/lwrgithub/LWRGitHub.github.io/blob/master/public/images/readme/..." width="73%" /> -->
+<img alt="Clearly a screenshot on an iPhone of the contact page on Logan's portfolio website.Includes contact info and a map from Google of San Francisco with links at the bottom to get up and getting resumes." src="https://github.com/lwrgithub/LWRGitHub.github.io/blob/master/public/images/readme/contact-pg-mobile.png" width="22%" align="right" />
+<img alt="Screenshot of the desktop portfolio website contact page. Includes contact info and a map from Google of San Francisco with links at the bottom to github LinkedIn and a résumé with a copy right as well." src="https://github.com/lwrgithub/LWRGitHub.github.io/blob/master/public/images/readme/contact-pg-desktop" width="73%" />
