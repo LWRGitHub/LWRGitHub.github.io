@@ -1,6 +1,8 @@
 # Portfolio Website
 This is my portfolio website that shows of my skills as a software engineer, as well as provides information on my self such as my resume & contact info. I hope you enjoy it as much as me!
 
+**[View Website](https://lwrgithub.github.io)**
+
 
 ## Technologies Used
 - JavaScript
@@ -11,6 +13,7 @@ This is my portfolio website that shows of my skills as a software engineer, as 
 - React Router
 - React HashRouter
 - Google Maps
+- [GitHub Pages](https://lwrgithub.github.io)
 
 
 ## Install/Setup
