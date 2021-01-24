@@ -79,18 +79,18 @@ export const mainLanguages = [
         src: "images/experience/python-logo.svg",
         alt: "Python 1, 2 & 3 Logo for the computer Science programming language"
     },
-    {
-        level: mainLang.rb.level,
-        id: mainLang.rb.id,
-        associatedLang: rb,
-        src: "images/experience/ruby-logo.svg",
-        alt: "The Ruby Logo for the computer Science programming language"
-    },
-    {
-        level: mainLang.c_sharp.level,
-        id: mainLang.c_sharp.id,
-        associatedLang: c_Sharp,
-        src: "images/experience/c-sharp.svg",
-        alt: "The C# Logo for the computer Science programming language"
-    }
+    // {
+    //     level: mainLang.rb.level,
+    //     id: mainLang.rb.id,
+    //     associatedLang: rb,
+    //     src: "images/experience/ruby-logo.svg",
+    //     alt: "The Ruby Logo for the computer Science programming language"
+    // },
+    // {
+    //     level: mainLang.c_sharp.level,
+    //     id: mainLang.c_sharp.id,
+    //     associatedLang: c_Sharp,
+    //     src: "images/experience/c-sharp.svg",
+    //     alt: "The C# Logo for the computer Science programming language"
+    // }
 ];

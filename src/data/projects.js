@@ -12,7 +12,33 @@ export const ProProj = [
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi, focus.data], 
-            tech: [tech.ai.id, tech.express.id, tech.heroku.id, tech.node.id, tech.jade.id, tech.mongo.id, tech.mongoose.id, tech.twilio.id, tech.js.id, tech.html.id, tech.css.id, tech.passport.id, tech.vimeo.id, tech.bitBucket.id, tech.git.id, tech.gitHub.id, tech.browserify.id, tech.CI_CD.id, tech.adobe.photo.id, tech.img.png.id, tech.img.jpg.id, tech.trello.id, tech.google.analytic.id, tech.google.font.id, tech.sketchApp.id, tech.npm.id, tech.yarn.id]
+            tech: [
+                // tech.ai.id, 
+                tech.express.id, 
+                tech.heroku.id, 
+                tech.node.id, 
+                // tech.jade.id, 
+                tech.mongo.id, 
+                tech.mongoose.id, 
+                // tech.twilio.id, 
+                tech.js.id, 
+                tech.html.id, 
+                tech.css.id, 
+                // tech.passport.id, 
+                // tech.vimeo.id, 
+                tech.bitBucket.id, 
+                tech.git.id, 
+                tech.gitHub.id, 
+                // tech.browserify.id, 
+                tech.CI_CD.id, 
+                tech.adobe.photo.id,  
+                tech.trello.id, 
+                tech.google.analytic.id, 
+                tech.google.font.id, 
+                // tech.sketchApp.id, 
+                tech.npm.id, 
+                tech.yarn.id
+            ]
         },
         paragraph2: 'Once on the site, sign up to begin learning different dance moves.',
         projectLink: "http://dance4healing.com/sandbox/index.html",
@@ -20,31 +46,21 @@ export const ProProj = [
     },
     {
         img: {
-            src: "images/experience/dish-site.jpg", 
-            alt: "dish submitter website, add food & cooking instructions to the local storage on your internet browser. blue & green faded background on baner the rest of the background is very light green."
-        },
-        title: `Dish Yumy Food`,
-        paragraph1: 'I received an inquiry to create a website where you can add, remove & edit dishes. I found this site to be a good example of the kind of work I can do.',
-        skills: {
-            platform: [platform.des, platform.mob], 
-            focus: [focus.sofEngr, focus.dev.type.wma, focus.design.xi], 
-            tech: [tech.js.id, tech.css.id, tech.html.id, tech.dom.id, tech.google.font.id, tech.google.analytic.id]
-        },
-        paragraph2: 'Type in the name of your dish along with the ingredients & submit it. You can then edit or remove the dish if you like.',
-        projectLink: 'projects/dish-advanced/main.html',
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/tree/master/my-app/public/projects/dish-advanced"
-    },
-    {
-        img: {
             src: "images/experience/stageIV.jpg", 
             alt: "This is a screenshot of the homepage for stage four .org. Stage IV.org is tan e-commerce website."
         },
         title: 'StageIV.org',
-        paragraph1: 'Building, creating, & maintaining the website. Analyzing user requirements & then designing, building, and testing software applications that satisfy those requirements. Juggle multiple problems & projects using domain expertise, programming skills, & knowledge of mathematics & statistics to extract meaningful insights from data, both structured & unstructured.',
+        paragraph1: "As part of my dance4healing.com internship, it was requested that I set up Google Analytics for StageIV.org. There were some bugs in the code from other people's attempts so I had to use my software engineering skills to fix the code & make it all work together correctly.",
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wm}`, focus.design.xi, focus.data], 
-            tech: [tech.js.id, tech.css.id, tech.html.id, tech.wordPr.id, tech.google.analytic.id]
+            tech: [
+                tech.js.id, 
+                tech.css.id, 
+                tech.html.id, 
+                // tech.wordPr.id, 
+                tech.google.analytic.id
+            ]
         },
         paragraph2: 'This is an e-commerce platform where you can buy products from artists, view blogs & see art galleries.',
         projectLink: "http://www.stageiv.org/public_html/stageiv/",
@@ -79,7 +95,26 @@ export const PersonalProj = [
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi, focus.data], 
-            tech: [tech.react.id, tech.reactBootstrap.id, tech.reactRouter.id, tech.js.id, tech.html.id, tech.css.id, tech.bootstrap.id, tech.google.analytic.id, tech.dom.id, tech.google.map.id, tech.CI_CD.id, tech.git.id, tech.gitHub.id, tech.adobe.photo.id, tech.sketchApp.id, tech.img.png.id, tech.img.jpg.id, tech.img.svg.id]
+            tech: [
+                tech.react.id, 
+                tech.reactBootstrap.id, 
+                tech.reactRouter.id, 
+                tech.js.id, 
+                tech.html.id, 
+                tech.css.id, 
+                tech.bootstrap.id, 
+                tech.google.analytic.id, 
+                tech.dom.id, 
+                tech.google.map.id, 
+                tech.CI_CD.id, 
+                tech.git.id, 
+                tech.gitHub.id, 
+                tech.adobe.photo.id, 
+                // tech.sketchApp.id, 
+                // tech.img.png.id, 
+                // tech.img.jpg.id, 
+                // tech.img.svg.id
+            ]
         },
         paragraph2: 'You are currently viewing this project.',
         projectLink: 'index.html',
@@ -95,7 +130,15 @@ export const PersonalProj = [
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, focus.dev.type.wma,], 
-            tech: [tech.html.id, tech.css.id, tech.js.id, tech.img.svg.id, tech.img.png.id, tech.dom.id, tech.google.analytic.id]
+            tech: [
+                tech.html.id, 
+                tech.css.id, 
+                tech.js.id, 
+                // tech.img.svg.id, 
+                // tech.img.png.id, 
+                tech.dom.id, 
+                tech.google.analytic.id
+            ]
         },
         paragraph2: 'Click once to select a shape in the animation & it will play itself through to the end. If you keep clicking it will quickly go through animation.',
         projectLink: "projects/css-js-project/InteractiveAnimation.html",
@@ -103,15 +146,38 @@ export const PersonalProj = [
     },
     {
         img: {
+            src: "images/experience/dish-site.jpg", 
+            alt: "dish submitter website, add food & cooking instructions to the local storage on your internet browser. blue & green faded background on baner the rest of the background is very light green."
+        },
+        title: `Dish Yumy Food`,
+        paragraph1: 'I received an inquiry to create a website where you can add, remove & edit dishes. I found this site to be a good example of the kind of work I can do.',
+        skills: {
+            platform: [platform.des, platform.mob], 
+            focus: [focus.sofEngr, focus.dev.type.wma, focus.design.xi], 
+            tech: [tech.js.id, tech.css.id, tech.html.id, tech.dom.id, tech.google.font.id, tech.google.analytic.id]
+        },
+        paragraph2: 'Type in the name of your dish along with the ingredients & submit it. You can then edit or remove the dish if you like.',
+        projectLink: 'projects/dish-advanced/main.html',
+        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/tree/master/my-app/public/projects/dish-advanced"
+    },
+    {
+        img: {
             src: "images/experience/phaser-io-game-like-mario-lg.jpeg", 
             alt: "This is a screenshot of an interactive computer game that looks kind of like Super Mario. There are coins spinning on screen, poison bottles as well as a Barely visible spinning star. The upper left corner says score is 15. Player in the game is jumping from what appears to be floating pieces of land and floating pieces of metal there are coins and items all over the screen. Player appears in midair."
         },
-        title: 'Phaser Game',
+        title: 'Mario Like Game',
         paragraph1: 'This project is a one-page game using the framework Phaser. This framework "Phaser" is an HTML & JS gaming framework basically it makes it easy to make a game with JavaScript. I hope you all have fun with it!',
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, focus.dev.type.wa, focus.design.xi, focus.game.desDev], 
-            tech: [tech.html.id, tech.css.id, tech.js.id, tech.phaser.id, tech.img.png.id, tech.dom.id, tech.google.analytic.id]
+            tech: [
+                tech.html.id, 
+                tech.css.id, 
+                tech.js.id, 
+                // tech.phaser.id, 
+                // tech.img.png.id, 
+                tech.dom.id, tech.google.analytic.id
+            ]
         },
         paragraph2: '"Space bar" = jump, "Left & Right arrows" = move',
         projectLink: "projects/phaser-game/index.html",
@@ -127,7 +193,16 @@ export const PersonalProj = [
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, focus.dev.type.wa, focus.design.xi, focus.game.desDev], 
-            tech: [tech.js.id, tech.html.id, tech.css.id, tech.dom.id, tech.img.svg.id, tech.google.analytic.id, tech.google.font.id, tech.jquery.id]
+            tech: [
+                tech.js.id, 
+                tech.html.id, 
+                tech.css.id, 
+                tech.dom.id, 
+                // tech.img.svg.id, 
+                tech.google.analytic.id, 
+                tech.google.font.id, 
+                tech.jquery.id
+            ]
         },
         paragraph2: 'Use the mouse to click "Start." use the left, right & down arrows to place token.',
         projectLink: "projects/fourInARow/index.html",
@@ -143,7 +218,24 @@ export const PersonalProj = [
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, focus.dev.type.wa], 
-            tech: [tech.webVtt.id, tech.mediaEl.id, tech.js.id, tech.html.id, tech.css.id, tech.jquery.id, tech.dom.id, tech.gitHub.id, tech.git.id, tech.mp4.id, tech.audio.mp3.id, tech.audio.ogg.id, tech.vlcMedia.id, tech.img.svg.id, tech.google.analytic.id, tech.google.font.id]
+            tech: [
+                tech.webVtt.id, 
+                tech.mediaEl.id, 
+                tech.js.id, 
+                tech.html.id, 
+                tech.css.id, 
+                tech.jquery.id, 
+                tech.dom.id, 
+                tech.gitHub.id, 
+                tech.git.id, 
+                // tech.mp4.id, 
+                // tech.audio.mp3.id, 
+                // tech.audio.ogg.id, 
+                // tech.vlcMedia.id, 
+                // tech.img.svg.id, 
+                tech.google.analytic.id, 
+                tech.google.font.id
+            ]
         },
         paragraph2: 'Use your mouse to control the video & audio elements on the screen.',
         projectLink: "projects/video-audio-vtt-mediaelement/index.html",
@@ -175,7 +267,17 @@ export const PersonalProj = [
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wma}`, focus.design.xi], 
-            tech: [tech.js.id, tech.dom.id, tech.html.id, tech.css.id, tech.img.png.id, tech.img.jpg.id, tech.jquery.id, tech.bootstrap.id, tech.google.analytic.id]
+            tech: [
+                tech.js.id, 
+                tech.dom.id, 
+                tech.html.id, 
+                tech.css.id, 
+                // tech.img.png.id, 
+                // tech.img.jpg.id, 
+                tech.jquery.id, 
+                tech.bootstrap.id, 
+                tech.google.analytic.id
+            ]
         },
         paragraph2: 'Scrolling down the website you will find a pop up registration form, along with the schedule, speakers, & other necessary information.',
         projectLink: "projects/tech-conf/index.html",
@@ -207,7 +309,19 @@ export const PersonalProj = [
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wa}`, focus.design.xi], 
-            tech: [tech.html.id, tech.css.id, tech.google.analytic.id, tech.react.id, tech.jsx.id, tech.json.id, tech.lock.id, tech.js.id, tech.git.id, tech.gitHub.id, tech.reactBootstrap.id]
+            tech: [
+                tech.html.id, 
+                tech.css.id, 
+                tech.google.analytic.id, 
+                tech.react.id, 
+                tech.jsx.id, 
+                tech.json.id, 
+                // tech.lock.id, 
+                tech.js.id, 
+                tech.git.id, 
+                tech.gitHub.id, 
+                tech.reactBootstrap.id
+            ]
         },
         paragraph2: 'Up date the score with the plus or minus button, add players at the bottom or remove players with the red "X" by the players name.',
         projectLink: "https://lwrgithub.github.io/React-scoreboard/",
@@ -271,7 +385,16 @@ export const PersonalProj = [
     skills: {
         platform: [platform.des, platform.mob], 
         focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wa}`, focus.design.xi, focus.data], 
-        tech: [tech.html.id, tech.css.id, tech.js.id, tech.img.png.id, tech.google.analytic.id, tech.google.font.id, tech.bootstrap.id, tech.api.api.id, ]
+        tech: [
+            tech.html.id, 
+            tech.css.id, 
+            tech.js.id, 
+            // tech.img.png.id, 
+            tech.google.analytic.id, 
+            tech.google.font.id, 
+            tech.bootstrap.id, 
+            tech.api.api.id, 
+        ]
     },
     paragraph2: 'Click on "Students" to edite & add them to a course, use "Courses" to add student to course, & add a new student with "New Student',
     projectLink: '/projects/student/index.html',

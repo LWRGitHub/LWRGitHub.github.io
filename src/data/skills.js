@@ -14,14 +14,14 @@ export const mainLang = {
         id:'Python',
         level: expertise.novice
     },
-    rb: {
-        id:'Ruby',
-        level: expertise.novice
-    },
-    c_sharp: {
-        id:'C#',
-        level: expertise.novice
-    }
+    // rb: {
+    //     id:'Ruby',
+    //     level: expertise.novice
+    // },
+    // c_sharp: {
+    //     id:'C#',
+    //     level: expertise.novice
+    // }
 }
 
 export const platform = {
@@ -58,11 +58,11 @@ export const focus = {
         des: 'Game Design'
     },
     data: 'Data Sci',
-    AI: {
-        AIMachineLearn: 'AI/Machine Learning',
-        AI: 'AI',
-        machineLearn: 'Machine Learing'
-    }
+    // AI: {
+    //     AIMachineLearn: 'AI/Machine Learning',
+    //     AI: 'AI',
+    //     machineLearn: 'Machine Learing'
+    // }
 };
 
 export const otherFocus = {
@@ -85,25 +85,35 @@ export const otherFocus = {
 };
 
 export const tech = {
-    ai: {
-        id:'AI/Machine Learning', 
-        langType: mainLang.py.id, 
-        level: expertise.novice
-    },
+    // ai: {
+    //     id:'AI/Machine Learning', 
+    //     langType: mainLang.py.id, 
+    //     level: expertise.novice
+    // },
+    // NumPy: {
+    //     id: 'NumPy',
+    //     langType: mainLang.py.id,
+    //     level: expertise.novice
+    // },
+    // Pandas: {
+    //     id: 'Pandas',
+    //     langType: mainLang.py.id,
+    //     level: expertise.novice
+    // },
     flask: {
         id:'Flask', 
         langType: mainLang.py.id, 
-        level: expertise.novice
+        level: expertise.expert
     },
     jinja2: {
         id:'Jinja2', 
         langType: mainLang.py.id, 
-        level: expertise.novice
+        level: expertise.expert
     },
     express: {
         id: 'Express.js', 
         langType: mainLang.js.id, 
-        level: expertise.proficient
+        level: expertise.novice
     },
     heroku: {
         id: 'Heroku', 
@@ -113,18 +123,18 @@ export const tech = {
     node: {
         id: 'Node.js', 
         langType: mainLang.js.id, 
-        level: expertise.proficient
+        level: expertise.expert
     },
-    jade: {
-        id: 'Jade', 
-        langType: false, 
-        level: expertise.proficient
-    },
-    pug: {
-        id: 'Pug', 
-        langType: false, 
-        level: expertise.proficient
-    },
+    // jade: {
+    //     id: 'Jade', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
+    // pug: {
+    //     id: 'Pug', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     bootstrap: {
         id: 'Bootstrap', 
         langType: false, 
@@ -133,17 +143,17 @@ export const tech = {
     react: {
         id: 'React.js', 
         langType: mainLang.js.id, 
-        level: expertise.proficient
+        level: expertise.expert
     },
     reactBootstrap: {
         id: 'React Bootstrap', 
         langType: false, 
-        level: expertise.proficient
+        level: expertise.expert
     },
     reactRouter: {
         id: 'React Router', 
         langType: false, 
-        level: expertise.proficient
+        level: expertise.expert
     },
     dom: {
         id: 'DOM', 
@@ -160,45 +170,45 @@ export const tech = {
         langType: mainLang.js.id, 
         level: expertise.novice
     },
-    twilio: {
-        id: 'Twilio', 
-        langType: false, 
-        level: expertise.novice
-    },
+    // twilio: {
+    //     id: 'Twilio', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     js: {
         id: "JS", 
         langType: false, 
         level: expertise.expert
     },
-    rb: {
-        id: 'Ruby', 
-        langType: false, 
-        level: expertise.novice
-    },
-    rbOnRail: {
-        id: 'Ruby on Rails', 
-        langType: mainLang.rb.id, 
-        level: expertise.novice
-    },
-    sinatra: {
-        id: 'Sinatra', 
-        langType: mainLang.rb.id, 
-        level: expertise.novice
-    },
-    erb: {
-        id: 'erb', 
-        langType: mainLang.rb.id, 
-        level: expertise.novice
-    },
-    activeRec: {
-        id: 'Avtive Record', 
-        langType: mainLang.rb.id, 
-        level: expertise.novice
-    },
+    // rb: {
+    //     id: 'Ruby', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
+    // rbOnRail: {
+    //     id: 'Ruby on Rails', 
+    //     langType: mainLang.rb.id, 
+    //     level: expertise.novice
+    // },
+    // sinatra: {
+    //     id: 'Sinatra', 
+    //     langType: mainLang.rb.id, 
+    //     level: expertise.novice
+    // },
+    // erb: {
+    //     id: 'erb', 
+    //     langType: mainLang.rb.id, 
+    //     level: expertise.novice
+    // },
+    // activeRec: {
+    //     id: 'Avtive Record', 
+    //     langType: mainLang.rb.id, 
+    //     level: expertise.novice
+    // },
     py: {
         id: 'Python', 
         langType: false, 
-        level: expertise.novice
+        level: expertise.expert
     },
     html: {
         id: 'HTML', 
@@ -210,16 +220,16 @@ export const tech = {
         langType: false, 
         level: expertise.expert
     },
-    passport: {
-        id: 'Passport.js', 
-        langType: mainLang.js.id, 
-        level: expertise.novice
-    },
-    vimeo: {
-        id: 'Vimeo JS Player SDK', 
-        langType: mainLang.js.id, 
-        level: expertise.novice
-    },
+    // passport: {
+    //     id: 'Passport.js', 
+    //     langType: mainLang.js.id, 
+    //     level: expertise.novice
+    // },
+    // vimeo: {
+    //     id: 'Vimeo JS Player SDK', 
+    //     langType: mainLang.js.id, 
+    //     level: expertise.novice
+    // },
     bitBucket: {
         id: 'Bitbucket', 
         langType: false, 
@@ -235,11 +245,11 @@ export const tech = {
         langType: false, 
         level: expertise.expert
     },
-    browserify: {
-        id: 'Browserify', 
-        langType: false, 
-        level: expertise.novice
-    },
+    // browserify: {
+    //     id: 'Browserify', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     CI_CD: {
         id: 'CI/CD', 
         langType: false, 
@@ -251,93 +261,93 @@ export const tech = {
             langType: false, 
             level: expertise.expert
         },
-        dream: {
-            id: 'Dreamweaver', 
-            langType: false, 
-            level: expertise.expert
-        },
-        muse: {
-            id: 'Adobe Muse', 
-            langType: false, 
-            level: expertise.expert
-        },
-        XD: {
-            id: 'Adobe XD', 
-            langType: false, 
-            level: expertise.proficient
-        },
-        suite: {
-            id: 'Adobe Creative Cloud Suite', 
-            langType: false, 
-            level: expertise.proficient
-        }
+        // dream: {
+        //     id: 'Dreamweaver', 
+        //     langType: false, 
+        //     level: expertise.expert
+        // },
+        // muse: {
+        //     id: 'Adobe Muse', 
+        //     langType: false, 
+        //     level: expertise.expert
+        // },
+        // XD: {
+        //     id: 'Adobe XD', 
+        //     langType: false, 
+        //     level: expertise.proficient
+        // },
+        // suite: {
+        //     id: 'Adobe Creative Cloud Suite', 
+        //     langType: false, 
+        //     level: expertise.proficient
+        // }
     },
-    sketchApp: {
-        id: 'Sketch', 
-        langType: false, 
-        level: expertise.expert
-    },
+    // sketchApp: {
+    //     id: 'Sketch', 
+    //     langType: false, 
+    //     level: expertise.expert
+    // },
     img: {
         img: {
             id: 'Images', 
             langType: false, 
             level: expertise.expert
         },
-        svg: {
-            id: 'SVG', 
-            langType: false, 
-            level: expertise.expert
-        },
-        png: {
-            id: 'PNG', 
-            langType: false, 
-            level: expertise.expert
-        },
-        jpg: {
-            id: 'JPG', 
-            langType: false, 
-            level: expertise.expert
-        },
-        jp2: {
-            id: 'JP2', 
-            langType: false, 
-            level: expertise.proficient
-        },
-        gif: {
-            id: 'GIF', 
-            langType: false, 
-            level: expertise.proficient
-        },
-        webp: {
-            id: 'WebP', 
-            langType: false, 
-            level: expertise.novice
-        },
-        tiff: {
-            id: 'TIFF', 
-            langType: false, 
-            level: expertise.expert
-        },
-        gif: {
-            id: 'GIF', 
-            langType: false, 
-            level: expertise.expert
-        },
-        bmp: {
-            id: 'BMP', 
-            langType: false, 
-            level: expertise.expert
-        },
-        pdf: {
-            id: 'PDF', 
-            langType: false, 
-            level: expertise.expert
-        },
-        psd: {
-            id: 'PSD', 
-            langType: false, 
-            level: expertise.expert
-        }
+        // svg: {
+        //     id: 'SVG', 
+        //     langType: false, 
+        //     level: expertise.novice
+        // },
+        // png: {
+        //     id: 'PNG', 
+        //     langType: false, 
+        //     level: expertise.expert
+        // },
+        // jpg: {
+        //     id: 'JPG', 
+        //     langType: false, 
+        //     level: expertise.expert
+        // },
+        // jp2: {
+        //     id: 'JP2', 
+        //     langType: false, 
+        //     level: expertise.novice
+        // },
+        // gif: {
+        //     id: 'GIF', 
+        //     langType: false, 
+        //     level: expertise.novice
+        // },
+        // webp: {
+        //     id: 'WebP', 
+        //     langType: false, 
+        //     level: expertise.novice
+        // },
+        // tiff: {
+        //     id: 'TIFF', 
+        //     langType: false, 
+        //     level: expertise.expert
+        // },
+        // gif: {
+        //     id: 'GIF', 
+        //     langType: false, 
+        //     level: expertise.novice
+        // },
+        // bmp: {
+        //     id: 'BMP', 
+        //     langType: false, 
+        //     level: expertise.expert
+        // },
+        // pdf: {
+        //     id: 'PDF', 
+        //     langType: false, 
+        //     level: expertise.expert
+        // },
+        // psd: {
+        //     id: 'PSD', 
+        //     langType: false, 
+        //     level: expertise.expert
+        // }
     },
     trello: {
         id: 'Trello', 
@@ -378,29 +388,29 @@ export const tech = {
         adsense: {
             id: 'Google AdSense', 
             langType: false, 
-            level: expertise.expert
-        },
-        gwt: {
-            id: 'GWT', 
-            langType: false, 
             level: expertise.novice
         },
+        // gwt: {
+        //     id: 'GWT', 
+        //     langType: false, 
+        //     level: expertise.novice
+        // },
         map: {
             id: 'Google Maps', 
             langType: false, 
             level: expertise.expert
         }
     },
-    wordPr: {
-        id: 'WordPress', 
-        langType: false, 
-        level: expertise.expert
-    },
-    phaser: {
-        id: 'Phaser', 
-        langType: false, 
-        level: expertise.novice
-    },
+    // wordPr: {
+    //     id: 'WordPress', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
+    // phaser: {
+    //     id: 'Phaser', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     jquery: {
         id: 'jQuery', 
         langType: mainLang.js.id, 
@@ -416,38 +426,38 @@ export const tech = {
         langType: mainLang.js.id, 
         level: expertise.novice
     },
-    mp4: {
-        id: 'MP4', 
-        langType: false, 
-        level: expertise.proficient
-    },
-    audio: {
-        mp3: {
-            id: "MP3", 
-            langType: false, 
-            level: expertise.proficient
-        },
-        ogg: {
-            id: 'OGG', 
-            langType: false, 
-            level: expertise.proficient
-        }
-    },
-    vlcMedia: {
-        id: 'VLC Media Player', 
-        langType: false, 
-        level: expertise.proficient
-    },
+    // mp4: {
+    //     id: 'MP4', 
+    //     langType: false, 
+    //     level: expertise.proficient
+    // },
+    // audio: {
+    //     mp3: {
+    //         id: "MP3", 
+    //         langType: false, 
+    //         level: expertise.proficient
+    //     },
+    //     ogg: {
+    //         id: 'OGG', 
+    //         langType: false, 
+    //         level: expertise.proficient
+    //     }
+    // },
+    // vlcMedia: {
+    //     id: 'VLC Media Player', 
+    //     langType: false, 
+    //     level: expertise.proficient
+    // },
     json: {
         id: "JSON", 
         langType: false, 
         level: expertise.expert
     },
-    lock: {
-        id: 'lock', 
-        langType: false, 
-        level: expertise.novice
-    },
+    // lock: {
+    //     id: 'lock', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     jsx: {
         id: 'JSX', 
         langType: false, 
@@ -458,36 +468,36 @@ export const tech = {
         langType: mainLang.js.id, 
         level: expertise.proficient
     },
-    c_sharp: {
-        id: 'C#', 
-        langType: false, 
-        level: expertise.novice
-    },
-    unity: {
-        id: 'Unity', 
-        langType: mainLang.c_sharp.id, 
-        level: expertise.novice
-    },
-    powerSh: {
-        id: 'Power Shell', 
-        langType: false, 
-        level: expertise.expert
-    },
+    // c_sharp: {
+    //     id: 'C#', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
+    // unity: {
+    //     id: 'Unity', 
+    //     langType: mainLang.c_sharp.id, 
+    //     level: expertise.novice
+    // },
+    // powerSh: {
+    //     id: 'Power Shell', 
+    //     langType: false, 
+    //     level: expertise.expert
+    // },
     terminal: {
         id: 'Terminal', 
         langType: false, 
         level: expertise.expert
     },
-    wix: {
-        id: 'Wix', 
-        langType: false, 
-        level: expertise.expert
-    },
-    goDaddy: {
-        id: 'Go Daddy', 
-        langType: false, 
-        level: expertise.expert
-    },
+    // wix: {
+    //     id: 'Wix', 
+    //     langType: false, 
+    //     level: expertise.expert
+    // },
+    // goDaddy: {
+    //     id: 'Go Daddy', 
+    //     langType: false, 
+    //     level: expertise.expert
+    // },
     wireFrames: {
         id: 'Wire Frames', 
         langType: false, 
@@ -513,16 +523,16 @@ export const tech = {
         langType: false, 
         level: expertise.expert
     },
-    nowVercel: {
-        id: 'Now Vercel', 
-        langType: false, 
-        level: expertise.proficient
-    },
-    netlify: {
-        id: 'Netlify', 
-        langType: false, 
-        level: expertise.proficient
-    },
+    // nowVercel: {
+    //     id: 'Now Vercel', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
+    // netlify: {
+    //     id: 'Netlify', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     webAccess: {
         id: 'Web Accessibility', 
         langType: false, 
@@ -546,38 +556,38 @@ export const tech = {
     responsive: {
         id: 'Responsive Design/Layout', 
         langType: false, 
-        level: expertise.proficient
+        level: expertise.expert
     },
-    balsamiq: {
-        id: 'Balsamiq', 
-        langType: false, 
-        level: expertise.proficient
-    },
-    sql: {
-        id: 'SQL', 
-        langType: false, 
-        level: expertise.proficient
-    },
-    ajax: {
-        id: 'AJAX', 
-        langType: false, 
-        level: expertise.novice
-    },
-    browserify: {
-        id: 'Browserify', 
-        langType: false, 
-        level: expertise.novice
-    },
-    SEO: {
-        id: 'SEO', 
-        langType: false, 
-        level: expertise.novice
-    },
-    sass: {
-        id: 'Sass', 
-        langType: false, 
-        level: expertise.novice
-    },
+    // balsamiq: {
+    //     id: 'Balsamiq', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
+    // sql: {
+    //     id: 'SQL', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
+    // ajax: {
+    //     id: 'AJAX', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
+    // browserify: {
+    //     id: 'Browserify', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
+    // SEO: {
+    //     id: 'SEO', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
+    // sass: {
+    //     id: 'Sass', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     api: {
         api: {
             id: 'API', 
@@ -599,13 +609,13 @@ export const tech = {
         id: 'Garageband',
         level: expertise.expert
     },
-    milkyTrack: {
-        id: 'Milky Tracker',
-        level: expertise.novice
-    },
+    // milkyTrack: {
+    //     id: 'Milky Tracker',
+    //     level: expertise.novice
+    // },
     imove: {
         id: 'iMove',
-        level: expertise.expert
+        level: expertise.proficient
     }
 };
 
@@ -618,7 +628,7 @@ export const tech = {
 export const skill = {
     drawing: {
         id: 'Drawing', 
-        level: expertise.proficient
+        level: expertise.novice
     },
     math: {
         id: 'Math', 
@@ -627,7 +637,7 @@ export const skill = {
     githubEd: {
         comUsingMarkdown: {
             id:'Communicating using Markdown',
-            level: expertise.proficient
+            level: expertise.expert
         },
         upload: {
             id: 'Uploading your project to GitHub', 
@@ -637,19 +647,19 @@ export const skill = {
             id: 'Introduction to GitHub', 
             level: expertise.expert
         },
-        circleCI: {
-            id: 'Continuous integration with CircleCI', 
-            level: expertise.proficient
-        },
+        // circleCI: {
+        //     id: 'Continuous integration with CircleCI', 
+        //     level: expertise.proficient
+        // },
     },
-    darkRoomPhoto: {
-        id: 'Dark Room Photography',
-        level: expertise.novice
-    },
-    ASL: {
-        id: 'American Sign Language',
-        level: expertise.novice
-    },
+    // darkRoomPhoto: {
+    //     id: 'Dark Room Photography',
+    //     level: expertise.novice
+    // },
+    // ASL: {
+    //     id: 'American Sign Language',
+    //     level: expertise.novice
+    // },
     highSpeedKey: {
         id: 'High-Speed Keyboarding ',
         level: expertise.expert
