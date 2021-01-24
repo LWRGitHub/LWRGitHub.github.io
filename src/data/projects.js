@@ -324,8 +324,8 @@ export const PersonalProj = [
             ]
         },
         paragraph2: 'Up date the score with the plus or minus button, add players at the bottom or remove players with the red "X" by the players name.',
-        projectLink: "https://lwrgithub.github.io/React-scoreboard/",
-        codeLink: "https://github.com/LWRGitHub/React-scoreboard"
+        projectLink: "https://lwrgithub.github.io/gaming-scoreboard/",
+        codeLink: "https://github.com/LWRGitHub/gaming-scoreboard"
     },
     {
         img: {

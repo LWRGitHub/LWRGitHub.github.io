@@ -22,7 +22,6 @@ This is my portfolio website that shows of my skills as a software engineer, as 
 ***Note: make sure to change the files to reflect your GitHub info:*** [Learn How](https://blog.usejournal.com/how-to-deploy-your-react-app-into-github-pages-b2c96292b18e)
 ```
 npm install
-npm install gh-pages --save-dev
 ```
 
 ### Run
