@@ -473,11 +473,6 @@ export const tech = {
         langType: false, 
         level: expertise.expert
     },
-    comandLine: {
-        id: 'Comand Line', 
-        langType: false, 
-        level: expertise.expert
-    },
     terminal: {
         id: 'Terminal', 
         langType: false, 
@@ -639,7 +634,7 @@ export const skill = {
             level: expertise.expert
         },
         intro: {
-            id: 'Introduction to GitHub,', 
+            id: 'Introduction to GitHub', 
             level: expertise.expert
         },
         circleCI: {

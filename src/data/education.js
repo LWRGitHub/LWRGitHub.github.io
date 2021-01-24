@@ -7,13 +7,54 @@ export const education = [
             src: 'images/education/makeschool-building.jpeg',
             alt: 'Make School logo overlaying front of the Make School building located at 555 Post Street San Francisco, California 94102. This School gives you a Bachelors degree in Computer science their Program takes two years.'
         },
+        
         schools: [
             {
                 school: 'MakeSchool.com',
                 location: ': SF, CA',
+                certTranDegr: {
+                    aText: 'Acceptance Letter',
+                    href: 'https://lwrgithub.github.io/files/education-credentials/make-school-acceptance-letter.jpeg'
+                },
                 href: 'https://www.makeschool.com/',
-                focus: [focus.sofEngr, `${focus.dev.type.wma} ${focus.dev.area.fs}`, focus.design.xi, focus.game.desDev, focus.data, focus.AI.AIMachineLearn],
-                skills: [tech.py.id, tech.js.id, 'Swift', 'Go', 'Flack', 'Django', tech.node.id, tech.react.id, 'UIKit', 'CoreData', 'Foundation', 'NumPy', 'Pandas', 'Scikit-Learn', 'Keras', 'TensorFlow', tech.p5.id],
+                focus: [`${focus.dev.area.b} ${focus.sofEngr}`],
+                skills: [
+                    tech.py.id, 
+                    tech.js.id, 
+                    // 'Swift', 
+                    // 'Go', 
+                     
+                    // 'Django', 
+                    tech.node.id, 
+                    tech.react.id, 
+                    // 'UIKit', 
+                    // 'CoreData', 
+                    // 'Foundation', 
+                    
+                    // 'Scikit-Learn', 
+                    // 'Keras', 
+                    // 'TensorFlow', 
+                    tech.p5.id,
+                    'Flack',
+                    'NumPy', 
+                    'Pandas', 
+                    tech.html.id, 
+                    tech.css.id,
+                    tech.bootstrap.id,
+                    tech.wireFrames.id,
+                    tech.flexbox.id, 
+                    tech.git.id, 
+                    tech.gitHub.id,
+                    tech.terminal.id, 
+                    tech.api.rest.id, 
+                    tech.http.id, 
+                    tech.npm.id, 
+                    tech.responsive.id, 
+                    tech.google.font.id, 
+                    tech.asyncAwait.id, 
+                    tech.api.api.id, 
+                    tech.api.fetch.id,
+                ],
                 moreInfo: "Bachelor's degree in applied computer science 2022 at Make School accredited through Dominican University of California."
             }
         ],
@@ -28,10 +69,28 @@ export const education = [
             {
                 school: 'www.dvc.edu',
                 location: ': PleasantHill, CA',
+                certTranDegr: {
+                    aText: 'Transcripts',
+                    href: 'https://lwrgithub.github.io/files/education-credentials/dvc-transcripts.pdf'
+                },
                 href: 'https://www.dvc.edu/',
-                focus: [focus.design.xi, otherFocus.art.artDraw, otherFocus.art.artDM, otherFocus.webDes, otherFocus.math],
-                skills: [tech.adobe.photo.id, tech.adobe.dream.id, tech.adobe.suite.id, tech.html.id, skill.drawing.id, skill.math.id],
-                moreInfo: 'Certificate classes at Diablo Valley College in UX/UI Design.'
+                focus: [
+                    focus.design.xi, 
+                    // otherFocus.art.artDraw, 
+                    // otherFocus.art.artDM, 
+                    // otherFocus.webDes, 
+                    // otherFocus.math
+                ],
+                skills: [
+                    tech.adobe.photo.id,
+                    'Business', 
+                    // tech.adobe.dream.id, 
+                    // tech.adobe.suite.id, 
+                    // tech.html.id, 
+                    // skill.drawing.id, 
+                    // skill.math.id
+                ],
+                moreInfo: 'Classes at Diablo Valley College in UX/UI Design.'
             }
         ],
     },
@@ -45,20 +104,79 @@ export const education = [
             {
                 school: 'Code Tenderloin',
                 location: ': SF, CA',
-                focus: [focus.sofEngr, focus.game.desDev],
+                focus: [
+                    focus.sofEngr, 
+                    // focus.game.desDev
+                ],
                 skills: [tech.js.id, tech.html.id, tech.css.id]
             },
             {
                 school: 'Code The Dream',
                 location: ': Durham, NC',
-                focus: [focus.sofEngr, `${focus.dev.type.wma} ${focus.dev.area.fs}`, focus.design.xi, focus.game.desDev, focus.data],
-                skills: [tech.js.id, tech.rb.id, tech.html.id, tech.css.id, tech.dom.id, tech.react.id, tech.reactRouter.id, tech.reactBootstrap.id, tech.bootstrap.id, tech.rbOnRail.id, tech.erb.id, tech.activeRec.id, tech.aws.id, tech.sql.id, tech.jquery.id, tech.comandLine.id, tech.terminal.id, tech.gitHub.id, tech.git.id, tech.wireFrames.id, tech.chromeDev.id, tech.flexbox.id, tech.responsive.id, tech.mediaEl.id, tech.webOptimiz.id, tech.preformOptimiz.id, tech.webAccess.id, tech.ajax.id, tech.asyncAwait.id, tech.api.fetch.id]
+                focus: [
+                    focus.sofEngr, 
+                    // `${focus.dev.type.wma} ${focus.dev.area.fs}`,
+                    //  focus.design.xi, 
+                    //  focus.game.desDev, 
+                    //  focus.data
+                    ],
+                skills: [
+                    tech.js.id, 
+                    // tech.rb.id, 
+                    tech.html.id, 
+                    tech.css.id, 
+                    tech.dom.id, 
+                    tech.react.id, 
+                    tech.reactRouter.id, 
+                    tech.reactBootstrap.id, 
+                    tech.bootstrap.id, 
+                    // tech.rbOnRail.id, 
+                    // tech.erb.id, 
+                    // tech.activeRec.id, 
+                    tech.aws.id, 
+                    // tech.sql.id, 
+                    tech.jquery.id, 
+                    tech.terminal.id, 
+                    tech.gitHub.id, 
+                    tech.git.id, 
+                    tech.wireFrames.id, 
+                    tech.chromeDev.id, 
+                    tech.flexbox.id, 
+                    tech.responsive.id, 
+                    tech.mediaEl.id, 
+                    tech.webOptimiz.id, 
+                    tech.preformOptimiz.id, 
+                    tech.webAccess.id, 
+                    tech.ajax.id, 
+                    tech.asyncAwait.id, 
+                    tech.api.fetch.id
+                ]
             },
             {
                 school: 'Meda Mission Techies',
                 location: ': SF, CA',
-                focus: [focus.sofEngr, `${focus.dev.type.wma} ${focus.dev.area.fs}`, focus.design.xi, focus.data],
-                skills: [tech.js.id, tech.html.id, tech.css.id, tech.node.id, tech.react.id, tech.dom.id, tech.mongo.id, tech.mongoose.id, tech.jquery.id, tech.comandLine.id, tech.terminal.id, tech.git.id, tech.gitHub.id, tech.wireFrames.id, tech.flexbox.id]
+                focus: [
+                    focus.sofEngr, 
+                    // `${focus.dev.type.wma} ${focus.dev.area.fs}`, 
+                    // focus.design.xi, 
+                    // focus.data
+                ],
+                skills: [
+                    tech.js.id, 
+                    tech.html.id, 
+                    tech.css.id, 
+                    tech.node.id, 
+                    tech.react.id, 
+                    tech.dom.id, 
+                    tech.mongo.id, 
+                    tech.mongoose.id, 
+                    tech.jquery.id, 
+                    tech.terminal.id, 
+                    tech.git.id, 
+                    tech.gitHub.id, 
+                    tech.wireFrames.id, 
+                    tech.flexbox.id
+                ]
             }
         ],
     },
@@ -72,38 +190,139 @@ export const education = [
             {
                 school: 'Linda.com “LinkedIn Learning”',
                 location: ':',
-                focus: [focus.sofEngr, `${focus.dev.type.wm} ${focus.dev.area.fs}`, focus.design.xi, focus.data],
-                skills: [tech.google.analytic.id, tech.SEO.id, tech.py.id, tech.html.id, tech.css.id, tech.js.id, tech.dom.id, tech.powerSh.id, tech.comandLine.id, tech.terminal.id, tech.gitHub.id, tech.git.id]
+                focus: [
+                    focus.sofEngr, 
+                    // `${focus.dev.type.wm} ${focus.dev.area.fs}`, 
+                    // focus.design.xi, 
+                    // focus.data
+                ],
+                skills: [
+                    tech.google.analytic.id, 
+                    // tech.SEO.id, 
+                    tech.py.id, 
+                    tech.html.id, 
+                    tech.css.id, 
+                    tech.js.id, 
+                    tech.dom.id, 
+                    // tech.powerSh.id, 
+                    tech.terminal.id, 
+                    tech.gitHub.id, 
+                    tech.git.id
+                ]
             },
             {
                 school: 'TeamTreeHouse.com',
                 location: ':',
-                focus: [focus.sofEngr, `${focus.dev.type.wma} ${focus.dev.area.fs}`, focus.game.desDev, focus.design.xi, focus.data],
-                skills: [tech.react.id, tech.reactRouter.id, tech.jsx.id, tech.chromeDev.id, tech.webAccess.id, tech.html.id, tech.css.id, tech.webOptimiz.id, tech.preformOptimiz.id, tech.mediaEl.id, tech.bootstrap.id, tech.reactBootstrap.id, tech.flexbox.id, tech.git.id, tech.gitHub.id, tech.sql.id, tech.js.id, tech.img.img.id, tech.wireFrames.id, tech.adobe.XD.id, tech.balsamiq.id, tech.sketchApp.id, tech.comandLine.id, tech.powerSh.id, tech.terminal.id, tech.c_sharp.id, tech.express.id, tech.api.rest.id, tech.http.id, tech.npm.id, tech.node.id, tech.responsive.id, tech.google.font.id, tech.asyncAwait.id, tech.ajax.id, tech.jquery.id, tech.dom.id, tech.api.api.id, tech.api.fetch.id, tech.nowVercel.id, tech.netlify.id]
+                focus: [
+                    focus.sofEngr, 
+                    // `${focus.dev.type.wma} ${focus.dev.area.fs}`, 
+                    // focus.game.desDev, 
+                    // focus.design.xi, 
+                    // focus.data
+                ],
+                skills: [
+                    tech.react.id, 
+                    tech.reactRouter.id, 
+                    tech.jsx.id, 
+                    tech.chromeDev.id, 
+                    tech.webAccess.id, 
+                    tech.html.id, 
+                    tech.css.id, 
+                    tech.webOptimiz.id, 
+                    tech.preformOptimiz.id, 
+                    tech.mediaEl.id, 
+                    tech.bootstrap.id, 
+                    tech.reactBootstrap.id, 
+                    tech.flexbox.id, 
+                    tech.git.id, 
+                    tech.gitHub.id, 
+                    // tech.sql.id, 
+                    tech.js.id, 
+                    tech.img.img.id, 
+                    tech.wireFrames.id, 
+                    // tech.adobe.XD.id, 
+                    // tech.balsamiq.id, 
+                    // tech.sketchApp.id, 
+                    // tech.powerSh.id, 
+                    tech.terminal.id, 
+                    // tech.c_sharp.id, 
+                    // tech.express.id, 
+                    tech.api.rest.id, 
+                    tech.http.id, 
+                    tech.npm.id, 
+                    tech.node.id, 
+                    tech.responsive.id, 
+                    tech.google.font.id, 
+                    tech.asyncAwait.id, 
+                    tech.ajax.id, 
+                    tech.jquery.id, 
+                    tech.dom.id, 
+                    tech.api.api.id, 
+                    tech.api.fetch.id,
+                    // tech.nowVercel.id, 
+                    // tech.netlify.id
+                ]
             },
             {
                 school: 'GA Dash',
                 location: ':',
-                focus: [focus.sofEngr, `${focus.dev.type.wm} ${focus.dev.area.f}`, focus.design.xi],
-                skills: [tech.js.id, tech.html.id, tech.css.id, tech.jquery.id, tech.google.map.id, tech.responsive.id, tech.google.font.id]
+                focus: [
+                    focus.sofEngr, 
+                    // `${focus.dev.type.wm} ${focus.dev.area.f}`, 
+                    // focus.design.xi
+                ],
+                skills: [
+                    tech.js.id, 
+                    tech.html.id, 
+                    tech.css.id, 
+                    tech.jquery.id, 
+                    tech.google.map.id, 
+                    tech.responsive.id, 
+                    tech.google.font.id
+                ]
             },
             {
                 school: 'Udacity',
                 location: ':',
-                focus: [focus.sofEngr, focus.data],
+                focus: [
+                    focus.sofEngr, 
+                    // focus.data
+                ],
                 skills: [tech.js.id, tech.py.id]
             },
             {
                 school: 'Khan Academy',
                 location: ':',
-                focus: [focus.sofEngr, `${focus.dev.type.wm} ${focus.dev.area.f}`, focus.design.xi, focus.data],
-                skills: [tech.js.id, tech.html.id, tech.css.id, tech.sql.id, skill.math.id]
+                focus: [
+                    focus.sofEngr, 
+                    // `${focus.dev.type.wm} ${focus.dev.area.f}`, 
+                    // focus.design.xi, 
+                    // focus.data
+                ],
+                skills: [
+                    tech.js.id, 
+                    tech.html.id, 
+                    tech.css.id, 
+                    tech.sql.id, 
+                    skill.math.id
+                ]
             },
             {
                 school: 'CodeCademy.com',
                 location: ':',
-                focus: [focus.sofEngr, `${focus.dev.type.wm} ${focus.dev.area.f}`, focus.design.xi],
-                skills: [tech.c_sharp.id, tech.rb.id, tech.react.id, tech.html.id, tech.css.id, tech.bootstrap.id]
+                focus: [
+                    focus.sofEngr, 
+                    // `${focus.dev.type.wm} ${focus.dev.area.f}`, 
+                    // focus.design.xi
+                ],
+                skills: [
+                    // tech.c_sharp.id, 
+                    // tech.rb.id, 
+                    tech.react.id, 
+                    tech.html.id, 
+                    tech.css.id, 
+                    tech.bootstrap.id
+                ]
             },
             {
                 school: 'SOL Learn',
@@ -114,37 +333,70 @@ export const education = [
             {
                 school: 'w3schools.com',
                 location: ':',
-                focus: [focus.sofEngr, `${focus.dev.type.wm} ${focus.dev.area.f}`, focus.game.desDev, focus.design.xi, focus.data],
-                skills: [tech.js.id, tech.html.id, tech.css.id, tech.sql.id, tech.py.id, tech.jquery.id, tech.bootstrap.id]
+                focus: [
+                    focus.sofEngr, 
+                    // `${focus.dev.type.wm} ${focus.dev.area.f}`, 
+                    // focus.game.desDev, 
+                    // focus.design.xi, 
+                    // focus.data
+                ],
+                skills: [
+                    tech.js.id, 
+                    tech.html.id, 
+                    tech.css.id, 
+                    // tech.sql.id, 
+                    tech.py.id, 
+                    tech.jquery.id, 
+                    tech.bootstrap.id
+                ]
             },
             {
                 school: 'GitHub Learning Lab',
                 location: ':',
-                focus: [focus.sofEngr, `${focus.dev.type.wma} ${focus.dev.area.fs}`],
-                skills: [skill.githubEd.comUsingMarkdown.id, skill.githubEd.upload.id, skill.githubEd.intro.id, skill.githubEd.circleCI.id]
+                focus: [
+                    focus.sofEngr, 
+                    // `${focus.dev.type.wma} ${focus.dev.area.fs}`
+                ],
+                skills: [
+                    skill.githubEd.comUsingMarkdown.id, 
+                    skill.githubEd.upload.id, 
+                    skill.githubEd.intro.id, 
+                    // skill.githubEd.circleCI.id
+                ]
             },
             {
                 school: 'Noisebridge',
                 location: ':',
-                focus: [focus.sofEngr, focus.game.desDev, focus.data],
-                skills: [tech.c_sharp.id, tech.py.id, tech.unity.id, tech.sql.id, tech.garageband.id, tech.milkyTrack.id]
+                focus: [
+                    focus.sofEngr, 
+                    // focus.game.desDev, 
+                    // focus.data
+                ],
+                skills: [
+                    // tech.c_sharp.id, 
+                    tech.py.id, 
+                    // tech.unity.id, 
+                    // tech.sql.id, 
+                    tech.garageband.id, 
+                    // tech.milkyTrack.id
+                ]
             },
         ],
     },
-    {
-        title: 'SRVHS & Vanguard | High School Diploma',
-        img: {
-            src: "images/education/high-schools-glow.jpg",
-            alt: 'This is a photo of both San Ramon Valley high school Located in Danville California and The Vangard School located in Lake Wales Florida. the photo is Split in half with a white line down the middle.'
-        },
-        schools: [
-            {
-                school: 'SRVHS: Danville, CA | Vanguard: Lake Wales, FL',
-                focus: [otherFocus.math, otherFocus.science, otherFocus.history, otherFocus.english, otherFocus.electives.photo, otherFocus.electives.video, otherFocus.electives.typing, otherFocus.language],
-                skills: [tech.imove.id, skill.darkRoomPhoto.id, skill.ASL.id, skill.highSpeedKey.id]
-            }
-        ],
-    },
+    // {
+    //     title: 'SRVHS & Vanguard | High School Diploma',
+    //     img: {
+    //         src: "images/education/high-schools-glow.jpg",
+    //         alt: 'This is a photo of both San Ramon Valley high school Located in Danville California and The Vangard School located in Lake Wales Florida. the photo is Split in half with a white line down the middle.'
+    //     },
+    //     schools: [
+    //         {
+    //             school: 'SRVHS: Danville, CA | Vanguard: Lake Wales, FL',
+    //             focus: [otherFocus.math, otherFocus.science, otherFocus.history, otherFocus.english, otherFocus.electives.photo, otherFocus.electives.video, otherFocus.electives.typing, otherFocus.language],
+    //             skills: [tech.imove.id, skill.darkRoomPhoto.id, skill.ASL.id, skill.highSpeedKey.id]
+    //         }
+    //     ],
+    // },
 ];
 
 // {

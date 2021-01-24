@@ -25,7 +25,7 @@ npm install gh-pages --save-dev
 ### Run
 ***@ localhost:3000***
 ```
-npm start
+yarn start
 ```
 
 ### Build/Push
