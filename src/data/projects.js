@@ -82,8 +82,8 @@ export const PersonalProj = [
             tech: [tech.js.id, tech.dom.id, tech.html.id, tech.css.id, tech.google.analytic.id]
         },
         paragraph2: 'Use a desktop or laptop computer not a phone. Moving the mouse around the play area will move the board at the bottom.',
-        projectLink: 'projects/game1.html',
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/my-app/public/projects/game1.html"
+        projectLink: 'https://lwrgithub.github.io/pong-like-game/',
+        codeLink: "https://github.com/LWRGitHub/pong-like-game"
     },
     {
         img: {
