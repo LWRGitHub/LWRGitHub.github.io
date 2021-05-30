@@ -68,6 +68,7 @@ export const ProProj = [
     }
 ];
 
+
 export const PersonalProj = [
     {
         img: {
