@@ -158,8 +158,8 @@ export const PersonalProj = [
             tech: [tech.js.id, tech.css.id, tech.html.id, tech.dom.id, tech.google.font.id, tech.google.analytic.id]
         },
         paragraph2: 'Type in the name of your dish along with the ingredients & submit it. You can then edit or remove the dish if you like.',
-        projectLink: 'projects/dish-advanced/main.html',
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/tree/master/my-app/public/projects/dish-advanced"
+        projectLink: 'https://lwrgithub.github.io/Dish-submitter/',
+        codeLink: "https://github.com/LWRGitHub/Dish-submitter"
     },
     {
         img: {
