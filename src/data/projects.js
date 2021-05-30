@@ -142,8 +142,8 @@ export const PersonalProj = [
             ]
         },
         paragraph2: 'Click once to select a shape in the animation & it will play itself through to the end. If you keep clicking it will quickly go through animation.',
-        projectLink: "projects/css-js-project/InteractiveAnimation.html",
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/tree/master/my-app/public/projects/css-js-project"
+        projectLink: "https://lwrgithub.github.io/js-animation/",
+        codeLink: "https://github.com/LWRGitHub/js-animation"
     },
     {
         img: {
