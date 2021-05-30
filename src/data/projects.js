@@ -63,7 +63,7 @@ export const ProProj = [
             ]
         },
         paragraph2: 'This is an e-commerce platform where you can buy products from artists, view blogs & see art galleries.',
-        projectLink: "http://www.stageiv.org/public_html/stageiv/",
+        projectLink: "https://stageiv.org",
         codeLink: false
     }
 ];
