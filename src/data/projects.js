@@ -334,15 +334,15 @@ export const PersonalProj = [
             alt: "Screenshot of Logan Reynolds P5JS projects sorted in arranged in a card like format through bootstraps. Clearly a screenshot of the website grayish background cards on screen with images of the P5JS projects."
         },
         title: 'P5.JS',
-        paragraph1: 'This is an example of several P5*JS projects. It includes projects such as Mardi Gras, Sketch, Light on Light off, Fleeing or Chasing.',
+        paragraph1: 'This is an example of several P5*JS projects. It includes projects such as Mardi Gras, Sketch, Light on Light off, Fleeing or Chasing. I love P5*js as it is perfect for making commputer ART!!!!!!!',
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wma}`, focus.design.xi, focus.game.desDev], 
             tech: [tech.html.id, tech.css.id, tech.google.analytic.id, tech.p5.id, tech.js.id]
         },
         paragraph2: 'Some projects are interactive to a click of the mouse or movement of the mouse others just move on their own.',
-        projectLink: "projects/p5*js/p5.html",
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/my-app/public/projects/p5*js"
+        projectLink: "https://lwrgithub.github.io/p5js-img/",
+        codeLink: "https://github.com/LWRGitHub/p5js-img"
     },
     {
         img: {
