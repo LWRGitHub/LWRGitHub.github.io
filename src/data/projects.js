@@ -366,15 +366,15 @@ export const PersonalProj = [
             alt: "Screen shot of vegan restaurant website. image's of vegan food and a google map of the location."
         },
         title: 'Vegan Restaurant',
-        paragraph1: 'This project is programmed on one page displaying my skills with Google maps & the ability to do web & mobile development. I hope you enjoy the vegan website.',
+        paragraph1: 'This project displays my skills with Google maps & the ability to do web & mobile development. I hope you enjoy the vegan restaurant website.',
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wm}`, focus.design.xi], 
             tech: [tech.html.id, tech.css.id, tech.js.id, tech.jquery.id, tech.google.analytic.id, tech.google.map.id, tech.google.font.id]
         },
         paragraph2: 'Vegan restaurant website demo.',
-        projectLink: "/projects/vegan-restaurant.html",
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/my-app/public/projects/vegan-restaurant.html"
+        projectLink: "https://lwrgithub.github.io/vegan-restaurant/",
+        codeLink: "https://github.com/LWRGitHub/vegan-restaurant"
     },
     {
     img: {
@@ -398,8 +398,8 @@ export const PersonalProj = [
         ]
     },
     paragraph2: 'Click on "Students" to edite & add them to a course, use "Courses" to add student to course, & add a new student with "New Student',
-    projectLink: '/projects/student/index.html',
-    codeLink: 'https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/my-app/public/projects/studnet'
+    projectLink: 'https://lwrgithub.github.io/student-enrollment/',
+    codeLink: 'https://github.com/LWRGitHub/student-enrollment'
 }
 ];
 
