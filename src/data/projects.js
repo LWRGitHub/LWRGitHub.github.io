@@ -206,8 +206,8 @@ export const PersonalProj = [
             ]
         },
         paragraph2: 'Use the mouse to click "Start." use the left, right & down arrows to place token.',
-        projectLink: "projects/fourInARow/index.html",
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/tree/master/my-app/public/projects/fourInARow"
+        projectLink: "https://lwrgithub.github.io/connect-four/",
+        codeLink: "https://github.com/LWRGitHub/connect-four"
     },
     {
         img: {
@@ -239,8 +239,8 @@ export const PersonalProj = [
             ]
         },
         paragraph2: 'Use your mouse to control the video & audio elements on the screen.',
-        projectLink: "projects/video-audio-vtt-mediaelement/index.html",
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/tree/master/my-app/public/projects/video-audio-vtt-mediaelement"
+        projectLink: "https://lwrgithub.github.io/video-audio-elements/",
+        codeLink: "https://github.com/LWRGitHub/video-audio-elements"
     },
     {
         img: {
