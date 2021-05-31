@@ -255,8 +255,8 @@ export const PersonalProj = [
             tech: [tech.js.id, tech.dom.id, tech.html.id, tech.css.id, tech.google.analytic.id, tech.google.font.id]
         },
         paragraph2: 'Simply fill out the form and click submit.',
-        projectLink: "projects/form/index.html",
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/my-app/public/projects/form"
+        projectLink: "https://lwrgithub.github.io/form/",
+        codeLink: "https://github.com/LWRGitHub/form"
     },
     {
         img: {
@@ -281,8 +281,8 @@ export const PersonalProj = [
             ]
         },
         paragraph2: 'Scrolling down the website you will find a pop up registration form, along with the schedule, speakers, & other necessary information.',
-        projectLink: "projects/tech-conf/index.html",
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/my-app/public/projects/tech-conf"
+        projectLink: "https://lwrgithub.github.io/tech-conf-site/",
+        codeLink: "https://github.com/LWRGitHub/tech-conf-site"
     },
     {
         img: {
