@@ -377,30 +377,60 @@ export const PersonalProj = [
         codeLink: "https://github.com/LWRGitHub/vegan-restaurant"
     },
     {
-    img: {
-        src: 'images/experience/student-enrollment-program.png', 
-        alt: 'This is a screen shot of a student enrollment app that is on the web. buttons are students courses & add a student. below buttons are a list of students in boxes.'
+        img: {
+            src: 'images/experience/student-enrollment-program.png', 
+            alt: 'This is a screen shot of a student enrollment app that is on the web. buttons are students courses & add a student. below buttons are a list of students in boxes.'
+        },
+        title: 'Student Enrollment',
+        paragraph1: 'This web application is an example student enrollment platform. It alows the teacher to edit, add or remove students at any time.',
+        skills: {
+            platform: [platform.des, platform.mob], 
+            focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wa}`, focus.design.xi, focus.data], 
+            tech: [
+                tech.html.id, 
+                tech.css.id, 
+                tech.js.id, 
+                // tech.img.png.id, 
+                tech.google.analytic.id, 
+                tech.google.font.id, 
+                tech.bootstrap.id, 
+                tech.api.api.id, 
+            ]
+        },
+        paragraph2: 'Click on "Students" to edite & add them to a course, use "Courses" to add student to course, & add a new student with "New Student',
+        projectLink: 'https://lwrgithub.github.io/student-enrollment/',
+        codeLink: 'https://github.com/LWRGitHub/student-enrollment'
     },
-    title: 'Student Enrollment',
-    paragraph1: 'This web application is an example student enrollment platform. It alows the teacher to edit, add or remove students at any time.',
-    skills: {
-        platform: [platform.des, platform.mob], 
-        focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wa}`, focus.design.xi, focus.data], 
-        tech: [
-            tech.html.id, 
-            tech.css.id, 
-            tech.js.id, 
-            // tech.img.png.id, 
-            tech.google.analytic.id, 
-            tech.google.font.id, 
-            tech.bootstrap.id, 
-            tech.api.api.id, 
-        ]
+    {
+        img: {
+            src: 'images/experience/lovers-art.png', 
+            alt: 'This is a screen shot of lovers art websites home page.'
+        },
+        title: "Lover's Art Site",
+        paragraph1: 'Built with Flask & Jinga2 this site is grate for organizing art for sale & As a plus It has the capability to sell art supplies as well.',
+        skills: {
+            platform: [platform.des, platform.mob], 
+            focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wa}`, focus.design.xi], 
+            tech: [
+                tech.html.id, 
+                tech.css.id, 
+                tech.js.id,
+                tech.py.id,
+                tech.flask.id,
+                tech.jinja2.id,
+                tech.jquery.id,
+                tech.bootstrap.id, 
+                tech.boostrIcon.id,
+                tech.heroku.id,
+                tech.wireFrames.id,
+                tech.figma.id,
+                // tech.img.png.id,
+            ]
+        },
+        paragraph2: 'Braus website to see what is in store!',
+        projectLink: 'https://lover-artist-site.herokuapp.com',
+        codeLink: 'https://github.com/LWRGitHub/lover-artist-site'
     },
-    paragraph2: 'Click on "Students" to edite & add them to a course, use "Courses" to add student to course, & add a new student with "New Student',
-    projectLink: 'https://lwrgithub.github.io/student-enrollment/',
-    codeLink: 'https://github.com/LWRGitHub/student-enrollment'
-}
 ];
 
 // {

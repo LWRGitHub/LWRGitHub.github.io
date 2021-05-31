@@ -145,6 +145,11 @@ export const tech = {
         langType: false, 
         level: expertise.expert
     },
+    boostrIcon: {
+        id: 'Bootstrap Icons', 
+        langType: false, 
+        level: expertise.expert
+    },
     react: {
         id: 'React.js', 
         langType: mainLang.js.id, 
@@ -505,6 +510,11 @@ export const tech = {
     // },
     wireFrames: {
         id: 'Wire Frames', 
+        langType: false, 
+        level: expertise.expert
+    },
+    figma: {
+        id: 'Figma', 
         langType: false, 
         level: expertise.expert
     },
