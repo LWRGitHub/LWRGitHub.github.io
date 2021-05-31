@@ -290,15 +290,15 @@ export const PersonalProj = [
             alt: "White background screenshot of an HTML table. HTML table is Different shades of gray. It has heading of employee information, The categories include name, email and job rule. Below each category are some names and emails & some different job rolls in the computer science industry. At the bottom it has italicized refreshes every 15 minutes."
         },
         title: 'HTML Table',
-        paragraph1: 'This is an example of an HTML table. If I had a good explanation of my capabilities, although there are so many different ways to make tables.',
+        paragraph1: 'This is an example of an HTML table, although there are so many different ways to make tables here is an example of one way.',
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, focus.dev.type.w, focus.design.xi, focus.data], 
             tech: [tech.html.id, tech.css.id, tech.google.analytic.id, tech.google.font.id]
         },
         paragraph2: 'This is a table of employee information.',
-        projectLink: "projects/html-table/index.html",
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io/blob/master/my-app/public/projects/html-table"
+        projectLink: "https://lwrgithub.github.io/html-table/",
+        codeLink: "https://github.com/LWRGitHub/html-table"
     },
     {
         img: {
