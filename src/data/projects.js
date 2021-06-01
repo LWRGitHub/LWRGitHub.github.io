@@ -427,9 +427,38 @@ export const PersonalProj = [
                 // tech.img.png.id,
             ]
         },
-        paragraph2: 'Braus website to see what is in store!',
+        paragraph2: 'Browse the website to see what is in store!',
         projectLink: 'https://lover-artist-site.herokuapp.com',
         codeLink: 'https://github.com/LWRGitHub/lover-artist-site'
+    },
+    {
+        img: {
+            src: 'images/experience/books-home.png', 
+            alt: 'This is a screen shot of the home page for the books traker web app.'
+        },
+        title: "Book Traker Web App",
+        paragraph1: 'Built with Flask, Jinga2 & Hosted on Heroku this site is grate for organizing books you have read or want to read, have fun!',
+        skills: {
+            platform: [platform.des], 
+            focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wa}`, focus.design.xi], 
+            tech: [
+                tech.html.id, 
+                tech.css.id, 
+                tech.js.id,
+                tech.py.id,
+                tech.flask.id,
+                tech.jinja2.id,
+                tech.heroku.id,
+                tech.sql.sql.id,
+                tech.sql.alchemy.id,
+                tech.flaskWTF.id,
+                tech.unittest.id
+                // tech.img.png.id,
+            ]
+        },
+        paragraph2: "Browse the website, signup it's free, just see what happends!",
+        projectLink: 'https://app-to-keep-track-of-books.herokuapp.com',
+        codeLink: 'https://github.com/LWRGitHub/app-to-keep-track-of-books'
     },
 ];
 

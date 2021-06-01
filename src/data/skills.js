@@ -110,6 +110,11 @@ export const tech = {
         langType: mainLang.py.id, 
         level: expertise.expert
     },
+    flaskWTF:{
+        id:'Flask-WTF', 
+        langType: mainLang.py.id, 
+        level: expertise.expert
+    },
     jinja2: {
         id:'Jinja2', 
         langType: mainLang.py.id, 
@@ -147,7 +152,7 @@ export const tech = {
     },
     boostrIcon: {
         id: 'Bootstrap Icons', 
-        langType: false, 
+        langType: mainLang.js.id, 
         level: expertise.expert
     },
     react: {
@@ -157,17 +162,17 @@ export const tech = {
     },
     reactBootstrap: {
         id: 'React Bootstrap', 
-        langType: false, 
+        langType: mainLang.js.id, 
         level: expertise.expert
     },
     reactRouter: {
         id: 'React Router', 
-        langType: false, 
+        langType: mainLang.js.id, 
         level: expertise.expert
     },
     dom: {
         id: 'DOM', 
-        langType: false, 
+        langType: mainLang.js.id, 
         level: expertise.expert
     },
     mongo: {
@@ -176,8 +181,8 @@ export const tech = {
         level: expertise.novice
     },
     mongoose: {
-        id: 'Mongoose.js', 
-        langType: mainLang.js.id, 
+        id: 'Mongoose', 
+        langType: false, 
         level: expertise.novice
     },
     // twilio: {
@@ -219,6 +224,11 @@ export const tech = {
         id: 'Python', 
         langType: false, 
         level: expertise.expert
+    },
+    unittest: {
+        id: 'Unittest', 
+        langType: mainLang.py.id, 
+        level: expertise.novice
     },
     html: {
         id: 'HTML', 
@@ -578,11 +588,18 @@ export const tech = {
     //     langType: false, 
     //     level: expertise.novice
     // },
-    // sql: {
-    //     id: 'SQL', 
-    //     langType: false, 
-    //     level: expertise.novice
-    // },
+    sql: {
+        sql:{
+            id: 'SQL', 
+            langType: false, 
+            level: expertise.novice
+        },
+        alchemy: {
+            id: 'SQLAlchemy', 
+            langType: false, 
+            level: expertise.novice
+        }
+    },
     // ajax: {
     //     id: 'AJAX', 
     //     langType: false, 
