@@ -452,7 +452,8 @@ export const PersonalProj = [
                 tech.sql.sql.id,
                 tech.sql.alchemy.id,
                 tech.flaskWTF.id,
-                tech.unittest.id
+                tech.pyDotenv.id,
+                tech.unittest.id,
                 // tech.img.png.id,
             ]
         },

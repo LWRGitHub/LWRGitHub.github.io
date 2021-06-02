@@ -225,6 +225,11 @@ export const tech = {
         langType: false, 
         level: expertise.expert
     },
+    pyDotenv:{
+        id: 'Python-Dotenv', 
+        langType: mainLang.py.id, 
+        level: expertise.expert
+    },
     unittest: {
         id: 'Unittest', 
         langType: mainLang.py.id, 
@@ -592,12 +597,12 @@ export const tech = {
         sql:{
             id: 'SQL', 
             langType: false, 
-            level: expertise.novice
+            level: expertise.proficient
         },
         alchemy: {
             id: 'SQLAlchemy', 
             langType: false, 
-            level: expertise.novice
+            level: expertise.proficient
         }
     },
     // ajax: {
