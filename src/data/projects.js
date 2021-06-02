@@ -436,7 +436,7 @@ export const PersonalProj = [
             src: 'images/experience/books-home.png', 
             alt: 'This is a screen shot of the home page for the books traker web app.'
         },
-        title: "Book Traker Web App",
+        title: "Book Tracker Web App",
         paragraph1: 'Built with Flask, Jinga2 & Hosted on Heroku this site is grate for organizing books you have read or want to read, have fun!',
         skills: {
             platform: [platform.des], 
