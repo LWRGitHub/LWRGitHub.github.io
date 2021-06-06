@@ -91,8 +91,8 @@ export const PersonalProj = [
             src: "images/experience/scraping-craigslist.png", 
             alt: "Image of the app having found something & starting to text a number."
         },
-        title: "Scrapping Craigslist/Trash Nothing!",
-        paragraph1: "Free Apple products & more through scrapping Craigslist/Trash Nothing! These python files use bs4 & selenium to scrape the web & send you a text message when you find that awesome thing your looking for! The file are setup to for searching for free apple products, computers, laptops, & video games.",
+        title: "Scrapping Craigslist/TrashNothing.com!",
+        paragraph1: "Free Apple products & more through scrapping Craigslist & the website Trash Nothing! These python files use bs4 & selenium to scrape the web & send you a text message when you find that awesome thing your looking for! The file are setup to for searching for free apple products, computers, laptops, & video games.",
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, focus.dev.type.a], 

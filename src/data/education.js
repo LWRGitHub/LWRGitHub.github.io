@@ -2,7 +2,7 @@ import { focus, otherFocus, tech, skill } from './skills';
 
 export const education = [
     {
-        title: 'Make School "Dominican University" | CS Bachelors Degree',
+        title: 'Make School "Dominican University"  |  CS Bachelors Degree',
         img: {
             src: 'images/education/makeschool-building.jpeg',
             alt: 'Make School logo overlaying front of the Make School building located at 555 Post Street San Francisco, California 94102. This School gives you a Bachelors degree in Computer science their Program takes two years.'
@@ -58,7 +58,7 @@ export const education = [
         ],
     },
     {
-        title: 'DVC | UX/UI Design',
+        title: 'DVC  |  UX/UI Design Classes',
         img: {
             src: 'images/education/dvc-logo.jpg',
             alt: 'Diablo Valley College also known as DVC. Located in Pleasant Hill California. image of collage campus with the a DVC logo overly.'
@@ -93,7 +93,7 @@ export const education = [
         ],
     },
     {
-        title: 'Code TL, CTD & Meda MT | Coding Bootcamp',
+        title: 'Code TL, CTD & Meda MT  |  Introduction to Coding',
         img: {
             src: 'images/education/ctd-codetl-meda.svg',
             alt: 'Code Tenderloin logo, Code The Dream logo and a Meda Mission Techies logo'
