@@ -72,6 +72,22 @@ export const ProProj = [
 export const PersonalProj = [
     {
         img: {
+            src: "images/experience/kdp-books-site.png", 
+            alt: "this is a screen shot of the home page for The Midnight Dream Publishing website."
+        },
+        title: "Amazon KDP E-commerce & Website",
+        paragraph1: "This is a React.js website for my Amazon KDP project. I Orchestrated the publication of 10+ ebooks on Amazon including paper & Audible publication of books. Gave ideas & directed ghostwriters in realizing those ideas as published works. Designed eight covers. This involves the design of the entire process of acquiring and integrating the product, including aspects of branding, design, usability & function. Making interfaces in software or computerized devices with a focus on looks or style.",
+        skills: {
+            platform: [platform.des], 
+            focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi,], 
+            tech: [tech.js.id, tech.html.id, tech.css.id, tech.react.id, tech.reactBootstrap.id, tech.bootstrap.id, tech.git.id, tech.gitHub.id, tech.gitHubPg.id]
+        },
+        paragraph2: 'Feel free to poke around the site!',
+        projectLink: 'https://lwrgithub.github.io/book-site/#/',
+        codeLink: "https://github.com/LWRGitHub/book-site"
+    },
+    {
+        img: {
             src: "images/experience/womens-basketball.png", 
             alt: "this is a screen shot of the home page for women's basketball through the years. Image of a big photo black-and-white of women playing basketball with the chalkboard in the back."
         },
