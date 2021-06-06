@@ -270,6 +270,26 @@ export const tech = {
         langType: false, 
         level: expertise.expert
     },
+    gitHubPg: {
+        id: 'GitHub Pages', 
+        langType: false, 
+        level: expertise.expert
+    },
+    bs4: {
+        id: 'BeautifulSoup 4', 
+        langType: mainLang.py.id, 
+        level: expertise.proficient
+    },
+    selenium: {
+        id: 'Selenium', 
+        langType: mainLang.py.id, 
+        level: expertise.proficient
+    },
+    request: {
+        id: 'Requests', 
+        langType: mainLang.py.id, 
+        level: expertise.expert
+    },
     // browserify: {
     //     id: 'Browserify', 
     //     langType: false, 

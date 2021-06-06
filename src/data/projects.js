@@ -72,6 +72,38 @@ export const ProProj = [
 export const PersonalProj = [
     {
         img: {
+            src: "images/experience/womens-basketball.png", 
+            alt: "this is a screen shot of the home page for women's basketball through the years. Image of a big photo black-and-white of women playing basketball with the chalkboard in the back."
+        },
+        title: "Women's Basketball Through The Years",
+        paragraph1: "This website is about women's basketball. It provides information about specific events throughout the years of women's basketball. The site has been made with React.js & hosted through GitHub Pages.",
+        skills: {
+            platform: [platform.des], 
+            focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi,], 
+            tech: [tech.js.id, tech.html.id, tech.css.id, tech.react.id, tech.reactBootstrap.id, tech.bootstrap.id, tech.git.id, tech.gitHub.id, tech.gitHubPg.id]
+        },
+        paragraph2: 'Use a desktop or laptop or phone to take a look around the site!',
+        projectLink: 'https://lwrgithub.github.io/womens-basketball-website/#/',
+        codeLink: "https://github.com/LWRGitHub/womens-basketball-website"
+    },
+    {
+        img: {
+            src: "images/experience/scraping-craigslist.png", 
+            alt: "Image of the app having found something & starting to text a number."
+        },
+        title: "Scrapping Craigslist/Trash Nothing!",
+        paragraph1: "Free Apple products & more through scrapping Craigslist/Trash Nothing! These python files use bs4 & selenium to scrape the web & send you a text message when you find that awesome thing your looking for! The file are setup to for searching for free apple products, computers, laptops, & video games.",
+        skills: {
+            platform: [platform.des], 
+            focus: [focus.sofEngr, focus.dev.type.a], 
+            tech: [tech.py.id,  tech.git.id, tech.gitHub.id, tech.bs4.id, tech.selenium.id, tech.request.id]
+        },
+        paragraph2: 'You will have to follow the detailed instructions in the README.md file on GetHub.',
+        projectLink: 'https://github.com/LWRGitHub/cs_scraper',
+        codeLink: "https://github.com/LWRGitHub/cs_scraper"
+    },
+    {
+        img: {
             src: "images/experience/pong-like-game-paddle.svg", 
             alt: "Screenshot of paddle game that is kind of like pong Where are you trying to destroy the bricks by moving the ball around. Video game online for the computer. This video game is in mid play and most of the bricks have been destroyed player is about to win."
         },
