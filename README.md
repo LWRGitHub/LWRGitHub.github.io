@@ -1,5 +1,5 @@
 # Portfolio Website
-This is my portfolio website that shows of my skills as a software engineer, as well as provides information on my self such as my resume & contact info. I hope you enjoy it as much as me!
+This is my portfolio website that shows of my skills as a software engineer, as well as provides information on my self such as my resume & contact info. I have been able to turn this Basic HTML/CSS tutorial from [CodeCademy.com](https://www.codecademy.com/learn/make-a-website) into something so much more by turning the entire site into a React.js app. I hope you like it!
 
 **[View Website](https://lwrgithub.github.io)**
 
