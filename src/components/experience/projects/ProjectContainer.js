@@ -13,6 +13,7 @@ const ProjectContainer = (props) => {
                         paragraph2={project.paragraph2}
                         projectLink={project.projectLink}
                         codeLink={project.codeLink} 
+                        tutorial={project.tutorial}
                         key={`Project_Card_${project.title}`}/>
     });
     return(

@@ -96,7 +96,7 @@ export const PersonalProj = [
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, focus.dev.type.a], 
-            tech: [tech.py.id,  tech.git.id, tech.gitHub.id, tech.bs4.id, tech.selenium.id, tech.request.id]
+            tech: [tech.py.id,  tech.git.id, tech.gitHub.id, tech.bs4.id, tech.selenium.id, tech.request.id, tech.dotenv.id]
         },
         paragraph2: 'You will have to follow the detailed instructions in the README.md file on GetHub.',
         projectLink: 'https://github.com/LWRGitHub/cs_scraper',
@@ -104,27 +104,44 @@ export const PersonalProj = [
     },
     {
         img: {
-            src: "images/experience/pong-like-game-paddle.svg", 
-            alt: "Screenshot of paddle game that is kind of like pong Where are you trying to destroy the bricks by moving the ball around. Video game online for the computer. This video game is in mid play and most of the bricks have been destroyed player is about to win."
+            src: 'images/experience/lovers-art.png', 
+            alt: 'This is a screen shot of lovers art websites home page.'
         },
-        title: 'Pong like Game',
-        paragraph1: 'I created an awesome game that uses the DOM "a tightly integrated part of JavaScript." The game is on one HTML document with the CSS, DOM & JavaScript. I had fun making it & hope you enjoy playing it also.',
+        title: "Lover's Art Site",
+        paragraph1: 'Built with Flask & Jinga2 this site is grate for organizing art for sale & As a plus It has the capability to sell art supplies as well.',
         skills: {
-            platform: [platform.des], 
-            focus: [focus.sofEngr, focus.dev.type.wa, focus.game.desDev], 
-            tech: [tech.js.id, tech.dom.id, tech.html.id, tech.css.id, tech.google.analytic.id]
+            platform: [platform.des, platform.mob], 
+            focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wa}`, focus.design.xi], 
+            tech: [
+                tech.html.id, 
+                tech.css.id, 
+                tech.js.id,
+                tech.py.id,
+                tech.flask.id,
+                tech.jinja2.id,
+                tech.jquery.id,
+                tech.bootstrap.id, 
+                tech.boostrIcon.id,
+                tech.heroku.id,
+                tech.wireFrames.id,
+                tech.figma.id,
+                // tech.img.png.id,
+            ]
         },
-        paragraph2: 'Use a desktop or laptop computer not a phone. Moving the mouse around the play area will move the board at the bottom.',
-        projectLink: 'https://lwrgithub.github.io/pong-like-game/',
-        codeLink: "https://github.com/LWRGitHub/pong-like-game"
+        paragraph2: 'Browse the website to see what is in store!',
+        projectLink: 'https://lover-artist-site.herokuapp.com',
+        codeLink: 'https://github.com/LWRGitHub/lover-artist-site'
     },
+];
+
+export const TutorialProj = [
     {
         img: {
             src: "images/experience/mobile-home-page-portfolio-site.png", 
             alt: "Screenshot on the mobile phone of Logan Reynolds' software engineering portfolio website. This is the homepage otherwise known as the index page. Shows a list of programming languages such as JavaScript ESS6 Ruby python & C#. Shows navigation bar in blue. Has a big jumbotron image in the background"
         },
         title: 'Portfolio Site',
-        paragraph1: 'This website you are curently on is the "Personal Portfolio" project. I made it with React.js & hope you like it!',
+        paragraph1: "At this point this project is more of a personal project because there is very little of the original code left from the tutorial. The tutorial was a basic HTML/CSS, bootsrtap & maybe a litle JS I don't fully remember. I have since moved it to React.js & changed around the UX/UI on every page Except the home page. I added bootstrap card to experience with nice photos, made the education page 10x better, added a cool resume link in about & a nice map on the contact page. I have hosted this site with GitHub Pages & wanted to keep all the data in the same place; So I simply have a nice folder called data that is well organized. I hope you like it!",
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi, focus.data], 
@@ -142,6 +159,7 @@ export const PersonalProj = [
                 tech.CI_CD.id, 
                 tech.git.id, 
                 tech.gitHub.id, 
+                tech.gitHubPg.id,
                 tech.adobe.photo.id, 
                 // tech.sketchApp.id, 
                 // tech.img.png.id, 
@@ -149,9 +167,87 @@ export const PersonalProj = [
                 // tech.img.svg.id
             ]
         },
-        paragraph2: 'You are currently viewing this project.',
+        paragraph2: 'You are currently viewing this project. I Estimate I have created over 85% of the code on this project myself because the tutorial was originally simply HTML/CSS, bootsrtap & maybe a little JS but I don’t fully remember, yet the GitHub reads over 85% JS because I turned it into a React.js site.',
         projectLink: 'index.html',
-        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io"
+        codeLink: "https://github.com/LWRGitHub/LWRGitHub.github.io",
+        tutorial: "https://www.codecademy.com/learn/make-a-website"
+    },
+    {
+        img: {
+            src: 'images/experience/student-enrollment-program.png', 
+            alt: 'This is a screen shot of a student enrollment app that is on the web. buttons are students courses & add a student. below buttons are a list of students in boxes.'
+        },
+        title: 'Student Enrollment',
+        paragraph1: 'This web application is an example student enrollment platform. It alows the teacher to edit, add or remove students at any time.',
+        skills: {
+            platform: [platform.des, platform.mob], 
+            focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wa}`, focus.design.xi, focus.data], 
+            tech: [
+                tech.html.id, 
+                tech.css.id, 
+                tech.js.id, 
+                // tech.img.png.id, 
+                tech.google.analytic.id, 
+                tech.google.font.id, 
+                tech.bootstrap.id, 
+                tech.api.api.id, 
+            ]
+        },
+        paragraph2: 'Click on "Students" to edite & add them to a course, use "Courses" to add student to course, & add a new student with "New Student',
+        projectLink: 'https://lwrgithub.github.io/student-enrollment/',
+        codeLink: 'https://github.com/LWRGitHub/student-enrollment',
+        tutorial: "https://github.com/Code-the-Dream-School/Student-Enrollment-Program-Exercise"
+    },
+    {
+        img: {
+            src: "images/experience/p5-js.jpg", 
+            alt: "Screenshot of Logan Reynolds P5JS projects sorted in arranged in a card like format through bootstraps. Clearly a screenshot of the website grayish background cards on screen with images of the P5JS projects."
+        },
+        title: 'P5.JS',
+        paragraph1: 'This is an example of several P5*JS projects. It includes projects such as Mardi Gras, Sketch, Light on Light off, Fleeing or Chasing. I love P5*js as it is perfect for making commputer ART!!!!!!!',
+        skills: {
+            platform: [platform.des, platform.mob], 
+            focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wma}`, focus.design.xi, focus.game.desDev], 
+            tech: [tech.html.id, tech.css.id, tech.google.analytic.id, tech.p5.id, tech.js.id]
+        },
+        paragraph2: 'Some projects are interactive to a click of the mouse or movement of the mouse others just move on their own.',
+        projectLink: "https://lwrgithub.github.io/p5js-img/",
+        codeLink: "https://github.com/LWRGitHub/p5js-img",
+        tutorial: "https://www.makeschool.com/mediabook/oa/tutorials/ramp-0/tips-for-success/"
+    },
+    {
+        img: {
+            src: "images/experience/form.jpg", 
+            alt: "This is a screenshot of an online form. The background is white the form is gray and it is a sign up form. The first section is called your basic info which includes name email password and age, greater than 13 or under 13. The second section is called your profile it includes biography charbroil interest interest include development design and business. There's a drop-down menu select your job role you can select from front end developer and many more options at the bottom of the form there is a button labeled sign up."
+        },
+        title: 'Form',
+        paragraph1: 'This is a nice HTML form that can be manipulated in many different ways. Forms can be made in a variety of different ways depending upon what is needed.',
+        skills: {
+            platform: [platform.des, platform.mob], 
+            focus: [focus.sofEngr, focus.dev.type.wma, focus.design.xi, focus.data], 
+            tech: [tech.js.id, tech.dom.id, tech.html.id, tech.css.id, tech.google.analytic.id, tech.google.font.id]
+        },
+        paragraph2: 'Simply fill out the form and click submit.',
+        projectLink: "https://lwrgithub.github.io/form/",
+        codeLink: "https://github.com/LWRGitHub/form",
+        tutorial: "https://teamtreehouse.com/library/html-forms"
+    },
+    {
+        img: {
+            src: "images/experience/pong-like-game-paddle.svg", 
+            alt: "Screenshot of paddle game that is kind of like pong Where are you trying to destroy the bricks by moving the ball around. Video game online for the computer. This video game is in mid play and most of the bricks have been destroyed player is about to win."
+        },
+        title: 'Pong like Game',
+        paragraph1: 'An awesome game that uses the DOM "a tightly integrated part of JavaScript." The game is on one HTML document with the CSS, DOM & JavaScript. I had fun making it & hope you enjoy playing it also.',
+        skills: {
+            platform: [platform.des], 
+            focus: [focus.sofEngr, focus.dev.type.wa, focus.game.desDev], 
+            tech: [tech.js.id, tech.dom.id, tech.html.id, tech.css.id, tech.google.analytic.id]
+        },
+        paragraph2: 'Use a desktop or laptop computer not a phone. Moving the mouse around the play area will move the board at the bottom.',
+        projectLink: 'https://lwrgithub.github.io/pong-like-game/',
+        codeLink: "https://github.com/LWRGitHub/pong-like-game",
+        tutorial: "https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript"
     },
     {
         img: {
@@ -159,7 +255,7 @@ export const PersonalProj = [
             alt: "This is an image of a JavaScript animation game. Action has yet to get taken on the animation. Image shows a triangle circle and two squares one twisted sideways. The image also has words saying which shape has no corner, This is to entice you to click on the shape you think it is, which will begin the animation."
         },
         title: 'Interactive Animation',
-        paragraph1: 'This project is an example of interactive animation with Javascript. This project uses HTML, CSS, DOM, SVG & JavaScript. The ending was an interesting part of the project as it was the first time I used an svg image. The project was completed with time to spare and was fun to make, I hope you all enjoy it!',
+        paragraph1: 'This project is an example of interactive animation with Javascript. This project uses HTML, CSS, DOM, SVG & JavaScript. The ending was an interesting part of the project as it was the first time I used an svg image. I hope you all enjoy it!',
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, focus.dev.type.wma,], 
@@ -175,46 +271,8 @@ export const PersonalProj = [
         },
         paragraph2: 'Click once to select a shape in the animation & it will play itself through to the end. If you keep clicking it will quickly go through animation.',
         projectLink: "https://lwrgithub.github.io/js-animation/",
-        codeLink: "https://github.com/LWRGitHub/js-animation"
-    },
-    {
-        img: {
-            src: "images/experience/dish-site.jpg", 
-            alt: "dish submitter website, add food & cooking instructions to the local storage on your internet browser. blue & green faded background on baner the rest of the background is very light green."
-        },
-        title: `Dish Yumy Food`,
-        paragraph1: 'I received an inquiry to create a website where you can add, remove & edit dishes. I found this site to be a good example of the kind of work I can do.',
-        skills: {
-            platform: [platform.des, platform.mob], 
-            focus: [focus.sofEngr, focus.dev.type.wma, focus.design.xi], 
-            tech: [tech.js.id, tech.css.id, tech.html.id, tech.dom.id, tech.google.font.id, tech.google.analytic.id]
-        },
-        paragraph2: 'Type in the name of your dish along with the ingredients & submit it. You can then edit or remove the dish if you like.',
-        projectLink: 'https://lwrgithub.github.io/Dish-submitter/',
-        codeLink: "https://github.com/LWRGitHub/Dish-submitter"
-    },
-    {
-        img: {
-            src: "images/experience/phaser-io-game-like-mario-lg.jpeg", 
-            alt: "This is a screenshot of an interactive computer game that looks kind of like Super Mario. There are coins spinning on screen, poison bottles as well as a Barely visible spinning star. The upper left corner says score is 15. Player in the game is jumping from what appears to be floating pieces of land and floating pieces of metal there are coins and items all over the screen. Player appears in midair."
-        },
-        title: 'Mario Like Game',
-        paragraph1: 'This project is a one-page game using the framework Phaser. This framework "Phaser" is an HTML & JS gaming framework basically it makes it easy to make a game with JavaScript. I hope you all have fun with it!',
-        skills: {
-            platform: [platform.des], 
-            focus: [focus.sofEngr, focus.dev.type.wa, focus.design.xi, focus.game.desDev], 
-            tech: [
-                tech.html.id, 
-                tech.css.id, 
-                tech.js.id, 
-                // tech.phaser.id, 
-                // tech.img.png.id, 
-                tech.dom.id, tech.google.analytic.id
-            ]
-        },
-        paragraph2: '"Space bar" = jump, "Left & Right arrows" = move',
-        projectLink: "https://lwrgithub.github.io/mario-like-game/",
-        codeLink: "https://github.com/LWRGitHub/mario-like-game"
+        codeLink: "https://github.com/LWRGitHub/js-animation",
+        tutorial: "https://www.linkedin.com/learning/interactive-animations-with-css-and-javascript?trk=learning-serp_learning_search-card&upsellOrderOrigin=lynda_redirect_learning"
     },
     {
         img: {
@@ -239,7 +297,8 @@ export const PersonalProj = [
         },
         paragraph2: 'Use the mouse to click "Start." use the left, right & down arrows to place token.',
         projectLink: "https://lwrgithub.github.io/connect-four/",
-        codeLink: "https://github.com/LWRGitHub/connect-four"
+        codeLink: "https://github.com/LWRGitHub/connect-four",
+        tutorial: "https://teamtreehouse.com/library/objectoriented-javascript-challenge"
     },
     {
         img: {
@@ -272,23 +331,32 @@ export const PersonalProj = [
         },
         paragraph2: 'Use your mouse to control the video & audio elements on the screen.',
         projectLink: "https://lwrgithub.github.io/video-audio-elements/",
-        codeLink: "https://github.com/LWRGitHub/video-audio-elements"
+        codeLink: "https://github.com/LWRGitHub/video-audio-elements",
+        tutorial: "https://teamtreehouse.com/library/create-a-media-player-with-mediaelementjs"
     },
     {
         img: {
-            src: "images/experience/form.jpg", 
-            alt: "This is a screenshot of an online form. The background is white the form is gray and it is a sign up form. The first section is called your basic info which includes name email password and age, greater than 13 or under 13. The second section is called your profile it includes biography charbroil interest interest include development design and business. There's a drop-down menu select your job role you can select from front end developer and many more options at the bottom of the form there is a button labeled sign up."
+            src: "images/experience/phaser-io-game-like-mario-lg.jpeg", 
+            alt: "This is a screenshot of an interactive computer game that looks kind of like Super Mario. There are coins spinning on screen, poison bottles as well as a Barely visible spinning star. The upper left corner says score is 15. Player in the game is jumping from what appears to be floating pieces of land and floating pieces of metal there are coins and items all over the screen. Player appears in midair."
         },
-        title: 'Form',
-        paragraph1: 'This is just one example of a type of form I can create. Forms can be made in a variety of different ways depending upon what is requested.',
+        title: 'Mario Like Game',
+        paragraph1: 'This project is a one-page game using the framework Phaser. This framework "Phaser" is an HTML & JS gaming framework basically it makes it easy to make a game with JavaScript. I hope you all have fun with it!',
         skills: {
-            platform: [platform.des, platform.mob], 
-            focus: [focus.sofEngr, focus.dev.type.wma, focus.design.xi, focus.data], 
-            tech: [tech.js.id, tech.dom.id, tech.html.id, tech.css.id, tech.google.analytic.id, tech.google.font.id]
+            platform: [platform.des], 
+            focus: [focus.sofEngr, focus.dev.type.wa, focus.design.xi, focus.game.desDev], 
+            tech: [
+                tech.html.id, 
+                tech.css.id, 
+                tech.js.id, 
+                // tech.phaser.id, 
+                // tech.img.png.id, 
+                tech.dom.id, tech.google.analytic.id
+            ]
         },
-        paragraph2: 'Simply fill out the form and click submit.',
-        projectLink: "https://lwrgithub.github.io/form/",
-        codeLink: "https://github.com/LWRGitHub/form"
+        paragraph2: '"Space bar" = jump, "Left & Right arrows" = move',
+        projectLink: "https://lwrgithub.github.io/mario-like-game/",
+        codeLink: "https://github.com/LWRGitHub/mario-like-game",
+        tutorial: "https://teamtreehouse.com/library/introducing-javascript"
     },
     {
         img: {
@@ -296,7 +364,7 @@ export const PersonalProj = [
             alt: "Screenshot of the full stock tech conference website. This is an image that provides a good example of the web development skills available by Logan Reynolds. Has a blue navigation bar in a light blue Jumbotron with the blue filter over the image on the Jumbotron. Heading says Full Stack Conf A one day conference about all things JavaScript. Buttons to register now and see speakers. there is an imgae of the city they are in. Other titles on the page include about full stack conference, Expert speakers and what you'll learn. Subjects and details are below those tiles."
         },
         title: 'Full Stack Conf',
-        paragraph1: 'This is a good one page example website of the work I can do as a Software Engineer & a UX/UI Designer. This example website includes a registration form that upon clicking the button pops up, as well as the necessary information & sections needed for a tech conference website.',
+        paragraph1: 'This is a Basic HTML/CSS website That uses some JavaScript and jQuery for functionality as well as bootstraps for looks. This website includes a registration form that upon clicking the button pops up, as well as the necessary information & sections needed for a tech conference website.',
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wma}`, focus.design.xi], 
@@ -314,7 +382,25 @@ export const PersonalProj = [
         },
         paragraph2: 'Scrolling down the website you will find a pop up registration form, along with the schedule, speakers, & other necessary information.',
         projectLink: "https://lwrgithub.github.io/tech-conf-site/",
-        codeLink: "https://github.com/LWRGitHub/tech-conf-site"
+        codeLink: "https://github.com/LWRGitHub/tech-conf-site",
+        tutorial: "https://teamtreehouse.com/library/practice-selecting-dom-elements"
+    },
+    {
+        img: {
+            src: "images/experience/veganRestaurant.jpg", 
+            alt: "Screen shot of vegan restaurant website. image's of vegan food and a google map of the location."
+        },
+        title: 'Vegan Restaurant',
+        paragraph1: 'This project displays my skills with Google maps & the ability to do web & mobile development. I hope you enjoy the vegan restaurant website.',
+        skills: {
+            platform: [platform.des, platform.mob], 
+            focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wm}`, focus.design.xi], 
+            tech: [tech.html.id, tech.css.id, tech.js.id, tech.jquery.id, tech.google.analytic.id, tech.google.map.id, tech.google.font.id]
+        },
+        paragraph2: 'Vegan restaurant website demo.',
+        projectLink: "https://lwrgithub.github.io/vegan-restaurant/",
+        codeLink: "https://github.com/LWRGitHub/vegan-restaurant",
+        tutorial: "https://dash.generalassemb.ly/"
     },
     {
         img: {
@@ -330,7 +416,73 @@ export const PersonalProj = [
         },
         paragraph2: 'This is a table of employee information.',
         projectLink: "https://lwrgithub.github.io/html-table/",
-        codeLink: "https://github.com/LWRGitHub/html-table"
+        codeLink: "https://github.com/LWRGitHub/html-table",
+        tutorial: "https://teamtreehouse.com/library/html-tables"
+    },
+    {
+        img: {
+            src: "images/experience/dish-site.jpg", 
+            alt: "dish submitter website, add food & cooking instructions to the local storage on your internet browser. blue & green faded background on baner the rest of the background is very light green."
+        },
+        title: `Dish Yumy Food`,
+        paragraph1: 'I turned this RSVP tutorial into a Dish submitter website. Origanally just a place to RSVP for an event you can now submit dishes & have them stored locally.',
+        skills: {
+            platform: [platform.des, platform.mob], 
+            focus: [focus.sofEngr, focus.dev.type.wma, focus.design.xi], 
+            tech: [tech.js.id, tech.css.id, tech.html.id, tech.dom.id, tech.google.font.id, tech.google.analytic.id]
+        },
+        paragraph2: 'Type in the name of your dish along with the ingredients & submit it. You can then edit or remove the dish if you like.',
+        projectLink: 'https://lwrgithub.github.io/Dish-submitter/',
+        codeLink: "https://github.com/LWRGitHub/Dish-submitter",
+        tutorial: "https://teamtreehouse.com/library/dom-scripting-by-example"
+    },
+    {
+        img: {
+            src: "images/experience/react-router.png", 
+            alt: "Image of react router side, background green with a different box that is white with the light gray bar on top that has home about teachers and tech courses as links to click on to move to the site.Upper left corner has a dark box with two opening and closing brackets below the light color gray bar, You find a header that says front in course directory below that it says the fun directory is a project using react router emphasized. Hello settings is whole bunch of lorem ipsum text. Hello that is an area called featured teachers or you can type in the name of the teacher and the topic and press the button go and it'll bring you to another page. Basically this is a screenshot of the website."
+        },
+        title: 'Course Directory Site',
+        paragraph1: 'This is a website coded with React Router. React Router alows you to have all of your content on one page but it seems like multiple pages.',
+        skills: {
+            platform: [platform.des, platform.mob], 
+            focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wm}`, focus.design.xi, focus.data], 
+            tech: [tech.html.id, tech.css.id, tech.google.analytic.id, tech.react.id, tech.js.id, tech.reactRouter.id, tech.reactBootstrap.id, tech.dom.id]
+        },
+        paragraph2: 'This site is an example of my React Router work. The site is about different technologies to learn!',
+        projectLink: "http://LWRGitHub.github.io/Course-Directory-Site",
+        codeLink: "https://github.com/LWRGitHub/Course-Directory-Site",
+        tutorial: "https://teamtreehouse.com/library/react-router-4-basics-2"
+    },
+    {
+        img: {
+            src: 'images/experience/books-home.png', 
+            alt: 'This is a screen shot of the home page for the books traker web app.'
+        },
+        title: "Book Tracker Web App",
+        paragraph1: 'Built with Flask, Jinga2 & Hosted on Heroku this site is grate for organizing books you have read or want to read, have fun! I have a link to one of the GitHubs the tutorial originated from although the last GitHub tutorial was mostly about testing, but we did go thourgh other GitHub tutorials & have to build a lot of this site on are won before we were given the testing HW. ',
+        skills: {
+            platform: [platform.des], 
+            focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wa}`, focus.design.xi], 
+            tech: [
+                tech.html.id, 
+                tech.css.id, 
+                tech.js.id,
+                tech.py.id,
+                tech.flask.id,
+                tech.jinja2.id,
+                tech.heroku.id,
+                tech.sql.sql.id,
+                tech.sql.alchemy.id,
+                tech.flaskWTF.id,
+                tech.dotenv.id,
+                tech.unittest.id,
+                // tech.img.png.id,
+            ]
+        },
+        paragraph2: "Browse the website, signup it's free, just see what happends!",
+        projectLink: 'https://app-to-keep-track-of-books.herokuapp.com',
+        codeLink: 'https://github.com/LWRGitHub/app-to-keep-track-of-books',
+        tutorial: "https://github.com/Make-School-Labs/BEW-1.2-Testing-Homework"
     },
     {
         img: {
@@ -358,142 +510,10 @@ export const PersonalProj = [
         },
         paragraph2: 'Up date the score with the plus or minus button, add players at the bottom or remove players with the red "X" by the players name.',
         projectLink: "https://lwrgithub.github.io/gaming-scoreboard/",
-        codeLink: "https://github.com/LWRGitHub/gaming-scoreboard"
+        codeLink: "https://github.com/LWRGitHub/gaming-scoreboard",
+        tutorial: "https://teamtreehouse.com/library/react-components"
     },
-    {
-        img: {
-            src: "images/experience/p5-js.jpg", 
-            alt: "Screenshot of Logan Reynolds P5JS projects sorted in arranged in a card like format through bootstraps. Clearly a screenshot of the website grayish background cards on screen with images of the P5JS projects."
-        },
-        title: 'P5.JS',
-        paragraph1: 'This is an example of several P5*JS projects. It includes projects such as Mardi Gras, Sketch, Light on Light off, Fleeing or Chasing. I love P5*js as it is perfect for making commputer ART!!!!!!!',
-        skills: {
-            platform: [platform.des, platform.mob], 
-            focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wma}`, focus.design.xi, focus.game.desDev], 
-            tech: [tech.html.id, tech.css.id, tech.google.analytic.id, tech.p5.id, tech.js.id]
-        },
-        paragraph2: 'Some projects are interactive to a click of the mouse or movement of the mouse others just move on their own.',
-        projectLink: "https://lwrgithub.github.io/p5js-img/",
-        codeLink: "https://github.com/LWRGitHub/p5js-img"
-    },
-    {
-        img: {
-            src: "images/experience/react-router.png", 
-            alt: "Image of react router side, background green with a different box that is white with the light gray bar on top that has home about teachers and tech courses as links to click on to move to the site.Upper left corner has a dark box with two opening and closing brackets below the light color gray bar, You find a header that says front in course directory below that it says the fun directory is a project using react router emphasized. Hello settings is whole bunch of lorem ipsum text. Hello that is an area called featured teachers or you can type in the name of the teacher and the topic and press the button go and it'll bring you to another page. Basically this is a screenshot of the website."
-        },
-        title: 'Course Directory Site',
-        paragraph1: 'This is a website coded with React Router. React Router alows you to have all of your content on one page but it seems like multiple pages.',
-        skills: {
-            platform: [platform.des, platform.mob], 
-            focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wm}`, focus.design.xi, focus.data], 
-            tech: [tech.html.id, tech.css.id, tech.google.analytic.id, tech.react.id, tech.js.id, tech.reactRouter.id, tech.reactBootstrap.id, tech.dom.id]
-        },
-        paragraph2: 'This site is an example of my React Router work. The site is about different technologies to learn!',
-        projectLink: "http://LWRGitHub.github.io/Course-Directory-Site",
-        codeLink: "https://github.com/LWRGitHub/Course-Directory-Site"
-    },
-    {
-        img: {
-            src: "images/experience/veganRestaurant.jpg", 
-            alt: "Screen shot of vegan restaurant website. image's of vegan food and a google map of the location."
-        },
-        title: 'Vegan Restaurant',
-        paragraph1: 'This project displays my skills with Google maps & the ability to do web & mobile development. I hope you enjoy the vegan restaurant website.',
-        skills: {
-            platform: [platform.des, platform.mob], 
-            focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wm}`, focus.design.xi], 
-            tech: [tech.html.id, tech.css.id, tech.js.id, tech.jquery.id, tech.google.analytic.id, tech.google.map.id, tech.google.font.id]
-        },
-        paragraph2: 'Vegan restaurant website demo.',
-        projectLink: "https://lwrgithub.github.io/vegan-restaurant/",
-        codeLink: "https://github.com/LWRGitHub/vegan-restaurant"
-    },
-    {
-        img: {
-            src: 'images/experience/student-enrollment-program.png', 
-            alt: 'This is a screen shot of a student enrollment app that is on the web. buttons are students courses & add a student. below buttons are a list of students in boxes.'
-        },
-        title: 'Student Enrollment',
-        paragraph1: 'This web application is an example student enrollment platform. It alows the teacher to edit, add or remove students at any time.',
-        skills: {
-            platform: [platform.des, platform.mob], 
-            focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wa}`, focus.design.xi, focus.data], 
-            tech: [
-                tech.html.id, 
-                tech.css.id, 
-                tech.js.id, 
-                // tech.img.png.id, 
-                tech.google.analytic.id, 
-                tech.google.font.id, 
-                tech.bootstrap.id, 
-                tech.api.api.id, 
-            ]
-        },
-        paragraph2: 'Click on "Students" to edite & add them to a course, use "Courses" to add student to course, & add a new student with "New Student',
-        projectLink: 'https://lwrgithub.github.io/student-enrollment/',
-        codeLink: 'https://github.com/LWRGitHub/student-enrollment'
-    },
-    {
-        img: {
-            src: 'images/experience/lovers-art.png', 
-            alt: 'This is a screen shot of lovers art websites home page.'
-        },
-        title: "Lover's Art Site",
-        paragraph1: 'Built with Flask & Jinga2 this site is grate for organizing art for sale & As a plus It has the capability to sell art supplies as well.',
-        skills: {
-            platform: [platform.des, platform.mob], 
-            focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wa}`, focus.design.xi], 
-            tech: [
-                tech.html.id, 
-                tech.css.id, 
-                tech.js.id,
-                tech.py.id,
-                tech.flask.id,
-                tech.jinja2.id,
-                tech.jquery.id,
-                tech.bootstrap.id, 
-                tech.boostrIcon.id,
-                tech.heroku.id,
-                tech.wireFrames.id,
-                tech.figma.id,
-                // tech.img.png.id,
-            ]
-        },
-        paragraph2: 'Browse the website to see what is in store!',
-        projectLink: 'https://lover-artist-site.herokuapp.com',
-        codeLink: 'https://github.com/LWRGitHub/lover-artist-site'
-    },
-    {
-        img: {
-            src: 'images/experience/books-home.png', 
-            alt: 'This is a screen shot of the home page for the books traker web app.'
-        },
-        title: "Book Tracker Web App",
-        paragraph1: 'Built with Flask, Jinga2 & Hosted on Heroku this site is grate for organizing books you have read or want to read, have fun!',
-        skills: {
-            platform: [platform.des], 
-            focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wa}`, focus.design.xi], 
-            tech: [
-                tech.html.id, 
-                tech.css.id, 
-                tech.js.id,
-                tech.py.id,
-                tech.flask.id,
-                tech.jinja2.id,
-                tech.heroku.id,
-                tech.sql.sql.id,
-                tech.sql.alchemy.id,
-                tech.flaskWTF.id,
-                tech.pyDotenv.id,
-                tech.unittest.id,
-                // tech.img.png.id,
-            ]
-        },
-        paragraph2: "Browse the website, signup it's free, just see what happends!",
-        projectLink: 'https://app-to-keep-track-of-books.herokuapp.com',
-        codeLink: 'https://github.com/LWRGitHub/app-to-keep-track-of-books'
-    },
-];
+]
 
 // {
 //     img: {

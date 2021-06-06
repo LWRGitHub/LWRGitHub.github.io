@@ -7,7 +7,7 @@ import ExtendSkills from './experience/extendSkills/ExtendSkills';
 import Header from './Header';
 
 //data
-import { ProProj, PersonalProj } from '../data/projects';
+import { ProProj, PersonalProj, TutorialProj } from '../data/projects';
 import {mainLanguages, experience} from '../data/experiencePgSkillSort';
 
 const Projects = () => (
@@ -19,6 +19,10 @@ const Projects = () => (
         <section className="container">
             <h2 className="my-5">Personal Projects</h2>
             <ProjectContainer data={PersonalProj} />
+        </section>
+        <section className="container">
+            <h2 className="my-5">Tutorial Projects</h2>
+            <ProjectContainer data={TutorialProj} />
         </section>
     </div>
 );

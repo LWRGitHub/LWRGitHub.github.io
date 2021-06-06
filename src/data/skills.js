@@ -225,9 +225,9 @@ export const tech = {
         langType: false, 
         level: expertise.expert
     },
-    pyDotenv:{
-        id: 'Python-Dotenv', 
-        langType: mainLang.py.id, 
+    dotenv:{
+        id: 'Dotenv', 
+        langType: false, 
         level: expertise.expert
     },
     unittest: {

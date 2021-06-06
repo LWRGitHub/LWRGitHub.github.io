@@ -1,6 +1,14 @@
 import React from 'react';
 
-const InnerCardBody = (codeLink, paragraph2, projectLink) => {
+const TutorialCheck = (tutorial) => {
+    if(typeof tutorial == "string"){
+        return (
+            <a type='a' className="btn btn-outline-secondary p-1 mb-1" href={tutorial}>Tutorial</a>
+        );
+    } 
+}
+
+const InnerCardBody = (tutorial, codeLink, paragraph2, projectLink) => {
     if(typeof codeLink == "string"){
         return (
             <div className="card-body">
@@ -8,6 +16,7 @@ const InnerCardBody = (codeLink, paragraph2, projectLink) => {
                 <p className="card-text">{paragraph2}</p>
                 <a type='a' className="btn btn-outline-secondary p-1 mb-1" href={projectLink}>Project</a>
                 <a type='a' className="btn btn-outline-secondary p-1 mb-1" href={codeLink}>GitHub</a>
+                {TutorialCheck(tutorial)}
             </div>
         );
     } else {
@@ -19,6 +28,7 @@ const InnerCardBody = (codeLink, paragraph2, projectLink) => {
                 <a type='a' className="btn btn-outline-secondary p-1 mb-1 disabled">GitHub</a>
                 <br />
                 <span className="badge badge-danger">Private Code</span>
+                {TutorialCheck(tutorial)}
             </div>  
         );
     }
@@ -56,7 +66,7 @@ const Project = (props) => {
                         {focus}
                         {tech}
                     </div>
-                    {InnerCardBody(props.codeLink, props.paragraph2, props.projectLink)}
+                    {InnerCardBody(props.tutorial, props.codeLink, props.paragraph2, props.projectLink)}
                 </div>
             </div>
         </div>
