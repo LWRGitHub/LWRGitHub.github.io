@@ -34,7 +34,8 @@ yarn start
 ***When using GitHub Pages do a build before pushing***
 ```
 npm run deploy
-git commit -a -m "Some New Code"
+git add -A
+git commit -m "Some New Code"
 git push
 ```
 

@@ -157,7 +157,7 @@ export const TutorialProj = [
             alt: "Screenshot on the mobile phone of Logan Reynolds' software engineering portfolio website. This is the homepage otherwise known as the index page. Shows a list of programming languages such as JavaScript ESS6 Ruby python & C#. Shows navigation bar in blue. Has a big jumbotron image in the background"
         },
         title: 'Portfolio Site',
-        paragraph1: "At this point this project is more of a personal project because there is very little of the original code left from the tutorial. The tutorial was a basic HTML/CSS, bootsrtap & maybe a litle JS I don't fully remember. I have since moved it to React.js & changed around the UX/UI on every page Except the home page. I added bootstrap card to experience with nice photos, made the education page 10x better, added a cool resume link in about & a nice map on the contact page. I have hosted this site with GitHub Pages & wanted to keep all the data in the same place; So I simply have a nice folder called data that is well organized. I hope you like it!",
+        paragraph1: "This site has detailed information about Logan along with personal and professional projects he's worked on. Logan has turned this Basic HTML/CSS tutorial into to something so much more by turning the entire website into a React.js app.",
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi, focus.data], 
