@@ -2,31 +2,34 @@ import { focus, otherFocus, tech, skill } from './skills';
 
 export const education = [
     {
-        title: 'Make School "Dominican University"  |  CS Bachelors Degree',
+        title: 'Dominican University Of California  |  CS Bachelors Degree',
         img: {
-            src: 'images/education/makeschool-building.jpeg',
-            alt: 'Make School logo overlaying front of the Make School building located at 555 Post Street San Francisco, California 94102. This School gives you a Bachelors degree in Computer science their Program takes two years.'
+            src: 'images/education/dominican-university-of-california-building.jpg',
+            alt: 'Dominican University Of California logo overlaying front of the Dominican University Of California building.'
         },
         
         schools: [
             {
-                school: 'MakeSchool.com',
-                location: ': SF, CA',
+                school: 'Dominican.edu',
+                location: ': CA',
                 credentials: {
-                    aText: 'Acceptance Letter',
+                    aText: 'In progress',
                     href: 'https://lwrgithub.github.io/files/education-credentials/make-school-acceptance-letter.jpeg'
                 },
-                href: 'https://www.makeschool.com/',
-                focus: [`${focus.dev.area.b} ${focus.sofEngr}`],
+                href: 'https://www.dominican.edu',
+                focus: [`${focus.dev.area.b} ${focus.sofEngr}. with additional classes in ${focus.data}, ${focus.dev.type.m} & ${focus.design.xi}`],
                 skills: [
                     tech.py.id, 
                     tech.js.id, 
-                    // 'Swift', 
-                    // 'Go', 
+                    tech.swift.id, 
+                    tech.go.id, 
                     // 'Django', 
                     tech.node.id, 
                     tech.react.id, 
-                    // 'UIKit', 
+                    // 'UIKit',
+                    tech.swiftUI.id, 
+                    tech.ios.id,
+                    tech.xCode.id,
                     // 'CoreData', 
                     // 'Foundation', 
                     // 'Scikit-Learn', 
@@ -34,8 +37,9 @@ export const education = [
                     // 'TensorFlow', 
                     tech.p5.id,
                     tech.flask.id,
-                    // tech.Numpy.id, 
-                    // tech.Pandas.id, 
+                    tech.jinja2.id,
+                    tech.numPy.id, 
+                    tech.pandas.id, 
                     tech.html.id, 
                     tech.css.id,
                     tech.bootstrap.id,
@@ -44,16 +48,41 @@ export const education = [
                     tech.git.id, 
                     tech.gitHub.id,
                     tech.terminal.id, 
-                    tech.api.rest.id, 
+                    tech.api.api.id,
+                    tech.api.rest.id,
+                    tech.api.fetch.id, 
                     tech.http.id, 
                     tech.npm.id, 
                     tech.responsive.id, 
                     tech.google.font.id, 
                     tech.asyncAwait.id, 
-                    tech.api.api.id, 
-                    tech.api.fetch.id,
+                    tech.handlebars.id,
+                    tech.node.id,
+                    tech.shell.id,
+                    tech.pug.id,
+                    tech.swiftUI.id,
+                    tech.jquery.id,
+                    tech.mongo.id,
+                    tech.sql.id,
+                    tech.pyTest.id,
+                    tech.devOps.id,
+                    tech.mac.id,
+                    tech.heroku.id,
+                    tech.testDev.id,
+                    tech.dataAnaly.id,
+                    tech.aws.id,
+                    tech.docker.id,
+                    tech.trello.id,
+                    tech.chromeDev.id,
+                    tech.figma.id,
+                    tech.markdown.id,
+                    tech.digOcean.id,
+                    otherFocus.eth,
+                    otherFocus.afctCom,
+                    otherFocus.quant,
+                    otherFocus.womHist,
                 ],
-                moreInfo: "Bachelor's degree in applied computer science 2022 at Make School accredited through Dominican University of California."
+                moreInfo: "Bachelor's degree in applied computer science accredited through Dominican University of California."
             }
         ],
     },
@@ -120,11 +149,7 @@ export const education = [
                     href: 'https://lwrgithub.github.io/files/education-credentials/ctd-certificate.pdf'
                 },
                 focus: [
-                    focus.sofEngr, 
-                    // `${focus.dev.type.wma} ${focus.dev.area.fs}`,
-                    //  focus.design.xi, 
-                    //  focus.game.desDev, 
-                    //  focus.data
+                    `${focus.dev.area.f} ${focus.sofEngr}`
                     ],
                 skills: [
                     tech.js.id, 
@@ -140,7 +165,7 @@ export const education = [
                     // tech.erb.id, 
                     // tech.activeRec.id, 
                     tech.aws.id, 
-                    // tech.sql.id, 
+                    tech.sql.id, 
                     tech.jquery.id, 
                     tech.terminal.id, 
                     tech.gitHub.id, 
@@ -153,7 +178,7 @@ export const education = [
                     tech.webOptimiz.id, 
                     tech.preformOptimiz.id, 
                     tech.webAccess.id, 
-                    // tech.ajax.id, 
+                    tech.ajax.id, 
                     tech.asyncAwait.id, 
                     tech.api.fetch.id
                 ]
@@ -166,10 +191,7 @@ export const education = [
                     href: 'https://lwrgithub.github.io/files/education-credentials/meda-mt-certificate.pdf'
                 },
                 focus: [
-                    focus.sofEngr, 
-                    // `${focus.dev.type.wma} ${focus.dev.area.fs}`, 
-                    // focus.design.xi, 
-                    // focus.data
+                    `${focus.dev.area.fs} ${focus.sofEngr}`
                 ],
                 skills: [
                     tech.js.id, 
@@ -246,13 +268,13 @@ export const education = [
                     tech.flexbox.id, 
                     tech.git.id, 
                     tech.gitHub.id, 
-                    // tech.sql.id, 
+                    tech.sql.id, 
                     tech.js.id, 
                     tech.img.img.id, 
                     tech.wireFrames.id, 
                     // tech.adobe.XD.id, 
                     // tech.balsamiq.id, 
-                    // tech.sketchApp.id, 
+                    tech.sketchApp.id, 
                     // tech.powerSh.id, 
                     tech.terminal.id, 
                     // tech.c_sharp.id, 
@@ -264,13 +286,13 @@ export const education = [
                     tech.responsive.id, 
                     tech.google.font.id, 
                     tech.asyncAwait.id, 
-                    // tech.ajax.id, 
+                    tech.ajax.id, 
                     tech.jquery.id, 
                     tech.dom.id, 
                     tech.api.api.id, 
                     tech.api.fetch.id,
                     // tech.nowVercel.id, 
-                    // tech.netlify.id
+                    tech.netlify.id
                 ]
             },
             {
@@ -313,7 +335,7 @@ export const education = [
                     tech.js.id, 
                     tech.html.id, 
                     tech.css.id, 
-                    // tech.sql.id, 
+                    tech.sql.id, 
                     skill.math.id
                 ]
             },
@@ -354,7 +376,7 @@ export const education = [
                     tech.js.id, 
                     tech.html.id, 
                     tech.css.id, 
-                    // tech.sql.id, 
+                    tech.sql.id, 
                     tech.py.id, 
                     tech.jquery.id, 
                     tech.bootstrap.id
@@ -386,7 +408,7 @@ export const education = [
                     // tech.c_sharp.id, 
                     tech.py.id, 
                     // tech.unity.id, 
-                    // tech.sql.id, 
+                    tech.sql.id, 
                     tech.garageband.id, 
                     // tech.milkyTrack.id
                 ]

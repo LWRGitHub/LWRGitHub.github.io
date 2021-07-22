@@ -76,7 +76,7 @@ export const PersonalProj = [
             alt: "this is a screen shot of the home page for The Midnight Dream Publishing website."
         },
         title: "Amazon KDP E-commerce & Website",
-        paragraph1: "Logan created this React.js website for an Amazon KDP project. He managed/orchestrated the publication of 10+ ebooks on Amazon including paper & Audible publication of books. Gave ideas & directed ghostwriters in realizing those ideas as published works. Designed eight covers. This involves the design of the entire process of acquiring and integrating the product, including aspects of branding, design, usability & function. Making interfaces in software or computerized devices with a focus on looks or style.",
+        paragraph1: "Logan created this React.js website for an Amazon KDP project. He managed/orchestrated the publication of 10+ ebooks on Amazon including paper & audible publication of books. Gave ideas & directed ghostwriters in realizing those ideas as published works. Plus he designed eight book covers. This involves the design of the entire process of acquiring and integrating the product, including aspects of branding, design, usability & function. Making interfaces in software or computerized devices with a focus on looks or style.",
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi,], 
@@ -108,7 +108,7 @@ export const PersonalProj = [
             alt: "Image of the app having found something & starting to text a number."
         },
         title: "Scrapping Craigslist/TrashNothing.com!",
-        paragraph1: "Free Apple products & more through scrapping Craigslist & the website Trash Nothing! These python files use bs4 & selenium to scrape the web & send you a text message when you find that awesome thing your looking for! The file are setup to for searching for free apple products, computers, laptops, & video games.",
+        paragraph1: "Free Apple products & more through scrapping Craigslist & the website Trash Nothing! These python files use bs4 & selenium to scrape the web & send you a text message when you find that awesome thing your looking for! The file are setup to search for free apple products, computers, laptops, video games, ect.",
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, focus.dev.type.a], 
@@ -124,7 +124,7 @@ export const PersonalProj = [
             alt: 'This is a screen shot of lovers art websites home page.'
         },
         title: "Lover's Art Site",
-        paragraph1: 'Built with Flask & Jinga2 this site is grate for organizing art for sale & As a plus It has the capability to sell art supplies as well.',
+        paragraph1: 'Built with Flask, Jinga2 & hosted through Heroku this site is a grate template for organizing art for sale & As a plus It has the capability to sell art supplies as well.',
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wa}`, focus.design.xi], 
@@ -144,7 +144,7 @@ export const PersonalProj = [
                 // tech.img.png.id,
             ]
         },
-        paragraph2: 'Browse the website to see what is in store!',
+        paragraph2: 'Browse the website get to know the template possibilities!',
         projectLink: 'https://lover-artist-site.herokuapp.com',
         codeLink: 'https://github.com/LWRGitHub/lover-artist-site'
     },

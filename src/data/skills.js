@@ -89,7 +89,12 @@ export const otherFocus = {
         video: 'Video Production',
         typing: 'Typing'
     },
-    language: 'Language'
+    language: 'Language',
+    eth: 'Ethics',
+    quant: 'Quant Math',
+    afctCom:'Affective Communications',
+    womHist: "Women's History",
+
 };
 
 export const tech = {
@@ -138,22 +143,22 @@ export const tech = {
         langType: mainLang.py.id, 
         level: expertise.novice
     },
-    NumPy: {
+    numPy: {
         id: 'NumPy',
         langType: mainLang.py.id,
         level: expertise.novice
     },
-    Matlab: {
+    matlab: {
         id: 'Matlab',
         langType: mainLang.py.id,
         level: expertise.novice
     },
-    Pandas: {
+    pandas: {
         id: 'Pandas',
         langType: mainLang.py.id,
         level: expertise.novice
     },
-    Handlebars: {
+    handlebars: {
         id: 'Handlebars',
         langType: mainLang.js.id,
         level: expertise.novice
@@ -182,6 +187,11 @@ export const tech = {
         id: 'Heroku', 
         langType: false, 
         level: expertise.expert
+    },
+    digOcean: {
+        id: 'Digital Ocean', 
+        langType: false, 
+        level: expertise.proficient
     },
     node: {
         id: 'Node.js', 
@@ -663,6 +673,11 @@ export const tech = {
     },
     dataAnaly: {
         id: 'Data Analytics', 
+        langType: false, 
+        level: expertise.proficient
+    },
+    devOps: {
+        id: 'DevOps', 
         langType: false, 
         level: expertise.proficient
     },
