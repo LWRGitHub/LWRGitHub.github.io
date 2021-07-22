@@ -164,6 +164,22 @@ export const PersonalProj = [
         projectLink: 'https://github.com/LWRGitHub/duro-ios',
         codeLink: "https://github.com/LWRGitHub/duro-ios"
     },
+    {
+        img: {
+            src: "images/experience/astrology-api.png", 
+            alt: "Screenshot of the astrology home page. It has images & names of all the zodiac signs."
+        },
+        title: "Daily Horoscopes",
+        paragraph1: "This Node.js web app is a grate web page to get your daily horoscope from. It uses the Horoscope API from astrology.com. The project has been deployed using Heroku.",
+        skills: {
+            platform: [platform.des, platform.mob], 
+            focus: [focus.sofEngr, focus.dev.area.fs, focus.dev.type.wma, focus.design.xi], 
+            tech: [tech.js.id, tech.node.id, tech.pug.id, tech.express.id, tech.bootstrap.id, tech.html.id, tech.css.id, tech.heroku.id]
+        },
+        paragraph2: 'Simply click on your zodiac sign to view your horoscope for the day.',
+        projectLink: 'https://astrology-horoscope.herokuapp.com',
+        codeLink: "https://github.com/LWRGitHub/astrology-api"
+    },
 ];
 
 export const TutorialProj = [
