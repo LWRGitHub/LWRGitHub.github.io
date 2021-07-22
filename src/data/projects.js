@@ -190,7 +190,7 @@ export const PersonalProj = [
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi], 
-            tech: [tech.js.id, tech.node.id, tech.go.id, tech.react.id, tech.bootstrap.id, tech.reactBootstrap.id, tech.html.id, tech.css.id, tech.gitHubPg.id]
+            tech: [tech.js.id, tech.go.id, tech.react.id, tech.bootstrap.id, tech.reactBootstrap.id, tech.goBenchmark.id, tech.goScrape.id, tech.goTest.id, tech.goBenchmark.id, tech.html.id, tech.css.id, tech.gitHubPg.id]
         },
         paragraph2: 'Simply search for something like tomato soup.',
         projectLink: 'https://lwrgithub.github.io/vegan-recipes-search-engine/#/',
