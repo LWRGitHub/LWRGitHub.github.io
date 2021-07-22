@@ -123,8 +123,8 @@ export const PersonalProj = [
             src: 'images/experience/lovers-art.png', 
             alt: 'This is a screen shot of lovers art websites home page.'
         },
-        title: "Lover's Art Site",
-        paragraph1: 'Built with Flask, Jinga2 & hosted through Heroku this site is a grate template for organizing art for sale & As a plus It has the capability to sell art supplies as well.',
+        title: "Art Site Template",
+        paragraph1: 'Built with Flask, Jinga2 & hosted through Heroku this site is a grate template for organizing art for sale & as a plus it has the capability to sell art supplies as well.',
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wa}`, focus.design.xi], 
