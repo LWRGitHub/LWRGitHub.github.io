@@ -148,6 +148,22 @@ export const PersonalProj = [
         projectLink: 'https://lover-artist-site.herokuapp.com',
         codeLink: 'https://github.com/LWRGitHub/lover-artist-site'
     },
+    {
+        img: {
+            src: "images/experience/duro-ios.png", 
+            alt: "Image of the app's wallet page."
+        },
+        title: "Duro iOS App!",
+        paragraph1: "An inflation resistant currency backed by inflation resistant assets such as the CPI index.",
+        skills: {
+            platform: [platform.mob], 
+            focus: [focus.sofEngr, focus.dev.type.ma, focus.design.xi], 
+            tech: [tech.swift.id, tech.swiftUI.id, tech.xCode.id, tech.api.api.id]
+        },
+        paragraph2: 'The project is available to clone on GetHub.',
+        projectLink: 'https://github.com/LWRGitHub/duro-ios',
+        codeLink: "https://github.com/LWRGitHub/duro-ios"
+    },
 ];
 
 export const TutorialProj = [
