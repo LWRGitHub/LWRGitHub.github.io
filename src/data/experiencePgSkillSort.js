@@ -6,6 +6,8 @@ let novice = '';
 const js = [];
 const py = [];
 const rb = [];
+const swift = [];
+const go = [];
 const c_Sharp = [];
 
 for(const key1 in tech){
@@ -27,6 +29,10 @@ for(const key1 in tech){
                 rb.push({id: tech[key1].id, level: tech[key1].level});
             } else if(tech[key1].langType == 'C#'){
                 c_Sharp.push({id: tech[key1].id, level: tech[key1].level});
+            } else if(tech[key1].langType == 'Swift'){
+                swift.push({id: tech[key1].id, level: tech[key1].level});
+            } else if(tech[key1].langType == 'Go (Golang)'){
+                go.push({id: tech[key1].id, level: tech[key1].level});
             }
         } else if(key2 != 'langType' && key2 != 'level'){
             for(const key3 in tech[key1][key2]){
@@ -47,6 +53,10 @@ for(const key1 in tech){
                         rb.push({id: tech[key1][key2].id, level: tech[key1][key2].level});
                     } else if(tech[key1][key2].langType == 'C#'){
                         c_Sharp.push({id: tech[key1][key2].id, level: tech[key1][key2].level});
+                    } else if(tech[key1][key2].langType == 'Swift'){
+                        swift.push({id: tech[key1][key2].id, level: tech[key1][key2].level});
+                    } else if(tech[key1][key2].langType == 'Go (Golang)'){
+                        go.push({id: tech[key1][key2].id, level: tech[key1][key2].level});
                     }
                 }
             }
@@ -77,6 +87,20 @@ export const mainLanguages = [
         id: mainLang.py.id,
         associatedLang: py,
         src: "images/experience/python-logo.svg",
+        alt: "Python 1, 2 & 3 Logo for the computer Science programming language"
+    },
+    {
+        level: mainLang.swift.level,
+        id: mainLang.swift.id,
+        associatedLang: swift,
+        src: "images/experience/swift-logo.png",
+        alt: "Python 1, 2 & 3 Logo for the computer Science programming language"
+    },
+    {
+        level: mainLang.go.level,
+        id: mainLang.go.id,
+        associatedLang: go,
+        src: "images/experience/go-logo.png",
         alt: "Python 1, 2 & 3 Logo for the computer Science programming language"
     },
     // {

@@ -12,6 +12,14 @@ export const mainLang = {
     },
     py: {
         id:'Python',
+        level: expertise.expert
+    },
+    swift: {
+        id:'Swift',
+        level: expertise.novice
+    },
+    go: {
+        id:'Go (Golang)',
         level: expertise.novice
     },
     // rb: {
@@ -85,26 +93,71 @@ export const otherFocus = {
 };
 
 export const tech = {
-    // ai: {
-    //     id:'AI/Machine Learning', 
-    //     langType: mainLang.py.id, 
-    //     level: expertise.novice
-    // },
-    // NumPy: {
-    //     id: 'NumPy',
-    //     langType: mainLang.py.id,
-    //     level: expertise.novice
-    // },
-    // Pandas: {
-    //     id: 'Pandas',
-    //     langType: mainLang.py.id,
-    //     level: expertise.novice
-    // },
-    // Handlebars: {
-    //     id: 'Handlebars',
-    //     langType: mainLang.js.id,
-    //     level: expertise.novice
-    // },
+    swift: {
+        id: "Swift", 
+        langType: false, 
+        level: expertise.novice
+    },
+    go: {
+        id: "Go (Golang)", 
+        langType: false, 
+        level: expertise.novice
+    },
+    goScrape: {
+        id: 'Go Web Scraping', 
+        langType: mainLang.go.id, 
+        level: expertise.proficient
+    },
+    goTempGen: {
+        id: 'Go Template Generation', 
+        langType: mainLang.go.id, 
+        level: expertise.proficient
+    },
+    goTest: {
+        id: 'Go Testing', 
+        langType: mainLang.go.id, 
+        level: expertise.proficient
+    },
+    goBenchmark: {
+        id: 'Go Benchmarking', 
+        langType: mainLang.go.id, 
+        level: expertise.proficient
+    },
+    swiftUI: {
+        id:'Swift UI', 
+        langType: mainLang.swift.id, 
+        level: expertise.proficient
+    },
+    xCode: {
+        id:'xCode', 
+        langType: mainLang.swift.id, 
+        level: expertise.proficient
+    },
+    ai: {
+        id:'AI/Machine Learning', 
+        langType: mainLang.py.id, 
+        level: expertise.novice
+    },
+    NumPy: {
+        id: 'NumPy',
+        langType: mainLang.py.id,
+        level: expertise.novice
+    },
+    Matlab: {
+        id: 'Matlab',
+        langType: mainLang.py.id,
+        level: expertise.novice
+    },
+    Pandas: {
+        id: 'Pandas',
+        langType: mainLang.py.id,
+        level: expertise.novice
+    },
+    Handlebars: {
+        id: 'Handlebars',
+        langType: mainLang.js.id,
+        level: expertise.novice
+    },
     flask: {
         id:'Flask', 
         langType: mainLang.py.id, 
@@ -123,28 +176,28 @@ export const tech = {
     express: {
         id: 'Express.js', 
         langType: mainLang.js.id, 
-        level: expertise.novice
+        level: expertise.proficient
     },
     heroku: {
         id: 'Heroku', 
         langType: false, 
-        level: expertise.proficient
+        level: expertise.expert
     },
     node: {
         id: 'Node.js', 
         langType: mainLang.js.id, 
         level: expertise.expert
     },
-    // jade: {
-    //     id: 'Jade', 
-    //     langType: false, 
-    //     level: expertise.novice
-    // },
-    // pug: {
-    //     id: 'Pug', 
-    //     langType: false, 
-    //     level: expertise.novice
-    // },
+    jade: {
+        id: 'Jade', 
+        langType: false, 
+        level: expertise.novice
+    },
+    pug: {
+        id: 'Pug', 
+        langType: false, 
+        level: expertise.novice
+    },
     bootstrap: {
         id: 'Bootstrap', 
         langType: false, 
@@ -178,12 +231,12 @@ export const tech = {
     mongo: {
         id: 'MongoDB', 
         langType: false, 
-        level: expertise.novice
+        level: expertise.proficient
     },
     mongoose: {
         id: 'Mongoose', 
         langType: false, 
-        level: expertise.novice
+        level: expertise.proficient
     },
     // twilio: {
     //     id: 'Twilio', 
@@ -224,6 +277,11 @@ export const tech = {
         id: 'Python', 
         langType: false, 
         level: expertise.expert
+    },
+    pyTest: {
+        id: 'Pytest', 
+        langType: mainLang.py.id, 
+        level: expertise.proficient
     },
     dotenv:{
         id: 'Dotenv', 
@@ -278,12 +336,12 @@ export const tech = {
     bs4: {
         id: 'BeautifulSoup 4', 
         langType: mainLang.py.id, 
-        level: expertise.proficient
+        level: expertise.expert
     },
     selenium: {
         id: 'Selenium', 
         langType: mainLang.py.id, 
-        level: expertise.proficient
+        level: expertise.expert
     },
     request: {
         id: 'Requests', 
@@ -306,32 +364,37 @@ export const tech = {
             langType: false, 
             level: expertise.expert
         },
-        // dream: {
-        //     id: 'Dreamweaver', 
-        //     langType: false, 
-        //     level: expertise.expert
-        // },
-        // muse: {
-        //     id: 'Adobe Muse', 
-        //     langType: false, 
-        //     level: expertise.expert
-        // },
-        // XD: {
-        //     id: 'Adobe XD', 
-        //     langType: false, 
-        //     level: expertise.proficient
-        // },
-        // suite: {
-        //     id: 'Adobe Creative Cloud Suite', 
-        //     langType: false, 
-        //     level: expertise.proficient
-        // }
+        dream: {
+            id: 'Dreamweaver', 
+            langType: false, 
+            level: expertise.expert
+        },
+        muse: {
+            id: 'Adobe Muse', 
+            langType: false, 
+            level: expertise.expert
+        },
+        XD: {
+            id: 'Adobe XD', 
+            langType: false, 
+            level: expertise.proficient
+        },
+        suite: {
+            id: 'Adobe Creative Cloud Suite', 
+            langType: false, 
+            level: expertise.proficient
+        }
     },
-    // sketchApp: {
-    //     id: 'Sketch', 
-    //     langType: false, 
-    //     level: expertise.expert
-    // },
+    sketchApp: {
+        id: 'Sketch', 
+        langType: false, 
+        level: expertise.proficient
+    },
+    cloudPlat: {
+        id: 'Cloud Platforms', 
+        langType: false, 
+        level: expertise.proficient
+    },
     img: {
         img: {
             id: 'Images', 
@@ -444,13 +507,18 @@ export const tech = {
             id: 'Google Maps', 
             langType: false, 
             level: expertise.expert
-        }
+        },
+        cloud: {
+            id: 'Google Cloud', 
+            langType: false, 
+            level: expertise.proficient
+        },
     },
-    // wordPr: {
-    //     id: 'WordPress', 
-    //     langType: false, 
-    //     level: expertise.novice
-    // },
+    wordPr: {
+        id: 'WordPress', 
+        langType: false, 
+        level: expertise.proficient
+    },
     // phaser: {
     //     id: 'Phaser', 
     //     langType: false, 
@@ -459,7 +527,7 @@ export const tech = {
     jquery: {
         id: 'jQuery', 
         langType: mainLang.js.id, 
-        level: expertise.expert
+        level: expertise.novice
     },
     webVtt: {
         id: 'WebVTT', 
@@ -513,6 +581,11 @@ export const tech = {
         langType: mainLang.js.id, 
         level: expertise.proficient
     },
+    shell: {
+        id: 'Shell Code', 
+        langType: false, 
+        level: expertise.proficient
+    },
     // c_sharp: {
     //     id: 'C#', 
     //     langType: false, 
@@ -533,16 +606,16 @@ export const tech = {
         langType: false, 
         level: expertise.expert
     },
-    // wix: {
-    //     id: 'Wix', 
-    //     langType: false, 
-    //     level: expertise.expert
-    // },
-    // goDaddy: {
-    //     id: 'Go Daddy', 
-    //     langType: false, 
-    //     level: expertise.expert
-    // },
+    wix: {
+        id: 'Wix', 
+        langType: false, 
+        level: expertise.expert
+    },
+    goDaddy: {
+        id: 'Go Daddy', 
+        langType: false, 
+        level: expertise.expert
+    },
     wireFrames: {
         id: 'Wire Frames', 
         langType: false, 
@@ -578,11 +651,21 @@ export const tech = {
     //     langType: false, 
     //     level: expertise.novice
     // },
-    // netlify: {
-    //     id: 'Netlify', 
-    //     langType: false, 
-    //     level: expertise.novice
-    // },
+    netlify: {
+        id: 'Netlify', 
+        langType: false, 
+        level: expertise.proficient
+    },
+    testDev: {
+        id: 'Test-Driven Development', 
+        langType: false, 
+        level: expertise.proficient
+    },
+    dataAnaly: {
+        id: 'Data Analytics', 
+        langType: false, 
+        level: expertise.proficient
+    },
     webAccess: {
         id: 'Web Accessibility', 
         langType: false, 
@@ -625,11 +708,36 @@ export const tech = {
             level: expertise.proficient
         }
     },
-    // ajax: {
-    //     id: 'AJAX', 
-    //     langType: false, 
-    //     level: expertise.novice
-    // },
+    ajax: {
+        id: 'AJAX', 
+        langType: false, 
+        level: expertise.expert
+    },
+    docker: {
+        id: 'Docker', 
+        langType: false, 
+        level: expertise.proficient
+    },
+    windows: {
+        id: 'Windows', 
+        langType: false, 
+        level: expertise.expert
+    },
+    mac: {
+        id: 'Mac', 
+        langType: false, 
+        level: expertise.expert
+    },
+    Linux: {
+        id: 'Linux', 
+        langType: false, 
+        level: expertise.proficient
+    },
+    ios: {
+        id: 'iOS', 
+        langType: mainLang.swift.id, 
+        level: expertise.proficient
+    },
     // browserify: {
     //     id: 'Browserify', 
     //     langType: false, 
@@ -673,7 +781,11 @@ export const tech = {
     imove: {
         id: 'iMove',
         level: expertise.proficient
-    }
+    },
+    markdown: {
+        id:'Markdown',
+        level: expertise.expert
+    },
 };
 
 // name: {
