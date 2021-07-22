@@ -127,7 +127,7 @@ export const PersonalProj = [
         paragraph1: 'Built with Flask, Jinga2 & hosted through Heroku this site is a grate template for organizing art for sale & as a plus it has the capability to sell art supplies as well.',
         skills: {
             platform: [platform.des, platform.mob], 
-            focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.wa}`, focus.design.xi], 
+            focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi], 
             tech: [
                 tech.html.id, 
                 tech.css.id, 
@@ -157,7 +157,7 @@ export const PersonalProj = [
         paragraph1: "An inflation resistant currency backed by inflation resistant assets such as the CPI index.",
         skills: {
             platform: [platform.mob], 
-            focus: [focus.sofEngr, focus.dev.type.ma, focus.design.xi], 
+            focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.ma}` , focus.design.xi], 
             tech: [tech.swift.id, tech.swiftUI.id, tech.xCode.id, tech.api.api.id]
         },
         paragraph2: 'The project is available to clone on GetHub.',
@@ -170,15 +170,31 @@ export const PersonalProj = [
             alt: "Screenshot of the astrology home page. It has images & names of all the zodiac signs."
         },
         title: "Daily Horoscopes",
-        paragraph1: "This Node.js web app is a grate web page to get your daily horoscope from. It uses the Horoscope API from astrology.com. The project has been deployed using Heroku.",
+        paragraph1: "This Node.js web app is a grate web page to get your daily horoscope from. It uses the horoscope API from astrology.com. The project has been deployed using Heroku.",
         skills: {
             platform: [platform.des, platform.mob], 
-            focus: [focus.sofEngr, focus.dev.area.fs, focus.dev.type.wma, focus.design.xi], 
+            focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi], 
             tech: [tech.js.id, tech.node.id, tech.pug.id, tech.express.id, tech.bootstrap.id, tech.html.id, tech.css.id, tech.heroku.id]
         },
         paragraph2: 'Simply click on your zodiac sign to view your horoscope for the day.',
         projectLink: 'https://astrology-horoscope.herokuapp.com',
         codeLink: "https://github.com/LWRGitHub/astrology-api"
+    },
+    {
+        img: {
+            src: "images/experience/vegan-search-site.png", 
+            alt: "Screenshot of the home page. The image has photos of the Different vegan dishes with their names such as tomato soup & slaw with coriander."
+        },
+        title: "Vegan Recipe Search Engine",
+        paragraph1: "This project uses Go (Golang) to scrape the web for vegan recipes & it delivers them with React.js on the front end. I hope you like it!",
+        skills: {
+            platform: [platform.des, platform.mob], 
+            focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi], 
+            tech: [tech.js.id, tech.node.id, tech.go.id, tech.react.id, tech.bootstrap.id, tech.reactBootstrap.id, tech.html.id, tech.css.id, tech.gitHubPg.id]
+        },
+        paragraph2: 'Simply search for something like tomato soup.',
+        projectLink: 'https://lwrgithub.github.io/vegan-recipes-search-engine/#/',
+        codeLink: "https://github.com/LWRGitHub/vegan-recipes-search-engine"
     },
 ];
 
