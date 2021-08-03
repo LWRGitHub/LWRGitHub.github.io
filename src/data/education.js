@@ -2,7 +2,7 @@ import { focus, otherFocus, tech, skill } from './skills';
 
 export const education = [
     {
-        title: "University Of The People  |  CS Bachelor's Degrees",
+        title: "University Of The People  |  CS Bachelor's Degree",
         img: {
             src: 'images/education/uo-people.png',
             alt: 'University Of The People also known as UoPeople is located online. the image is of the UoPeople Logo.'
@@ -97,7 +97,7 @@ export const education = [
         ],
     },
     {
-        title: 'Dominican University Of California  |  CS Classes',
+        title: `Dominican University Of California  |  CS Undergrad/Bachelor's`,
         img: {
             src: 'images/education/dominican-university-of-california-building.jpg',
             alt: 'Dominican University Of California logo overlaying front of the Dominican University Of California building.'
@@ -170,7 +170,7 @@ export const education = [
                     otherFocus.quant,
                     otherFocus.womHist,
                 ],
-                moreInfo: "Classes at Dominican University of California, in Computer Science/Software engineering"
+                moreInfo: "Undergrad/Bachelor's Degree in Applied Computer Science at Dominican University Of California"
             }
         ],
     },
