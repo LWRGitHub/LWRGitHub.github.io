@@ -16,6 +16,17 @@ const schoolName = (school, location, href) => {
     }
 }
 
+const extendedInfo = (moreInfo) => {
+    let allInfo = moreInfo.map((element) => {
+        return(
+            <li>
+                <span className="font-weight-bold">{element.title}</span>{element.content}
+            </li>
+        )
+    });
+    return allInfo;
+}
+
 const secondUl = (focus, skills, moreInfo, credentials) => {
     let focusStr = '';
     focusStr = focus.join(' - ');
@@ -30,14 +41,25 @@ const secondUl = (focus, skills, moreInfo, credentials) => {
     } 
 
     if(moreInfo){
-        return (
-            <ul>
-                {liCredentailTag}
-                <li><span className="font-weight-bold">Concentrations: </span>{focusStr}</li>
-                <li><span className="font-weight-bold">Skills:</span>{skillStr} & More</li>
-                <li>{moreInfo}</li>
-            </ul>
-        );
+        if(typeof moreInfo === "object"){
+            return (
+                <ul>
+                    {liCredentailTag}
+                    <li><span className="font-weight-bold">Concentrations: </span>{focusStr}</li>
+                    <li><span className="font-weight-bold">Skills:</span>{skillStr} & More</li>
+                    {extendedInfo(moreInfo)}
+                </ul>
+            );
+        } else {
+            return (
+                <ul>
+                    {liCredentailTag}
+                    <li><span className="font-weight-bold">Concentrations: </span>{focusStr}</li>
+                    <li><span className="font-weight-bold">Skills:</span>{skillStr} & More</li>
+                    <li>{moreInfo}</li>
+                </ul>
+            );
+        }
     } else {
         return (
             <ul>

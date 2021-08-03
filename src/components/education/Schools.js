@@ -11,6 +11,10 @@ const Schools = (props) => {
                         focus={element.focus}
                         skills={element.skills}
                         moreInfo={element.moreInfo}
+                        moreInfoLen={element.moreInfoLen}
+                        // moreInfo2={element.moreInfo2}
+                        // moreInfo3={element.moreInfo3}
+                        // moreInfo4={element.moreInfo4}
                         key={`School_${element.school}`} />
     });
     return(

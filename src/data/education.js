@@ -2,7 +2,102 @@ import { focus, otherFocus, tech, skill } from './skills';
 
 export const education = [
     {
-        title: 'Dominican University Of California  |  CS Bachelors Degree',
+        title: "University Of The People  |  CS Bachelor's Degrees",
+        img: {
+            src: 'images/education/uo-people.png',
+            alt: 'University Of The People also known as UoPeople is located online. the image is of the UoPeople Logo.'
+        },
+        schools: [
+            {
+                school: 'www.uopeople.edu',
+                location: ': Online - In Progress',
+                href: 'https://www.uopeople.edu',
+                focus: [
+                    `${focus.dev.area.fs} ${focus.sofEngr}`,
+                    focus.dev.type.wma
+                ],
+                skills: [
+                    // `Java`,
+                    tech.js.id,
+                    tech.py.id,
+                    tech.swift.id,
+                    tech.html.id,
+                    tech.css.id,
+                    tech.ai.id,
+                    // `Rust`,
+                    // `Elixir`,
+                ],
+                moreInfo: [
+                    {
+                        title: `Computer Science | BS: `,
+                        content: `Accredited online degree program provides students with in-depth knowledge and analytic skills associated with the field of IT and Computer Science.`
+                    },
+                    {
+                        title: `Students receive: `,
+                        content:``
+                    },
+                    {
+                        title: ``,
+                        content:`Comprehensive understanding of design, development, testing, and documentation of a range of operating systems`
+                    },
+                    {
+                        title: ``,
+                        content:`Database management; and programming languages`
+                    },
+                    {
+                        title: ``,
+                        content:`Essential knowledge to implementing the skill into real-life situations`
+                    }
+                ]
+            }
+        ],
+    },
+    {
+        title: "CCSF  |  Dual Major CS & CNIT Associate Degrees",
+        img: {
+            src: 'images/education/ccsf-mission.jpeg',
+            alt: 'City College of San Francisco also known as CCSF. Located in San Francisco California. image of ccsf mission collage campus.'
+        },
+        schools: [
+            {
+                school: 'www.ccsf.edu',
+                location: ': SF, CA - In Progress',
+                href: 'https://www.ccsf.edu',
+                focus: [
+                    `${focus.dev.area.f} ${focus.dev.type.w}`,
+                    focus.sofEngr
+                ],
+                skills: [
+                    // `Java`,
+                    tech.js.id,
+                    tech.html.id,
+                    tech.css.id,
+                    tech.jquery.id,
+                    tech.ajax.id,
+                    // `Computer Hardware`,
+                    // `Network Security`,
+                    // `Cisco Networks`,
+                    // `Server Side Technologies for the Web`,
+                    // `Computer Architecture with Assembly Language`,
+                    `Calculus I`,
+                    `Calculus II`,
+                    `Discrete Mathematics`
+                ],
+                moreInfo: [
+                    {
+                        title: `Computer Science | AS: `,
+                        content: `The (CS) curriculum includes instruction in the fundamentals of problem solving and analysis, programming, data structures, and computer architecture.`
+                    },
+                    {
+                        title: `Computer Networking and Information Technology | AS: `,
+                        content:`(CNIT) not only provides students with a solid foundation of skills, knowledge, and hands-on experience in the core areas of the field of Computer Networking and Information Technology but also with the current trends and technologies used in the computer industry. The topics covered in this major include computer hardware, network administration, network security, and the basics of Internet and Web development, as well as one of the following optional areas: computer technical support, internet and web development techniques, network security, wireless networks, Cisco networking, or Microsoft Windows administration. This degree qualifies students for employment in entry-level network administration, computer technical support, or web development positions.`
+                    }
+                ]
+            }
+        ],
+    },
+    {
+        title: 'Dominican University Of California  |  CS Classes',
         img: {
             src: 'images/education/dominican-university-of-california-building.jpg',
             alt: 'Dominican University Of California logo overlaying front of the Dominican University Of California building.'
@@ -13,8 +108,8 @@ export const education = [
                 school: 'Dominican.edu',
                 location: ': CA',
                 credentials: {
-                    aText: 'In progress',
-                    href: 'https://lwrgithub.github.io/files/education-credentials/make-school-acceptance-letter.jpeg'
+                    aText: 'Transcripts',
+                    href: 'https://lwrgithub.github.io/files/education-credentials/dominican-transcripts.pdf'
                 },
                 href: 'https://www.dominican.edu',
                 focus: [`${focus.dev.area.b} ${focus.sofEngr}. with additional classes in ${focus.data}, ${focus.dev.type.m} & ${focus.design.xi}`],
@@ -23,18 +118,11 @@ export const education = [
                     tech.js.id, 
                     tech.swift.id, 
                     tech.go.id, 
-                    // 'Django', 
                     tech.node.id, 
                     tech.react.id, 
-                    // 'UIKit',
                     tech.swiftUI.id, 
                     tech.ios.id,
                     tech.xCode.id,
-                    // 'CoreData', 
-                    // 'Foundation', 
-                    // 'Scikit-Learn', 
-                    // 'Keras', 
-                    // 'TensorFlow', 
                     tech.p5.id,
                     tech.flask.id,
                     tech.jinja2.id,
@@ -82,7 +170,7 @@ export const education = [
                     otherFocus.quant,
                     otherFocus.womHist,
                 ],
-                moreInfo: "Bachelor's degree in applied computer science accredited through Dominican University of California."
+                moreInfo: "Classes at Dominican University of California, in Computer Science/Software engineering"
             }
         ],
     },
@@ -117,7 +205,7 @@ export const education = [
                     // skill.drawing.id, 
                     // skill.math.id
                 ],
-                moreInfo: 'Classes at Diablo Valley College in UX/UI Design.'
+                moreInfo: 'Classes at Diablo Valley College in UX/UI Design'
             }
         ],
     },
