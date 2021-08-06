@@ -131,7 +131,7 @@ export const tech = {
     swiftUI: {
         id:'Swift UI', 
         langType: mainLang.swift.id, 
-        level: expertise.proficient
+        level: expertise.novice
     },
     xCode: {
         id:'xCode', 
@@ -160,7 +160,7 @@ export const tech = {
     },
     handlebars: {
         id: 'Handlebars',
-        langType: mainLang.js.id,
+        langType: false,
         level: expertise.novice
     },
     flask: {
@@ -191,7 +191,7 @@ export const tech = {
     digOcean: {
         id: 'Digital Ocean', 
         langType: false, 
-        level: expertise.proficient
+        level: expertise.novice
     },
     node: {
         id: 'Node.js', 
@@ -384,11 +384,11 @@ export const tech = {
             langType: false, 
             level: expertise.expert
         },
-        XD: {
-            id: 'Adobe XD', 
-            langType: false, 
-            level: expertise.proficient
-        },
+        // XD: {
+        //     id: 'Adobe XD', 
+        //     langType: false, 
+        //     level: expertise.proficient
+        // },
         suite: {
             id: 'Adobe Creative Cloud Suite', 
             langType: false, 
@@ -405,12 +405,12 @@ export const tech = {
         langType: false, 
         level: expertise.proficient
     },
-    img: {
-        img: {
-            id: 'Images', 
-            langType: false, 
-            level: expertise.expert
-        },
+    // img: {
+    //     img: {
+    //         id: 'Images', 
+    //         langType: false, 
+    //         level: expertise.expert
+    //     },
         // svg: {
         //     id: 'SVG', 
         //     langType: false, 
@@ -466,7 +466,7 @@ export const tech = {
         //     langType: false, 
         //     level: expertise.expert
         // }
-    },
+    // },
     trello: {
         id: 'Trello', 
         langType: false, 
@@ -594,7 +594,7 @@ export const tech = {
     shell: {
         id: 'Shell Code', 
         langType: false, 
-        level: expertise.proficient
+        level: expertise.novice
     },
     // c_sharp: {
     //     id: 'C#', 
@@ -664,7 +664,7 @@ export const tech = {
     netlify: {
         id: 'Netlify', 
         langType: false, 
-        level: expertise.proficient
+        level: expertise.novice
     },
     testDev: {
         id: 'Test-Driven Development', 

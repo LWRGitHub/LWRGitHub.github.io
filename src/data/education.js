@@ -358,7 +358,7 @@ export const education = [
                     tech.gitHub.id, 
                     tech.sql.id, 
                     tech.js.id, 
-                    tech.img.img.id, 
+                    // tech.img.img.id, 
                     tech.wireFrames.id, 
                     // tech.adobe.XD.id, 
                     // tech.balsamiq.id, 

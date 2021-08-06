@@ -53,7 +53,7 @@ export const ProProj = [
         paragraph1: "As part of the dance4healing.com internship, it was requested that Logan set up Google Analytics for StageIV.org. There were some bugs in the code from other people's attempts so Logan had to use his software engineering skills to fix the code & make it all work together correctly.",
         skills: {
             platform: [platform.des, platform.mob], 
-            focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wm}`, focus.design.xi, focus.data], 
+            focus: [focus.sofEngr], 
             tech: [
                 tech.js.id, 
                 tech.css.id, 
@@ -92,7 +92,7 @@ export const PersonalProj = [
             alt: "this is a screen shot of the home page for women's basketball through the years. Image of a big photo black-and-white of women playing basketball with the chalkboard in the back."
         },
         title: "Women's Basketball Through The Years",
-        paragraph1: "Website about women's basketball. It provides information about specific events throughout the years. The site has been made with React.js & hosted through GitHub Pages.",
+        paragraph1: "As part of a woman's history class I took in college we were encouraged to create a website related to a pivotal moment in history for women. This site about women's basketball. It provides information about specific events throughout the years. The site has been made with React.js & hosted through GitHub Pages.",
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi,], 
@@ -141,6 +141,9 @@ export const PersonalProj = [
                 tech.heroku.id,
                 tech.wireFrames.id,
                 tech.figma.id,
+                tech.heroku.id,
+                tech.git.id, 
+                tech.gitHub.id,
                 // tech.img.png.id,
             ]
         },
@@ -158,7 +161,7 @@ export const PersonalProj = [
         skills: {
             platform: [platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.ma}` , focus.design.xi], 
-            tech: [tech.swift.id, tech.swiftUI.id, tech.xCode.id, tech.api.api.id]
+            tech: [tech.swift.id, tech.swiftUI.id, tech.xCode.id, tech.api.api.id, tech.git.id, tech.gitHub.id]
         },
         paragraph2: 'The project is available to clone on GetHub.',
         projectLink: 'https://github.com/LWRGitHub/duro-ios',
@@ -174,7 +177,7 @@ export const PersonalProj = [
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi], 
-            tech: [tech.js.id, tech.node.id, tech.pug.id, tech.express.id, tech.bootstrap.id, tech.html.id, tech.css.id, tech.heroku.id]
+            tech: [tech.js.id, tech.node.id, tech.pug.id, tech.express.id, tech.bootstrap.id, tech.html.id, tech.css.id, tech.heroku.id, tech.git.id, tech.gitHub.id]
         },
         paragraph2: 'Simply click on your zodiac sign to view your horoscope for the day.',
         projectLink: 'https://astrology-horoscope.herokuapp.com',
@@ -190,7 +193,7 @@ export const PersonalProj = [
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi], 
-            tech: [tech.js.id, tech.go.id, tech.react.id, tech.bootstrap.id, tech.reactBootstrap.id, tech.goBenchmark.id, tech.goScrape.id, tech.goTest.id, tech.html.id, tech.css.id, tech.gitHubPg.id]
+            tech: [tech.js.id, tech.go.id, tech.react.id, tech.bootstrap.id, tech.reactBootstrap.id, tech.goBenchmark.id, tech.goScrape.id, tech.goTest.id, tech.html.id, tech.css.id, tech.git.id, tech.gitHub.id, tech.gitHubPg.id]
         },
         paragraph2: 'Simply search for something like tomato soup.',
         projectLink: 'https://lwrgithub.github.io/vegan-recipes-search-engine/#/',
@@ -205,7 +208,7 @@ export const TutorialProj = [
             alt: "Screenshot on the mobile phone of Logan Reynolds' software engineering portfolio website. This is the homepage otherwise known as the index page. Shows a list of programming languages such as JavaScript ESS6 Ruby python & C#. Shows navigation bar in blue. Has a big jumbotron image in the background"
         },
         title: 'Portfolio Site',
-        paragraph1: "This site has detailed information about Logan along with personal and professional projects he's worked on. Logan has turned this Basic HTML/CSS tutorial into to something so much more by turning the entire website into a React.js app & adding some custom UI/UX Design.",
+        paragraph1: "Logan has turned this Basic HTML/CSS tutorial into to something so much more by turning the entire website into a React.js app & adding some custom UI/UX Design. This site has detailed information about Logan along with personal and professional projects he's worked on.",
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi, focus.data], 
@@ -493,7 +496,7 @@ export const TutorialProj = [
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, focus.dev.type.wma, focus.design.xi], 
-            tech: [tech.js.id, tech.css.id, tech.html.id, tech.dom.id, tech.google.font.id, tech.google.analytic.id]
+            tech: [tech.js.id, tech.css.id, tech.html.id, tech.dom.id, tech.google.font.id, tech.google.analytic.id, tech.git.id, tech.gitHub.id, tech.gitHubPg.id]
         },
         paragraph2: 'Type in the name of your dish along with the ingredients & submit it. You can then edit or remove the dish if you like.',
         projectLink: 'https://lwrgithub.github.io/Dish-submitter/',
