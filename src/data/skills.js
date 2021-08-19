@@ -58,7 +58,8 @@ export const focus = {
     design: {
         xi: 'UX/UI Design',
         x: 'UX Design',
-        i: 'UI Design'
+        i: 'UI Design',
+        gd: 'Graphic Design'
     },
     game: {
         desDev: 'Game Design/Dev',
@@ -775,7 +776,7 @@ export const tech = {
             level: expertise.proficient
         },
         fetch: {
-            id: 'Fetch API', 
+            id: 'FETCH API', 
             langType: false, 
             level: expertise.proficient
         },

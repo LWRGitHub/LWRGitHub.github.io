@@ -27,28 +27,29 @@ export const education = [
                     // `Rust`,
                     // `Elixir`,
                 ],
-                moreInfo: [
-                    {
-                        title: `Computer Science | BS: `,
-                        content: `Accredited online degree program provides students with in-depth knowledge and analytic skills associated with the field of IT and Computer Science.`
-                    },
-                    {
-                        title: `Students receive: `,
-                        content:``
-                    },
-                    {
-                        title: ``,
-                        content:`Comprehensive understanding of design, development, testing, and documentation of a range of operating systems`
-                    },
-                    {
-                        title: ``,
-                        content:`Database management; and programming languages`
-                    },
-                    {
-                        title: ``,
-                        content:`Essential knowledge to implementing the skill into real-life situations`
-                    }
-                ]
+                // moreInfo: [
+                //     {
+                //         title: `Computer Science | BS: `,
+                //         content: `Accredited online degree program provides students with in-depth knowledge and analytic skills associated with the field of IT and Computer Science.`
+                //     },
+                //     {
+                //         title: `Students receive: `,
+                //         content:``
+                //     },
+                //     {
+                //         title: ``,
+                //         content:`Comprehensive understanding of design, development, testing, and documentation of a range of operating systems`
+                //     },
+                //     {
+                //         title: ``,
+                //         content:`Database management; and programming languages`
+                //     },
+                //     {
+                //         title: ``,
+                //         content:`Essential knowledge to implementing the skill into real-life situations`
+                //     }
+                // ]
+                moreInfo: `Bachelor's Degree in Computer Science`
             }
         ],
     },
@@ -83,21 +84,22 @@ export const education = [
                     `Calculus II`,
                     `Discrete Mathematics`
                 ],
-                moreInfo: [
-                    {
-                        title: `Computer Science | AS: `,
-                        content: `The (CS) curriculum includes instruction in the fundamentals of problem solving and analysis, programming, data structures, and computer architecture.`
-                    },
-                    {
-                        title: `Computer Networking and Information Technology | AS: `,
-                        content:`(CNIT) not only provides students with a solid foundation of skills, knowledge, and hands-on experience in the core areas of the field of Computer Networking and Information Technology but also with the current trends and technologies used in the computer industry. The topics covered in this major include computer hardware, network administration, network security, and the basics of Internet and Web development, as well as one of the following optional areas: computer technical support, internet and web development techniques, network security, wireless networks, Cisco networking, or Microsoft Windows administration. This degree qualifies students for employment in entry-level network administration, computer technical support, or web development positions.`
-                    }
-                ]
+                // moreInfo: [
+                //     {
+                //         title: `Computer Science | AS: `,
+                //         content: `The (CS) curriculum includes instruction in the fundamentals of problem solving and analysis, programming, data structures, and computer architecture.`
+                //     },
+                //     {
+                //         title: `Computer Networking and Information Technology | AS: `,
+                //         content:`(CNIT) not only provides students with a solid foundation of skills, knowledge, and hands-on experience in the core areas of the field of Computer Networking and Information Technology but also with the current trends and technologies used in the computer industry. The topics covered in this major include computer hardware, network administration, network security, and the basics of Internet and Web development, as well as one of the following optional areas: computer technical support, internet and web development techniques, network security, wireless networks, Cisco networking, or Microsoft Windows administration. This degree qualifies students for employment in entry-level network administration, computer technical support, or web development positions.`
+                //     }
+                // ]
+                moreInfo: `Dual Major, Associates in Computer Science & Associates in Computer Networking and Information Technology`
             }
         ],
     },
     {
-        title: `Dominican University Of California  |  CS Undergrad/Bachelor's`,
+        title: `Dominican University Of California  |  CS Undergrad`,
         img: {
             src: 'images/education/dominican-university-of-california-building.jpg',
             alt: 'Dominican University Of California logo overlaying front of the Dominican University Of California building.'
@@ -107,10 +109,10 @@ export const education = [
             {
                 school: 'Dominican.edu',
                 location: ': CA',
-                credentials: {
-                    aText: 'Transcripts',
-                    href: 'https://lwrgithub.github.io/files/education-credentials/dominican-transcripts.pdf'
-                },
+                // credentials: {
+                //     aText: 'Transcripts',
+                //     href: 'https://lwrgithub.github.io/files/education-credentials/dominican-transcripts.pdf'
+                // },
                 href: 'https://www.dominican.edu',
                 focus: [`${focus.dev.area.b} ${focus.sofEngr}. with additional classes in ${focus.data}, ${focus.dev.type.m} & ${focus.design.xi}`],
                 skills: [
@@ -170,12 +172,12 @@ export const education = [
                     otherFocus.quant,
                     otherFocus.womHist,
                 ],
-                moreInfo: "Undergrad/Bachelor's Degree in Applied Computer Science at Dominican University Of California"
+                moreInfo: "Undergrad in Applied Computer Science"
             }
         ],
     },
     {
-        title: 'DVC  |  UX/UI Design Classes',
+        title: 'DVC  |  Undergrad in Graphic Design',
         img: {
             src: 'images/education/dvc-logo.jpg',
             alt: 'Diablo Valley College also known as DVC. Located in Pleasant Hill California. image of collage campus with the a DVC logo overly.'
@@ -184,13 +186,13 @@ export const education = [
             {
                 school: 'www.dvc.edu',
                 location: ': PleasantHill, CA',
-                credentials: {
-                    aText: 'Transcripts',
-                    href: 'https://lwrgithub.github.io/files/education-credentials/dvc-transcripts.pdf'
-                },
+                // credentials: {
+                //     aText: 'Transcripts',
+                //     href: 'https://lwrgithub.github.io/files/education-credentials/dvc-transcripts.pdf'
+                // },
                 href: 'https://www.dvc.edu/',
                 focus: [
-                    focus.design.xi, 
+                    focus.design.gd, 
                     // otherFocus.art.artDraw, 
                     // otherFocus.art.artDM, 
                     // otherFocus.webDes, 
@@ -205,7 +207,7 @@ export const education = [
                     // skill.drawing.id, 
                     // skill.math.id
                 ],
-                moreInfo: 'Classes at Diablo Valley College in UX/UI Design'
+                moreInfo: 'Undergrad in Graphic Design'
             }
         ],
     },
