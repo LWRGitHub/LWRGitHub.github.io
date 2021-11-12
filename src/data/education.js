@@ -50,7 +50,7 @@ export const education = [
                 //         content:`Essential knowledge to implementing the skill into real-life situations`
                 //     }
                 // ]
-                moreInfo: `Bachelor's Degree in Computer Science`
+                // moreInfo: `Bachelor's Degree in Computer Science`
             }
         ],
     },
