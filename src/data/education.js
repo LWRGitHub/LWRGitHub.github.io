@@ -2,59 +2,6 @@ import { focus, otherFocus, tech, skill } from './skills';
 
 export const education = [
     {
-        title: "University Of The People  |  CS Undergrad",
-        img: {
-            src: 'images/education/uo-people.png',
-            alt: 'University Of The People also known as UoPeople is located online. the image is of the UoPeople Logo.'
-        },
-        schools: [
-            {
-                school: 'www.uopeople.edu',
-                location: ': Online',
-                href: 'https://www.uopeople.edu',
-                focus: [
-                    focus.sofEngr,
-                    // `${focus.dev.area.fs} ${focus.sofEngr}`,
-                    // focus.dev.type.wma
-                ],
-                skills: [
-                    // `Java`,
-                    // tech.js.id,
-                    tech.py.id,
-                    // tech.swift.id,
-                    // tech.html.id,
-                    // tech.css.id,
-                    // tech.ai.id,
-                    // `Rust`,
-                    // `Elixir`,
-                ],
-                // moreInfo: [
-                //     {
-                //         title: `Computer Science | BS: `,
-                //         content: `Accredited online degree program provides students with in-depth knowledge and analytic skills associated with the field of IT and Computer Science.`
-                //     },
-                //     {
-                //         title: `Students receive: `,
-                //         content:``
-                //     },
-                //     {
-                //         title: ``,
-                //         content:`Comprehensive understanding of design, development, testing, and documentation of a range of operating systems`
-                //     },
-                //     {
-                //         title: ``,
-                //         content:`Database management; and programming languages`
-                //     },
-                //     {
-                //         title: ``,
-                //         content:`Essential knowledge to implementing the skill into real-life situations`
-                //     }
-                // ]
-                // moreInfo: `Bachelor's Degree in Computer Science`
-            }
-        ],
-    },
-    {
         title: "CCSF  |  Dual Major CS & CNIT Associate Degrees",
         img: {
             src: 'images/education/ccsf-mission.jpeg',
@@ -174,6 +121,59 @@ export const education = [
                     otherFocus.womHist,
                 ],
                 moreInfo: "Undergrad in Applied Computer Science"
+            }
+        ],
+    },
+    {
+        title: "University Of The People  |  CS Undergrad",
+        img: {
+            src: 'images/education/uo-people.png',
+            alt: 'University Of The People also known as UoPeople is located online. the image is of the UoPeople Logo.'
+        },
+        schools: [
+            {
+                school: 'www.uopeople.edu',
+                location: ': Online',
+                href: 'https://www.uopeople.edu',
+                focus: [
+                    focus.sofEngr,
+                    // `${focus.dev.area.fs} ${focus.sofEngr}`,
+                    // focus.dev.type.wma
+                ],
+                skills: [
+                    // `Java`,
+                    // tech.js.id,
+                    tech.py.id,
+                    // tech.swift.id,
+                    // tech.html.id,
+                    // tech.css.id,
+                    // tech.ai.id,
+                    // `Rust`,
+                    // `Elixir`,
+                ],
+                // moreInfo: [
+                //     {
+                //         title: `Computer Science | BS: `,
+                //         content: `Accredited online degree program provides students with in-depth knowledge and analytic skills associated with the field of IT and Computer Science.`
+                //     },
+                //     {
+                //         title: `Students receive: `,
+                //         content:``
+                //     },
+                //     {
+                //         title: ``,
+                //         content:`Comprehensive understanding of design, development, testing, and documentation of a range of operating systems`
+                //     },
+                //     {
+                //         title: ``,
+                //         content:`Database management; and programming languages`
+                //     },
+                //     {
+                //         title: ``,
+                //         content:`Essential knowledge to implementing the skill into real-life situations`
+                //     }
+                // ]
+                moreInfo: `Undergrad in Applied Computer Science`
             }
         ],
     },
