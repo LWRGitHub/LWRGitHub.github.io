@@ -139,6 +139,11 @@ export const tech = {
         langType: mainLang.swift.id, 
         level: expertise.proficient
     },
+    balsamiq: {
+        id:'Balsamiq', 
+        langType: false, 
+        level: expertise.novice
+    },
     ai: {
         id:'AI/Machine Learning', 
         langType: mainLang.py.id, 
@@ -388,7 +393,7 @@ export const tech = {
         // XD: {
         //     id: 'Adobe XD', 
         //     langType: false, 
-        //     level: expertise.proficient
+        //     level: expertise.novice
         // },
         suite: {
             id: 'Adobe Creative Cloud Suite', 

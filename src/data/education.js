@@ -2,7 +2,7 @@ import { focus, otherFocus, tech, skill } from './skills';
 
 export const education = [
     {
-        title: "University Of The People  |  CS Bachelor's Degree",
+        title: "University Of The People  |  CS Undergrad",
         img: {
             src: 'images/education/uo-people.png',
             alt: 'University Of The People also known as UoPeople is located online. the image is of the UoPeople Logo.'
@@ -10,20 +10,21 @@ export const education = [
         schools: [
             {
                 school: 'www.uopeople.edu',
-                location: ': Online - In Progress',
+                location: ': Online',
                 href: 'https://www.uopeople.edu',
                 focus: [
-                    `${focus.dev.area.fs} ${focus.sofEngr}`,
-                    focus.dev.type.wma
+                    focus.sofEngr,
+                    // `${focus.dev.area.fs} ${focus.sofEngr}`,
+                    // focus.dev.type.wma
                 ],
                 skills: [
                     // `Java`,
-                    tech.js.id,
+                    // tech.js.id,
                     tech.py.id,
-                    tech.swift.id,
-                    tech.html.id,
-                    tech.css.id,
-                    tech.ai.id,
+                    // tech.swift.id,
+                    // tech.html.id,
+                    // tech.css.id,
+                    // tech.ai.id,
                     // `Rust`,
                     // `Elixir`,
                 ],
