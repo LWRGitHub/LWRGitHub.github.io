@@ -34,7 +34,8 @@ export const mainLang = {
 
 export const platform = {
     des: 'Desktop', 
-    mob: 'Mobile'
+    mob: 'Mobile',
+    cloud: 'Cloud'
 };
 
 export const focus = {
@@ -543,7 +544,7 @@ export const tech = {
     jquery: {
         id: 'jQuery', 
         langType: mainLang.js.id, 
-        level: expertise.novice
+        level: expertise.proficient
     },
     webVtt: {
         id: 'WebVTT', 
@@ -731,8 +732,8 @@ export const tech = {
     },
     ajax: {
         id: 'AJAX', 
-        langType: false, 
-        level: expertise.novice
+        langType: mainLang.js.id, 
+        level: expertise.proficient
     },
     docker: {
         id: 'Docker', 

@@ -4,6 +4,32 @@ import { platform, focus, tech } from './skills';
 export const ProProj = [
     {
         img: {
+            src: "images/experience/wipro.png",
+            alt: "Screen Shot of the Wipro.com home page."
+        },
+        title: 'Wipro: App-Cloud Services-Developer',
+        paragraph1: 'Application development with cloud environments such as AWS (Amazon Web Services). Using Full Stack software engineering with a variety of different technologies to develop & maintain code base.',
+        skills: {
+            platform: [platform.cloud], 
+            focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`], 
+            tech: [
+                // tech.js.id, 
+                // tech.html.id, 
+                // tech.css.id, 
+                // tech.git.id, 
+                // tech.gitHub.id, 
+                // tech.browserify.id, 
+                tech.CI_CD.id, 
+                tech.aws.id,
+                // tech.py.id
+            ]
+        },
+        paragraph2: 'Application development with cloud environments such as AWS (Amazon Web Services). Using Full Stack software engineering with a variety of different technologies to develop & maintain code base.',
+        projectLink: "https://www.wipro.com/",
+        codeLink: false
+    },
+    {
+        img: {
             src: "images/experience/dance4healing.jpeg",
             alt: "screen shot of www.dance4healing.com this is an image of the dance for healing website mobile site or small version has many people in the image dancing woman has dance for healing logo. a slide show would move if you on the site but this is a still image."
         },
