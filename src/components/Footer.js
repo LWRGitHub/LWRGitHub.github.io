@@ -5,7 +5,7 @@ const Footer = () => (
         <div className="col-sm-2">
             <a href="https://github.com/LWRGitHub">GitHub</a>
             <a href="https://www.linkedin.com/in/logan-reynolds/">LinkedIn</a>
-            <a href="https://lwrgithub.github.io/files/logan-reynolds-resume.pdf">Resume</a>
+            <a href="files/logan-reynolds-resume.pdf">Resume</a>
         </div>
         <br />
         <p>Logan Reynolds &copy; 2021</p>

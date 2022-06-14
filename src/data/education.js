@@ -2,7 +2,7 @@ import { focus, otherFocus, tech, skill } from './skills';
 
 export const education = [
     {
-        title: "CCSF  |  Dual Major CS & CNIT Associate Degrees",
+        title: "City College of San Francisco  |  Dual Major CS & CNIT Undergrad",
         img: {
             src: 'images/education/ccsf-mission.jpeg',
             alt: 'City College of San Francisco also known as CCSF. Located in San Francisco California. image of ccsf mission collage campus.'
@@ -114,7 +114,7 @@ export const education = [
                     tech.chromeDev.id,
                     tech.figma.id,
                     tech.markdown.id,
-                    tech.digOcean.id,
+                    // tech.digOcean.id,
                     otherFocus.eth,
                     otherFocus.afctCom,
                     otherFocus.quant,
@@ -178,7 +178,7 @@ export const education = [
         ],
     },
     {
-        title: 'DVC  |  Undergrad in Graphic Design',
+        title: 'DVC  |  Graphic Design Undergrad',
         img: {
             src: 'images/education/dvc-logo.jpg',
             alt: 'Diablo Valley College also known as DVC. Located in Pleasant Hill California. image of collage campus with the a DVC logo overly.'
@@ -212,298 +212,330 @@ export const education = [
             }
         ],
     },
+    // {
+    //     title: 'Code TL, CTD & Meda MT  |  Introduction to Coding',
+    //     img: {
+    //         src: 'images/education/ctd-codetl-meda.svg',
+    //         alt: 'Code Tenderloin logo, Code The Dream logo and a Meda Mission Techies logo'
+    //     },
+    //     schools: [
+            // {
+            //     school: 'Code Tenderloin',
+            //     location: ': SF, CA',
+            //     credentials: {
+            //         aText: 'Certificates',
+            //         href: 'https://lwrgithub.github.io/files/education-credentials/code-tl-certificates.pdf'
+            //     },
+            //     focus: [
+            //         focus.sofEngr, 
+            //         // focus.game.desDev
+            //     ],
+            //     skills: [tech.js.id, tech.html.id, tech.css.id]
+            // },
+            // {
+            //     school: 'Code The Dream',
+            //     location: ': Durham, NC',
+            //     credentials: {
+            //         aText: 'Certificate',
+            //         href: 'https://lwrgithub.github.io/files/education-credentials/ctd-certificate.pdf'
+            //     },
+            //     focus: [
+            //         `${focus.dev.area.f} ${focus.sofEngr}`
+            //         ],
+            //     skills: [
+            //         tech.js.id, 
+            //         // tech.rb.id, 
+            //         tech.html.id, 
+            //         tech.css.id, 
+            //         tech.dom.id, 
+            //         tech.react.id, 
+            //         tech.reactRouter.id, 
+            //         tech.reactBootstrap.id, 
+            //         tech.bootstrap.id, 
+            //         // tech.rbOnRail.id, 
+            //         // tech.erb.id, 
+            //         // tech.activeRec.id, 
+            //         tech.aws.id, 
+            //         tech.sql.id, 
+            //         tech.jquery.id, 
+            //         tech.terminal.id, 
+            //         tech.gitHub.id, 
+            //         tech.git.id, 
+            //         tech.wireFrames.id, 
+            //         tech.chromeDev.id, 
+            //         tech.flexbox.id, 
+            //         tech.responsive.id, 
+            //         tech.mediaEl.id, 
+            //         tech.webOptimiz.id, 
+            //         tech.preformOptimiz.id, 
+            //         tech.webAccess.id, 
+            //         tech.ajax.id, 
+            //         tech.asyncAwait.id, 
+            //         tech.api.fetch.id
+            //     ]
+            // },
+            // {
+            //     school: 'Meda Mission Techies',
+            //     location: ': SF, CA',
+            //     credentials: {
+            //         aText: 'Certificate',
+            //         href: 'https://lwrgithub.github.io/files/education-credentials/meda-mt-certificate.pdf'
+            //     },
+            //     focus: [
+            //         `${focus.dev.area.fs} ${focus.sofEngr}`
+            //     ],
+            //     skills: [
+            //         tech.js.id, 
+            //         tech.html.id, 
+            //         tech.css.id, 
+            //         tech.node.id, 
+            //         tech.react.id, 
+            //         tech.dom.id, 
+            //         tech.mongo.id, 
+            //         tech.mongoose.id, 
+            //         tech.jquery.id, 
+            //         tech.terminal.id, 
+            //         tech.git.id, 
+            //         tech.gitHub.id, 
+            //         tech.wireFrames.id, 
+            //         tech.flexbox.id
+            //     ]
+            // }
+    //     ],
+    // },
     {
-        title: 'Code TL, CTD & Meda MT  |  Introduction to Coding',
+        title: 'Code Tenderloin  |  Code Ramp',
         img: {
-            src: 'images/education/ctd-codetl-meda.svg',
-            alt: 'Code Tenderloin logo, Code The Dream logo and a Meda Mission Techies logo'
+            src: 'images/education/codeTLRampCertificate.png',
+            alt: 'Code Tenderloin Code Ramp Certificate'
         },
-        schools: [
-            {
-                school: 'Code Tenderloin',
-                location: ': SF, CA',
-                credentials: {
-                    aText: 'Certificates',
-                    href: 'https://lwrgithub.github.io/files/education-credentials/code-tl-certificates.pdf'
-                },
-                focus: [
-                    focus.sofEngr, 
-                    // focus.game.desDev
-                ],
-                skills: [tech.js.id, tech.html.id, tech.css.id]
-            },
-            {
-                school: 'Code The Dream',
-                location: ': Durham, NC',
-                credentials: {
-                    aText: 'Certificate',
-                    href: 'https://lwrgithub.github.io/files/education-credentials/ctd-certificate.pdf'
-                },
-                focus: [
-                    `${focus.dev.area.f} ${focus.sofEngr}`
-                    ],
-                skills: [
-                    tech.js.id, 
-                    // tech.rb.id, 
-                    tech.html.id, 
-                    tech.css.id, 
-                    tech.dom.id, 
-                    tech.react.id, 
-                    tech.reactRouter.id, 
-                    tech.reactBootstrap.id, 
-                    tech.bootstrap.id, 
-                    // tech.rbOnRail.id, 
-                    // tech.erb.id, 
-                    // tech.activeRec.id, 
-                    tech.aws.id, 
-                    tech.sql.id, 
-                    tech.jquery.id, 
-                    tech.terminal.id, 
-                    tech.gitHub.id, 
-                    tech.git.id, 
-                    tech.wireFrames.id, 
-                    tech.chromeDev.id, 
-                    tech.flexbox.id, 
-                    tech.responsive.id, 
-                    tech.mediaEl.id, 
-                    tech.webOptimiz.id, 
-                    tech.preformOptimiz.id, 
-                    tech.webAccess.id, 
-                    tech.ajax.id, 
-                    tech.asyncAwait.id, 
-                    tech.api.fetch.id
-                ]
-            },
-            {
-                school: 'Meda Mission Techies',
-                location: ': SF, CA',
-                credentials: {
-                    aText: 'Certificate',
-                    href: 'https://lwrgithub.github.io/files/education-credentials/meda-mt-certificate.pdf'
-                },
-                focus: [
-                    `${focus.dev.area.fs} ${focus.sofEngr}`
-                ],
-                skills: [
-                    tech.js.id, 
-                    tech.html.id, 
-                    tech.css.id, 
-                    tech.node.id, 
-                    tech.react.id, 
-                    tech.dom.id, 
-                    tech.mongo.id, 
-                    tech.mongoose.id, 
-                    tech.jquery.id, 
-                    tech.terminal.id, 
-                    tech.git.id, 
-                    tech.gitHub.id, 
-                    tech.wireFrames.id, 
-                    tech.flexbox.id
-                ]
-            }
-        ],
+        schools: [],
     },
     {
-        title: 'Online/In-Person Courses | Computer Science Studies',
+        title: 'Code Tenderloin  |  Code Ramp++',
+        img: {
+            src: 'images/education/codeTLRampPlusPlusCertificate.png',
+            alt: 'Code Tenderloin Code Ramp++ Certificate'
+        },
+        schools: [],
+    },
+    {
+        title: 'Code The Dream |  Certificate',
+        img: {
+            src: 'images/education/codeTheDreamCertificate.png',
+            alt: 'Code The Dream Certificate'
+        },
+        schools: [],
+    },
+    {
+        title: 'Meda Mission Techies |  Certificate',
+        img: {
+            src: 'images/education/medaMissionTechiesCertificate.png',
+            alt: 'Code Tenderloin Certificate'
+        },
+        schools: [],
+    },
+    {
+        title: 'Online/In-Person Courses |  Software Engineering Studies',
         img: {
             src: 'images/education/courses.png',
             alt: 'This photo includes a collage of Khan Academy logo, Codecademy logo, Team Treehouse logo, Udacity logo, Noise bridge logo, GitHub learning lab log, and Lynda.com that is now known as LinkedIn learning logo'
         },
         schools: [
-            {
-                school: 'Linda.com “LinkedIn Learning”',
-                location: ':',
-                focus: [
-                    focus.sofEngr, 
-                    // `${focus.dev.type.wm} ${focus.dev.area.fs}`, 
-                    // focus.design.xi, 
-                    // focus.data
-                ],
-                skills: [
-                    tech.google.analytic.id, 
-                    // tech.SEO.id, 
-                    tech.py.id, 
-                    tech.html.id, 
-                    tech.css.id, 
-                    tech.js.id, 
-                    tech.dom.id, 
-                    // tech.powerSh.id, 
-                    tech.terminal.id, 
-                    tech.gitHub.id, 
-                    tech.git.id
-                ]
-            },
-            {
-                school: 'TeamTreeHouse.com',
-                location: ':',
-                focus: [
-                    focus.sofEngr, 
-                    // `${focus.dev.type.wma} ${focus.dev.area.fs}`, 
-                    // focus.game.desDev, 
-                    // focus.design.xi, 
-                    // focus.data
-                ],
-                skills: [
-                    tech.react.id, 
-                    tech.reactRouter.id, 
-                    tech.jsx.id, 
-                    tech.chromeDev.id, 
-                    tech.webAccess.id, 
-                    tech.html.id, 
-                    tech.css.id, 
-                    tech.webOptimiz.id, 
-                    tech.preformOptimiz.id, 
-                    tech.mediaEl.id, 
-                    tech.bootstrap.id, 
-                    tech.reactBootstrap.id, 
-                    tech.flexbox.id, 
-                    tech.git.id, 
-                    tech.gitHub.id, 
-                    tech.sql.id, 
-                    tech.js.id, 
-                    // tech.img.img.id, 
-                    tech.wireFrames.id, 
-                    // tech.adobe.XD.id, 
-                    // tech.balsamiq.id, 
-                    tech.sketchApp.id, 
-                    // tech.powerSh.id, 
-                    tech.terminal.id, 
-                    // tech.c_sharp.id, 
-                    tech.express.id, 
-                    tech.api.rest.id, 
-                    tech.http.id, 
-                    tech.npm.id, 
-                    tech.node.id, 
-                    tech.responsive.id, 
-                    tech.google.font.id, 
-                    tech.asyncAwait.id, 
-                    tech.ajax.id, 
-                    tech.jquery.id, 
-                    tech.dom.id, 
-                    tech.api.api.id, 
-                    tech.api.fetch.id,
-                    // tech.nowVercel.id, 
-                    tech.netlify.id
-                ]
-            },
-            {
-                school: 'GA Dash',
-                location: ':',
-                focus: [
-                    focus.sofEngr, 
-                    // `${focus.dev.type.wm} ${focus.dev.area.f}`, 
-                    // focus.design.xi
-                ],
-                skills: [
-                    tech.js.id, 
-                    tech.html.id, 
-                    tech.css.id, 
-                    tech.jquery.id, 
-                    tech.google.map.id, 
-                    tech.responsive.id, 
-                    tech.google.font.id
-                ]
-            },
-            {
-                school: 'Udacity',
-                location: ':',
-                focus: [
-                    focus.sofEngr, 
-                    // focus.data
-                ],
-                skills: [tech.js.id, tech.py.id]
-            },
-            {
-                school: 'Khan Academy',
-                location: ':',
-                focus: [
-                    focus.sofEngr, 
-                    // `${focus.dev.type.wm} ${focus.dev.area.f}`, 
-                    // focus.design.xi, 
-                    // focus.data
-                ],
-                skills: [
-                    tech.js.id, 
-                    tech.html.id, 
-                    tech.css.id, 
-                    tech.sql.id, 
-                    skill.math.id
-                ]
-            },
-            {
-                school: 'CodeCademy.com',
-                location: ':',
-                focus: [
-                    focus.sofEngr, 
-                    // `${focus.dev.type.wm} ${focus.dev.area.f}`, 
-                    // focus.design.xi
-                ],
-                skills: [
-                    // tech.c_sharp.id, 
-                    // tech.rb.id, 
-                    tech.react.id, 
-                    tech.html.id, 
-                    tech.css.id, 
-                    tech.bootstrap.id
-                ]
-            },
-            {
-                school: 'SOL Learn',
-                location: ':',
-                focus: [focus.sofEngr],
-                skills: [tech.js.id, tech.py.id, tech.react.id]
-            },
-            {
-                school: 'w3schools.com',
-                location: ':',
-                focus: [
-                    focus.sofEngr, 
-                    // `${focus.dev.type.wm} ${focus.dev.area.f}`, 
-                    // focus.game.desDev, 
-                    // focus.design.xi, 
-                    // focus.data
-                ],
-                skills: [
-                    tech.js.id, 
-                    tech.html.id, 
-                    tech.css.id, 
-                    tech.sql.id, 
-                    tech.py.id, 
-                    tech.jquery.id, 
-                    tech.bootstrap.id
-                ]
-            },
-            {
-                school: 'GitHub Learning Lab',
-                location: ':',
-                focus: [
-                    focus.sofEngr, 
-                    // `${focus.dev.type.wma} ${focus.dev.area.fs}`
-                ],
-                skills: [
-                    skill.githubEd.comUsingMarkdown.id, 
-                    skill.githubEd.upload.id, 
-                    skill.githubEd.intro.id, 
-                    // skill.githubEd.circleCI.id
-                ]
-            },
-            {
-                school: 'Noisebridge',
-                location: ':',
-                focus: [
-                    focus.sofEngr, 
-                    // focus.game.desDev, 
-                    // focus.data
-                ],
-                skills: [
-                    // tech.c_sharp.id, 
-                    tech.py.id, 
-                    // tech.unity.id, 
-                    tech.sql.id, 
-                    tech.garageband.id, 
-                    // tech.milkyTrack.id
-                ]
-            },
+            // {
+            //     school: 'Linda.com “LinkedIn Learning”',
+            //     location: ':',
+            //     focus: [
+            //         focus.sofEngr, 
+            //         // `${focus.dev.type.wm} ${focus.dev.area.fs}`, 
+            //         // focus.design.xi, 
+            //         // focus.data
+            //     ],
+            //     skills: [
+            //         tech.google.analytic.id, 
+            //         // tech.SEO.id, 
+            //         tech.py.id, 
+            //         tech.html.id, 
+            //         tech.css.id, 
+            //         tech.js.id, 
+            //         tech.dom.id, 
+            //         // tech.powerSh.id, 
+            //         tech.terminal.id, 
+            //         tech.gitHub.id, 
+            //         tech.git.id
+            //     ]
+            // },
+            // {
+            //     school: 'TeamTreeHouse.com',
+            //     location: ':',
+            //     focus: [
+            //         focus.sofEngr, 
+            //         // `${focus.dev.type.wma} ${focus.dev.area.fs}`, 
+            //         // focus.game.desDev, 
+            //         // focus.design.xi, 
+            //         // focus.data
+            //     ],
+            //     skills: [
+            //         tech.react.id, 
+            //         tech.reactRouter.id, 
+            //         tech.jsx.id, 
+            //         tech.chromeDev.id, 
+            //         tech.webAccess.id, 
+            //         tech.html.id, 
+            //         tech.css.id, 
+            //         tech.webOptimiz.id, 
+            //         tech.preformOptimiz.id, 
+            //         tech.mediaEl.id, 
+            //         tech.bootstrap.id, 
+            //         tech.reactBootstrap.id, 
+            //         tech.flexbox.id, 
+            //         tech.git.id, 
+            //         tech.gitHub.id, 
+            //         tech.sql.id, 
+            //         tech.js.id, 
+            //         // tech.img.img.id, 
+            //         tech.wireFrames.id, 
+            //         // tech.adobe.XD.id, 
+            //         // tech.balsamiq.id, 
+            //         tech.sketchApp.id, 
+            //         // tech.powerSh.id, 
+            //         tech.terminal.id, 
+            //         // tech.c_sharp.id, 
+            //         tech.express.id, 
+            //         tech.api.rest.id, 
+            //         tech.http.id, 
+            //         tech.npm.id, 
+            //         tech.node.id, 
+            //         tech.responsive.id, 
+            //         tech.google.font.id, 
+            //         tech.asyncAwait.id, 
+            //         tech.ajax.id, 
+            //         tech.jquery.id, 
+            //         tech.dom.id, 
+            //         tech.api.api.id, 
+            //         tech.api.fetch.id,
+            //         // tech.nowVercel.id, 
+            //         tech.netlify.id
+            //     ]
+            // },
+            // {
+            //     school: 'GA Dash',
+            //     location: ':',
+            //     focus: [
+            //         focus.sofEngr, 
+            //         // `${focus.dev.type.wm} ${focus.dev.area.f}`, 
+            //         // focus.design.xi
+            //     ],
+            //     skills: [
+            //         tech.js.id, 
+            //         tech.html.id, 
+            //         tech.css.id, 
+            //         tech.jquery.id, 
+            //         tech.google.map.id, 
+            //         tech.responsive.id, 
+            //         tech.google.font.id
+            //     ]
+            // },
+            // {
+            //     school: 'Udacity',
+            //     location: ':',
+            //     focus: [
+            //         focus.sofEngr, 
+            //         // focus.data
+            //     ],
+            //     skills: [tech.js.id, tech.py.id]
+            // },
+            // {
+            //     school: 'Khan Academy',
+            //     location: ':',
+            //     focus: [
+            //         focus.sofEngr, 
+            //         // `${focus.dev.type.wm} ${focus.dev.area.f}`, 
+            //         // focus.design.xi, 
+            //         // focus.data
+            //     ],
+            //     skills: [
+            //         tech.js.id, 
+            //         tech.html.id, 
+            //         tech.css.id, 
+            //         tech.sql.id, 
+            //         skill.math.id
+            //     ]
+            // },
+            // {
+            //     school: 'CodeCademy.com',
+            //     location: ':',
+            //     focus: [
+            //         focus.sofEngr, 
+            //         // `${focus.dev.type.wm} ${focus.dev.area.f}`, 
+            //         // focus.design.xi
+            //     ],
+            //     skills: [
+            //         // tech.c_sharp.id, 
+            //         // tech.rb.id, 
+            //         tech.react.id, 
+            //         tech.html.id, 
+            //         tech.css.id, 
+            //         tech.bootstrap.id
+            //     ]
+            // },
+            // {
+            //     school: 'SOL Learn',
+            //     location: ':',
+            //     focus: [focus.sofEngr],
+            //     skills: [tech.js.id, tech.py.id, tech.react.id]
+            // },
+            // {
+            //     school: 'w3schools.com',
+            //     location: ':',
+            //     focus: [
+            //         focus.sofEngr, 
+            //         // `${focus.dev.type.wm} ${focus.dev.area.f}`, 
+            //         // focus.game.desDev, 
+            //         // focus.design.xi, 
+            //         // focus.data
+            //     ],
+            //     skills: [
+            //         tech.js.id, 
+            //         tech.html.id, 
+            //         tech.css.id, 
+            //         tech.sql.id, 
+            //         tech.py.id, 
+            //         tech.jquery.id, 
+            //         tech.bootstrap.id
+            //     ]
+            // },
+            // {
+            //     school: 'GitHub Learning Lab',
+            //     location: ':',
+            //     focus: [
+            //         focus.sofEngr, 
+            //         // `${focus.dev.type.wma} ${focus.dev.area.fs}`
+            //     ],
+            //     skills: [
+            //         skill.githubEd.comUsingMarkdown.id, 
+            //         skill.githubEd.upload.id, 
+            //         skill.githubEd.intro.id, 
+            //         // skill.githubEd.circleCI.id
+            //     ]
+            // },
+            // {
+            //     school: 'Noisebridge',
+            //     location: ':',
+            //     focus: [
+            //         focus.sofEngr, 
+            //         // focus.game.desDev, 
+            //         // focus.data
+            //     ],
+            //     skills: [
+            //         // tech.c_sharp.id, 
+            //         tech.py.id, 
+            //         // tech.unity.id, 
+            //         tech.sql.id, 
+            //         tech.garageband.id, 
+            //         // tech.milkyTrack.id
+            //     ]
+            // },
         ],
     },
     // {

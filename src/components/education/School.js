@@ -3,15 +3,15 @@ import React from 'react';
 const schoolName = (school, location, href) => {
     if(href){
         return (
-            <li>
+            <span>
                 <span className="font-weight-bold"><a className="p-0" href={href}>{school}</a></span>{location}
-            </li>
+            </span>
         );
     } else {
         return (
-            <li>
-                <span className="font-weight-bold">{school}</span>{location}
-            </li>
+            <span>
+                <span className="font-weight-bold card-title">{school}</span>{location}
+            </span>
         );
     }
 }
@@ -19,9 +19,9 @@ const schoolName = (school, location, href) => {
 const extendedInfo = (moreInfo) => {
     let allInfo = moreInfo.map((element) => {
         return(
-            <li>
+            <span>
                 <span className="font-weight-bold">{element.title}</span>{element.content}
-            </li>
+            </span>
         )
     });
     return allInfo;
@@ -43,40 +43,41 @@ const secondUl = (focus, skills, moreInfo, credentials) => {
     if(moreInfo){
         if(typeof moreInfo === "object"){
             return (
-                <ul>
+                <span>
                     {liCredentailTag}
-                    <li><span className="font-weight-bold">Concentrations: </span>{focusStr}</li>
-                    <li><span className="font-weight-bold">Skills:</span>{skillStr} etc.</li>
+                    {/* <li><span className="font-weight-bold">Concentrations: </span>{focusStr}</li>
+                    <li><span className="font-weight-bold">Skills:</span>{skillStr} etc.</li> */}
                     {extendedInfo(moreInfo)}
-                </ul>
+                </span>
             );
         } else {
             return (
-                <ul>
-                    {liCredentailTag}
-                    <li><span className="font-weight-bold">Concentrations: </span>{focusStr}</li>
-                    <li><span className="font-weight-bold">Skills:</span>{skillStr} etc.</li>
-                    <li>{moreInfo}</li>
-                </ul>
+                <p className='pt-2'>
+                    {/* {liCredentailTag} */}
+                    {/* <li><span className="font-weight-bold">Concentrations: </span>{focusStr}</li>
+                    <li><span className="font-weight-bold">Skills:</span>{skillStr} etc.</li> */}
+                    {/* <p>{moreInfo}</p> */}
+                </p>
             );
         }
     } else {
         return (
-            <ul>
-                {liCredentailTag}
-                <li><span className="font-weight-bold">Concentrations: </span>{focusStr}</li>
-                <li><span className="font-weight-bold">Skills:</span>{skillStr} etc.</li>
-            </ul>
+            <span>
+                {/* {liCredentailTag} */}
+                {/* <li><span className="font-weight-bold">Concentrations: </span>{focusStr}</li>
+                <li><span className="font-weight-bold">Skills:</span>{skillStr} etc.</li> */}
+                {/* <li>{moreInfo}</li> */}
+            </span>
         );
     }
 }
 
 const School = (props) => { 
     return (
-        <ul>
+        <span>
             {schoolName(props.school, props.location, props.href)}
             {secondUl(props.focus, props.skills, props.moreInfo, props.credentials)}
-        </ul>
+        </span>
     );
 }
 

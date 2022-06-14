@@ -22,6 +22,10 @@ export const mainLang = {
         id:'Go (Golang)',
         level: expertise.novice
     },
+    java: {
+        id:'Java',
+        level: expertise.novice
+    }
     // rb: {
     //     id:'Ruby',
     //     level: expertise.novice
@@ -140,11 +144,11 @@ export const tech = {
         langType: mainLang.swift.id, 
         level: expertise.proficient
     },
-    balsamiq: {
-        id:'Balsamiq', 
-        langType: false, 
-        level: expertise.novice
-    },
+    // balsamiq: {
+    //     id:'Balsamiq', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     ai: {
         id:'AI/Machine Learning', 
         langType: mainLang.py.id, 
@@ -178,7 +182,7 @@ export const tech = {
     flaskWTF:{
         id:'Flask-WTF', 
         langType: mainLang.py.id, 
-        level: expertise.proficient
+        level: expertise.novice
     },
     jinja2: {
         id:'Jinja2', 
@@ -195,11 +199,11 @@ export const tech = {
         langType: false, 
         level: expertise.proficient
     },
-    digOcean: {
-        id: 'Digital Ocean', 
-        langType: false, 
-        level: expertise.novice
-    },
+    // digOcean: {
+    //     id: 'Digital Ocean', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     node: {
         id: 'Node.js', 
         langType: mainLang.js.id, 
@@ -661,7 +665,7 @@ export const tech = {
     cloud9: {
         id: 'Cloud9', 
         langType: false, 
-        level: expertise.proficient
+        level: expertise.novice
     },
     // nowVercel: {
     //     id: 'Now Vercel', 
@@ -724,15 +728,35 @@ export const tech = {
             langType: false, 
             level: expertise.novice
         },
-        alchemy: {
-            id: 'SQLAlchemy', 
-            langType: false, 
-            level: expertise.novice
-        }
+        // alchemy: {
+        //     id: 'SQLAlchemy', 
+        //     langType: false, 
+        //     level: expertise.novice
+        // }
     },
     ajax: {
         id: 'AJAX', 
         langType: mainLang.js.id, 
+        level: expertise.proficient
+    },
+    vSCode: {
+        id: 'VS Code', 
+        langType: false, 
+        level: expertise.expert
+    },
+    adam: {
+        id: 'Adam', 
+        langType: false, 
+        level: expertise.proficient
+    },
+    vS: {
+        id: 'Visual Studio', 
+        langType: false, 
+        level: expertise.proficient
+    },
+    gitHubCP: {
+        id: 'GitHub Copilot', 
+        langType: false, 
         level: expertise.proficient
     },
     docker: {

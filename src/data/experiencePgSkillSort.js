@@ -4,6 +4,7 @@ let expert = '';
 let proficient = '';
 let novice = '';
 const js = [];
+const java = [];
 const py = [];
 const rb = [];
 const swift = [];
@@ -33,6 +34,8 @@ for(const key1 in tech){
                 swift.push({id: tech[key1].id, level: tech[key1].level});
             } else if(tech[key1].langType == 'Go (Golang)'){
                 go.push({id: tech[key1].id, level: tech[key1].level});
+            } else if(tech[key1].langType == 'Java'){
+                java.push({id: tech[key1].id, level: tech[key1].level});
             }
         } else if(key2 != 'langType' && key2 != 'level'){
             for(const key3 in tech[key1][key2]){
@@ -80,28 +83,35 @@ export const mainLanguages = [
         id: mainLang.js.id,
         associatedLang: js,
         src: "images/experience/js-logo.svg",
-        alt: "The JavaScript & JavaScript ES6 Logo for the computer Science programming language"
+        alt: "programming language logo for JavaScript"
     },
     {
         level: mainLang.py.level,
         id: mainLang.py.id,
         associatedLang: py,
         src: "images/experience/python-logo.svg",
-        alt: "Python 1, 2 & 3 Logo for the computer Science programming language"
+        alt: "programming language logo for Python"
     },
     {
         level: mainLang.swift.level,
         id: mainLang.swift.id,
         associatedLang: swift,
         src: "images/experience/swift-logo.png",
-        alt: "Python 1, 2 & 3 Logo for the computer Science programming language"
+        alt: "programming language logo for Swift"
     },
     {
         level: mainLang.go.level,
         id: mainLang.go.id,
         associatedLang: go,
         src: "images/experience/go-logo.png",
-        alt: "Python 1, 2 & 3 Logo for the computer Science programming language"
+        alt: "programming language logo for Golang"
+    },
+    {
+        level: mainLang.java.level,
+        id: mainLang.java.id,
+        associatedLang: java,
+        src: "images/experience/java-logo.png",
+        alt: "programming language logo for Java"
     },
     // {
     //     level: mainLang.rb.level,
