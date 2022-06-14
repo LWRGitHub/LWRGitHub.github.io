@@ -16,9 +16,9 @@ const Language = (props) => {
         <div className="col-sm-6 col-md-3">
             <h5>{props.id}  <span id="main-lang-bg" className="badge badge-pill badge-light">{props.level}</span></h5>
             <img src={props.src} alt={props.alt} />
-            <ul>
+            {/* <ul>
                 {associatedLangs}
-            </ul>
+            </ul> */}
         </div>
     );
 }

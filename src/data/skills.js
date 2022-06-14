@@ -109,6 +109,11 @@ export const tech = {
         langType: false, 
         level: expertise.novice
     },
+    java: {
+        id: "Java", 
+        langType: false, 
+        level: expertise.novice
+    },
     go: {
         id: "Go (Golang)", 
         langType: false, 
