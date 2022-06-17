@@ -754,6 +754,11 @@ export const tech = {
         langType: false, 
         level: expertise.proficient
     },
+    brackets:{
+        id: 'Brackets',
+        langType: false,
+        level: expertise.proficient
+    },
     vS: {
         id: 'Visual Studio', 
         langType: false, 
