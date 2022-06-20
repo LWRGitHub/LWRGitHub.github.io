@@ -67,7 +67,7 @@ export const ProProj = [
             ]
         },
         paragraph2: 'Once on the site, sign up to begin learning different dance moves.',
-        projectLink: "http://dance4healing.com/sandbox/index.html",
+        projectLink: "https://dance4healing.com",
         codeLink: false
     },
     {
