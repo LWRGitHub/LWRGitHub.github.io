@@ -8,7 +8,7 @@ export const ProProj = [
             alt: "Screen Shot of the Wipro.com home page."
         },
         title: 'Wipro: App-Cloud Services-Developer',
-        paragraph1: 'Application development with cloud environments such as AWS (Amazon Web Services). Using Full Stack software engineering with a variety of different technologies to develop & maintain code base.',
+        paragraph1: 'Received Application development training in Java & AWS.',
         skills: {
             platform: [platform.cloud], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`], 
