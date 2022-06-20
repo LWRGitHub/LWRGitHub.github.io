@@ -9,7 +9,7 @@ export const education = [
         },
         schools: [
             {
-                school: 'www.ccsf.edu',
+                school: 'www.CCSF.edu',
                 location: ': SF, CA - In Progress',
                 href: 'https://www.ccsf.edu',
                 focus: [
@@ -55,7 +55,7 @@ export const education = [
         
         schools: [
             {
-                school: 'Dominican.edu',
+                school: 'www.Dominican.edu',
                 location: ': CA',
                 // credentials: {
                 //     aText: 'Transcripts',
@@ -132,7 +132,7 @@ export const education = [
         },
         schools: [
             {
-                school: 'www.uopeople.edu',
+                school: 'www.UOPeople.edu',
                 location: ': Online',
                 href: 'https://www.uopeople.edu',
                 focus: [
@@ -185,8 +185,8 @@ export const education = [
         },
         schools: [
             {
-                school: 'www.dvc.edu',
-                location: ': PleasantHill, CA',
+                school: 'www.DVC.edu',
+                location: ': Pleasant Hill, CA',
                 // credentials: {
                 //     aText: 'Transcripts',
                 //     href: 'https://lwrgithub.github.io/files/education-credentials/dvc-transcripts.pdf'
@@ -304,36 +304,160 @@ export const education = [
     //     ],
     // },
     {
-        title: 'Code Tenderloin  |  Code Ramp',
+        title: 'Code Tenderloin  |  Front End Web Development',
         img: {
             src: 'images/education/codeTLRampCertificate.png',
             alt: 'Code Tenderloin Code Ramp Certificate'
         },
-        schools: [],
+        schools: [
+            {
+                school: 'www.CodeTenderloin.org',
+                location: ': SF, CA',
+                href: 'https://www.codetenderloin.org',
+                // credentials: {
+                //     aText: 'Certificates',
+                //     href: 'https://lwrgithub.github.io/files/education-credentials/code-tl-certificates.pdf'
+                // },
+                focus: [
+                    focus.sofEngr, 
+                    // focus.game.desDev
+                ],
+                skills: [tech.js.id, tech.html.id, tech.css.id]
+            },
+        ],
     },
     {
-        title: 'Code Tenderloin  |  Code Ramp++',
+        title: 'Code Tenderloin  |  Intermediate JavaScript',
         img: {
             src: 'images/education/codeTLRampPlusPlusCertificate.png',
             alt: 'Code Tenderloin Code Ramp++ Certificate'
         },
-        schools: [],
+        schools: [
+            {
+                school: 'www.CodeTenderloin.org',
+                location: ': SF, CA',
+                href: 'https://www.codetenderloin.org',
+                // credentials: {
+                //     aText: 'Certificates',
+                //     href: 'https://lwrgithub.github.io/files/education-credentials/code-tl-certificates.pdf'
+                // },
+                focus: [
+                    focus.sofEngr, 
+                    // focus.game.desDev
+                ],
+                skills: [tech.js.id, tech.html.id, tech.css.id]
+            },
+        ],
     },
     {
-        title: 'Code The Dream |  Certificate',
+        title: 'Code The Dream |  Software Development',
         img: {
             src: 'images/education/codeTheDreamCertificate.png',
             alt: 'Code The Dream Certificate'
         },
-        schools: [],
+        schools: [
+
+            {
+                school: 'www.CodeTheDream.org',
+                location: ': Durham, NC',
+                href: 'https://codethedream.org',
+                // credentials: {
+                //     aText: 'Certificate',
+                //     href: 'https://lwrgithub.github.io/files/education-credentials/ctd-certificate.pdf'
+                // },
+                focus: [
+                    `${focus.dev.area.f} ${focus.sofEngr}`
+                    ],
+                skills: [
+                    tech.js.id, 
+                    // tech.rb.id, 
+                    tech.html.id, 
+                    tech.css.id, 
+                    tech.dom.id, 
+                    tech.react.id, 
+                    tech.reactRouter.id, 
+                    tech.reactBootstrap.id, 
+                    tech.bootstrap.id, 
+                    // tech.rbOnRail.id, 
+                    // tech.erb.id, 
+                    // tech.activeRec.id, 
+                    tech.aws.id, 
+                    tech.sql.id, 
+                    tech.jquery.id, 
+                    tech.terminal.id, 
+                    tech.gitHub.id, 
+                    tech.git.id, 
+                    tech.wireFrames.id, 
+                    tech.chromeDev.id, 
+                    tech.flexbox.id, 
+                    tech.responsive.id, 
+                    tech.mediaEl.id, 
+                    tech.webOptimiz.id, 
+                    tech.preformOptimiz.id, 
+                    tech.webAccess.id, 
+                    tech.ajax.id, 
+                    tech.asyncAwait.id, 
+                    tech.api.fetch.id
+                ]
+            },
+        ],
     },
     {
-        title: 'Meda Mission Techies |  Certificate',
+        title: 'Meda Mission Techies |  Full Stack Development',
         img: {
             src: 'images/education/medaMissionTechiesCertificate.png',
-            alt: 'Code Tenderloin Certificate'
+            alt: 'Meda Mission Techies Certificate'
         },
-        schools: [],
+        schools: [
+            {
+                school: 'www.MedaSF.org',
+                location: ': SF, CA',
+                href: 'https://medasf.org',
+                // credentials: {
+                //     aText: 'Certificate',
+                //     href: 'https://lwrgithub.github.io/files/education-credentials/meda-mt-certificate.pdf'
+                // },
+                focus: [
+                    `${focus.dev.area.fs} ${focus.sofEngr}`
+                ],
+                skills: [
+                    tech.js.id, 
+                    tech.html.id, 
+                    tech.css.id, 
+                    tech.node.id, 
+                    tech.react.id, 
+                    tech.dom.id, 
+                    tech.mongo.id, 
+                    tech.mongoose.id, 
+                    tech.jquery.id, 
+                    tech.terminal.id, 
+                    tech.git.id, 
+                    tech.gitHub.id, 
+                    tech.wireFrames.id, 
+                    tech.flexbox.id
+                ]
+            }
+        ],
+    },
+    {
+        title: 'Vanguard | High School Diploma',
+        img: {
+            src: "images/education/highSchoolDeploma.png",
+            alt: "This is Logan's High School Deploma form The Vangard School located in Lake Wales Florida."
+        },
+        schools: [
+            {
+                school: 'www.VanguardSchool.org',
+                location: ': Lake Wales, FL',
+                href: 'https://www.vanguardschool.org',
+                focus: [
+                    // otherFocus.math, otherFocus.science, otherFocus.history, otherFocus.english, otherFocus.electives.photo, otherFocus.electives.video, otherFocus.electives.typing, otherFocus.language
+                ],
+                skills: [
+                    // tech.imove.id, skill.darkRoomPhoto.id, skill.ASL.id, skill.highSpeedKey.id
+                ]
+            }
+        ],
     },
     {
         title: 'Online/In-Person Courses |  Software Engineering Studies',
@@ -538,20 +662,7 @@ export const education = [
             // },
         ],
     },
-    // {
-    //     title: 'SRVHS & Vanguard | High School Diploma',
-    //     img: {
-    //         src: "images/education/high-schools-glow.jpg",
-    //         alt: 'This is a photo of both San Ramon Valley high school Located in Danville California and The Vangard School located in Lake Wales Florida. the photo is Split in half with a white line down the middle.'
-    //     },
-    //     schools: [
-    //         {
-    //             school: 'SRVHS: Danville, CA | Vanguard: Lake Wales, FL',
-    //             focus: [otherFocus.math, otherFocus.science, otherFocus.history, otherFocus.english, otherFocus.electives.photo, otherFocus.electives.video, otherFocus.electives.typing, otherFocus.language],
-    //             skills: [tech.imove.id, skill.darkRoomPhoto.id, skill.ASL.id, skill.highSpeedKey.id]
-    //         }
-    //     ],
-    // },
+    
 ];
 
 // {

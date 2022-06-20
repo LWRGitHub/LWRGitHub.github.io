@@ -187,7 +187,7 @@ export const tech = {
     flaskWTF:{
         id:'Flask-WTF', 
         langType: mainLang.py.id, 
-        level: expertise.novice
+        level: expertise.proficient
     },
     jinja2: {
         id:'Jinja2', 
@@ -322,7 +322,7 @@ export const tech = {
     html: {
         id: 'HTML', 
         langType: false, 
-        level: expertise.proficient
+        level: expertise.expert
     },
     css: {
         id: 'CSS', 
@@ -610,7 +610,12 @@ export const tech = {
     shell: {
         id: 'Shell Code', 
         langType: false, 
-        level: expertise.novice
+        level: expertise.proficient
+    },
+    unixShell: {
+        id: 'Unix Shell', 
+        langType: false, 
+        level: expertise.proficient
     },
     // c_sharp: {
     //     id: 'C#', 
@@ -622,11 +627,21 @@ export const tech = {
     //     langType: mainLang.c_sharp.id, 
     //     level: expertise.novice
     // },
-    // powerSh: {
-    //     id: 'Power Shell', 
+    powerSh: {
+        id: 'Power Shell', 
+        langType: false, 
+        level: expertise.novice
+    },
+    // xml: {
+    //     id: 'XML', 
     //     langType: false, 
-    //     level: expertise.expert
+    //     level: expertise.novice
     // },
+    aspNet: {
+        id: 'ASP.NET', 
+        langType: false, //mainLang.c_sharp.id, 
+        level: expertise.novice
+    },
     terminal: {
         id: 'Terminal', 
         langType: false, 
@@ -761,6 +776,31 @@ export const tech = {
     },
     vS: {
         id: 'Visual Studio', 
+        langType: false, 
+        level: expertise.proficient
+    },
+    iHWare: {
+        id: 'Install Hardware', 
+        langType: false, 
+        level: expertise.proficient
+    },
+    cfgHWare: {
+        id: 'Configure Hard Ware', 
+        langType: false, 
+        level: expertise.proficient
+    },
+    rMComp: {
+        id: 'Repair & Maintain Computer System in a Typical Office Environment', 
+        langType: false, 
+        level: expertise.proficient
+    },
+    ftp: {
+        id: 'File Transfer Protocol (FTP)', 
+        langType: false, 
+        level: expertise.proficient
+    },
+    fZilla: {
+        id: 'File Zilla', 
         langType: false, 
         level: expertise.proficient
     },
