@@ -723,7 +723,7 @@ export const tech = {
         level: expertise.proficient
     },
     preformOptimiz: {
-        id: 'Preformance Optimization', 
+        id: 'Performance Optimization', 
         langType: false, 
         level: expertise.proficient
     },
