@@ -672,11 +672,11 @@ export const tech = {
         langType: false, 
         level: expertise.proficient
     },
-    // http: {
-    //     id: 'http/https', 
-    //     langType: false, 
-    //     level: expertise.proficient
-    // },
+    http: {
+        id: 'http/https', 
+        langType: false, 
+        level: expertise.proficient
+    },
     aws: {
         id: 'AWS', 
         langType: false, 
