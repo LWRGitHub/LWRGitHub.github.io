@@ -677,6 +677,11 @@ export const tech = {
     //     langType: false, 
     //     level: expertise.proficient
     // },
+    unixCLI: {
+        id: 'Unix CLI',
+        langType: false, 
+        level: expertise.proficient
+    },
     aws: {
         id: 'AWS', 
         langType: false, 

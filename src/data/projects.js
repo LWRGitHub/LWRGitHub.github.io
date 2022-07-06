@@ -133,12 +133,12 @@ export const PersonalProj = [
             src: "images/experience/scraping-craigslist.png", 
             alt: "Image of the app having found something & starting to text a number."
         },
-        title: "Scrapping Craigslist & TrashNothing.com!",
-        paragraph1: "Free Apple products & more through scrapping Craigslist & the website Trash Nothing! These python files use bs4 & selenium to scrape the web & send you a text message when you find that awesome thing your looking for! The file are setup to search for free apple products, computers, laptops, video games, ect.",
+        title: "Scraping Craigslist & TrashNothing.com!",
+        paragraph1: "Free Apple products & more through scraping Craigslist & the website Trash Nothing! These python files use bs4 & selenium to scrape the web & send you a text message when you find that awesome thing your looking for! The file are setup to search for free apple products, computers, laptops, video games, ect.",
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, focus.dev.type.a], 
-            tech: [tech.py.id,  tech.git.id, tech.gitHub.id, tech.bs4.id, tech.selenium.id, tech.request.id, tech.dotenv.id]
+            tech: [tech.py.id,  tech.git.id, tech.gitHub.id, tech.bs4.id, tech.selenium.id, tech.request.id, tech.dotenv.id, tech.unixCLI.id]
         },
         paragraph2: 'You will have to follow the detailed instructions in the README.md file on GetHub.',
         projectLink: 'https://github.com/LWRGitHub/cs_scraper',
@@ -211,7 +211,7 @@ export const PersonalProj = [
     },
     {
         img: {
-            src: "images/experience/vegan-search-site.png", 
+            src: "images/experience/veganQuery.png", 
             alt: "Screenshot of the home page. The image has photos of the Different vegan dishes with their names such as tomato soup & slaw with coriander."
         },
         title: "Vegan Recipe Search Engine",
@@ -222,8 +222,8 @@ export const PersonalProj = [
             tech: [tech.js.id, tech.go.id, tech.react.id, tech.bootstrap.id, tech.reactBootstrap.id, tech.goBenchmark.id, tech.goScrape.id, tech.goTest.id, tech.html.id, tech.css.id, tech.git.id, tech.gitHub.id, tech.gitHubPg.id]
         },
         paragraph2: 'Simply search for something like tomato soup.',
-        projectLink: 'https://lwrgithub.github.io/vegan-recipes-search-engine/#/',
-        codeLink: "https://github.com/LWRGitHub/vegan-recipes-search-engine"
+        projectLink: 'https://github.com/VeganQuery/VeganQuery.github.io',
+        codeLink: "https://github.com/VeganQuery/VeganQuery.github.io"
     },
 ];
 
