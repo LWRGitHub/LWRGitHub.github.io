@@ -89,7 +89,7 @@ export const education = [
                     tech.api.api.id,
                     tech.api.rest.id,
                     tech.api.fetch.id, 
-                    tech.http.id, 
+                    // tech.http.id, 
                     tech.npm.id, 
                     tech.responsive.id, 
                     tech.google.font.id, 
