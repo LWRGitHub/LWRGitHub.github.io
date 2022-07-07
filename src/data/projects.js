@@ -214,12 +214,12 @@ export const PersonalProj = [
             src: "images/experience/veganQuery.png", 
             alt: "Screenshot of the home page. The image has photos of the Different vegan dishes with their names such as tomato soup & slaw with coriander."
         },
-        title: "Vegan Recipe Search Engine",
-        paragraph1: "This project uses Go (Golang) to scrape the web for vegan recipes & it delivers them with React.js on the front end. I hope you like it!",
+        title: "Vegan Query",
+        paragraph1: "Website that scrapes vegan recipes off the internet & places them in a search engine.",
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi], 
-            tech: [tech.js.id, tech.go.id, tech.react.id, tech.bootstrap.id, tech.reactBootstrap.id, tech.goBenchmark.id, tech.goScrape.id, tech.goTest.id, tech.html.id, tech.css.id, tech.git.id, tech.gitHub.id, tech.gitHubPg.id]
+            tech: [tech.js.id, tech.react.id, tech.bootstrap.id, tech.reactBootstrap.id, tech.html.id, tech.css.id, tech.git.id, tech.gitHub.id, tech.gitHubPg.id]
         },
         paragraph2: 'Simply search for something like tomato soup.',
         projectLink: 'https://github.com/VeganQuery/VeganQuery.github.io',
