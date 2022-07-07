@@ -140,7 +140,7 @@ export const tech = {
         level: expertise.novice
     },
     swiftUI: {
-        id:'Swift UI', 
+        id:'SwiftUI', 
         langType: mainLang.swift.id, 
         level: expertise.novice
     },
