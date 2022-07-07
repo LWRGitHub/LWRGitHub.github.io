@@ -677,6 +677,11 @@ export const tech = {
     //     langType: false, 
     //     level: expertise.proficient
     // },
+    wShark: {
+        id: 'Wire Shark',
+        langType: false, 
+        level: expertise.novice
+    },
     unixCLI: {
         id: 'Unix CLI',
         langType: false, 
