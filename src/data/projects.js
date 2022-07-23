@@ -7,7 +7,7 @@ export const ProProj = [
             src: "images/experience/wipro.png",
             alt: "Screen Shot of the Wipro.com home page."
         },
-        title: 'Wipro: App-Cloud Services-Developer/Support Engineer',
+        title: 'Wipro: App-Cloud Services-Developer',
         paragraph1: 'Received application development training in Java & AWS, in-order to be able to use a variety of different technologies to develop and maintain code base.',
         skills: {
             platform: [
@@ -29,6 +29,7 @@ export const ProProj = [
                 // tech.aws.id,
                 "AWS",
                 "Java",
+                tech.json.id,
                 // tech.py.id
             ]
         },
