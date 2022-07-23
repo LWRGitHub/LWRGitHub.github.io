@@ -92,27 +92,27 @@ export const mainLanguages = [
         src: "images/experience/python-logo.svg",
         alt: "programming language logo for Python"
     },
-    {
-        level: mainLang.swift.level,
-        id: mainLang.swift.id,
-        associatedLang: swift,
-        src: "images/experience/swift-logo.png",
-        alt: "programming language logo for Swift"
-    },
-    {
-        level: mainLang.go.level,
-        id: mainLang.go.id,
-        associatedLang: go,
-        src: "images/experience/go-logo.png",
-        alt: "programming language logo for Golang"
-    },
-    {
-        level: mainLang.java.level,
-        id: mainLang.java.id,
-        associatedLang: java,
-        src: "images/experience/java-logo.png",
-        alt: "programming language logo for Java"
-    },
+    // {
+    //     level: mainLang.swift.level,
+    //     id: mainLang.swift.id,
+    //     associatedLang: swift,
+    //     src: "images/experience/swift-logo.png",
+    //     alt: "programming language logo for Swift"
+    // },
+    // {
+    //     level: mainLang.go.level,
+    //     id: mainLang.go.id,
+    //     associatedLang: go,
+    //     src: "images/experience/go-logo.png",
+    //     alt: "programming language logo for Golang"
+    // },
+    // {
+    //     level: mainLang.java.level,
+    //     id: mainLang.java.id,
+    //     associatedLang: java,
+    //     src: "images/experience/java-logo.png",
+    //     alt: "programming language logo for Java"
+    // },
     // {
     //     level: mainLang.rb.level,
     //     id: mainLang.rb.id,

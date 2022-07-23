@@ -7,25 +7,25 @@ export const expertise = {
 
 export const mainLang = {
     js: {
-        id:'JavaScript',
+        id:'JavaScript/Node.js',
         level: expertise.proficient
     },
     py: {
         id:'Python',
         level: expertise.proficient
     },
-    swift: {
-        id:'Swift',
-        level: expertise.novice
-    },
-    go: {
-        id:'Go (Golang)',
-        level: expertise.novice
-    },
-    java: {
-        id:'Java',
-        level: expertise.novice
-    }
+    // swift: {
+    //     id:'Swift',
+    //     level: expertise.novice
+    // },
+    // go: {
+    //     id:'Go (Golang)',
+    //     level: expertise.novice
+    // },
+    // java: {
+    //     id:'Java',
+    //     level: expertise.novice
+    // }
     // rb: {
     //     id:'Ruby',
     //     level: expertise.novice
@@ -104,81 +104,81 @@ export const otherFocus = {
 };
 
 export const tech = {
-    swift: {
-        id: "Swift", 
-        langType: false, 
-        level: expertise.novice
-    },
-    java: {
-        id: "Java", 
-        langType: false, 
-        level: expertise.novice
-    },
-    go: {
-        id: "Go (Golang)", 
-        langType: false, 
-        level: expertise.novice
-    },
-    goScrape: {
-        id: 'Go Web Scraping', 
-        langType: mainLang.go.id, 
-        level: expertise.novice
-    },
-    goTempGen: {
-        id: 'Go Template Generation', 
-        langType: mainLang.go.id, 
-        level: expertise.novice
-    },
-    goTest: {
-        id: 'Go Testing', 
-        langType: mainLang.go.id, 
-        level: expertise.novice
-    },
-    goBenchmark: {
-        id: 'Go Benchmarking', 
-        langType: mainLang.go.id, 
-        level: expertise.novice
-    },
-    swiftUI: {
-        id:'SwiftUI', 
-        langType: mainLang.swift.id, 
-        level: expertise.novice
-    },
-    xCode: {
-        id:'xCode', 
-        langType: mainLang.swift.id, 
-        level: expertise.proficient
-    },
+    // swift: {
+    //     id: "Swift", 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
+    // java: {
+    //     id: "Java", 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
+    // go: {
+    //     id: "Go (Golang)", 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
+    // goScrape: {
+    //     id: 'Go Web Scraping', 
+    //     langType: mainLang.go.id, 
+    //     level: expertise.novice
+    // },
+    // goTempGen: {
+    //     id: 'Go Template Generation', 
+    //     langType: mainLang.go.id, 
+    //     level: expertise.novice
+    // },
+    // goTest: {
+    //     id: 'Go Testing', 
+    //     langType: mainLang.go.id, 
+    //     level: expertise.novice
+    // },
+    // goBenchmark: {
+    //     id: 'Go Benchmarking', 
+    //     langType: mainLang.go.id, 
+    //     level: expertise.novice
+    // },
+    // swiftUI: {
+    //     id:'SwiftUI', 
+    //     langType: mainLang.swift.id, 
+    //     level: expertise.novice
+    // },
+    // xCode: {
+    //     id:'xCode', 
+    //     langType: mainLang.swift.id, 
+    //     level: expertise.proficient
+    // },
     // balsamiq: {
     //     id:'Balsamiq', 
     //     langType: false, 
     //     level: expertise.novice
     // },
-    ai: {
-        id:'AI/Machine Learning', 
-        langType: mainLang.py.id, 
-        level: expertise.novice
-    },
-    numPy: {
-        id: 'NumPy',
-        langType: mainLang.py.id,
-        level: expertise.novice
-    },
-    matlab: {
-        id: 'Matlab',
-        langType: mainLang.py.id,
-        level: expertise.novice
-    },
-    pandas: {
-        id: 'Pandas',
-        langType: mainLang.py.id,
-        level: expertise.novice
-    },
-    handlebars: {
-        id: 'Handlebars',
-        langType: false,
-        level: expertise.novice
-    },
+    // ai: {
+    //     id:'AI/Machine Learning', 
+    //     langType: mainLang.py.id, 
+    //     level: expertise.novice
+    // },
+    // numPy: {
+    //     id: 'NumPy',
+    //     langType: mainLang.py.id,
+    //     level: expertise.novice
+    // },
+    // matlab: {
+    //     id: 'Matlab',
+    //     langType: mainLang.py.id,
+    //     level: expertise.novice
+    // },
+    // pandas: {
+    //     id: 'Pandas',
+    //     langType: mainLang.py.id,
+    //     level: expertise.novice
+    // },
+    // handlebars: {
+    //     id: 'Handlebars',
+    //     langType: false,
+    //     level: expertise.novice
+    // },
     flask: {
         id:'Flask', 
         langType: mainLang.py.id, 
@@ -214,16 +214,16 @@ export const tech = {
         langType: mainLang.js.id, 
         level: expertise.proficient
     },
-    jade: {
-        id: 'Jade', 
-        langType: false, 
-        level: expertise.novice
-    },
-    pug: {
-        id: 'Pug', 
-        langType: false, 
-        level: expertise.novice
-    },
+    // jade: {
+    //     id: 'Jade', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
+    // pug: {
+    //     id: 'Pug', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     bootstrap: {
         id: 'Bootstrap', 
         langType: false, 
@@ -262,7 +262,7 @@ export const tech = {
     mongoose: {
         id: 'Mongoose', 
         langType: false, 
-        level: expertise.proficient
+        level: expertise.novice
     },
     // twilio: {
     //     id: 'Twilio', 
@@ -304,11 +304,11 @@ export const tech = {
         langType: false, 
         level: expertise.proficient
     },
-    pyTest: {
-        id: 'Pytest', 
-        langType: mainLang.py.id, 
-        level: expertise.novice
-    },
+    // pyTest: {
+    //     id: 'Pytest', 
+    //     langType: mainLang.py.id, 
+    //     level: expertise.novice
+    // },
     dotenv:{
         id: 'Dotenv', 
         langType: false, 
@@ -388,13 +388,13 @@ export const tech = {
         photo: {
             id: 'Photoshop', 
             langType: false, 
-            level: expertise.proficient
-        },
-        dream: {
-            id: 'Dreamweaver', 
-            langType: false, 
             level: expertise.novice
         },
+        // dream: {
+        //     id: 'Dreamweaver', 
+        //     langType: false, 
+        //     level: expertise.novice
+        // },
         muse: {
             id: 'Adobe Muse', 
             langType: false, 
@@ -405,22 +405,22 @@ export const tech = {
         //     langType: false, 
         //     level: expertise.novice
         // },
-        suite: {
-            id: 'Adobe Creative Cloud Suite', 
-            langType: false, 
-            level: expertise.novice
-        }
+        // suite: {
+        //     id: 'Adobe Creative Cloud Suite', 
+        //     langType: false, 
+        //     level: expertise.novice
+        // }
     },
-    sketchApp: {
-        id: 'Sketch', 
-        langType: false, 
-        level: expertise.novice
-    },
-    cloudPlat: {
-        id: 'Cloud Platforms', 
-        langType: false, 
-        level: expertise.novice
-    },
+    // sketchApp: {
+    //     id: 'Sketch', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
+    // cloudPlat: {
+    //     id: 'Cloud Platforms', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     // img: {
     //     img: {
     //         id: 'Images', 
@@ -534,17 +534,17 @@ export const tech = {
             langType: false, 
             level: expertise.proficient
         },
-        cloud: {
-            id: 'Google Cloud', 
-            langType: false, 
-            level: expertise.novice
-        },
+        // cloud: {
+        //     id: 'Google Cloud', 
+        //     langType: false, 
+        //     level: expertise.novice
+        // },
     },
-    wordPr: {
-        id: 'WordPress', 
-        langType: false, 
-        level: expertise.novice
-    },
+    // wordPr: {
+    //     id: 'WordPress', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     // phaser: {
     //     id: 'Phaser', 
     //     langType: false, 
@@ -553,18 +553,18 @@ export const tech = {
     jquery: {
         id: 'jQuery', 
         langType: mainLang.js.id, 
-        level: expertise.proficient
-    },
-    webVtt: {
-        id: 'WebVTT', 
-        langType: false, 
         level: expertise.novice
     },
-    mediaEl: {
-        id: 'MediaElement.js', 
-        langType: mainLang.js.id, 
-        level: expertise.novice
-    },
+    // webVtt: {
+    //     id: 'WebVTT', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
+    // mediaEl: {
+    //     id: 'MediaElement.js', 
+    //     langType: mainLang.js.id, 
+    //     level: expertise.novice
+    // },
     // mp4: {
     //     id: 'MP4', 
     //     langType: false, 
@@ -597,16 +597,16 @@ export const tech = {
     //     langType: false, 
     //     level: expertise.novice
     // },
-    jsx: {
-        id: 'JSX', 
-        langType: false, 
-        level: expertise.proficient
-    },
-    p5: {
-        id: 'P5.js', 
-        langType: mainLang.js.id, 
-        level: expertise.novice
-    },
+    // jsx: {
+    //     id: 'JSX', 
+    //     langType: false, 
+    //     level: expertise.proficient
+    // },
+    // p5: {
+    //     id: 'P5.js', 
+    //     langType: mainLang.js.id, 
+    //     level: expertise.novice
+    // },
     shell: {
         id: 'Shell Code', 
         langType: false, 
@@ -637,11 +637,11 @@ export const tech = {
     //     langType: false, 
     //     level: expertise.novice
     // },
-    aspNet: {
-        id: 'ASP.NET', 
-        langType: false, //mainLang.c_sharp.id, 
-        level: expertise.novice
-    },
+    // aspNet: {
+    //     id: 'ASP.NET', 
+    //     langType: false, //mainLang.c_sharp.id, 
+    //     level: expertise.novice
+    // },
     terminal: {
         id: 'Terminal', 
         langType: false, 
@@ -677,21 +677,21 @@ export const tech = {
     //     langType: false, 
     //     level: expertise.proficient
     // },
-    wShark: {
-        id: 'Wire Shark',
-        langType: false, 
-        level: expertise.novice
-    },
+    // wShark: {
+    //     id: 'Wire Shark',
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     unixCLI: {
         id: 'Unix CLI',
         langType: false, 
         level: expertise.proficient
     },
-    aws: {
-        id: 'AWS', 
-        langType: false, 
-        level: expertise.novice
-    },
+    // aws: {
+    //     id: 'AWS', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     cloud9: {
         id: 'Cloud9', 
         langType: false, 
@@ -702,11 +702,11 @@ export const tech = {
     //     langType: false, 
     //     level: expertise.novice
     // },
-    netlify: {
-        id: 'Netlify', 
-        langType: false, 
-        level: expertise.novice
-    },
+    // netlify: {
+    //     id: 'Netlify', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     testDev: {
         id: 'Test-Driven Development', 
         langType: false, 
@@ -717,11 +717,11 @@ export const tech = {
         langType: false, 
         level: expertise.novice
     },
-    devOps: {
-        id: 'DevOps', 
-        langType: false, 
-        level: expertise.novice
-    },
+    // devOps: {
+    //     id: 'DevOps', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     webAccess: {
         id: 'Web Accessibility', 
         langType: false, 
@@ -737,11 +737,11 @@ export const tech = {
         langType: false, 
         level: expertise.proficient
     },
-    flexbox: {
-        id: 'Flexbox', 
-        langType: false, 
-        level: expertise.novice
-    },
+    // flexbox: {
+    //     id: 'Flexbox', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     responsive: {
         id: 'Responsive Design/Layout', 
         langType: false, 
@@ -753,22 +753,22 @@ export const tech = {
     //     level: expertise.novice
     // },
     sql: {
-        sql:{
-            id: 'SQL', 
-            langType: false, 
-            level: expertise.novice
-        },
+        // sql:{
+        //     id: 'SQL', 
+        //     langType: false, 
+        //     level: expertise.novice
+        // },
         // alchemy: {
         //     id: 'SQLAlchemy', 
         //     langType: false, 
         //     level: expertise.novice
         // }
     },
-    ajax: {
-        id: 'AJAX', 
-        langType: mainLang.js.id, 
-        level: expertise.proficient
-    },
+    // ajax: {
+    //     id: 'AJAX', 
+    //     langType: mainLang.js.id, 
+    //     level: expertise.proficient
+    // },
     vSCode: {
         id: 'VS Code', 
         langType: false, 
@@ -819,11 +819,11 @@ export const tech = {
         langType: false, 
         level: expertise.proficient
     },
-    docker: {
-        id: 'Docker', 
-        langType: false, 
-        level: expertise.novice
-    },
+    // docker: {
+    //     id: 'Docker', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     windows: {
         id: 'Windows', 
         langType: false, 
@@ -839,11 +839,11 @@ export const tech = {
         langType: false, 
         level: expertise.novice
     },
-    ios: {
-        id: 'iOS', 
-        langType: mainLang.swift.id, 
-        level: expertise.novice
-    },
+    // ios: {
+    //     id: 'iOS', 
+    //     langType: mainLang.swift.id, 
+    //     level: expertise.novice
+    // },
     // browserify: {
     //     id: 'Browserify', 
     //     langType: false, 
@@ -886,7 +886,7 @@ export const tech = {
     // },
     imove: {
         id: 'iMove',
-        level: expertise.proficient
+        level: expertise.novice
     },
     markdown: {
         id:'Markdown',

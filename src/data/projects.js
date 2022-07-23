@@ -10,8 +10,14 @@ export const ProProj = [
         title: 'Wipro: App-Cloud Services-Developer',
         paragraph1: 'Received application development training in Java & AWS, in-order to be able to use a variety of different technologies to develop and maintain code base.',
         skills: {
-            platform: [platform.cloud], 
-            focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`], 
+            platform: [
+                platform.cloud
+            ], 
+            focus: [
+                focus.sofEngr, 
+                // `${focus.dev.area.fs} 
+                // ${focus.dev.type.wma}`
+            ], 
             tech: [
                 // tech.js.id, 
                 // tech.html.id, 
@@ -19,8 +25,10 @@ export const ProProj = [
                 // tech.git.id, 
                 // tech.gitHub.id, 
                 // tech.browserify.id, 
-                tech.CI_CD.id, 
-                tech.aws.id,
+                // tech.CI_CD.id, 
+                // tech.aws.id,
+                "AWS",
+                "Java",
                 // tech.py.id
             ]
         },
@@ -34,7 +42,7 @@ export const ProProj = [
             alt: "screen shot of www.dance4healing.com this is an image of the dance for healing website mobile site or small version has many people in the image dancing woman has dance for healing logo. a slide show would move if you on the site but this is a still image."
         },
         title: 'Dance4Healing.com',
-        paragraph1: 'Continuous integration and continuous deployment of the website. Including aspects such as web design, web publishing, web programming, & database management. Creating a computer program or a set of programs to perform the different tasks that the business requires. Building economical software which is reliable & works efficiently on the real machines. Worked closely with business stakeholders to understand their goals & determine how data can be used to achieve those goals.',
+        paragraph1: 'Used CI/CD on a Node.js app cloned through GitHub, then tested and deployed on Heroku. The web development process included aspects such as web design, web publishing, web programming & database management.',
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi, focus.data], 
@@ -44,8 +52,9 @@ export const ProProj = [
                 tech.heroku.id, 
                 tech.node.id, 
                 // tech.jade.id, 
+                "jade",
                 tech.mongo.id, 
-                tech.mongoose.id, 
+                // tech.mongoose.id, 
                 // tech.twilio.id, 
                 tech.js.id, 
                 tech.html.id, 
@@ -76,7 +85,7 @@ export const ProProj = [
             alt: "This is a screenshot of the homepage for stage four .org. Stage IV.org is tan e-commerce website."
         },
         title: 'StageIV.org',
-        paragraph1: "As part of the dance4healing.com internship, it was requested that Logan set up Google Analytics for StageIV.org. There were some bugs in the code from other people's attempts so Logan had to use his software engineering skills to fix the code & make it all work together correctly.",
+        paragraph1: "Setup Google Analytics within WordPress site. Identify and fix existing bugs within a JS/HTML codebase",
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr], 
@@ -187,7 +196,17 @@ export const PersonalProj = [
         skills: {
             platform: [platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.f} ${focus.dev.type.ma}` , focus.design.xi], 
-            tech: [tech.swift.id, tech.swiftUI.id, tech.xCode.id, tech.api.api.id, tech.git.id, tech.gitHub.id]
+            tech: [
+                // tech.swift.id, 
+                // tech.swiftUI.id, 
+                // tech.xCode.id, 
+                "Swift",
+                "SwiftUI",
+                "xCode",
+                tech.api.api.id, 
+                tech.git.id, 
+                tech.gitHub.id
+            ]
         },
         paragraph2: 'The project is available to clone on GetHub.',
         projectLink: 'https://github.com/LWRGitHub/duro-ios',
@@ -203,7 +222,19 @@ export const PersonalProj = [
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi], 
-            tech: [tech.js.id, tech.node.id, tech.pug.id, tech.express.id, tech.bootstrap.id, tech.html.id, tech.css.id, tech.heroku.id, tech.git.id, tech.gitHub.id]
+            tech: [
+                tech.js.id, 
+                tech.node.id,
+                // tech.pug.id,
+                "Pug",
+                tech.express.id,
+                tech.bootstrap.id,
+                tech.html.id,
+                tech.css.id,
+                tech.heroku.id,
+                tech.git.id,
+                tech.gitHub.id
+            ]
         },
         paragraph2: 'Simply click on your zodiac sign to view your horoscope for the day.',
         projectLink: 'https://astrology-horoscope.herokuapp.com',
