@@ -613,7 +613,7 @@ export const tech = {
         level: expertise.proficient
     },
     unixShell: {
-        id: 'Unix Shell', 
+        id: 'UNIX Shell', 
         langType: false, 
         level: expertise.proficient
     },
@@ -627,11 +627,11 @@ export const tech = {
     //     langType: mainLang.c_sharp.id, 
     //     level: expertise.novice
     // },
-    powerSh: {
-        id: 'Power Shell', 
-        langType: false, 
-        level: expertise.novice
-    },
+    // powerSh: {
+    //     id: 'PowerShell', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     // xml: {
     //     id: 'XML', 
     //     langType: false, 
@@ -658,7 +658,7 @@ export const tech = {
         level: expertise.proficient
     },
     wireFrames: {
-        id: 'Wire Frames', 
+        id: 'Wireframes', 
         langType: false, 
         level: expertise.proficient
     },
@@ -683,7 +683,7 @@ export const tech = {
     //     level: expertise.novice
     // },
     unixCLI: {
-        id: 'Unix CLI',
+        id: 'UNIX CLI',
         langType: false, 
         level: expertise.proficient
     },
@@ -733,7 +733,7 @@ export const tech = {
         level: expertise.proficient
     },
     preformOptimiz: {
-        id: 'Performance Optimization', 
+        id: 'Performance Optimization/Tuning', 
         langType: false, 
         level: expertise.proficient
     },
@@ -789,23 +789,23 @@ export const tech = {
         langType: false, 
         level: expertise.proficient
     },
-    iHWare: {
-        id: 'Install Hardware', 
-        langType: false, 
-        level: expertise.proficient
-    },
-    cfgHWare: {
-        id: 'Configure Hard Ware', 
-        langType: false, 
-        level: expertise.proficient
-    },
-    rMComp: {
-        id: 'Repair & Maintain Computer System in a Typical Office Environment', 
-        langType: false, 
-        level: expertise.proficient
-    },
+    // iHWare: {
+    //     id: 'Hardware Install', 
+    //     langType: false, 
+    //     level: expertise.proficient
+    // },
+    // cfgHWare: {
+    //     id: 'Hardware Configuration', 
+    //     langType: false, 
+    //     level: expertise.proficient
+    // },
+    // rMComp: {
+    //     id: 'Repair & Maintain Computer System in a Typical Office Environment', 
+    //     langType: false, 
+    //     level: expertise.proficient
+    // },
     ftp: {
-        id: 'File Transfer Protocol (FTP)', 
+        id: 'FTP (File Transfer Protocol)', 
         langType: false, 
         level: expertise.proficient
     },
