@@ -4,14 +4,14 @@ import { platform, focus, tech } from './skills';
 export const ProProj = [
     {
         img: {
-            src: "images/experience/wipro.png",
-            alt: "Screen Shot of the Wipro.com home page."
+            src: "images/experience/adobe.png",
+            alt: "Adobe Logo"
         },
-        title: 'Wipro: App-Cloud Services-Developer',
-        paragraph1: 'Received application development training in Java & AWS, in-order to be able to use a variety of different technologies to develop and maintain code base.',
+        title: 'Adobe: Web Appications Engineer 3',
+        paragraph1: 'Application engineering (CI/CD) on Adobe Analytics software, including various tasks such as coding new features, debugging & maintaining.',
         skills: {
             platform: [
-                platform.cloud
+                platform.des
             ], 
             focus: [
                 focus.sofEngr, 
@@ -27,13 +27,48 @@ export const ProProj = [
                 // tech.browserify.id, 
                 // tech.CI_CD.id, 
                 // tech.aws.id,
-                "AWS",
-                "Java",
+                // "AWS",
+                // "Java",
+                // tech.json.id,
+                // tech.py.id
+            ]
+        },
+        paragraph2: '',
+        projectLink: "https://business.adobe.com/products/analytics/adobe-analytics.html",
+        codeLink: false
+    },
+    {
+        img: {
+            src: "images/experience/wipro.png",
+            alt: "Screen Shot of the Wipro.com home page."
+        },
+        title: 'Wipro: App-Cloud Services-Developer',
+        paragraph1: 'Received application development training, in-order to be able to use a variety of different technologies to develop and maintain code base. Tasks included various support engineering dealing with JSON APIs.',
+        skills: {
+            platform: [
+                platform.des
+            ], 
+            focus: [
+                focus.sofEngr, 
+                // `${focus.dev.area.fs} 
+                // ${focus.dev.type.wma}`
+            ], 
+            tech: [
+                // tech.js.id, 
+                // tech.html.id, 
+                // tech.css.id, 
+                // tech.git.id, 
+                // tech.gitHub.id, 
+                // tech.browserify.id, 
+                // tech.CI_CD.id, 
+                // tech.aws.id,
+                // "AWS",
+                // "Java",
                 tech.json.id,
                 // tech.py.id
             ]
         },
-        paragraph2: 'Application development with cloud environments such as AWS (Amazon Web Services). Using Full Stack software engineering with a variety of different technologies to develop & maintain code base.',
+        paragraph2: '',
         projectLink: "https://www.wipro.com/",
         codeLink: false
     },
@@ -86,7 +121,7 @@ export const ProProj = [
             alt: "This is a screenshot of the homepage for stage four .org. Stage IV.org is tan e-commerce website."
         },
         title: 'StageIV.org',
-        paragraph1: "Setup Google Analytics within WordPress site. Identify and fix existing bugs within a JS/HTML codebase",
+        paragraph1: "Setup Google Analytics within site. Identified and fixed existing bugs within a JS/HTML codebase",
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr], 
