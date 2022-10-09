@@ -5,7 +5,7 @@ export const ProProj = [
     {
         img: {
             src: "images/experience/adobe.png",
-            alt: "Adobe Logo"
+            alt: "red outlike of the letter A and the word Adobe"
         },
         title: 'Adobe: Web Appications Engineer 3',
         paragraph1: 'Application engineering (CI/CD) on Adobe Analytics software, including various tasks such as coding new features, debugging & maintaining.',
@@ -24,13 +24,10 @@ export const ProProj = [
                 // tech.css.id, 
                 // tech.git.id, 
                 // tech.gitHub.id, 
-                // tech.browserify.id, 
+            
                 // tech.CI_CD.id, 
-                // tech.aws.id,
-                // "AWS",
-                // "Java",
+                
                 // tech.json.id,
-                // tech.py.id
             ]
         },
         paragraph2: '',
@@ -39,11 +36,37 @@ export const ProProj = [
     },
     {
         img: {
+            src: "images/experience/verizon.jpeg",
+            alt: "Words that say Verzon with a black background and red check mark"
+        },
+        title: 'Verizon: Support Engineer',
+        paragraph1: 'Tasks included various support engineering dealing with JSON APIs.',
+        skills: {
+            platform: [
+                platform.des
+            ], 
+            focus: [
+                focus.sofEngr, 
+                // `${focus.dev.area.fs} 
+                // ${focus.dev.type.wma}`
+            ], 
+            tech: [
+                tech.json.id,
+                tech.api.id,
+                // "XML"
+            ]
+        },
+        paragraph2: '',
+        projectLink: "https://www.verizon.com",
+        codeLink: false
+    },
+    {
+        img: {
             src: "images/experience/wipro.png",
             alt: "Screen Shot of the Wipro.com home page."
         },
         title: 'Wipro: App-Cloud Services-Developer',
-        paragraph1: 'Received application development training, in-order to be able to use a variety of different technologies to develop and maintain code base. Tasks included various support engineering dealing with JSON APIs.',
+        paragraph1: 'Received application development training, in-order to be able to use a variety of different technologies to develop and maintain code base.',
         skills: {
             platform: [
                 platform.des
@@ -65,6 +88,7 @@ export const ProProj = [
                 // "AWS",
                 // "Java",
                 tech.json.id,
+                tech.api.id,
                 // tech.py.id
             ]
         },
