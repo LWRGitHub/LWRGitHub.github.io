@@ -243,7 +243,7 @@ export const PersonalProj = [
             ]
         },
         paragraph2: 'Browse the website get to know the template possibilities!',
-        projectLink: 'https://lover-artist-site.herokuapp.com',
+        projectLink: 'https://github.com/LWRGitHub/lover-artist-site', // 'https://lover-artist-site.herokuapp.com',
         codeLink: 'https://github.com/LWRGitHub/lover-artist-site'
     },
     {
@@ -297,7 +297,7 @@ export const PersonalProj = [
             ]
         },
         paragraph2: 'Simply click on your zodiac sign to view your horoscope for the day.',
-        projectLink: 'https://astrology-horoscope.herokuapp.com',
+        projectLink: "https://github.com/LWRGitHub/astrology-api", // 'https://astrology-horoscope.herokuapp.com',
         codeLink: "https://github.com/LWRGitHub/astrology-api"
     },
     {
