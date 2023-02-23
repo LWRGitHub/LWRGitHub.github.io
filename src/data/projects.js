@@ -236,7 +236,7 @@ export const PersonalProj = [
                 tech.heroku.id,
                 tech.wireFrames.id,
                 tech.figma.id,
-                tech.heroku.id,
+                // tech.heroku.id,
                 tech.git.id, 
                 tech.gitHub.id,
                 // tech.img.png.id,
@@ -244,7 +244,7 @@ export const PersonalProj = [
         },
         paragraph2: 'Browse the website get to know the template possibilities!',
         projectLink: 'https://github.com/LWRGitHub/lover-artist-site', // 'https://lover-artist-site.herokuapp.com',
-        codeLink: 'https://github.com/LWRGitHub/lover-artist-site'
+        codeLink: 'https://github.com/LWRGitHub/lover-artist-site' 
     },
     {
         img: {
@@ -278,7 +278,7 @@ export const PersonalProj = [
             alt: "Screenshot of the astrology home page. It has images & names of all the zodiac signs."
         },
         title: "Daily Horoscopes",
-        paragraph1: "This Node.js web app is a grate web page to get your daily horoscope from. It uses the horoscope API from astrology.com. The project has been deployed using Heroku.",
+        paragraph1: "This Node.js web app is a grate web page to get your daily horoscope from. It uses the horoscope API from astrology.com.",
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi], 
@@ -291,7 +291,7 @@ export const PersonalProj = [
                 tech.bootstrap.id,
                 tech.html.id,
                 tech.css.id,
-                tech.heroku.id,
+                // tech.heroku.id,
                 tech.git.id,
                 tech.gitHub.id
             ]
