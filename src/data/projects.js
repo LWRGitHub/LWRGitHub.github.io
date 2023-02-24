@@ -233,7 +233,7 @@ export const PersonalProj = [
                 tech.jquery.id,
                 tech.bootstrap.id, 
                 tech.boostrIcon.id,
-                tech.heroku.id,
+                // tech.heroku.id,
                 tech.wireFrames.id,
                 tech.figma.id,
                 // tech.heroku.id,
