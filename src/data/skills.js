@@ -202,7 +202,7 @@ export const tech = {
     heroku: {
         id: 'Heroku', 
         langType: false, 
-        level: expertise.proficient
+        level: expertise.novice
     },
     // digOcean: {
     //     id: 'Digital Ocean', 
@@ -314,11 +314,11 @@ export const tech = {
         langType: false, 
         level: expertise.proficient
     },
-    unittest: {
-        id: 'Unit Test', 
-        langType: mainLang.py.id, 
-        level: expertise.novice
-    },
+    // unittest: {
+    //     id: 'Unit Test', 
+    //     langType: mainLang.py.id, 
+    //     level: expertise.novice
+    // },
     html: {
         id: 'HTML', 
         langType: false, 
@@ -384,11 +384,31 @@ export const tech = {
         langType: false, 
         level: expertise.proficient
     },
+    resourceOverride: {
+        id: 'Resource Override', 
+        langType: false, 
+        level: expertise.proficient
+    },
+    charlesProxy: {
+        id: 'Charles Proxy', 
+        langType: false, 
+        level: expertise.proficient
+    },
+    postman: {
+        id: 'Postman', 
+        langType: false, 
+        level: expertise.proficient
+    },
     adobe: {
         photo: {
             id: 'Photoshop', 
             langType: false, 
             level: expertise.novice
+        },
+        analytics: {
+            id: 'Adobe Analytics', 
+            langType: mainLang.js.id, 
+            level: expertise.proficient
         },
         // dream: {
         //     id: 'Dreamweaver', 
@@ -692,11 +712,11 @@ export const tech = {
     //     langType: false, 
     //     level: expertise.novice
     // },
-    cloud9: {
-        id: 'Cloud9', 
-        langType: false, 
-        level: expertise.novice
-    },
+    // cloud9: {
+    //     id: 'Cloud9', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     // nowVercel: {
     //     id: 'Now Vercel', 
     //     langType: false, 
@@ -707,11 +727,11 @@ export const tech = {
     //     langType: false, 
     //     level: expertise.novice
     // },
-    testDev: {
-        id: 'Test-Driven Development', 
-        langType: false, 
-        level: expertise.novice
-    },
+    // testDev: {
+    //     id: 'Test-Driven Development', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     dataAnaly: {
         id: 'Data Analytics', 
         langType: false, 
@@ -782,7 +802,7 @@ export const tech = {
     brackets:{
         id: 'Brackets',
         langType: false,
-        level: expertise.proficient
+        level: expertise.novice
     },
     vS: {
         id: 'Visual Studio', 
