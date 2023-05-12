@@ -2,9 +2,9 @@ import { focus, otherFocus, tech, skill } from './skills';
 
 export const education = [
     {
-        title: "City College of San Francisco  |  Dual Major CS & CNIT Undergrad",
+        title: "City College of San Francisco  |  Dual Major CS & CNIT Undergrad + Fundamentals of Networking Certificate ",
         img: {
-            src: 'images/education/ccsf-mission.jpeg',
+            src: 'images/education/networking-certificate.png',
             alt: 'City College of San Francisco also known as CCSF. Located in San Francisco California. image of ccsf mission collage campus.'
         },
         schools: [
