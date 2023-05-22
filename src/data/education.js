@@ -139,8 +139,6 @@ export const education = [
                     `${focus.dev.area.f} ${focus.dev.type.w}`,
                     focus.sofEngr
                 ],
-
-
                 skills: [],
                 // moreInfo: [
                 //     {
