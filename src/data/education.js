@@ -2,51 +2,6 @@ import { focus, otherFocus, tech, skill } from './skills';
 
 export const education = [
     {
-        title: "City College of San Francisco  |  Dual Major CS & CNIT Undergrad + Fundamentals of Networking Certificate ",
-        img: {
-            src: 'images/education/networking-certificate.png',
-            alt: 'City College of San Francisco also known as CCSF. Located in San Francisco California. image of ccsf mission collage campus.'
-        },
-        schools: [
-            {
-                school: 'www.CCSF.edu',
-                location: ': SF, CA - In Progress',
-                href: 'https://www.ccsf.edu',
-                focus: [
-                    `${focus.dev.area.f} ${focus.dev.type.w}`,
-                    focus.sofEngr
-                ],
-                skills: [
-                    // `Java`,
-                    // tech.js.id,
-                    // tech.html.id,
-                    // tech.css.id,
-                    // tech.jquery.id,
-                    // tech.ajax.id,
-                    // `Computer Hardware`,
-                    // `Network Security`,
-                    // `Cisco Networks`,
-                    // `Server Side Technologies for the Web`,
-                    // `Computer Architecture with Assembly Language`,
-                    // `Calculus I`,
-                    // `Calculus II`,
-                    // `Discrete Mathematics`
-                ],
-                // moreInfo: [
-                //     {
-                //         title: `Computer Science | AS: `,
-                //         content: `The (CS) curriculum includes instruction in the fundamentals of problem solving and analysis, programming, data structures, and computer architecture.`
-                //     },
-                //     {
-                //         title: `Computer Networking and Information Technology | AS: `,
-                //         content:`(CNIT) not only provides students with a solid foundation of skills, knowledge, and hands-on experience in the core areas of the field of Computer Networking and Information Technology but also with the current trends and technologies used in the computer industry. The topics covered in this major include computer hardware, network administration, network security, and the basics of Internet and Web development, as well as one of the following optional areas: computer technical support, internet and web development techniques, network security, wireless networks, Cisco networking, or Microsoft Windows administration. This degree qualifies students for employment in entry-level network administration, computer technical support, or web development positions.`
-                //     }
-                // ]
-                moreInfo: `Dual Major, Associates in Computer Science & Associates in Computer Networking and Information Technology`
-            }
-        ],
-    },
-    {
         title: `Dominican University Of California  |  CS Undergrad`,
         img: {
             src: 'images/education/dominican-university-of-california-building.jpg',
@@ -121,6 +76,83 @@ export const education = [
                     // otherFocus.womHist,
                 ],
                 moreInfo: "Undergrad in Applied Computer Science"
+            }
+        ],
+    },
+    {
+        title: "City College of San Francisco  |  Dual Major CS & CNIT Undergrad",
+        img: {
+            src: 'images/education/ccsf-mission.jpeg',
+            alt: 'City College of San Francisco also known as CCSF. Located in San Francisco California. image of ccsf mission collage campus.'
+        },
+        schools: [
+            {
+                school: 'www.CCSF.edu',
+                location: ': SF, CA - In Progress',
+                href: 'https://www.ccsf.edu',
+                focus: [
+                    `${focus.dev.area.f} ${focus.dev.type.w}`,
+                    focus.sofEngr
+                ],
+                skills: [
+                    // `Java`,
+                    // tech.js.id,
+                    // tech.html.id,
+                    // tech.css.id,
+                    // tech.jquery.id,
+                    // tech.ajax.id,
+                    // `Computer Hardware`,
+                    // `Network Security`,
+                    // `Cisco Networks`,
+                    // `Server Side Technologies for the Web`,
+                    // `Computer Architecture with Assembly Language`,
+                    // `Calculus I`,
+                    // `Calculus II`,
+                    // `Discrete Mathematics`
+                ],
+                // moreInfo: [
+                //     {
+                //         title: `Computer Science | AS: `,
+                //         content: `The (CS) curriculum includes instruction in the fundamentals of problem solving and analysis, programming, data structures, and computer architecture.`
+                //     },
+                //     {
+                //         title: `Computer Networking and Information Technology | AS: `,
+                //         content:`(CNIT) not only provides students with a solid foundation of skills, knowledge, and hands-on experience in the core areas of the field of Computer Networking and Information Technology but also with the current trends and technologies used in the computer industry. The topics covered in this major include computer hardware, network administration, network security, and the basics of Internet and Web development, as well as one of the following optional areas: computer technical support, internet and web development techniques, network security, wireless networks, Cisco networking, or Microsoft Windows administration. This degree qualifies students for employment in entry-level network administration, computer technical support, or web development positions.`
+                //     }
+                // ]
+                moreInfo: `Dual Major, Associates in Computer Science & Associates in Computer Networking and Information Technology`
+            }
+        ],
+    },
+    {
+        title: "City College of San Francisco  |  Fundamentals of Networking Certificate",
+        img: {
+            src: 'images/education/net-cert.jpg',
+            alt: 'Fundamentals of Networking Certificate'
+        },
+        schools: [
+            {
+                school: 'www.CCSF.edu',
+                location: ': SF, CA',
+                href: 'https://www.ccsf.edu',
+                focus: [
+                    `${focus.dev.area.f} ${focus.dev.type.w}`,
+                    focus.sofEngr
+                ],
+
+
+                skills: [],
+                // moreInfo: [
+                //     {
+                //         title: ``,
+                //         content: ``
+                //     },
+                //     {
+                //         title: ``,
+                //         content:``
+                //     }
+                // ]
+                moreInfo: ``
             }
         ],
     },
