@@ -8,7 +8,7 @@ export const ProProj = [
             alt: "red outlike of the letter A and the word Adobe"
         },
         title: 'Adobe: Web Appications Engineer 3',
-        paragraph1: 'Application engineering (CI/CD) on Adobe Analytics software, including various tasks such as coding new features, debugging & maintaining.',
+        paragraph1: `Application (CI/CD) in Adobe Analytics/Adobe Marketing Cloud software; worked on in-house software to collect user data; additionally maintained back end in-house library connected to AA via custom extension in Data Collection (e.g. agile dev., CRUD, support tickets, etc.)`,
         skills: {
             platform: [
                 platform.des
@@ -16,18 +16,31 @@ export const ProProj = [
             focus: [
                 focus.sofEngr, 
                 // `${focus.dev.area.fs} 
-                // ${focus.dev.type.wma}`
+                // ${focus.dev.type.wma}` 
             ], 
             tech: [
-                // tech.js.id, 
-                // tech.html.id, 
-                // tech.css.id, 
-                // tech.git.id, 
-                // tech.gitHub.id, 
-            
-                // tech.CI_CD.id, 
-                
-                // tech.json.id,
+                tech.js.id, 
+                tech.html.id, 
+                tech.css.id, 
+                tech.git.id, 
+                tech.gitHub.id, 
+                tech.adobe.analytics.id,
+                tech.dom.id,
+                tech.npm.id,
+                tech.yarn.id,
+                tech.shell.id,
+                tech.terminal.id,
+                tech.react.id,
+                tech.node.id,
+                tech.chromeDev.id,
+                tech.mac.id,
+                tech.dataAnaly.id,
+                tech.CI_CD.id, 
+                tech.api.api.id,
+                tech.json.id,
+                tech.adobe.adminConsole.id,
+                tech.adobe.dataCollection.id,
+                tech.adobe.marketing.id,
             ]
         },
         paragraph2: '',
@@ -52,7 +65,9 @@ export const ProProj = [
             ], 
             tech: [
                 tech.json.id,
-                tech.api.id,
+                tech.api.api.id,
+                tech.data.id,
+                tech.windows.id,
                 // "XML"
             ]
         },
@@ -77,9 +92,9 @@ export const ProProj = [
                 // ${focus.dev.type.wma}`
             ], 
             tech: [
-                // tech.js.id, 
-                // tech.html.id, 
-                // tech.css.id, 
+                tech.js.id, 
+                tech.html.id, 
+                tech.css.id, 
                 // tech.git.id, 
                 // tech.gitHub.id, 
                 // tech.browserify.id, 
@@ -88,7 +103,14 @@ export const ProProj = [
                 // "AWS",
                 // "Java",
                 tech.json.id,
-                tech.api.id,
+                tech.api.api.id,
+                tech.shell.id,
+                tech.terminal.id,
+                tech.node.id,
+                tech.data.id,
+                tech.databases.id,
+                tech.preformOptimiz.id,
+                tech.windows.id,
                 // tech.py.id
             ]
         },

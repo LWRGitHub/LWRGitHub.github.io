@@ -8,7 +8,7 @@ export const expertise = {
 export const mainLang = {
     js: {
         id:'JavaScript/Node.js',
-        level: expertise.proficient
+        level: expertise.expert
     },
     py: {
         id:'Python',
@@ -410,6 +410,21 @@ export const tech = {
             langType: mainLang.js.id, 
             level: expertise.proficient
         },
+        marketing: {
+            id: 'Adobe Marketing Cloud', 
+            langType: false,  
+            level: expertise.proficient
+        },
+        dataCollection: {
+            id: 'Adobe data Collection', 
+            langType: false,  
+            level: expertise.proficient
+        },
+        adminConsole: {
+            id: 'Adobe Admin Console', 
+            langType: false,  
+            level: expertise.proficient
+        },
         // dream: {
         //     id: 'Dreamweaver', 
         //     langType: false, 
@@ -524,7 +539,7 @@ export const tech = {
         level: expertise.proficient
     },
     chromeDev: {
-        id: 'Chrome DevTools',
+        id: 'Chrome Dev Tools',
         langType: false, 
         level: expertise.proficient
     },
@@ -610,7 +625,7 @@ export const tech = {
     json: {
         id: "JSON", 
         langType: false, 
-        level: expertise.proficient
+        level: expertise.expert
     },
     // lock: {
     //     id: 'lock', 
@@ -735,7 +750,17 @@ export const tech = {
     dataAnaly: {
         id: 'Data Analytics', 
         langType: false, 
-        level: expertise.novice
+        level: expertise.proficient
+    },
+    data:{
+        id: 'Data', 
+        langType: false, 
+        level: expertise.expert
+    },
+    databases:{
+        id: 'Databases', 
+        langType: false, 
+        level: expertise.proficient
     },
     // devOps: {
     //     id: 'DevOps', 
@@ -857,7 +882,7 @@ export const tech = {
     Linux: {
         id: 'Linux', 
         langType: false, 
-        level: expertise.novice
+        level: expertise.proficient
     },
     // ios: {
     //     id: 'iOS', 
