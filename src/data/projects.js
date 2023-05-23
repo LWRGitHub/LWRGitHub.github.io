@@ -8,7 +8,7 @@ export const ProProj = [
             alt: "red outlike of the letter A and the word Adobe"
         },
         title: 'Adobe: Web Appications Engineer 3',
-        paragraph1: `Application (CI/CD) in Adobe Analytics/Adobe Marketing Cloud software; worked on in-house software to collect user data; additionally maintained back end in-house library connected to AA via custom extension in Data Collection (e.g. agile dev., CRUD, support tickets, etc.)`,
+        paragraph1: `Application (CI/CD) in Adobe Analytics/Adobe Marketing Cloud software; worked on FEW in-house software to collect user data; additionally maintained BEW in-house library connected to AA via custom extension in Data Collection (e.g. agile dev., CRUD, support tickets, etc.)`,
         skills: {
             platform: [
                 platform.des
