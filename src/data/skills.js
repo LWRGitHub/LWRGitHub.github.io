@@ -272,7 +272,7 @@ export const tech = {
     js: {
         id: "JS", 
         langType: false, 
-        level: expertise.proficient
+        level: expertise.expert
     },
     // rb: {
     //     id: 'Ruby', 
