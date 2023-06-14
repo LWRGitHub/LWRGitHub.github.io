@@ -415,9 +415,14 @@ export const tech = {
             langType: false,  
             level: expertise.proficient
         },
+        experience: {
+            id: 'Adobe Experience Cloud', 
+            langType: false,  
+            level: expertise.proficient
+        },
         dataCollection: {
             id: 'Adobe data Collection', 
-            langType: false,  
+            langType: mainLang.js.id,  
             level: expertise.proficient
         },
         adminConsole: {
