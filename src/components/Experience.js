@@ -13,7 +13,7 @@ import {mainLanguages, experience} from '../data/experiencePgSkillSort';
 const Projects = () => (
     <div>
         <section className="container">
-            <h2 className="my-5">Professional Projects</h2>
+            <h2 className="my-5">Engineering Positions</h2>
             <ProjectContainer data={ProProj} />
         </section>
         <section className="container">

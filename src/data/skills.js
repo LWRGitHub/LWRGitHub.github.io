@@ -399,6 +399,11 @@ export const tech = {
         langType: false, 
         level: expertise.proficient
     },
+    jira: {
+        id: 'Jira', 
+        langType: false, 
+        level: expertise.proficient
+    },
     adobe: {
         photo: {
             id: 'Photoshop', 
@@ -410,15 +415,20 @@ export const tech = {
             langType: mainLang.js.id, 
             level: expertise.proficient
         },
+        cja: {
+            id: 'Adobe Customer Journey Analytics', 
+            langType: mainLang.js.id, 
+            level: expertise.proficient
+        },
         marketing: {
             id: 'Adobe Marketing Cloud', 
             langType: false,  
-            level: expertise.proficient
+            level: expertise.novice
         },
         experience: {
             id: 'Adobe Experience Cloud', 
             langType: false,  
-            level: expertise.proficient
+            level: expertise.novice
         },
         dataCollection: {
             id: 'Adobe data Collection', 
@@ -803,11 +813,11 @@ export const tech = {
     //     level: expertise.novice
     // },
     sql: {
-        // sql:{
-        //     id: 'SQL', 
-        //     langType: false, 
-        //     level: expertise.novice
-        // },
+        sql:{
+            id: 'SQL', 
+            langType: false, 
+            level: expertise.novice
+        },
         // alchemy: {
         //     id: 'SQLAlchemy', 
         //     langType: false, 

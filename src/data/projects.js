@@ -24,6 +24,7 @@ export const ProProj = [
                 tech.css.id, 
                 tech.git.id, 
                 tech.gitHub.id, 
+                tech.sql.sql.id,
                 tech.adobe.analytics.id,
                 tech.dom.id,
                 tech.npm.id,
@@ -41,6 +42,8 @@ export const ProProj = [
                 tech.adobe.adminConsole.id,
                 tech.adobe.dataCollection.id,
                 tech.adobe.marketing.id,
+                tech.adobe.cja.id,
+                tech.jira.id,
             ]
         },
         paragraph2: '',
@@ -347,7 +350,7 @@ export const TutorialProj = [
             alt: "Screenshot on the mobile phone of Logan Reynolds' software engineering portfolio website. This is the homepage otherwise known as the index page. Shows a list of programming languages such as JavaScript ESS6 Ruby python & C#. Shows navigation bar in blue. Has a big jumbotron image in the background"
         },
         title: 'Portfolio Site',
-        paragraph1: "Logan has turned this Basic HTML/CSS tutorial into to something so much more by turning the entire website into a React.js app & adding some custom UI/UX Design. This site has detailed information about Logan along with personal and professional projects he's worked on.",
+        paragraph1: "Transformed into a React.js site from basic HTML/CSS; adding some custom UI/UX design.",
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi, focus.data], 
@@ -631,7 +634,7 @@ export const TutorialProj = [
             alt: "dish submitter website, add food & cooking instructions to the local storage on your internet browser. blue & green faded background on baner the rest of the background is very light green."
         },
         title: `Dish Yumy`,
-        paragraph1: 'Logan has turned this RSVP tutorial into a Dish submitter website. Origanally just a place to RSVP for an event you can now submit dishes & have them stored locally.',
+        paragraph1: 'From an RSVP tutorial into a dish submitter website using local storage.',
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, focus.dev.type.wma, focus.design.xi], 
