@@ -418,7 +418,7 @@ export const tech = {
         cja: {
             id: 'Adobe Customer Journey Analytics', 
             langType: mainLang.js.id, 
-            level: expertise.proficient
+            level: expertise.novice
         },
         marketing: {
             id: 'Adobe Marketing Cloud', 
