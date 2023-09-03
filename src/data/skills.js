@@ -538,6 +538,11 @@ export const tech = {
         langType: false, 
         level: expertise.expert
     },
+    graphQL: {
+        id: 'GraphQL', 
+        langType: false, 
+        level: expertise.proficient
+    },
     localStor: {
         id: 'Local-Storage', 
         langType: false, 
