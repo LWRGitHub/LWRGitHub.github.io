@@ -270,7 +270,7 @@ export const tech = {
     //     level: expertise.novice
     // },
     js: {
-        id: "JS", 
+        id: "JavaScript", 
         langType: false, 
         level: expertise.expert
     },

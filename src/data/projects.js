@@ -4,6 +4,53 @@ import { platform, focus, tech } from './skills';
 export const ProProj = [
     {
         img: {
+            src: "images/experience/prose.jpeg",
+            alt: "White crow infront of a white ball cut out of black square shap."
+        },
+        title: 'Interim Fractional Chief Technical Officer (CTO)',
+        paragraph1: `As of September 2023, I am affiliated with Prose, a burgeoning startup. Presently, my role entails serving as the Interim Fractional Chief Technical Officer, which does not involve direct team management yet. However, the objective is to assume leadership responsibilities for a team of engineers. In this capacity, my primary focus will revolve around oversight and active participation in software engineering processes, with a particular emphasis on technologies such as React.js, GraphQL, TypeScript, and AWS.
+
+        Experience with: javascript, Node.js, React.js, GraphQL, TypeScript, AWS, Git/GitHub, Jira`,
+        skills: {
+            platform: [
+                platform.des, 
+                platform.mob
+            ], 
+            focus: [
+                focus.sofEngr, 
+                // `${focus.dev.area.fs} 
+                // ${focus.dev.type.wma}` 
+            ], 
+            tech: [
+                tech.js.id, 
+                tech.html.id, 
+                tech.css.id, 
+                tech.git.id, 
+                tech.gitHub.id, 
+                tech.dom.id,
+                tech.npm.id,
+                tech.yarn.id,
+                tech.shell.id,
+                tech.terminal.id,
+                tech.react.id,
+                tech.node.id,
+                tech.chromeDev.id,
+                tech.mac.id,
+                tech.CI_CD.id, 
+                tech.api.api.id,
+                tech.json.id,
+                tech.jira.id,
+                tech.graphQL.id,
+                // tech.typeScript.id,
+                // tech.aws.id,
+            ]
+        },
+        paragraph2: '',
+        projectLink: "https://www.theprose.com",
+        codeLink: "https://github.com/theprose"
+    },
+    {
+        img: {
             src: "images/experience/adobe.png",
             alt: "red outlike of the letter A and the word Adobe"
         },
@@ -11,7 +58,8 @@ export const ProProj = [
         paragraph1: `Application (CI/CD) in Adobe Analytics, Customer journey Analytics &,various Adobe Experience Cloud software; worked on FEW in-house software to collect user data; additionally maintained BEW in-house library connected to AA via custom extension in Data Collection (e.g. agile dev., CRUD, support tickets, etc.)`,
         skills: {
             platform: [
-                platform.des
+                platform.des,
+                platform.mob
             ], 
             focus: [
                 focus.sofEngr, 
