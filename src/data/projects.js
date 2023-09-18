@@ -45,7 +45,7 @@ export const ProProj = [
         },
         paragraph2: '',
         projectLink: "https://www.theprose.com",
-        codeLink: "https://github.com/theprose"
+        codeLink: false
     },
     {
         img: {
