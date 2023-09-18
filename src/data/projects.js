@@ -8,9 +8,7 @@ export const ProProj = [
             alt: "White crow infront of a white ball cut out of black square shap."
         },
         title: 'Interim Fractional Chief Technical Officer (CTO)',
-        paragraph1: `As of September 2023, I am affiliated with Prose, a burgeoning startup. Presently, my role entails serving as the Interim Fractional Chief Technical Officer, which does not involve direct team management yet. However, the objective is to assume leadership responsibilities for a team of engineers. In this capacity, my primary focus will revolve around oversight and active participation in software engineering processes, with a particular emphasis on technologies such as React.js, GraphQL, TypeScript, and AWS.
-
-        Experience with: javascript, Node.js, React.js, GraphQL, TypeScript, AWS, Git/GitHub, Jira`,
+        paragraph1: `As of September 2023, I am affiliated with Prose, a burgeoning startup. Presently, my role entails serving as the Interim Fractional Chief Technical Officer, which does not involve direct team management yet. However, the objective is to assume leadership responsibilities for a team of engineers. In this capacity, my primary focus will revolve around oversight and active participation in software engineering processes, with a particular emphasis on technologies such as React.js, GraphQL, TypeScript, and AWS.`,
         skills: {
             platform: [
                 platform.des, 
