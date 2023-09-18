@@ -16,8 +16,6 @@ export const ProProj = [
             ], 
             focus: [
                 focus.sofEngr, 
-                // `${focus.dev.area.fs} 
-                // ${focus.dev.type.wma}` 
             ], 
             tech: [
                 tech.js.id, 
