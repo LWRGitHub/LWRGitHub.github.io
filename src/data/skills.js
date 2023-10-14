@@ -18,10 +18,14 @@ export const mainLang = {
     //     id:'Swift',
     //     level: expertise.novice
     // },
-    // go: {
-    //     id:'Go (Golang)',
-    //     level: expertise.novice
-    // },
+    go: {
+        id:'Go (Golang)',
+        level: expertise.novice
+    },
+    ts: {
+        id:'TypeScript',
+        level: expertise.novice
+    },
     // java: {
     //     id:'Java',
     //     level: expertise.novice
@@ -114,31 +118,36 @@ export const tech = {
     //     langType: false, 
     //     level: expertise.novice
     // },
-    // go: {
-    //     id: "Go (Golang)", 
-    //     langType: false, 
-    //     level: expertise.novice
-    // },
-    // goScrape: {
-    //     id: 'Go Web Scraping', 
-    //     langType: mainLang.go.id, 
-    //     level: expertise.novice
-    // },
-    // goTempGen: {
-    //     id: 'Go Template Generation', 
-    //     langType: mainLang.go.id, 
-    //     level: expertise.novice
-    // },
-    // goTest: {
-    //     id: 'Go Testing', 
-    //     langType: mainLang.go.id, 
-    //     level: expertise.novice
-    // },
-    // goBenchmark: {
-    //     id: 'Go Benchmarking', 
-    //     langType: mainLang.go.id, 
-    //     level: expertise.novice
-    // },
+    go: {
+        id: "Go (Golang)", 
+        langType: false, 
+        level: expertise.novice
+    },
+    ts: {
+        id:'TypeScript',
+        langType: false,
+        level: expertise.novice
+    },
+    goScrape: {
+        id: 'Go Web Scraping', 
+        langType: mainLang.go.id, 
+        level: expertise.novice
+    },
+    goTempGen: {
+        id: 'Go Template Generation', 
+        langType: mainLang.go.id, 
+        level: expertise.novice
+    },
+    goTest: {
+        id: 'Go Testing', 
+        langType: mainLang.go.id, 
+        level: expertise.novice
+    },
+    goBenchmark: {
+        id: 'Go Benchmarking', 
+        langType: mainLang.go.id, 
+        level: expertise.novice
+    },
     // swiftUI: {
     //     id:'SwiftUI', 
     //     langType: mainLang.swift.id, 
@@ -214,16 +223,16 @@ export const tech = {
         langType: mainLang.js.id, 
         level: expertise.proficient
     },
-    // jade: {
-    //     id: 'Jade', 
-    //     langType: false, 
-    //     level: expertise.novice
-    // },
-    // pug: {
-    //     id: 'Pug', 
-    //     langType: false, 
-    //     level: expertise.novice
-    // },
+    jade: {
+        id: 'Jade', 
+        langType: false, 
+        level: expertise.novice
+    },
+    pug: {
+        id: 'Pug', 
+        langType: false, 
+        level: expertise.novice
+    },
     bootstrap: {
         id: 'Bootstrap', 
         langType: false, 
@@ -304,11 +313,11 @@ export const tech = {
         langType: false, 
         level: expertise.proficient
     },
-    // pyTest: {
-    //     id: 'Pytest', 
-    //     langType: mainLang.py.id, 
-    //     level: expertise.novice
-    // },
+    pyTest: {
+        id: 'Pytest', 
+        langType: mainLang.py.id, 
+        level: expertise.novice
+    },
     dotenv:{
         id: 'Dotenv', 
         langType: false, 
@@ -411,40 +420,45 @@ export const tech = {
             level: expertise.novice
         },
         analytics: {
-            id: 'Adobe Analytics', 
+            id: 'Adobe Analytics (AA)', 
+            langType: mainLang.js.id, 
+            level: expertise.expert
+        },
+        cja: {
+            id: 'Adobe Customer Journey Analytics (CJA)', 
             langType: mainLang.js.id, 
             level: expertise.proficient
         },
-        cja: {
-            id: 'Adobe Customer Journey Analytics', 
-            langType: mainLang.js.id, 
-            level: expertise.novice
-        },
         marketing: {
-            id: 'Adobe Marketing Cloud', 
+            id: 'Adobe Marketing Cloud (AMC)', 
             langType: false,  
-            level: expertise.novice
+            level: expertise.proficient
         },
         experience: {
-            id: 'Adobe Experience Cloud', 
+            id: 'Adobe Experience Platform (AEP)', 
             langType: false,  
-            level: expertise.novice
+            level: expertise.proficient
         },
         dataCollection: {
             id: 'Adobe data Collection', 
             langType: mainLang.js.id,  
-            level: expertise.proficient
+            level: expertise.expert
         },
         adminConsole: {
             id: 'Adobe Admin Console', 
             langType: false,  
+            level: expertise.expert
+        },
+        webSDK: {
+            id: 'AEP Web SDK', 
+            langType: false,  
+            level: expertise.expert
+        },
+        dream: {
+            id: 'Dreamweaver', 
+            langType: false, 
             level: expertise.proficient
         },
-        // dream: {
-        //     id: 'Dreamweaver', 
-        //     langType: false, 
-        //     level: expertise.novice
-        // },
         muse: {
             id: 'Adobe Muse', 
             langType: false, 
@@ -589,37 +603,37 @@ export const tech = {
             langType: false, 
             level: expertise.proficient
         },
-        // cloud: {
-        //     id: 'Google Cloud', 
-        //     langType: false, 
-        //     level: expertise.novice
-        // },
+        cloud: {
+            id: 'Google Cloud', 
+            langType: false, 
+            level: expertise.novice
+        },
     },
-    // wordPr: {
-    //     id: 'WordPress', 
-    //     langType: false, 
-    //     level: expertise.novice
-    // },
-    // phaser: {
-    //     id: 'Phaser', 
-    //     langType: false, 
-    //     level: expertise.novice
-    // },
+    wordPr: {
+        id: 'WordPress', 
+        langType: false, 
+        level: expertise.novice
+    },
+    phaser: {
+        id: 'Phaser', 
+        langType: false, 
+        level: expertise.novice
+    },
     jquery: {
         id: 'jQuery', 
         langType: mainLang.js.id, 
         level: expertise.novice
     },
-    // webVtt: {
-    //     id: 'WebVTT', 
-    //     langType: false, 
-    //     level: expertise.novice
-    // },
-    // mediaEl: {
-    //     id: 'MediaElement.js', 
-    //     langType: mainLang.js.id, 
-    //     level: expertise.novice
-    // },
+    webVtt: {
+        id: 'WebVTT', 
+        langType: false, 
+        level: expertise.novice
+    },
+    mediaEl: {
+        id: 'MediaElement.js', 
+        langType: mainLang.js.id, 
+        level: expertise.novice
+    },
     // mp4: {
     //     id: 'MP4', 
     //     langType: false, 
@@ -652,16 +666,16 @@ export const tech = {
     //     langType: false, 
     //     level: expertise.novice
     // },
-    // jsx: {
-    //     id: 'JSX', 
-    //     langType: false, 
-    //     level: expertise.proficient
-    // },
-    // p5: {
-    //     id: 'P5.js', 
-    //     langType: mainLang.js.id, 
-    //     level: expertise.novice
-    // },
+    jsx: {
+        id: 'JSX', 
+        langType: false, 
+        level: expertise.proficient
+    },
+    p5: {
+        id: 'P5.js', 
+        langType: mainLang.js.id, 
+        level: expertise.novice
+    },
     shell: {
         id: 'Shell Code', 
         langType: false, 
@@ -682,11 +696,11 @@ export const tech = {
     //     langType: mainLang.c_sharp.id, 
     //     level: expertise.novice
     // },
-    // powerSh: {
-    //     id: 'PowerShell', 
-    //     langType: false, 
-    //     level: expertise.novice
-    // },
+    powerSh: {
+        id: 'PowerShell', 
+        langType: false, 
+        level: expertise.novice
+    },
     // xml: {
     //     id: 'XML', 
     //     langType: false, 
@@ -727,11 +741,11 @@ export const tech = {
         langType: false, 
         level: expertise.proficient
     },
-    // http: {
-    //     id: 'http/https', 
-    //     langType: false, 
-    //     level: expertise.proficient
-    // },
+    http: {
+        id: 'http/https', 
+        langType: false, 
+        level: expertise.proficient
+    },
     // wShark: {
     //     id: 'Wire Shark',
     //     langType: false, 
@@ -742,16 +756,16 @@ export const tech = {
         langType: false, 
         level: expertise.proficient
     },
-    // aws: {
-    //     id: 'AWS', 
-    //     langType: false, 
-    //     level: expertise.novice
-    // },
-    // cloud9: {
-    //     id: 'Cloud9', 
-    //     langType: false, 
-    //     level: expertise.novice
-    // },
+    aws: {
+        id: 'AWS', 
+        langType: false, 
+        level: expertise.novice
+    },
+    cloud9: {
+        id: 'Cloud9', 
+        langType: false, 
+        level: expertise.novice
+    },
     // nowVercel: {
     //     id: 'Now Vercel', 
     //     langType: false, 
@@ -762,11 +776,11 @@ export const tech = {
     //     langType: false, 
     //     level: expertise.novice
     // },
-    // testDev: {
-    //     id: 'Test-Driven Development', 
-    //     langType: false, 
-    //     level: expertise.novice
-    // },
+    testDev: {
+        id: 'Test-Driven Development', 
+        langType: false, 
+        level: expertise.novice
+    },
     dataAnaly: {
         id: 'Data Analytics', 
         langType: false, 
@@ -802,21 +816,21 @@ export const tech = {
         langType: false, 
         level: expertise.proficient
     },
-    // flexbox: {
-    //     id: 'Flexbox', 
-    //     langType: false, 
-    //     level: expertise.novice
-    // },
+    flexbox: {
+        id: 'Flexbox', 
+        langType: false, 
+        level: expertise.novice
+    },
     responsive: {
         id: 'Responsive Design/Layout', 
         langType: false, 
         level: expertise.proficient
     },
-    // balsamiq: {
-    //     id: 'Balsamiq', 
-    //     langType: false, 
-    //     level: expertise.novice
-    // },
+    balsamiq: {
+        id: 'Balsamiq', 
+        langType: false, 
+        level: expertise.novice
+    },
     sql: {
         sql:{
             id: 'SQL', 
@@ -945,10 +959,10 @@ export const tech = {
         id: 'Garageband',
         level: expertise.proficient
     },
-    // milkyTrack: {
-    //     id: 'Milky Tracker',
-    //     level: expertise.novice
-    // },
+    milkyTrack: {
+        id: 'Milky Tracker',
+        level: expertise.novice
+    },
     imove: {
         id: 'iMove',
         level: expertise.novice

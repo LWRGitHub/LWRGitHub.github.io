@@ -4,11 +4,62 @@ import { platform, focus, tech } from './skills';
 export const ProProj = [
     {
         img: {
+            src: "images/experience/adobe.png",
+            alt: "red outlike of the letter A and the word Adobe"
+        },
+        title: 'Adobe: Web Appications Engineer',
+        paragraph1: `Application (CI/CD) in Adobe Analytics, Customer journey Analytics &,various Adobe Experience Cloud software; worked on FEW in-house software to collect user data; additionally maintained BEW in-house library connected to AA via custom extension in Data Collection (e.g. agile dev., CRUD, support tickets, etc.)`,
+        skills: {
+            platform: [
+                platform.des,
+                // platform.mob
+            ], 
+            focus: [
+                focus.sofEngr, 
+                focus.data,
+                `${focus.dev.area.fs} 
+                ${focus.dev.type.wma}` 
+            ], 
+            tech: [
+                tech.js.id, 
+                tech.html.id, 
+                tech.css.id, 
+                tech.git.id, 
+                tech.gitHub.id, 
+                tech.sql.sql.id,
+                tech.adobe.analytics.id,
+                tech.dom.id,
+                tech.npm.id,
+                tech.yarn.id,
+                tech.shell.id,
+                tech.terminal.id,
+                tech.react.id,
+                tech.node.id,
+                tech.chromeDev.id,
+                tech.mac.id,
+                tech.dataAnaly.id,
+                tech.CI_CD.id, 
+                tech.api.api.id,
+                tech.json.id,
+                tech.adobe.adminConsole.id,
+                tech.adobe.dataCollection.id,
+                tech.adobe.marketing.id,
+                tech.adobe.cja.id,
+                tech.jira.id,
+                tech.ts.id,
+            ]
+        },
+        paragraph2: '',
+        projectLink: "https://business.adobe.com/products/analytics/adobe-analytics.html",
+        codeLink: false
+    },
+    {
+        img: {
             src: "images/experience/prose.jpeg",
             alt: "White crow infront of a white ball cut out of black square shap."
         },
         title: 'Interim Fractional Chief Technical Officer (CTO)',
-        paragraph1: `As of September 2023, I am affiliated with Prose, a burgeoning startup. Presently, my role entails serving as the Interim Fractional Chief Technical Officer, which does not involve direct team management yet. However, the objective is to assume leadership responsibilities for a team of engineers. In this capacity, my primary focus will revolve around oversight and active participation in software engineering processes, with a particular emphasis on technologies such as React.js and GraphQL.`,
+        paragraph1: `Served as the Interim Fractional Chief Technical Officer, in this capacity, my primary focus revolved around oversight and active participation in software engineering processes, with a particular emphasis on technologies such as React.js and GraphQL.`,
         skills: {
             platform: [
                 platform.des, 
@@ -47,60 +98,11 @@ export const ProProj = [
     },
     {
         img: {
-            src: "images/experience/adobe.png",
-            alt: "red outlike of the letter A and the word Adobe"
-        },
-        title: 'Adobe: Web Appications Engineer 3',
-        paragraph1: `Application (CI/CD) in Adobe Analytics, Customer journey Analytics &,various Adobe Experience Cloud software; worked on FEW in-house software to collect user data; additionally maintained BEW in-house library connected to AA via custom extension in Data Collection (e.g. agile dev., CRUD, support tickets, etc.)`,
-        skills: {
-            platform: [
-                platform.des,
-                platform.mob
-            ], 
-            focus: [
-                focus.sofEngr, 
-                // `${focus.dev.area.fs} 
-                // ${focus.dev.type.wma}` 
-            ], 
-            tech: [
-                tech.js.id, 
-                tech.html.id, 
-                tech.css.id, 
-                tech.git.id, 
-                tech.gitHub.id, 
-                tech.sql.sql.id,
-                tech.adobe.analytics.id,
-                tech.dom.id,
-                tech.npm.id,
-                tech.yarn.id,
-                tech.shell.id,
-                tech.terminal.id,
-                tech.react.id,
-                tech.node.id,
-                tech.chromeDev.id,
-                tech.mac.id,
-                tech.dataAnaly.id,
-                tech.CI_CD.id, 
-                tech.api.api.id,
-                tech.json.id,
-                tech.adobe.adminConsole.id,
-                tech.adobe.dataCollection.id,
-                tech.adobe.marketing.id,
-                tech.adobe.cja.id,
-                tech.jira.id,
-            ]
-        },
-        paragraph2: '',
-        projectLink: "https://business.adobe.com/products/analytics/adobe-analytics.html",
-        codeLink: false
-    },
-    {
-        img: {
             src: "images/experience/verizon.jpeg",
             alt: "Words that say Verzon with a black background and red check mark"
         },
         title: 'Verizon: Support Engineer',
-        paragraph1: 'Tasks included various support engineering dealing with JSON APIs.',
+        paragraph1: 'My responsibilities encompassed a diverse range of support engineering tasks, which entailed efficiently resolving tickets, working with JSON APIs, and addressing intricate issues, with little to no guidance or supervision',
         skills: {
             platform: [
                 platform.des
@@ -146,7 +148,7 @@ export const ProProj = [
                 // tech.gitHub.id, 
                 // tech.browserify.id, 
                 // tech.CI_CD.id, 
-                // tech.aws.id,
+                tech.aws.id,
                 // "AWS",
                 // "Java",
                 tech.json.id,

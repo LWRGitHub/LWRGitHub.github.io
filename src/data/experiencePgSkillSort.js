@@ -10,6 +10,7 @@ const rb = [];
 const swift = [];
 const go = [];
 const c_Sharp = [];
+const ts = [];
 
 for(const key1 in tech){
     for(const key2 in tech[key1]){
@@ -99,13 +100,20 @@ export const mainLanguages = [
     //     src: "images/experience/swift-logo.png",
     //     alt: "programming language logo for Swift"
     // },
-    // {
-    //     level: mainLang.go.level,
-    //     id: mainLang.go.id,
-    //     associatedLang: go,
-    //     src: "images/experience/go-logo.png",
-    //     alt: "programming language logo for Golang"
-    // },
+    {
+        level: mainLang.go.level,
+        id: mainLang.go.id,
+        associatedLang: go,
+        src: "images/experience/go-logo.png",
+        alt: "programming language logo for Golang"
+    },
+    {
+        level: mainLang.ts.level,
+        id: mainLang.ts.id,
+        associatedLang: ts,
+        src: "images/experience/Typescript_logo.png",
+        alt: "programming language logo for TypeScript"
+    },
     // {
     //     level: mainLang.java.level,
     //     id: mainLang.java.id,
