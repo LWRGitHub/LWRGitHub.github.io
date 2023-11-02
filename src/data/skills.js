@@ -148,6 +148,21 @@ export const tech = {
         langType: mainLang.go.id, 
         level: expertise.novice
     },
+    chatGPT:{
+        id: 'chatGPT', 
+        langType: false, 
+        level: expertise.proficient,
+    },
+    promptEngr:{
+        id: 'Prompt Engineering', 
+        langType: false, 
+        level: expertise.proficient,
+    },
+    lLMResponses:{
+        id: 'LLM Responses', 
+        langType: false, 
+        level: expertise.proficient,
+    },
     // swiftUI: {
     //     id:'SwiftUI', 
     //     langType: mainLang.swift.id, 
