@@ -149,7 +149,7 @@ export const tech = {
         level: expertise.novice
     },
     chatGPT:{
-        id: 'chatGPT', 
+        id: 'ChatGPT', 
         langType: false, 
         level: expertise.proficient,
     },
