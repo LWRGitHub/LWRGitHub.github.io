@@ -238,6 +238,22 @@ export const ProProj = [
 export const PersonalProj = [
     {
         img: {
+            src: "images/experience/analytics-expert.png", 
+            alt: "Logo for ChatGPT analytics expert"
+        },
+        title: "Customized version of ChatGPT | Analytics Expert",
+        paragraph1: "• Engineered custom version of ChatGPT specifically for Adobe (Analytics/CJA/Target/AEP) and Gainsight.",
+        skills: {
+            platform: [platform.des, platform.mob], 
+            focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi,], 
+            tech: [tech.chatGPT.id, tech.adobe.analytics.id, tech.adobe.cja.id, tech.adobe.target.id, tech.adobe.experience.id, tech.gainsight.id]
+        },
+        paragraph2: 'Give it a try!',
+        projectLink: 'https://chat.openai.com/g/g-xKyZbu82T-analytics-expert',
+        codeLink: "https://chat.openai.com/g/g-xKyZbu82T-analytics-expert"
+    },
+    {
+        img: {
             src: "images/experience/kdp-books-site.png", 
             alt: "this is a screen shot of the home page for The Midnight Dream Publishing website."
         },

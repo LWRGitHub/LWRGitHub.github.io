@@ -428,6 +428,11 @@ export const tech = {
         langType: false, 
         level: expertise.proficient
     },
+    gainsight: {
+        id: 'Gainsight', 
+        langType: mainLang.js.id,
+        level: expertise.proficient
+    },
     adobe: {
         photo: {
             id: 'Photoshop', 
@@ -443,6 +448,11 @@ export const tech = {
             id: 'Adobe Customer Journey Analytics (CJA)', 
             langType: mainLang.js.id, 
             level: expertise.proficient
+        },
+        target: {
+            id: 'Adobe Target', 
+            langType: mainLang.js.id, 
+            level: expertise.novice
         },
         marketing: {
             id: 'Adobe Marketing Cloud (AMC)', 
