@@ -254,6 +254,22 @@ export const PersonalProj = [
     },
     {
         img: {
+            src: "images/experience/veganQuery.png", 
+            alt: "Screenshot of the home page. The image has photos of the Different vegan dishes with their names such as tomato soup & slaw with coriander."
+        },
+        title: "Vegan Query",
+        paragraph1: "Website that scrapes vegan recipes off the internet & places them in a search engine.",
+        skills: {
+            platform: [platform.des, platform.mob], 
+            focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi], 
+            tech: [tech.js.id, tech.react.id, tech.bootstrap.id, tech.reactBootstrap.id, tech.html.id, tech.css.id, tech.git.id, tech.gitHub.id, tech.gitHubPg.id]
+        },
+        paragraph2: 'Simply search for something like tomato soup.',
+        projectLink: 'https://github.com/VeganQuery/VeganQuery.github.io',
+        codeLink: "https://github.com/VeganQuery/VeganQuery.github.io"
+    },
+    {
+        img: {
             src: "images/experience/kdp-books-site.png", 
             alt: "this is a screen shot of the home page for The Midnight Dream Publishing website."
         },
@@ -386,22 +402,6 @@ export const PersonalProj = [
         paragraph2: 'Simply click on your zodiac sign to view your horoscope for the day.',
         projectLink: "https://github.com/LWRGitHub/astrology-api", // 'https://astrology-horoscope.herokuapp.com',
         codeLink: "https://github.com/LWRGitHub/astrology-api"
-    },
-    {
-        img: {
-            src: "images/experience/veganQuery.png", 
-            alt: "Screenshot of the home page. The image has photos of the Different vegan dishes with their names such as tomato soup & slaw with coriander."
-        },
-        title: "Vegan Query",
-        paragraph1: "Website that scrapes vegan recipes off the internet & places them in a search engine.",
-        skills: {
-            platform: [platform.des, platform.mob], 
-            focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi], 
-            tech: [tech.js.id, tech.react.id, tech.bootstrap.id, tech.reactBootstrap.id, tech.html.id, tech.css.id, tech.git.id, tech.gitHub.id, tech.gitHubPg.id]
-        },
-        paragraph2: 'Simply search for something like tomato soup.',
-        projectLink: 'https://github.com/VeganQuery/VeganQuery.github.io',
-        codeLink: "https://github.com/VeganQuery/VeganQuery.github.io"
     },
 ];
 
