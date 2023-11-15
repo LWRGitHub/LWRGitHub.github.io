@@ -437,7 +437,7 @@ export const tech = {
         photo: {
             id: 'Photoshop', 
             langType: false, 
-            level: expertise.novice
+            level: expertise.proficient
         },
         analytics: {
             id: 'Adobe Analytics (AA)', 
