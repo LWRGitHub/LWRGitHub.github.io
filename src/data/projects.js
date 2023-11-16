@@ -47,6 +47,7 @@ export const ProProj = [
                 tech.adobe.cja.id,
                 tech.jira.id,
                 tech.ts.id,
+                tech.artifactory.id,
             ]
         },
         paragraph2: '',
