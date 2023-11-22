@@ -239,6 +239,22 @@ export const ProProj = [
 export const PersonalProj = [
     {
         img: {
+            src: "images/experience/job-search-scraping-img.png", 
+            alt: "Logo for ChatGPT analytics expert"
+        },
+        title: "Job Search Automation with Selenium",
+        paragraph1: "Effortlessly harness the capabilities of this Selenium web scraping application to efficiently sift through a large volume of LinkedIn job listings, tailored to your specific job criteria.",
+        skills: {
+            platform: [platform.des], 
+            focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wa}`], 
+            tech: [ tech.py.id, tech.selenium.id, tech.dotenv.id, tech.webDriverManager.id, tech.chromeDriver.id, tech.chromeDev.id, tech.unixCLI.id, tech.git.id, tech.gitHub.id]
+        },
+        paragraph2: 'Conduct a Trial Evaluation!',
+        projectLink: 'https://github.com/LWRGitHub/job-search-scraping-linkedin',
+        codeLink: "https://github.com/LWRGitHub/job-search-scraping-linkedin"
+    },
+    {
+        img: {
             src: "images/experience/analytics-expert.png", 
             alt: "Logo for ChatGPT analytics expert"
         },

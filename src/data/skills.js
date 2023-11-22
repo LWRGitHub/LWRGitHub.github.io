@@ -128,6 +128,16 @@ export const tech = {
         langType: false,
         level: expertise.novice
     },
+    chromeDriver: {
+        id:'Chrome Driver',
+        langType: false,
+        level: expertise.proficient
+    },
+    webDriverManager: {
+        id:'web Driver Manager',
+        langType: false,
+        level: expertise.proficient
+    },
     goScrape: {
         id: 'Go Web Scraping', 
         langType: mainLang.go.id, 
