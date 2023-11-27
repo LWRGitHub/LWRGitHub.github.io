@@ -12,7 +12,7 @@ export const mainLang = {
     },
     py: {
         id:'Python',
-        level: expertise.proficient
+        level: expertise.expert
     },
     swift: {
         id:'Swift',
@@ -108,6 +108,41 @@ export const otherFocus = {
 };
 
 export const tech = {
+    // dS: {
+    //     id: "Data Science (DS)",
+    //     langType: false, 
+    //     level: expertise.proficient
+    // },
+    // sRE: {
+    //     id: "Site Reliability Engineer (SRE)", 
+    //     langType: false, 
+    //     level: expertise.proficient
+    // },
+    // fSW: {
+    //     id: "Full-Stack Web (FSW)", 
+    //     langType: false, 
+    //     level: expertise.proficient
+    // },
+    // mW: {
+    //     id: "Mobile Web (MW)", 
+    //     langType: false, 
+    //     level: expertise.proficient
+    // },
+    // bEW: {
+    //     id: "Back End Web (BEW)",
+    //     langType: false, 
+    //     level: expertise.proficient
+    // },
+    // fEW: {
+    //     id: "Front End Web (FEW)", 
+    //     langType: false, 
+    //     level: expertise.proficient
+    // },
+    // sE: {
+    //     id: "Support Engineering (SE)", 
+    //     langType: false, 
+    //     level: expertise.proficient
+    // },
     swift: {
         id: "Swift", 
         langType: false, 
@@ -166,7 +201,7 @@ export const tech = {
     promptEngr:{
         id: 'Prompt Engineering', 
         langType: false, 
-        level: expertise.proficient,
+        level: expertise.expert,
     },
     lLMResponses:{
         id: 'LLM Responses', 
@@ -189,8 +224,18 @@ export const tech = {
         level: expertise.novice
     },
     ai: {
-        id:'AI/Machine Learning', 
+        id: "Artificial intelligence (AI)", 
         langType: mainLang.py.id, 
+        level: expertise.novice
+    },
+    ml: {
+        id: "Machine Learning (ML)", 
+        langType: mainLang.py.id, 
+        level: expertise.novice
+    },
+    LLM: {
+        id: "Large Language Model (LLM)", 
+        langType: false, 
         level: expertise.novice
     },
     numPy: {
@@ -336,7 +381,7 @@ export const tech = {
     py: {
         id: 'Python', 
         langType: false, 
-        level: expertise.proficient
+        level: expertise.expert
     },
     pyTest: {
         id: 'Pytest', 
@@ -416,7 +461,7 @@ export const tech = {
     CI_CD: {
         id: 'CI/CD', 
         langType: false, 
-        level: expertise.proficient
+        level: expertise.expert
     },
     resourceOverride: {
         id: 'Resource Override', 
@@ -431,7 +476,7 @@ export const tech = {
     postman: {
         id: 'Postman', 
         langType: false, 
-        level: expertise.proficient
+        level: expertise.expert
     },
     gainsight: {
         id: 'Gainsight', 
@@ -441,17 +486,17 @@ export const tech = {
     jira: {
         id: 'Jira', 
         langType: false, 
-        level: expertise.proficient
+        level: expertise.expert
     },
     agile: {
         id: 'Agile', 
         langType: false, 
-        level: expertise.proficient
+        level: expertise.expert
     },
     scrum: {
-        id: 'Scrum', 
+        id: 'SCRUM', 
         langType: false, 
-        level: expertise.proficient
+        level: expertise.expert
     },
     kubernetes: {
         id: 'Kubernetes', 
@@ -462,6 +507,18 @@ export const tech = {
         id: 'Artifactory', 
         langType: false,
         level: expertise.proficient
+    },
+    elastic: {
+        elasticsearch: {
+            id: 'Elasticsearch', 
+            langType: false, 
+            level: expertise.proficient
+        },
+        kibana: {
+            id: 'Kibana', 
+            langType: false, 
+            level: expertise.proficient
+        },
     },
     adobe: {
         photo: {
@@ -620,17 +677,17 @@ export const tech = {
     npm: {
         id: 'npm',
         langType: false, 
-        level: expertise.proficient
+        level: expertise.expert
     },
     yarn: {
         id: 'yarn',
         langType: false, 
-        level: expertise.proficient
+        level: expertise.expert
     },
     chromeDev: {
         id: 'Chrome Dev Tools',
         langType: false, 
-        level: expertise.proficient
+        level: expertise.expert
     },
     google: {
         font: {
@@ -756,11 +813,11 @@ export const tech = {
         langType: false, 
         level: expertise.novice
     },
-    // xml: {
-    //     id: 'XML', 
-    //     langType: false, 
-    //     level: expertise.novice
-    // },
+    xml: {
+        id: 'XML', 
+        langType: false, 
+        level: expertise.novice
+    },
     // aspNet: {
     //     id: 'ASP.NET', 
     //     langType: false, //mainLang.c_sharp.id, 
@@ -834,10 +891,10 @@ export const tech = {
     testDev: {
         id: 'Test-Driven Development', 
         langType: false, 
-        level: expertise.novice
+        level: expertise.proficient
     },
     dataAnaly: {
-        id: 'Data Analytics', 
+        id: 'Data Analytics/Analysis', 
         langType: false, 
         level: expertise.proficient
     },
@@ -848,6 +905,16 @@ export const tech = {
     },
     databases:{
         id: 'Databases', 
+        langType: false, 
+        level: expertise.proficient
+    },
+    bigData:{
+        id: 'Big Data', 
+        langType: false, 
+        level: expertise.proficient
+    }, 
+    schemaDesign:{
+        id: 'Database Schema Design', 
         langType: false, 
         level: expertise.proficient
     },
@@ -890,7 +957,7 @@ export const tech = {
         sql:{
             id: 'SQL', 
             langType: false, 
-            level: expertise.novice
+            level: expertise.proficient
         },
         alchemy: {
             id: 'SQLAlchemy', 
@@ -900,10 +967,15 @@ export const tech = {
         mySQL: {
             id: 'MySQL', 
             langType: false, 
-            level: expertise.novice
+            level: expertise.proficient
         },
         noSQL: {
             id: 'NoSQL', 
+            langType: false, 
+            level: expertise.proficient
+        },
+        postgreSQL: {
+            id: 'PostgreSQL', 
             langType: false, 
             level: expertise.novice
         },
@@ -967,6 +1039,21 @@ export const tech = {
         id: 'Docker', 
         langType: false, 
         level: expertise.novice
+    },//
+    vault: {
+        id: 'Vault', 
+        langType: false, 
+        level: expertise.novice
+    },
+    idManag: {
+        id: 'Identify Management', 
+        langType: false, 
+        level: expertise.novice
+    },
+    unixLinux: {
+        id: 'Unix/Linux OS System Internals & Administration (Filesystems, Inodes, System Calls, Hardening, etc.)', 
+        langType: false, 
+        level: expertise.proficient
     },
     windows: {
         id: 'Windows', 
@@ -978,8 +1065,13 @@ export const tech = {
         langType: false, 
         level: expertise.expert
     },
-    Linux: {
-        id: 'Linux', 
+    // Linux: {
+    //     id: 'Linux', 
+    //     langType: false, 
+    //     level: expertise.proficient
+    // },
+    networking: {
+        id: 'Networking (TCP / IP, Routing, DNS, Network Topologies, SDN, HTTP / HTTPS, WAN, LAN, etc.)', 
         langType: false, 
         level: expertise.proficient
     },
