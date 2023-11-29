@@ -903,6 +903,11 @@ export const tech = {
         langType: false, 
         level: expertise.expert
     },
+    graphData:{
+        id: 'Graph Databases', 
+        langType: false, 
+        level: expertise.proficient
+    },
     databases:{
         id: 'Databases', 
         langType: false, 
@@ -918,8 +923,23 @@ export const tech = {
         langType: false, 
         level: expertise.proficient
     },
+    graphSolFram:{
+        id: 'Graph Solutions/Frameworks', 
+        langType: false, 
+        level: expertise.proficient
+    },
+    loadProcesses:{
+        id: 'Load Processes', 
+        langType: false, 
+        level: expertise.proficient
+    },
     devOps: {
         id: 'DevOps', 
+        langType: false, 
+        level: expertise.novice
+    },
+    eCommerce: {
+        id: 'eCommerce', 
         langType: false, 
         level: expertise.novice
     },
@@ -1099,17 +1119,17 @@ export const tech = {
         api: {
             id: 'API', 
             langType: false, 
-            level: expertise.proficient
+            level: expertise.expert
         },
         fetch: {
             id: 'FETCH API', 
             langType: false, 
-            level: expertise.proficient
+            level: expertise.expert
         },
         rest: {
             id: 'REST API', 
             langType: false, 
-            level: expertise.proficient
+            level: expertise.expert
         }
     },
     garageband: {
