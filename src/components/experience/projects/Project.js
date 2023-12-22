@@ -34,6 +34,22 @@ const InnerCardBody = (tutorial, codeLink, paragraph2, projectLink) => {
     }
 }
 
+const ParagraphSetup = (paragraph1) => {
+    if(typeof paragraph1 == "string"){
+        return (
+            <p className="card-text">{paragraph1}</p>
+        );
+    }else{
+        // loop through array and return a p tag for each element
+        let paragraph = paragraph1.map((paragraph) => {
+            return (
+                <p className="card-text" key={`paragraph_${paragraph}`}>{paragraph}</p>
+            );
+        });
+        return paragraph;
+    }
+}
+
 const Project = (props) => {
     let platforms = props.platform.map((platform) => {
         return (
@@ -59,7 +75,7 @@ const Project = (props) => {
             </a>
             <div className="card-body">
                 <h5 className="card-title">{props.title}</h5>
-                <p className="card-text">{props.paragraph1}</p>
+                {ParagraphSetup(props.paragraph1)}
                 <div className="card text-center">
                     <div className="card-header">
                         {platforms}

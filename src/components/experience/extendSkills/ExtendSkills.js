@@ -2,7 +2,7 @@ import React from 'react';
 
 const ExtendSkills = (props) => {
     return (
-        <section className="container">
+        <section className="container" id="skills">
             <h2 className="my-5">Extended Knowledge</h2>
             {/* <h3 id="ext-knowledge-bg" className="badge badge-pill badge-secondary">Concentrations</h3>
             <p>Software Engineering - Full Stack Web/Mobile/Application Development - User Experience/User Interface Design - Game Design/Development - Data Science</p> */}

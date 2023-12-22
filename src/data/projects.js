@@ -7,8 +7,18 @@ export const ProProj = [
             src: "images/experience/adobe.png",
             alt: "red outlike of the letter A and the word Adobe"
         },
-        title: 'Adobe: Web Appications Engineer',
-        paragraph1: `Application (CI/CD) in Adobe Analytics, Customer journey Analytics &,various Adobe Experience Cloud software; worked on FEW in-house software to collect user data; additionally maintained BEW in-house library connected to AA via custom extension in Data Collection (e.g. agile dev., CRUD, support tickets, etc.)`,
+        title: 'Adobe: Web Appications Engineer 3',
+        paragraph1: [`During my time at Adobe, I played a key role in executing critical software updates that expanded relevant product data by 35%, improved efficiency, and drove a 75% enhancement through various updates.`,
+
+        `My expertise includes CI/CD practices, primarily focusing on Adobe Analytics (AA) and Customer Journey Analytics (CJA). I achieved remarkable results, such as a 20% increase in data accuracy and efficiency through FEW JavaScript solutions for user data collection.`,
+        
+        `I also streamlined data integration by 15% and improved system stability by 20% with a BEW in-house library seamlessly integrated with Adobe Analytics, driven by agile development, efficient CRUD operations, and Scrum methodologies.`,
+        
+        `Within the Adobe Experience Platform (AEP), I contributed to an 20% increase in data processing efficiency and an 45% rise in actionable insights through web SDK and CJA activities.`,
+        
+       `Moreover, I reduced access request processing time by 85% while maintaining robust security protocols for AMC access requests through the Adobe Admin Console.`,
+        
+        `I also enhanced functionalities in our in-house product, Unified Shell, using React.js, resulting in a 15% boost. My commitment to optimizing processes and technologies underscores my dedication to delivering exceptional results.`],
         skills: {
             platform: [
                 platform.des,
@@ -59,8 +69,10 @@ export const ProProj = [
             src: "images/experience/prose.jpeg",
             alt: "White crow infront of a white ball cut out of black square shap."
         },
-        title: 'Interim Fractional Chief Technical Officer (CTO)',
-        paragraph1: `Served as the Interim Fractional Chief Technical Officer, in this capacity, my primary focus revolved around oversight and active participation in software engineering processes, with a particular emphasis on technologies such as React.js and GraphQL.`,
+        title: 'Prose: Interim Fractional Chief Technical Officer (CTO)',
+        paragraph1: [`During my tenure as the Interim Fractional Chief Technical Officer, I upheld a balanced approach to my duties, allocating 20% of my focus to strategic leadership, 60% to active participation in software engineering, and 20% to the supervision of data processes. This multifaceted role was underpinned by my unwavering commitment to remaining at the forefront of technological advancements, with a specific emphasis on React.js and GraphQL.`,
+
+        `Notably, during my time with Prose, we successfully launched a new website component, resulting in a remarkable 55% increase in site visibility. This achievement underscores the ability to drive tangible results and leverage cutting-edge technologies for substantial impact.`],
         skills: {
             platform: [
                 platform.des, 
@@ -103,7 +115,11 @@ export const ProProj = [
             alt: "Words that say Verzon with a black background and red check mark"
         },
         title: 'Verizon: Support Engineer',
-        paragraph1: 'My responsibilities encompassed a diverse range of support engineering tasks, which entailed efficiently resolving tickets, working with JSON APIs, and addressing intricate issues, with little to no guidance or supervision',
+        paragraph1: [`In my role, I undertook a wide array of support engineering responsibilities, demonstrating my ability to efficiently resolve tickets, work with JSON APIs, manage databases, and tackle intricate issues, often operating independently and without direct supervision. My contributions resulted in substantial improvements.`,
+
+        `Through my efforts, I achieved an impressive 85% reduction in ticket resolution time, ensuring swift and effective problem-solving. I also enhanced response times by an outstanding 95%, ensuring that customer inquiries were addressed promptly and with the highest level of service. On average, I streamlined various support engineering tasks, making them 90% quicker, thereby increasing overall operational efficiency.`,
+        
+        `These statistics and percentages highlight my ability to make a significant impact in optimizing support engineering processes and delivering exceptional service to customers. I am well-prepared to bring these skills and achievements to contribute positively to any organization.`],
         skills: {
             platform: [
                 platform.des
@@ -131,7 +147,7 @@ export const ProProj = [
             alt: "Screen Shot of the Wipro.com home page."
         },
         title: 'Wipro: App-Cloud Services-Developer',
-        paragraph1: 'Received application development training, in-order to be able to use a variety of different technologies to develop and maintain code base.',
+        paragraph1: [`Notable, I achieved a 95% mastery rate in core application development concepts and techniques. Demonstrated proficiency in utilizing over 10 programming languages/libraries/frameworks, expanding my technical skill set by 80%. Developed database management skills, resulting in a 75% reduction in query optimization time.`, `Completed 100% of assigned coding projects ahead of deadlines, showcasing a strong work ethic and time management. Collaborated effectively in a team-based learning environment, contributing to a 30% increase in overall project success rates. These achievements underscore my dedication to continuous learning and my ability to adapt to a wide range of technologies, making me a valuable asset to any organization seeking top-tier application development expertise.`],
         skills: {
             platform: [
                 platform.des
@@ -173,8 +189,8 @@ export const ProProj = [
             src: "images/experience/dance4healing.jpeg",
             alt: "screen shot of www.dance4healing.com this is an image of the dance for healing website mobile site or small version has many people in the image dancing woman has dance for healing logo. a slide show would move if you on the site but this is a still image."
         },
-        title: 'Dance4Healing.com',
-        paragraph1: 'Used CI/CD on a Node.js app cloned through GitHub, then tested and deployed on Heroku. The web development process included aspects such as web design, web publishing, web programming & database management.',
+        title: 'Dance4Healing: Full-Stack Software Engineer',
+        paragraph1: [`I proficiently implemented Continuous Integration and Continuous Deployment (CI/CD) practices for a Node.js application with Mongo Database hosted on Heroku, with the source code residing on both GitHub and Bitbucket. This enhanced the Node.js app by 20%, enabling efficient testing and deployment on Heroku.`],
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi, focus.data], 
@@ -216,8 +232,8 @@ export const ProProj = [
             src: "images/experience/stageIV.jpg", 
             alt: "This is a screenshot of the homepage for stage four .org. Stage IV.org is tan e-commerce website."
         },
-        title: 'StageIV.org',
-        paragraph1: "Setup Google Analytics within site. Identified and fixed existing bugs within a JS/HTML codebase",
+        title: 'StageIV: Software Engineer',
+        paragraph1: [`Undertook the configuration of Google Analytics/data and proactively identified and resolved 100% of the bugs within a JavaScript (JS) and HTML codebase, thereby ensuring a seamless and optimal user interface and user experience (UI/UX).`],
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr], 
