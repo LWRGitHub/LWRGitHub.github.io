@@ -11,43 +11,48 @@ export const ProProj = [
         paragraph1: [`35% data expansion using SCRUM / Agile Dev among 5+ peers drove a 75% enhancement due to 50+ updates.`, `CI/CD on Adobe(AA, CJA, AEP) led to a 20% increase in data quality & efficiency with JavaScript solutions, in-house TypeScript library, MySQL queries, & Unified Shell React.js app, resulting in a 15% boost.`,`Observed 45% rise in actionable insights with CJA & Web SDK schema design in AEP.`],
         skills: {
             platform: [
-                platform.des,
+                // platform.des,
                 // platform.mob
             ], 
             focus: [
-                focus.sofEngr, 
-                focus.data,
-                `${focus.dev.area.fs} 
-                ${focus.dev.type.wma}` 
+                // focus.sofEngr, 
+                // focus.data,
+                // `${focus.dev.area.fs} 
+                // ${focus.dev.type.wma}` 
             ], 
             tech: [
                 tech.js.id, 
-                tech.html.id, 
-                tech.css.id, 
-                tech.git.id, 
-                tech.gitHub.id, 
-                tech.sql.sql.id,
-                tech.adobe.analytics.id,
-                tech.dom.id,
-                tech.npm.id,
-                tech.yarn.id,
-                tech.shell.id,
-                tech.terminal.id,
-                tech.react.id,
                 tech.node.id,
-                tech.chromeDev.id,
-                tech.mac.id,
-                tech.dataAnaly.id,
-                tech.CI_CD.id, 
-                tech.api.api.id,
-                tech.json.id,
-                tech.adobe.adminConsole.id,
-                tech.adobe.dataCollection.id,
-                tech.adobe.marketing.id,
-                tech.adobe.cja.id,
-                tech.jira.id,
                 tech.ts.id,
+                tech.react.id,
+                tech.sql.mySQL.id,
+                // tech.html.id, 
+                // tech.css.id, 
+                // tech.git.id, 
+                // tech.gitHub.id, 
+                // tech.sql.sql.id,
+                tech.adobe.experience.id,
+                tech.adobe.analytics.id,
+                tech.adobe.cja.id,
+                // tech.adobe.adminConsole.id,
+                "Adobe Data Collection",
+                "Adobe Admin Console",
+                tech.jira.id,
+                // tech.dom.id,
+                // tech.npm.id,
+                // tech.yarn.id,
+                // tech.shell.id,
+                // tech.terminal.id,
+                // tech.chromeDev.id,
+                // tech.mac.id,
+                // tech.dataAnaly.id,
+                // tech.CI_CD.id, 
+                // tech.api.api.id,
+                // tech.json.id,
+                // tech.adobe.dataCollection.id,
+                // tech.adobe.marketing.id,
                 tech.artifactory.id,
+                "Schema Design",
             ]
         },
         paragraph2: '',
@@ -63,32 +68,32 @@ export const ProProj = [
         paragraph1: [`20% lead, 60% software, 20% data; with a specific emphasis on React.js & GraphQL.`,`Observed new component launch increasing visibility by 55%. `],
         skills: {
             platform: [
-                platform.des, 
-                platform.mob
+                // platform.des, 
+                // platform.mob
             ], 
             focus: [
-                focus.sofEngr, 
+                // focus.sofEngr, 
             ], 
             tech: [
                 tech.js.id, 
-                tech.html.id, 
-                tech.css.id, 
-                tech.git.id, 
-                tech.gitHub.id, 
-                tech.dom.id,
-                tech.npm.id,
-                tech.yarn.id,
-                tech.shell.id,
-                tech.terminal.id,
-                tech.react.id,
+                tech.ts.id,
+                // tech.git.id, 
+                // tech.gitHub.id, 
+                // tech.dom.id,
+                // tech.npm.id,
+                // tech.yarn.id,
+                // tech.shell.id,
+                // tech.terminal.id,
                 tech.node.id,
-                tech.chromeDev.id,
-                tech.mac.id,
-                tech.CI_CD.id, 
-                tech.api.api.id,
-                tech.json.id,
-                tech.jira.id,
+                tech.react.id,
+                // tech.chromeDev.id,
+                // tech.mac.id,
+                // tech.CI_CD.id, 
+                // tech.api.api.id,
                 tech.graphQL.id,
+                tech.jira.id,
+                // tech.json.id,
+                "JSON",
                 // tech.typeScript.id,
                 // tech.aws.id,
             ]
@@ -106,18 +111,22 @@ export const ProProj = [
         paragraph1: [`Achieved 85% faster resolution, 95% quicker responses.`,`Worked with 5+ peers often operating independently & without direct supervision having resolved 2,000+ tickets.`],
         skills: {
             platform: [
-                platform.des
+                // platform.des
             ], 
             focus: [
-                focus.sofEngr, 
+                // focus.sofEngr, 
                 // `${focus.dev.area.fs} 
                 // ${focus.dev.type.wma}`
             ], 
             tech: [
-                tech.json.id,
+                // tech.json.id,
+                "JSON",
+                "Data",
+                "Windows",
                 tech.api.api.id,
-                tech.data.id,
-                tech.windows.id,
+                tech.elastic.elastic.id,
+                // tech.data.id,
+                // tech.windows.id,
                 // "XML"
             ]
         },
@@ -134,33 +143,36 @@ export const ProProj = [
         paragraph1: [`95% mastery in Dev, 75% time cut, 30% increase in overall project success rates.`,`Completed 100% of assigned coding projects ahead of deadlines.`],
         skills: {
             platform: [
-                platform.des
+                // platform.des
             ], 
             focus: [
-                focus.sofEngr, 
+                // focus.sofEngr, 
                 // `${focus.dev.area.fs} 
                 // ${focus.dev.type.wma}`
             ], 
             tech: [
                 tech.js.id, 
-                tech.html.id, 
-                tech.css.id, 
+                tech.node.id,
                 // tech.git.id, 
                 // tech.gitHub.id, 
                 // tech.browserify.id, 
                 // tech.CI_CD.id, 
                 tech.aws.id,
                 // "AWS",
+                // tech.json.id,
+                "JSON",
                 // "Java",
-                tech.json.id,
                 tech.api.api.id,
+                tech.html.id, 
+                tech.css.id, 
                 tech.shell.id,
-                tech.terminal.id,
-                tech.node.id,
-                tech.data.id,
-                tech.databases.id,
-                tech.preformOptimiz.id,
-                tech.windows.id,
+                "Data/Databases",
+                tech.sql.sql.id,
+                // tech.terminal.id,
+                // tech.data.id,
+                // tech.databases.id,
+                // tech.preformOptimiz.id,
+                // tech.windows.id,
                 // tech.py.id
             ]
         },
@@ -176,35 +188,41 @@ export const ProProj = [
         title: 'Dance4Healing: Full-Stack Software Engineer',
         paragraph1: [`Enhanced Node, MongoDB app alongside 5+ peers by 20% amidst CI/CD practices, enabling efficient testing & deployment on Heroku.`,`Created 2+ tutorial / Wikis on utilizing Git / GitHub to deploy the app & add 10+ crucial lines to the README.md file using Markdown.`],
         skills: {
-            platform: [platform.des, platform.mob], 
-            focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi, focus.data], 
+            platform: [
+                // platform.des, platform.mob
+            ], 
+            focus: [
+                // focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi, focus.data
+            ], 
             tech: [
-                // tech.ai.id, 
-                tech.express.id, 
-                tech.heroku.id, 
+                tech.js.id, 
                 tech.node.id, 
-                // tech.jade.id, 
-                "jade",
+                // tech.express.id, 
+                "Express",
+                // tech.ai.id, 
+                tech.heroku.id, 
+                tech.jade.id, 
+                // "jade",
                 tech.mongo.id, 
                 // tech.mongoose.id, 
                 // tech.twilio.id, 
-                tech.js.id, 
                 tech.html.id, 
                 tech.css.id, 
                 // tech.passport.id, 
                 // tech.vimeo.id, 
-                tech.bitBucket.id, 
-                tech.git.id, 
-                tech.gitHub.id, 
+                // tech.bitBucket.id, 
+                // tech.git.id, 
+                // tech.gitHub.id, 
                 // tech.browserify.id, 
-                tech.CI_CD.id, 
-                tech.adobe.photo.id,  
+                // tech.CI_CD.id, 
+                // tech.adobe.photo.id, 
+                tech.google.analytic.id,  
                 tech.trello.id, 
-                tech.google.analytic.id, 
-                tech.google.font.id, 
+                "Terminal",
+                // tech.google.font.id, 
                 // tech.sketchApp.id, 
-                tech.npm.id, 
-                tech.yarn.id
+                // tech.npm.id, 
+                // tech.yarn.id
             ]
         },
         paragraph2: 'Once on the site, sign up to begin learning different dance moves.',
@@ -219,14 +237,19 @@ export const ProProj = [
         title: 'StageIV: Software Engineer',
         paragraph1: [`Undertook the configuration of Google Analytics/data.`,`Proactively identified & resolved 100% of the bugs inside a JS & HTML codebase.`,`Completed 3+ projects ensuring a seamless & optimal UI/UX.`],
         skills: {
-            platform: [platform.des, platform.mob], 
-            focus: [focus.sofEngr], 
+            platform: [
+                // platform.des, platform.mob
+            ], 
+            focus: [
+                // focus.sofEngr
+            ], 
             tech: [
                 tech.js.id, 
-                tech.css.id, 
+                // tech.css.id, 
                 tech.html.id, 
                 // tech.wordPr.id, 
-                tech.google.analytic.id
+                tech.google.analytic.id,
+                "Data",
             ]
         },
         paragraph2: 'This is an e-commerce platform where you can buy products from artists, view blogs & see art galleries.',
@@ -247,7 +270,17 @@ export const PersonalProj = [
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wa}`], 
-            tech: [ tech.py.id, tech.selenium.id, tech.dotenv.id, tech.webDriverManager.id, tech.chromeDriver.id, tech.chromeDev.id, tech.unixCLI.id, tech.git.id, tech.gitHub.id]
+            tech: [ 
+                tech.py.id, 
+                tech.selenium.id, 
+                // tech.dotenv.id, 
+                // tech.webDriverManager.id, 
+                // tech.chromeDriver.id, 
+                // tech.chromeDev.id, 
+                // tech.unixCLI.id, 
+                // tech.git.id, 
+                // tech.gitHub.id
+            ]
         },
         paragraph2: 'Conduct a Trial Evaluation!',
         projectLink: 'https://github.com/LWRGitHub/job-search-scraping-linkedin',
@@ -263,7 +296,14 @@ export const PersonalProj = [
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi,], 
-            tech: [tech.chatGPT.id, tech.adobe.analytics.id, tech.adobe.cja.id, tech.adobe.target.id, tech.adobe.experience.id, tech.gainsight.id]
+            tech: [
+                // tech.chatGPT.id, 
+                tech.adobe.analytics.id, 
+                tech.adobe.cja.id, 
+                tech.adobe.target.id, 
+                tech.adobe.experience.id, 
+                tech.gainsight.id
+            ]
         },
         paragraph2: 'Give it a try!',
         projectLink: 'https://chat.openai.com/g/g-xKyZbu82T-analytics-expert',
@@ -279,7 +319,17 @@ export const PersonalProj = [
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi], 
-            tech: [tech.js.id, tech.react.id, tech.bootstrap.id, tech.reactBootstrap.id, tech.html.id, tech.css.id, tech.git.id, tech.gitHub.id, tech.gitHubPg.id]
+            tech: [
+                tech.js.id, 
+                tech.react.id, 
+                tech.bootstrap.id, 
+                // tech.reactBootstrap.id, 
+                tech.html.id, 
+                tech.css.id, 
+                // tech.git.id, 
+                // tech.gitHub.id, 
+                // tech.gitHubPg.id
+            ]
         },
         paragraph2: 'Simply search for something like tomato soup.',
         projectLink: 'https://github.com/VeganQuery/VeganQuery.github.io',
@@ -295,7 +345,17 @@ export const PersonalProj = [
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi,], 
-            tech: [tech.js.id, tech.html.id, tech.css.id, tech.react.id, tech.reactBootstrap.id, tech.bootstrap.id, tech.git.id, tech.gitHub.id, tech.gitHubPg.id]
+            tech: [
+                tech.js.id, 
+                tech.html.id, 
+                tech.css.id, 
+                tech.react.id, 
+                // tech.reactBootstrap.id, 
+                tech.bootstrap.id, 
+                // tech.git.id, 
+                // tech.gitHub.id, 
+                // tech.gitHubPg.id
+            ]
         },
         paragraph2: 'Feel free to poke around the site!',
         projectLink: 'https://lwrgithub.github.io/book-site/#/',
@@ -311,7 +371,17 @@ export const PersonalProj = [
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi,], 
-            tech: [tech.js.id, tech.html.id, tech.css.id, tech.react.id, tech.reactBootstrap.id, tech.bootstrap.id, tech.git.id, tech.gitHub.id, tech.gitHubPg.id]
+            tech: [
+                tech.js.id, 
+                tech.html.id, 
+                tech.css.id, 
+                tech.react.id, 
+                // tech.reactBootstrap.id, 
+                tech.bootstrap.id, 
+                // tech.git.id, 
+                // tech.gitHub.id, 
+                // tech.gitHubPg.id
+            ]
         },
         paragraph2: 'Use a desktop, laptop or phone to take a look around the site!',
         projectLink: 'https://lwrgithub.github.io/womens-basketball-website/#/',
@@ -327,7 +397,16 @@ export const PersonalProj = [
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, focus.dev.type.a], 
-            tech: [tech.py.id,  tech.git.id, tech.gitHub.id, tech.bs4.id, tech.selenium.id, tech.request.id, tech.dotenv.id, tech.unixCLI.id]
+            tech: [
+                tech.py.id, 
+                // tech.git.id, 
+                // tech.gitHub.id, 
+                tech.bs4.id, 
+                tech.selenium.id, 
+                // tech.request.id, 
+                // tech.dotenv.id, 
+                // tech.unixCLI.id
+            ]
         },
         paragraph2: 'You will have to follow the detailed instructions in the README.md file on GetHub.',
         projectLink: 'https://github.com/LWRGitHub/cs_scraper',
@@ -352,13 +431,13 @@ export const PersonalProj = [
                 tech.jinja2.id,
                 tech.jquery.id,
                 tech.bootstrap.id, 
-                tech.boostrIcon.id,
+                // tech.boostrIcon.id,
                 // tech.heroku.id,
-                tech.wireFrames.id,
-                tech.figma.id,
+                // tech.wireFrames.id,
+                // tech.figma.id,
                 // tech.heroku.id,
-                tech.git.id, 
-                tech.gitHub.id,
+                // tech.git.id, 
+                // tech.gitHub.id,
                 // tech.img.png.id,
             ]
         },
@@ -384,8 +463,8 @@ export const PersonalProj = [
                 "SwiftUI",
                 "xCode",
                 tech.api.api.id, 
-                tech.git.id, 
-                tech.gitHub.id
+                // tech.git.id, 
+                // tech.gitHub.id
             ]
         },
         paragraph2: 'The project is available to clone on GetHub.',
@@ -407,13 +486,13 @@ export const PersonalProj = [
                 tech.node.id,
                 // tech.pug.id,
                 "Pug",
-                tech.express.id,
+                // tech.express.id,
                 tech.bootstrap.id,
                 tech.html.id,
                 tech.css.id,
                 // tech.heroku.id,
-                tech.git.id,
-                tech.gitHub.id
+                // tech.git.id,
+                // tech.gitHub.id
             ]
         },
         paragraph2: 'Simply click on your zodiac sign to view your horoscope for the day.',
@@ -435,19 +514,19 @@ export const TutorialProj = [
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi, focus.data], 
             tech: [
                 tech.react.id, 
-                tech.reactBootstrap.id, 
-                tech.reactRouter.id, 
+                // tech.reactBootstrap.id, 
+                // tech.reactRouter.id, 
                 tech.js.id, 
                 tech.html.id, 
                 tech.css.id, 
                 tech.bootstrap.id, 
                 tech.google.analytic.id, 
-                tech.dom.id, 
-                tech.google.map.id, 
-                tech.CI_CD.id, 
-                tech.git.id, 
-                tech.gitHub.id, 
-                tech.gitHubPg.id,
+                // tech.dom.id, 
+                // tech.google.map.id, 
+                // tech.CI_CD.id, 
+                // tech.git.id, 
+                // tech.gitHub.id, 
+                // tech.gitHubPg.id,
                 tech.adobe.photo.id, 
                 // tech.sketchApp.id, 
                 // tech.img.png.id, 
@@ -717,7 +796,17 @@ export const TutorialProj = [
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, focus.dev.type.wma, focus.design.xi], 
-            tech: [tech.js.id, tech.css.id, tech.html.id, tech.dom.id, tech.google.font.id, tech.google.analytic.id, tech.git.id, tech.gitHub.id, tech.gitHubPg.id]
+            tech: [
+                tech.js.id, 
+                tech.css.id, 
+                tech.html.id, 
+                // tech.dom.id, 
+                // tech.google.font.id, 
+                tech.google.analytic.id, 
+                // tech.git.id, 
+                // tech.gitHub.id, 
+                // tech.gitHubPg.id
+            ]
         },
         paragraph2: 'Type in the name of your dish along with the ingredients & submit it. You can then edit or remove the dish if you like.',
         projectLink: 'https://lwrgithub.github.io/Dish-submitter/',
