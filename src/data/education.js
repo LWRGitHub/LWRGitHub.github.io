@@ -2,7 +2,7 @@ import { focus, otherFocus, tech, skill } from './skills';
 
 export const education = [
     {
-        title: `Dominican University Of California  |  CS Undergrad`,
+        title: `Dominican University Of California  |  General Studies for BS of CS`,
         img: {
             src: 'images/education/dominican-university-of-california-building.jpg',
             alt: 'Dominican University Of California logo overlaying front of the Dominican University Of California building.'
@@ -80,7 +80,7 @@ export const education = [
         ],
     },
     {
-        title: "City College of San Francisco  |  Dual Major CS & CNIT Undergrad",
+        title: "City College of San Francisco  |  Dual Major, AS of CNIT & CS",
         img: {
             src: 'images/education/ccsf-mission.jpeg',
             alt: 'City College of San Francisco also known as CCSF. Located in San Francisco California. image of ccsf mission collage campus.'
@@ -88,7 +88,7 @@ export const education = [
         schools: [
             {
                 school: 'www.CCSF.edu',
-                location: ': SF, CA - In Progress',
+                location: ': SF, CA',
                 href: 'https://www.ccsf.edu',
                 focus: [
                     `${focus.dev.area.f} ${focus.dev.type.w}`,
@@ -155,7 +155,7 @@ export const education = [
         ],
     },
     {
-        title: "University Of The People  |  CS Undergrad",
+        title: "University Of The People  |  Undergrad, CS",
         img: {
             src: 'images/education/uo-people.png',
             alt: 'University Of The People also known as UoPeople is located online. the image is of the UoPeople Logo.'
@@ -208,7 +208,7 @@ export const education = [
         ],
     },
     {
-        title: 'DVC  |  Graphic Design Undergrad',
+        title: 'DVC  |  Undergrad, Graphic Design',
         img: {
             src: 'images/education/dvc-logo.jpg',
             alt: 'Diablo Valley College also known as DVC. Located in Pleasant Hill California. image of collage campus with the a DVC logo overly.'

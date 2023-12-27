@@ -9,9 +9,7 @@ const MainContent = () => (
 
           {/* Self info & img */}
           <img className='rounded' src="images/about/me.jpeg" alt="image of Software Engineer Logan Reynolds."/>
-          <p>Logan is a Full Stack Software Engineer with, expert knowledge of BEW, FEW, proficient at Data/Big Data (e.g. Data Colection, Adobe Analytics, Google Analytics, etc.) and graphic design. He always goes above and beyond to ensure the job gets done right the first time. His work stands out because he pays close attention to all details of the job. </p> 
-          <p>Logan is a compelling Full Stack Web/App Developer. He is effective at combining creativity and problem solving to develop user-friendly tested/benchmarked applications, in various environments with novel methods of design. He's known among staff for strong wit, attention to detail and multi-tasking no matter the complexity of the project. He has an ability to work independently, in a team environment or as a lead project manager.</p>
-          <p>Logan's been doing software engineering work for a while now, as it provides him with a skill set to design applications with a variety of technologies. During his free time you can find him, swing/position trading in the stock market, watching movies, coding his own projects, and learning new skills! </p>
+          <p>With my years of professional experience, I have had the privilege of contributing to a diverse range of organizations, both large and small. I have held positions at notable companies such as Adobe, Prose, Verizon, Wipro, StageIV, and Dance4Healing. During my time at Adobe, I played a key role in executing critical software updates that expanded relevant product data by 35%, improved efficiency, and drove a 75% enhancement with 50+ updates.</p>
 
           {/* Resume */}
           <a className="p-0" href="files/logan-reynolds-resume.pdf" >
