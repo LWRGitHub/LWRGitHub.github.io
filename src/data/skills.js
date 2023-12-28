@@ -279,7 +279,7 @@ export const tech = {
         level: expertise.proficient
     },
     digOcean: {
-        id: 'Digital Ocean', 
+        id: 'DigitalOcean', 
         langType: false, 
         level: expertise.novice
     },
@@ -1060,11 +1060,11 @@ export const tech = {
         langType: false, 
         level: expertise.novice
     },
-    vault: {
-        id: 'Vault', 
-        langType: false, 
-        level: expertise.novice
-    },
+    // vault: {
+    //     id: 'Vault', 
+    //     langType: false, 
+    //     level: expertise.novice
+    // },
     // idManag: {
     //     id: 'Identify Management', 
     //     langType: false, 
