@@ -8,10 +8,11 @@ This is my portfolio website that shows of my skills as a software engineer, as 
 - JavaScript
 - HTML/CSS
 - Bootstrap
+    - Bootstrap Icons
 - React.js
-- React Bootstrap
-- React Router
-- React HashRouter
+    - React Bootstrap
+    - React Router
+    - React HashRouter
 - Google Maps
 - [GitHub Pages](https://lwrgithub.github.io)
 
