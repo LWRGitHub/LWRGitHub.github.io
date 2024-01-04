@@ -8,7 +8,7 @@ export const ProProj = [
             alt: "red outline of the letter A and the word Adobe"
         },
         title: 'Adobe: Web Appications Engineer 3',
-        paragraph1: [`35% data expansion using SCRUM / Agile Dev among 5+ peers drove a 75% enhancement due to 50+ updates.`, `CI/CD on Adobe(AA, CJA, AEP) led to a 20% increase in data quality & efficiency with JavaScript solutions, in-house TypeScript library, MySQL queries, & Unified Shell React.js app, resulting in a 15% boost.`,`Observed 45% rise in actionable insights with CJA & Web SDK schema design in AEP.`],
+        paragraph1: [`35% data expansion, among 5+ peers drove a 75% enhancement due to 50+ updates.`,`CI/CD on Adobe(AA, CJA, AEP) led to 20% increase in data quality with JavaScript solutions, in-house TypeScript library, MySQL queries, & Unified Shell React.js app.`,`Observed 45% rise in actionable insights with CJA & Web SDK schema design in AEP.`],
         skills: {
             platform: [
                 // platform.des,
@@ -186,7 +186,7 @@ export const ProProj = [
             alt: "screen shot of www.dance4healing.com this is an image of the dance for healing website mobile site or small version has many people in the image dancing woman has dance for healing logo. a slide show would move if you on the site but this is a still image."
         },
         title: 'Dance4Healing: Full-Stack Software Engineer',
-        paragraph1: [`Enhanced Node, MongoDB app alongside 5+ peers by 20% amidst CI/CD practices, enabling efficient testing & deployment on Heroku.`,`Created 2+ tutorial / Wikis on utilizing Git / GitHub to deploy the app & add 10+ crucial lines to the README.md file using Markdown.`],
+        paragraph1: [`20% Node, MongoDB improvement amidst 5+ peers with CI/CD deployment to Heroku.`, `Created 2+ tutorials utilizing Git / GitHub, & added 10+ crucial lines to the Markdown file.`],
         skills: {
             platform: [
                 // platform.des, platform.mob
@@ -236,7 +236,7 @@ export const ProProj = [
             alt: "This is a screenshot of the homepage for stage four .org. Stage IV.org is tan e-commerce website."
         },
         title: 'StageIV: Software Engineer',
-        paragraph1: [`Undertook the configuration of Google Analytics/data.`,`Proactively identified & resolved 100% of the bugs inside a JS & HTML codebase.`,`Completed 3+ projects ensuring a seamless & optimal UI/UX.`],
+        paragraph1: [`Undertook the configuration of Google Analytics / data.`,`Proactively identified & resolved 100% of the bugs inside a JS & HTML codebase.`],
         skills: {
             platform: [
                 // platform.des, platform.mob
@@ -256,11 +256,78 @@ export const ProProj = [
         paragraph2: 'This is an e-commerce platform where you can buy products from artists, view blogs & see art galleries.',
         projectLink: "https://stageiv.org",
         codeLink: false
+    },
+    {
+        img: {
+            src: "images/experience/freelancer.jpeg", 
+            alt: "very basic computer fraphic image of a guy wearing a blue Hoodie in front of a laptop black background"
+        },
+        title: 'Freelancer: Full-Stack Software Engineer',
+        paragraph1: [`Freelanced for Code the Dream instructor, handling 10+ edits, updates, & bug fixes.`,`Freelance for a Noisebridge peer, addressing 25+ bugs on site with 10K+ lines of code.`],
+        skills: {
+            platform: [
+                // platform.des, platform.mob
+            ], 
+            focus: [
+                // focus.sofEngr
+            ], 
+            tech: [
+                tech.js.id, 
+                tech.html.id, 
+                tech.css.id,
+                "Data",
+                "JSON"
+            ]
+        },
+        paragraph2: 'This is an e-commerce platform where you can buy products from artists, view blogs & see art galleries.',
+        projectLink: "https://stageiv.org",
+        codeLink: false
     }
 ];
 
 
 export const PersonalProj = [
+    {
+        img: {
+            src: "images/experience/tech-careertime-homepage.png", 
+            alt: "Tech Career Time home page"
+        },
+        title: "TechCareerTime.com",
+        paragraph1: [`Developed a Full-Stack Python (Flask/Jinja2) and JavaScript web/mobile app comprising 1,000+ lines of code, featuring 10+ Affiliate Marketing (Ads) integrations.`,`Achieved web hosting on Heroku through a 1 shell command while enforcing HTTPS using Talisman.`,`Incorporated 100+ Bootstrap CSS elements for UI/UX designs, with reference to Figma wireframes.`],
+        skills: {
+            platform: [platform.des], 
+            focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wa}`], 
+            tech: [ 
+                tech.py.id, 
+                tech.flask.id,
+                tech.jinja2.id,
+                tech.js.id,
+                tech.html.id,
+                tech.css.id,
+                tech.bootstrap.id,
+                tech.heroku.id,
+                // tech.devOps.id,
+                "DevOps",
+                "JSON",
+                "Data",
+                `Microservices`,
+                "Software Engineering",
+                tech.shell.id,
+
+                // tech.selenium.id, 
+                // tech.dotenv.id, 
+                // tech.webDriverManager.id, 
+                // tech.chromeDriver.id, 
+                // tech.chromeDev.id, 
+                // tech.unixCLI.id, 
+                // tech.git.id, 
+                // tech.gitHub.id
+            ]
+        },
+        paragraph2: '',
+        projectLink: 'https://www.techcareertime.com',
+        codeLink: "https://github.com/LWRGitHub/getInTech"
+    },
     {
         img: {
             src: "images/experience/job-search-scraping-img.png", 
