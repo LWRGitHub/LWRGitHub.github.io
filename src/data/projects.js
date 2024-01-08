@@ -64,7 +64,7 @@ export const ProProj = [
             src: "images/experience/prose.jpeg",
             alt: "White crow infront of a white ball cut out of black square shap."
         },
-        title: 'Prose: Interim Fractional Chief Technical Officer (CTO)',
+        title: 'Prose: Interim Software Engineer L5',
         paragraph1: [`20% lead, 60% software, 20% data; with a specific emphasis on React.js & GraphQL.`,`Observed new component launch increasing visibility by 55%. `],
         skills: {
             platform: [
