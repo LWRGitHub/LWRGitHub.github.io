@@ -59,9 +59,6 @@ const MainContent = () => (
             <li>Tech</li>
             <li>Telecommunications</li>
             <li>Social Media</li>
-            <li>Analytics</li>
-            <li>Big data</li>
-            <li>Monetization</li>
           </ul>
 
         </div>
