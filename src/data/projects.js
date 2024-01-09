@@ -331,16 +331,24 @@ export const PersonalProj = [
     {
         img: {
             src: "images/experience/job-search-scraping-img.png", 
-            alt: "Logo for ChatGPT analytics expert"
+            alt: "Job search app in action."
         },
-        title: "Job Search Automation with Selenium",
-        paragraph1: "Effortlessly harness the capabilities of this Selenium web scraping application to efficiently sift through a large volume of LinkedIn job listings, tailored to your specific job criteria.",
+        title: "Auto Job Search",
+        paragraph1: "700+ lines of code, efficiently filters ~1K jobs for every URL using Selenium & OpenAI's LLM.",
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wa}`], 
             tech: [ 
                 tech.py.id, 
                 tech.selenium.id, 
+                tech.LLM.id,
+                tech.ai.id,
+                "OpneAI",
+                "ChatGPT",
+                tech.shell.id,
+                tech.api.api.id,
+                "JSON",
+                "Microservice"
                 // tech.dotenv.id, 
                 // tech.webDriverManager.id, 
                 // tech.chromeDriver.id, 
@@ -576,7 +584,7 @@ export const TutorialProj = [
             alt: "Screenshot on the mobile phone of Logan Reynolds' software engineering portfolio website. This is the homepage otherwise known as the index page. Shows a list of programming languages such as JavaScript ESS6 Ruby python & C#. Shows navigation bar in blue. Has a big jumbotron image in the background"
         },
         title: 'Portfolio Site',
-        paragraph1: "Transformed into a React.js site from basic HTML/CSS; adding some custom UI/UX design.",
+        paragraph1: [`Showcasing 45+ JavaScript, Python, Go, and TypeScript skills through 10+ projects.`,`Featuring 5+ software development/engineering positions.`,`Elevated a basic 5+ page HTML/CSS website into a React app, incorporating custom UI/UX design with Bootstrap, resulting in over 20,000 lines of code.`],
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi, focus.data], 
