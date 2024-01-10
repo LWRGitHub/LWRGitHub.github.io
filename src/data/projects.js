@@ -293,7 +293,7 @@ export const PersonalProj = [
             alt: "Tech Career Time home page"
         },
         title: "TechCareerTime.com",
-        paragraph1: [`Developed a Full-Stack Python (Flask/Jinja2) and JavaScript web/mobile app comprising 1,000+ lines of code, featuring 10+ Affiliate Marketing (Ads) integrations.`,`Achieved web hosting on Heroku through a 1 shell command while enforcing HTTPS using Talisman.`,`Incorporated 100+ Bootstrap CSS elements for UI/UX designs, with reference to Figma wireframes.`],
+        paragraph1: [`Developed a Full-Stack Python Flask web/mobile app comprising 1,000+ lines of code, featuring 10+ Affiliate Marketing (Ads) integrations, hosted on Heroku.`,`Incorporated 100+ Bootstrap CSS elements for UI/UX designs, with reference to Figma wireframes.`],
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wa}`], 
