@@ -75,12 +75,12 @@ export const education = [
                     // otherFocus.quant,
                     // otherFocus.womHist,
                 ],
-                moreInfo: "Undergrad in Applied Computer Science"
+                moreInfo: "Concentrations: Backend & Data Science"
             }
         ],
     },
     {
-        title: "City College of San Francisco  |  Dual Major, AS of CNIT & CS",
+        title: "City College of San Francisco  |  AS of CNIT",
         img: {
             src: 'images/education/ccsf-mission.jpeg',
             alt: 'City College of San Francisco also known as CCSF. Located in San Francisco California. image of ccsf mission collage campus.'
@@ -120,7 +120,7 @@ export const education = [
                 //         content:`(CNIT) not only provides students with a solid foundation of skills, knowledge, and hands-on experience in the core areas of the field of Computer Networking and Information Technology but also with the current trends and technologies used in the computer industry. The topics covered in this major include computer hardware, network administration, network security, and the basics of Internet and Web development, as well as one of the following optional areas: computer technical support, internet and web development techniques, network security, wireless networks, Cisco networking, or Microsoft Windows administration. This degree qualifies students for employment in entry-level network administration, computer technical support, or web development positions.`
                 //     }
                 // ]
-                moreInfo: `Dual Major, Associates in Computer Science & Associates in Computer Networking and Information Technology`
+                moreInfo: `Concentration: Frontend Web Development`
             }
         ],
     },
@@ -150,7 +150,7 @@ export const education = [
                 //         content:``
                 //     }
                 // ]
-                moreInfo: ``
+                moreInfo: ` `
             }
         ],
     },
@@ -203,12 +203,12 @@ export const education = [
                 //         content:`Essential knowledge to implementing the skill into real-life situations`
                 //     }
                 // ]
-                moreInfo: `Undergrad in Applied Computer Science`
+                moreInfo: `Concentration: Backend`
             }
         ],
     },
     {
-        title: 'DVC  |  Undergrad, Graphic Design',
+        title: 'DVC  |  Undergrad, Art Digital Media',
         img: {
             src: 'images/education/dvc-logo.jpg',
             alt: 'Diablo Valley College also known as DVC. Located in Pleasant Hill California. image of collage campus with the a DVC logo overly.'
@@ -238,7 +238,7 @@ export const education = [
                     // skill.drawing.id, 
                     // skill.math.id
                 ],
-                moreInfo: 'Undergrad in Graphic Design'
+                moreInfo: 'Concentration: Graphic Design'
             }
         ],
     },
@@ -352,7 +352,8 @@ export const education = [
                     focus.sofEngr, 
                     // focus.game.desDev
                 ],
-                skills: [tech.js.id, tech.html.id, tech.css.id]
+                skills: [tech.js.id, tech.html.id, tech.css.id],
+                moreInfo: ` `
             },
         ],
     },
@@ -379,7 +380,8 @@ export const education = [
                     // tech.js.id, 
                     // tech.html.id, 
                     // tech.css.id
-                ]
+                ],
+                moreInfo: ` `
             },
         ],
     },
@@ -432,7 +434,8 @@ export const education = [
                     // tech.ajax.id, 
                     // tech.asyncAwait.id, 
                     // tech.api.fetch.id
-                ]
+                ],
+                moreInfo: ` `
             },
         ],
     },
@@ -469,7 +472,8 @@ export const education = [
                 //     tech.gitHub.id, 
                 //     tech.wireFrames.id, 
                 //     tech.flexbox.id
-                ]
+                ],
+                moreInfo: ` `
             }
         ],
     },
@@ -489,7 +493,8 @@ export const education = [
                 ],
                 skills: [
                     // tech.imove.id, skill.darkRoomPhoto.id, skill.ASL.id, skill.highSpeedKey.id
-                ]
+                ],
+                moreInfo: ` `
             }
         ],
     },

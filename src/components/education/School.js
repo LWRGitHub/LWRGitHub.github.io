@@ -56,7 +56,7 @@ const secondUl = (focus, skills, moreInfo, credentials) => {
                     {/* {liCredentailTag} */}
                     {/* <li><span className="font-weight-bold">Concentrations: </span>{focusStr}</li>
                     <li><span className="font-weight-bold">Skills:</span>{skillStr} etc.</li> */}
-                    {/* <p>{moreInfo}</p> */}
+                    <p>{moreInfo}</p>
                 </p>
             );
         }
@@ -66,7 +66,7 @@ const secondUl = (focus, skills, moreInfo, credentials) => {
                 {/* {liCredentailTag} */}
                 {/* <li><span className="font-weight-bold">Concentrations: </span>{focusStr}</li>
                 <li><span className="font-weight-bold">Skills:</span>{skillStr} etc.</li> */}
-                {/* <li>{moreInfo}</li> */}
+                <li>{moreInfo}</li>
             </span>
         );
     }

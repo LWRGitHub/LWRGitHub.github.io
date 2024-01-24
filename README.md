@@ -34,10 +34,10 @@ yarn start
 ### Build/Push
 ***When using GitHub Pages do a build before pushing***
 ```
-npm run deploy
 git add -A
 git commit -m "Some New Code"
 git push
+npm run deploy
 ```
 
 
