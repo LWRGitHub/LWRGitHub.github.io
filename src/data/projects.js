@@ -8,7 +8,7 @@ export const ProProj = [
             alt: "LinkedIn Stealth Startup logo. A black background with a white up arrow in the middle of the image."
         },
         title: 'Full Stack Engineer',
-        paragraph1: [`Leveraging 20+ open-source solutions to expedite market launch.`, `Refactored over 1,000+ lines of code to enhance system efficiency & maintainability.`, `Implemented approximately 1-week sprints to meet critical product milestones.`],
+        paragraph1: [`Leveraging 20+ open-source projects, refactored over 1,000+ lines, ~1-week sprints.`],
         skills: {
             platform: [
                 // platform.des,
@@ -52,7 +52,7 @@ export const ProProj = [
             ]
         },
         paragraph2: '',
-        projectLink: "https://www.linkedin.com/company/stealth-startup-51/mycompany/",
+        projectLink: false,
         codeLink: false
     },
     {
