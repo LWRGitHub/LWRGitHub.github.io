@@ -4,6 +4,59 @@ import { platform, focus, tech } from './skills';
 export const ProProj = [
     {
         img: {
+            src: "images/experience/stealthStartup.jpeg",
+            alt: "LinkedIn Stealth Startup logo. A black background with a white up arrow in the middle of the image."
+        },
+        title: 'Full Stack Engineer',
+        paragraph1: [`Leveraging 20+ open-source solutions to expedite market launch.`, `Refactored over 1,000+ lines of code to enhance system efficiency & maintainability.`, `Implemented approximately 1-week sprints to meet critical product milestones.`],
+        skills: {
+            platform: [
+                // platform.des,
+                // platform.mob
+            ], 
+            focus: [
+                // focus.sofEngr, 
+                // focus.data,
+                // `${focus.dev.area.fs} 
+                // ${focus.dev.type.wma}` 
+            ], 
+            tech: [
+                tech.js.id, 
+                tech.node.id,
+                tech.py.id,
+                "React Native",
+                // tech.ts.id,
+                tech.react.id,
+                tech.mongo.id,
+                // tech.sql.mySQL.id,
+                // tech.html.id, 
+                // tech.css.id, 
+                // tech.git.id, 
+                // tech.gitHub.id, 
+                // tech.sql.sql.id,
+                // tech.dom.id,
+                // tech.npm.id,
+                // tech.yarn.id,
+                // tech.shell.id,
+                // tech.terminal.id,
+                // tech.chromeDev.id,
+                // tech.mac.id,
+                // tech.dataAnaly.id,
+                // tech.CI_CD.id, 
+                // tech.api.api.id,
+                // tech.json.id,
+                // tech.adobe.dataCollection.id,
+                // tech.adobe.marketing.id,
+                // tech.artifactory.id,
+                // "Schema Design",
+            ]
+        },
+        paragraph2: '',
+        projectLink: "https://www.linkedin.com/company/stealth-startup-51/mycompany/",
+        codeLink: false
+    },
+    {
+        img: {
             src: "images/experience/adobe.png",
             alt: "red outline of the letter A and the word Adobe"
         },

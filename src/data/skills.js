@@ -853,6 +853,11 @@ export const tech = {
         langType: false, 
         level: expertise.expert
     },
+    reactNative: {
+        id: 'React Native', 
+        langType: mainLang.js.id, 
+        level: expertise.proficient
+    },
     // asyncAwait: {
     //     id: 'Async/Await', 
     //     langType: false, 
