@@ -82,7 +82,7 @@ export const education = [
     {
         title: "City College of San Francisco  |  AS of CNIT",
         img: {
-            src: 'images/education/as-cnit-front-end-web-dev.png',
+            src: 'images/education/as-cnit-front-end-web-dev.jpg',
             alt: 'City College of San Francisco also known as CCSF. Located in San Francisco California. image of ccsf mission collage campus.'
         },
         schools: [
