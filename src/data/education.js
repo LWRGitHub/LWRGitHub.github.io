@@ -82,7 +82,7 @@ export const education = [
     {
         title: "City College of San Francisco  |  AS of CNIT",
         img: {
-            src: 'images/education/ccsf-mission.jpeg',
+            src: 'images/education/as-cnit-front-end-web-dev.png',
             alt: 'City College of San Francisco also known as CCSF. Located in San Francisco California. image of ccsf mission collage campus.'
         },
         schools: [
@@ -120,7 +120,7 @@ export const education = [
                 //         content:`(CNIT) not only provides students with a solid foundation of skills, knowledge, and hands-on experience in the core areas of the field of Computer Networking and Information Technology but also with the current trends and technologies used in the computer industry. The topics covered in this major include computer hardware, network administration, network security, and the basics of Internet and Web development, as well as one of the following optional areas: computer technical support, internet and web development techniques, network security, wireless networks, Cisco networking, or Microsoft Windows administration. This degree qualifies students for employment in entry-level network administration, computer technical support, or web development positions.`
                 //     }
                 // ]
-                moreInfo: `Concentration: Frontend Web Development`
+                moreInfo: `Concentration: Front End Web Development`
             }
         ],
     },
