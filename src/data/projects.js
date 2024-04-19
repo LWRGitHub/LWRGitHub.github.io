@@ -34,6 +34,7 @@ export const ProProj = [
                 // tech.ts.id,
                 tech.react.id,
                 tech.mongo.id,
+                tech.google.analytic.id,
                 // tech.sql.mySQL.id,
                 // tech.html.id, 
                 // tech.css.id, 
