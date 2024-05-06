@@ -25,7 +25,7 @@ const MainContent = () => (
           <br/>
           <br/>
 
-          <p>With my 4+ years of professional experience, I have had the privilege of contributing to a diverse range of organizations, both large and small. I have held positions at notable companies such as Adobe, Prose, Verizon, Wipro, StageIV, and Dance4Healing.</p> 
+          <p>With my 5 years of professional experience, I have had the privilege of contributing to a diverse range of organizations, both large and small. I have held positions at notable companies such as Adobe, Prose, Verizon, Wipro, StageIV, and Dance4Healing.</p> 
           <p>During my time at Adobe, I played a key role in executing critical software updates that expanded relevant product data by 35%, improved efficiency, and drove a 75% enhancement with 50+ updates.</p>
 
           <br/>
@@ -39,6 +39,7 @@ const MainContent = () => (
             <li>React </li>
             <li>GraphQL </li>
             <li>MongoDB </li>
+            <li>AI/ML</li>
             <li>SQL </li>
             <li>Adobe Analytics (AA)</li>
             <li>Adobe Customer Journey Analytics (CJA)</li>
@@ -49,6 +50,8 @@ const MainContent = () => (
             <li>Beautiful Soup 4 (BS4)</li>
             <li>Shell</li>
             <li>API</li>
+            <li>OpenAI APIs</li>
+            <li>Llama 3</li>
           </ul>
 
           <br/>
