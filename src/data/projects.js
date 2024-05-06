@@ -21,6 +21,9 @@ export const ProProj = [
                 // ${focus.dev.type.wma}` 
             ], 
             tech: [
+                tech.ai.id,
+                tech.llama.id,
+                tech.openaiApis.id,
                 tech.js.id, 
                 tech.node.id,
                 tech.py.id,
