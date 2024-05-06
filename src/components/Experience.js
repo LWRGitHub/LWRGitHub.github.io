@@ -17,7 +17,7 @@ const Projects = () => (
             <ProjectContainer data={ProProj} />
         </section>
         <section className="container">
-            <h2 className="my-5" id="projects">Personal Projects</h2>
+            <h2 className="my-5" id="projects">Projects</h2>
             <ProjectContainer data={PersonalProj} />
         </section>
         <section className="container">

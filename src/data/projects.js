@@ -7,7 +7,7 @@ export const ProProj = [
             src: "images/experience/stealthStartup.jpeg",
             alt: "LinkedIn Stealth Startup logo. A black background with a white up arrow in the middle of the image."
         },
-        title: 'Full Stack Engineer',
+        title: 'Stealth Startup: Software Engineer L5',
         paragraph1: [`Leveraging 20+ open-source projects, refactored over 1,000+ lines, ~1-week sprints.`],
         skills: {
             platform: [
@@ -353,7 +353,7 @@ export const PersonalProj = [
             alt: "Tech Career Time home page"
         },
         title: "TechCareerTime.com",
-        paragraph1: [`Developed a Full-Stack Python Flask web/mobile app comprising 1,000+ lines of code, featuring 10+ Affiliate Marketing (Ads) integrations, hosted on Heroku.`,`Incorporated 100+ Bootstrap CSS elements for UI/UX designs, with reference to Figma wireframes.`],
+        paragraph1: [`Created a comprehensive Full-Stack Python Flask web/mobile application comprising 50,000+, lines of code, with deployment facilitated through Heroku hosting services.`,`Utilized Data Science AI/ML technologies, including OpenAI APIs and Llama 3.`,`Incorporated 1,000+ Bootstrap CSS elements for UI/UX designs, with reference to Figma wireframes.`],
         skills: {
             platform: [platform.des], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wa}`], 
@@ -366,6 +366,12 @@ export const PersonalProj = [
                 tech.css.id,
                 tech.bootstrap.id,
                 tech.heroku.id,
+                tech.openaiApis.id,
+                tech.LLM.id,
+                tech.ai.id,
+                tech.ml.id,
+                "ChatGPT",
+                tech.llama.id,
                 // tech.devOps.id,
                 "DevOps",
                 "JSON",

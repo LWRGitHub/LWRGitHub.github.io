@@ -221,22 +221,22 @@ export const tech = {
     ai: {
         id: "Artificial intelligence (AI)", 
         langType: mainLang.py.id, 
-        level: expertise.novice
+        level: expertise.proficient
     },
     ml: {
         id: "Machine Learning (ML)", 
         langType: mainLang.py.id, 
-        level: expertise.novice
+        level: expertise.proficient
     },
     LLM: {
         id: "Large Language Model (LLM)", 
         langType: false, 
-        level: expertise.novice
+        level: expertise.proficient
     },
     numPy: {
         id: 'NumPy',
         langType: mainLang.py.id,
-        level: expertise.novice
+        level: expertise.proficient
     },
     // matlab: {
     //     id: 'Matlab',
@@ -246,7 +246,7 @@ export const tech = {
     pandas: {
         id: 'Pandas',
         langType: mainLang.py.id,
-        level: expertise.novice
+        level: expertise.proficient
     },
     // handlebars: {
     //     id: 'Handlebars',
@@ -505,6 +505,16 @@ export const tech = {
     },
     artifactory: {
         id: 'Artifactory', 
+        langType: false,
+        level: expertise.proficient
+    },
+    openaiApis:{
+        id: 'OpenAI APIs', 
+        langType: false,
+        level: expertise.expert
+    },
+    llama:{
+        id: 'Meta AI | Llama/Ollama', 
         langType: false,
         level: expertise.proficient
     },
