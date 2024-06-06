@@ -124,49 +124,6 @@ export const ProProj = [
     },
     {
         img: {
-            src: "images/experience/prose.jpeg",
-            alt: "White crow infront of a white ball cut out of black square shap."
-        },
-        title: 'Prose: Interim Software Engineer L5',
-        paragraph1: [`20% lead, 60% software, 20% data; with a specific emphasis on React.js & GraphQL.`,`Observed new component launch increasing visibility by 55%. `],
-        skills: {
-            platform: [
-                // platform.des, 
-                // platform.mob
-            ], 
-            focus: [
-                // focus.sofEngr, 
-            ], 
-            tech: [
-                tech.js.id, 
-                tech.ts.id,
-                // tech.git.id, 
-                // tech.gitHub.id, 
-                // tech.dom.id,
-                // tech.npm.id,
-                // tech.yarn.id,
-                // tech.shell.id,
-                // tech.terminal.id,
-                tech.node.id,
-                tech.react.id,
-                // tech.chromeDev.id,
-                // tech.mac.id,
-                // tech.CI_CD.id, 
-                // tech.api.api.id,
-                tech.graphQL.id,
-                tech.jira.id,
-                // tech.json.id,
-                "JSON",
-                // tech.typeScript.id,
-                // tech.aws.id,
-            ]
-        },
-        paragraph2: '',
-        projectLink: "https://www.theprose.com",
-        codeLink: false
-    },
-    {
-        img: {
             src: "images/experience/verizon.jpeg",
             alt: "Words that say Verzon with a black background and red check mark"
         },
