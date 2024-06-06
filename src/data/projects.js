@@ -609,7 +609,7 @@ export const TutorialProj = [
             src: "images/experience/mobile-home-page-portfolio-site.png", 
             alt: "Screenshot on the mobile phone of Logan Reynolds' software engineering portfolio website. This is the homepage otherwise known as the index page. Shows a list of programming languages such as JavaScript ESS6 Ruby python & C#. Shows navigation bar in blue. Has a big jumbotron image in the background"
         },
-        title: 'Portfolio Site',
+        title: 'Portfolio',
         paragraph1: [`Showcasing 45+ JavaScript, Python, Go, and TypeScript skills through 10+ projects.`,`Featuring 5+ software development/engineering positions.`,`Elevated a basic 5+ page HTML/CSS website into a React app, incorporating custom UI/UX design with Bootstrap, resulting in over 20,000 lines of code.`],
         skills: {
             platform: [platform.des, platform.mob], 
