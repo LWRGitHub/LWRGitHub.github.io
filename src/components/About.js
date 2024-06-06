@@ -60,7 +60,6 @@ const MainContent = () => (
           <ul>
             <li>Tech</li>
             <li>Telecommunications</li>
-            <li>Social Media</li>
           </ul>
 
         </div>
