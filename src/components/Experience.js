@@ -20,10 +20,10 @@ const Projects = () => (
             <h2 className="my-5" id="projects">Projects</h2>
             <ProjectContainer data={PersonalProj} />
         </section>
-        <section className="container">
-            <h2 className="my-5">Tutorial Projects Taken To The Next Level</h2>
+        {/* <section className="container">
+            <h2 className="my-5">Taken To The Next Level</h2>
             <ProjectContainer data={TutorialProj} />
-        </section>
+        </section> */}
     </div>
 );
 
@@ -31,7 +31,7 @@ const Experience = () => (
     <div>
         <Header page={'Experience'} />
         <MainLangContainer  data={mainLanguages} />
-        <ExtendSkills experience={experience} />
+        {/* <ExtendSkills experience={experience} /> */}
         <Projects />
     </div>
 );

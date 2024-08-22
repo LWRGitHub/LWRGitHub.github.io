@@ -156,6 +156,7 @@ export const ProProj = [
     },
     {
         img: {
+            // src: "images/experience/Wipro_Primary Logo_Color_RGB.svg",
             src: "images/experience/wipro.png",
             alt: "Screen Shot of the Wipro.com home page."
         },
@@ -202,6 +203,7 @@ export const ProProj = [
     },
     {
         img: {
+            // src: "images/experience/dance4healing.png",
             src: "images/experience/dance4healing.jpeg",
             alt: "screen shot of www.dance4healing.com this is an image of the dance for healing website mobile site or small version has many people in the image dancing woman has dance for healing logo. a slide show would move if you on the site but this is a still image."
         },
@@ -252,6 +254,7 @@ export const ProProj = [
     },
     {
         img: {
+            // src: "images/experience/stageiv-logo.png", 
             src: "images/experience/stageIV.jpg", 
             alt: "This is a screenshot of the homepage for stage four .org. Stage IV.org is tan e-commerce website."
         },
@@ -309,7 +312,8 @@ export const ProProj = [
 export const PersonalProj = [
     {
         img: {
-            src: "images/experience/tech-careertime-homepage.png", 
+            // src: "images/experience/tech-career-time-browser-view.png", 
+            src: "images/experience/tech-careertime-homepage.png",
             alt: "Tech Career Time home page"
         },
         title: "TechCareerTime.com",
@@ -413,7 +417,8 @@ export const PersonalProj = [
     },
     {
         img: {
-            src: "images/experience/veganQuery.png", 
+            // src: "images/experience/vegan-query-browser-view-zoomed-in.png",
+            src: "images/experience/veganQuery.png",  
             alt: "Screenshot of the home page. The image has photos of the Different vegan dishes with their names such as tomato soup & slaw with coriander."
         },
         title: "Vegan Query",
@@ -610,7 +615,11 @@ export const TutorialProj = [
             alt: "Screenshot on the mobile phone of Logan Reynolds' software engineering portfolio website. This is the homepage otherwise known as the index page. Shows a list of programming languages such as JavaScript ESS6 Ruby python & C#. Shows navigation bar in blue. Has a big jumbotron image in the background"
         },
         title: 'Portfolio',
-        paragraph1: [`Showcasing 45+ JavaScript, Python, Go, and TypeScript skills through 10+ projects.`,`Featuring 5+ software development/engineering positions.`,`Elevated a basic 5+ page HTML/CSS website into a React app, incorporating custom UI/UX design with Bootstrap, resulting in over 20,000 lines of code.`],
+        paragraph1: [
+            // `Showcasing 45+ JavaScript, Python, Go, and TypeScript skills through 10+ projects.`,
+            // `Featuring 5+ software development/engineering positions.`,
+            `Elevated a basic 5+ page HTML/CSS website into a React app, incorporating custom UI/UX design with Bootstrap, resulting in over 20,000 lines of code.`
+        ],
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, `${focus.dev.area.fs} ${focus.dev.type.wma}`, focus.design.xi, focus.data], 
@@ -894,7 +903,9 @@ export const TutorialProj = [
             alt: "dish submitter website, add food & cooking instructions to the local storage on your internet browser. blue & green faded background on baner the rest of the background is very light green."
         },
         title: `Dish Yumy`,
-        paragraph1: 'From an RSVP tutorial into a dish submitter website using local storage.',
+        paragraph1: [
+            'From an RSVP tutorial into a dish submitter website using local storage.'
+        ],
         skills: {
             platform: [platform.des, platform.mob], 
             focus: [focus.sofEngr, focus.dev.type.wma, focus.design.xi], 

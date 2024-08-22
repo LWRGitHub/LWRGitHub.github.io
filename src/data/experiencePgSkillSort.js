@@ -11,6 +11,8 @@ const swift = [];
 const go = [];
 const c_Sharp = [];
 const ts = [];
+const sql = [];
+const mongoDB = [];
 
 for(const key1 in tech){
     for(const key2 in tech[key1]){
@@ -93,13 +95,13 @@ export const mainLanguages = [
         src: "images/experience/python-logo.svg",
         alt: "programming language logo for Python"
     },
-    // {
-    //     level: mainLang.swift.level,
-    //     id: mainLang.swift.id,
-    //     associatedLang: swift,
-    //     src: "images/experience/swift-logo.png",
-    //     alt: "programming language logo for Swift"
-    // },
+    {
+        level: mainLang.swift.level,
+        id: mainLang.swift.id,
+        associatedLang: swift,
+        src: "images/experience/swift-logo.png",
+        alt: "programming language logo for Swift"
+    },
     {
         level: mainLang.go.level,
         id: mainLang.go.id,
@@ -107,19 +109,28 @@ export const mainLanguages = [
         src: "images/experience/go-logo.png",
         alt: "programming language logo for Golang"
     },
+    // {
+    //     level: mainLang.ts.level,
+    //     id: mainLang.ts.id,
+    //     associatedLang: ts,
+    //     src: "images/experience/Typescript_logo.png",
+    //     alt: "programming language logo for TypeScript"
+    // },
     {
-        level: mainLang.ts.level,
-        id: mainLang.ts.id,
-        associatedLang: ts,
-        src: "images/experience/Typescript_logo.png",
-        alt: "programming language logo for TypeScript"
+        level: mainLang.java.level,
+        id: mainLang.java.id,
+        associatedLang: java,
+        src: "images/experience/java-logo.png",
+        alt: "programming language logo for Java"
     },
     // {
-    //     level: mainLang.java.level,
-    //     id: mainLang.java.id,
-    //     associatedLang: java,
-    //     src: "images/experience/java-logo.png",
-    //     alt: "programming language logo for Java"
+    //     // level: mainLang.sql.level,
+    //     // id: mainLang.sql.id,
+    //     level: 'Proficient',
+    //     id: 'SQL',
+    //     associatedLang: sql,
+    //     src: "images/experience/ruby-logo.svg",
+    //     alt: "programming language logo for SQL"
     // },
     // {
     //     level: mainLang.rb.level,

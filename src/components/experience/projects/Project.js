@@ -14,7 +14,8 @@ const InnerCardBody = (tutorial, codeLink, paragraph2, projectLink) => {
         if(typeof link1 !== "string" || typeof linke2 !== "string"){
             return (
                 
-                <span className="badge badge-danger">Private</span>
+                // <span className="badge badge-danger">Private</span>
+                <span></span>
             );
         } else {
             return (
@@ -29,19 +30,24 @@ const InnerCardBody = (tutorial, codeLink, paragraph2, projectLink) => {
             {/* <h5 className="card-title">Details:</h5>
             <p className="card-text">{paragraph2}</p> */}
             
+            <span>
             { 
                 typeof projectLink == "string" ? 
-                <a type='a' className="btn btn-outline-secondary p-1 mb-1" href={projectLink}>Project</a>
+                <a type='a' className="btn btn-outline-secondary p-1" href={projectLink}>Project</a>
                 : 
-                <a type='a' className="btn btn-outline-secondary p-1 mb-1 disabled" >Project</a>
+                <a type='a' className="btn btn-outline-secondary p-1 disabled" >Project</a>
             }
+            </span>
+            <span> </span>
+            <span>
             {
                 typeof codeLink == "string" ? 
-                <a type='a' className="btn btn-outline-secondary p-1 mb-1" href={codeLink}>GitHub</a>
+                <a type='a' className="btn btn-outline-secondary p-1" href={codeLink}>GitHub</a>
                 : 
-                <a type='a' className="btn btn-outline-secondary p-1 mb-1 disabled">GitHub</a>
+                <a type='a' className="btn btn-outline-secondary p-1 disabled">GitHub</a>
                 
             }
+            </span>
             <br />
             {checkIfPrivet(codeLink, projectLink)}
             {TutorialCheck(tutorial)}
@@ -92,13 +98,14 @@ const Project = (props) => {
             </a>
             <div className="card-body">
                 <h5 className="card-title">{props.title}</h5>
-                {ParagraphSetup(props.paragraph1)}
-                <div className="card text-center">
-                    <div className="card-header">
+                {/* {ParagraphSetup(props.paragraph1)} */}
+                {/* <div className="card text-center"> */}
+                <div className="text-center">
+                    {/* <div className="card-header">
                         {platforms}
                         {focus}
                         {tech}
-                    </div>
+                    </div> */}
                     {InnerCardBody(props.tutorial, props.codeLink, props.paragraph2, props.projectLink)}
                 </div>
             </div>

@@ -7,28 +7,32 @@ export const expertise = {
 
 export const mainLang = {
     js: {
-        id:'JavaScript/Node.js',
+        id:'JavaScript',
         level: expertise.expert
     },
     py: {
         id:'Python',
         level: expertise.expert
     },
-    // swift: {
-    //     id:'Swift',
+    swift: {
+        id:'Swift',
+        level: expertise.novice
+    },
+    go: {
+        id:'Go',
+        level: expertise.novice
+    },
+    // ts: {
+    //     id:'TypeScript',
     //     level: expertise.novice
     // },
-    go: {
-        id:'Go (Golang)',
+    java: {
+        id:'Java',
         level: expertise.novice
     },
-    ts: {
-        id:'TypeScript',
-        level: expertise.novice
-    },
-    // java: {
-    //     id:'Java',
-    //     level: expertise.novice
+    // slq:{
+    //     id: 'SQL',
+    //     level: expertise.proficient
     // }
     // rb: {
     //     id:'Ruby',
