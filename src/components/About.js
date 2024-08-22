@@ -10,7 +10,7 @@ const MainContent = () => (
          
 
           {/* Self info & img */}
-          <img className='rounded' src="images/about/me.jpeg" alt="image of Software Engineer Logan Reynolds."/>
+          <img className='rounded' src="images/about/new-me.webp" alt="image of Software Engineer Logan Reynolds."/>
 
           {/* Resume */}
           {/* <a className="p-0" href="files/logan-reynolds-resume.pdf" >
