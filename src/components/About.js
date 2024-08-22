@@ -25,43 +25,9 @@ const MainContent = () => (
           <br/>
           <br/>
 
-          <p>With my 4+ years of professional experience, I have had the privilege of contributing to a diverse range of organizations, both large and small. I have held positions at notable companies such as Adobe, Prose, Verizon, Wipro, StageIV, and Dance4Healing.</p> 
-          <p>During my time at Adobe, I played a key role in executing critical software updates that expanded relevant product data by 35%, improved efficiency, and drove a 75% enhancement with 50+ updates.</p>
+          <p>Drawing on my extensive professional experience, I have had the opportunity to make meaningful contributions across a diverse array of organizations, ranging from startups to industry giants. Notably, I have held key roles at renowned companies such as Adobe and Verizon.</p>
 
-          <br/>
-
-          <h5>Technologies:</h5>
-          <ul>
-            <li>Python</li>
-            <li>Flask</li>
-            <li>JavaScript </li>
-            <li>Node </li>
-            <li>React </li>
-            <li>GraphQL </li>
-            <li>MongoDB </li>
-            <li>AI/ML</li>
-            <li>SQL </li>
-            <li>Adobe Analytics (AA)</li>
-            <li>Adobe Customer Journey Analytics (CJA)</li>
-            <li>Adobe Experience Platform (AEP)</li>
-            <li>Linux</li>
-            <li>Bootstrap</li>
-            <li>Selenium</li>
-            <li>Beautiful Soup 4 (BS4)</li>
-            <li>Shell</li>
-            <li>API</li>
-            <li>OpenAI APIs</li>
-            <li>Llama 3</li>
-          </ul>
-
-          <br/>
-
-          <h5>Industry Expertise:</h5>
-          <ul>
-            <li>Tech</li>
-            <li>Telecommunications</li>
-          </ul>
-
+         
         </div>
       </div>
     </section>
