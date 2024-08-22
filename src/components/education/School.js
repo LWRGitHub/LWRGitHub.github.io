@@ -75,8 +75,8 @@ const secondUl = (focus, skills, moreInfo, credentials) => {
 const School = (props) => { 
     return (
         <span>
-            {schoolName(props.school, props.location, props.href)}
-            {secondUl(props.focus, props.skills, props.moreInfo, props.credentials)}
+            {/* {schoolName(props.school, props.location, props.href)} */}
+            {/* {secondUl(props.focus, props.skills, props.moreInfo, props.credentials)} */}
         </span>
     );
 }

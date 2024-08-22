@@ -4,7 +4,7 @@ import Header from './Header';
 const Home = () => (
     <div className="m- p-0">
         <Header page={'Software Engineer'}
-                focus={'JavaScript/Node.js, Python, Go, TypeScript'} />
+                focus={'JavaScript, Python, Swift, Java, Go'} />
         <section className="container">
         </section>
     </div>
