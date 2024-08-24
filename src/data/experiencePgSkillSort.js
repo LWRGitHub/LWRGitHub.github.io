@@ -14,22 +14,22 @@ export const mainLanguages = [
     },
     {
         id: mainLang.swift.id,
-        src: "images/experience/swift-logo.png",
+        src: "images/experience/swift.svg",
         alt: "programming language logo for Swift"
     },
     {
         id: mainLang.go.id,
-        src: "images/experience/go-logo.png",
+        src: "images/experience/go-logo.webp",
         alt: "programming language logo for Golang"
     },
     {
         id: mainLang.ts.id,
-        src: "images/experience/Typescript_logo.png",
+        src: "images/experience/Typescript_logo.svg",
         alt: "programming language logo for TypeScript"
     },
     {
         id: mainLang.java.id,
-        src: "images/experience/java-logo.png",
+        src: "images/experience/java-logo.webp",
         alt: "programming language logo for Java"
     },
 ];
