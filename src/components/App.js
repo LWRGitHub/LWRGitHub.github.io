@@ -15,17 +15,20 @@ import Footer from './Footer';
 
 const App = () => (
   <HashRouter>
-    <div>
+
       <Switch>
+
         <Route path="/home" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/education" component={Education} />
         <Route path="/experience" component={Experience} />
         <Route path="/contact" component={Contact} />
         <Route component={Home} />
+
       </Switch>
+      
       <Footer />
-    </div>
+
   </HashRouter>
 );
 

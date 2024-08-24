@@ -1,16 +1,15 @@
 import React from 'react';
-
 import Header from './Header';
 
 const ContactInfo = () => (
     <div className="col-sm-6">
         <ul>
-            {/* <li>Cell: <a className="p-0" href='tel:5555555555'>‪(555)555-5555</a></li> */}
-            {/* <li>Email: <a className="p-0" href="mailto:...?subject=Seen%20Portfolio%20Site">...</a></li> */}
             <li>Current Location: Greater San Francisco City Area</li>
             <li>GitHub: <a className="p-0" href="https://github.com/LWRGitHub">GitHub.com/LWRGitHub</a> </li>
-            <li>LinkedIn: <a className="p-0" href="https://www.linkedin.com/in/logan-reynolds/">Linkedin.com/in/Logan-Reynolds/</a></li>
-            {/* <li>Resume: <a className="p-0" href="files/logan-reynolds-resume.pdf">PDF</a></li> */}
+            <li>
+                <span>LinkedIn: </span> 
+                <a className="p-0" href="https://www.linkedin.com/in/logan-reynolds/">Linkedin.com/in/Logan-Reynolds/</a>
+            </li>
         </ul>  
 </div>
 );
@@ -22,13 +21,18 @@ const GMap = () => (
 
 const Contact = () => (
     <div>
+
         <Header page={'Contact Me'} />
+
         <section className="container">
             <div className="row">
+
                 <ContactInfo />
                 <GMap />
+
             </div>
         </section>
+
     </div>
 );
 

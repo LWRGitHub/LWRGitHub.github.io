@@ -8,6 +8,7 @@ const h4 = (focus) => {
 
 const Header = (props) => (
   <div className="m-0 p-0">
+
     <header className="container">
       <div className="row">
         <h1><a href="/#/home" id="LWR">Logan Reynolds</a></h1>
@@ -19,17 +20,19 @@ const Header = (props) => (
         </nav>
       </div>
     </header>
+
     <section className="jumbotron">
       <div className="container">
+
         <div className="row">
           <h2>{props.page}</h2>
-          
         </div>
-        <div className="row">
-        {h4(props.focus)}
-        </div>
+
+        <div className="row">{h4(props.focus)}</div>
+
       </div>
     </section>
+
   </div>
 );
 

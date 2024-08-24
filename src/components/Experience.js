@@ -3,12 +3,11 @@ import React from 'react';
 //components
 import ProjectContainer from './experience/projects/ProjectContainer';
 import MainLangContainer from './experience/mainLang/MainLangContainer';
-import ExtendSkills from './experience/extendSkills/ExtendSkills';
 import Header from './Header';
 
 //data
-import { ProProj, PersonalProj, TutorialProj } from '../data/projects';
-import {mainLanguages, experience} from '../data/experiencePgSkillSort';
+import { ProProj, PersonalProj } from '../data/projects';
+import {mainLanguages} from '../data/experiencePgSkillSort';
 
 const Projects = () => (
     <div>
@@ -20,10 +19,6 @@ const Projects = () => (
             <h2 className="my-5" id="projects">Projects</h2>
             <ProjectContainer data={PersonalProj} />
         </section>
-        {/* <section className="container">
-            <h2 className="my-5">Taken To The Next Level</h2>
-            <ProjectContainer data={TutorialProj} />
-        </section> */}
     </div>
 );
 
@@ -31,7 +26,6 @@ const Experience = () => (
     <div>
         <Header page={'Experience'} />
         <MainLangContainer  data={mainLanguages} />
-        {/* <ExtendSkills experience={experience} /> */}
         <Projects />
     </div>
 );

@@ -1,10 +1,10 @@
 import React from 'react';
 
-//componets
+// Components
 import Header from './Header';
 import EdSectionContainer from './education/EdSectionContainer'
 
-//data
+// Data
 import {education} from '../data/education';
 
 const MainContent = () => (
