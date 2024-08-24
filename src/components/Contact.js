@@ -5,8 +5,7 @@ const ContactInfo = () => (
     <div className="col-sm-6">
         <ul>
             <li>
-                <span>Current Location: </span>
-                <b>Greater San Francisco City Area</b>
+                <span>Current Location: Greater San Francisco City Area</span>
             </li>
             <li>
                 <span>GitHub: </span> 
