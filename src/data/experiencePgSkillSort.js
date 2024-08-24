@@ -24,7 +24,7 @@ export const mainLanguages = [
     },
     {
         id: mainLang.ts.id,
-        src: "images/experience/Typescript_logo.svg",
+        src: "images/experience/typescript_logo.svg",
         alt: "programming language logo for TypeScript"
     },
     {
