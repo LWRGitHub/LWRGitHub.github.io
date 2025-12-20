@@ -13,7 +13,7 @@ const MainContent = () => (
           <br/>
           <br/>
 
-          <p>Drawing on my extensive professional experience, I have had the opportunity to make meaningful contributions across a diverse array of organizations, ranging from startups to industry giants. Notably, I have held key roles at renowned companies such as Adobe and Verizon.</p>
+          <p>Drawing on my extensive professional experience, I have had the opportunity to make meaningful contributions across a diverse array of organizations, ranging from startups to industry giants. Notably, I have held key roles at renowned companies such as PayPal (Venmo), Adobe and Verizon.</p>
 
         </div>
       </div>

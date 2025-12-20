@@ -14,7 +14,7 @@ export const ProProj = [
             alt: "red outline of the letter A and the word Adobe"
         },
         title: 'Adobe: Web Appications Engineer 3',
-        projectLink: "https://business.adobe.com/products/analytics/adobe-analytics.html",
+        projectLink: "https://business.adobe.com",
         codeLink: false
     },
     {
@@ -59,7 +59,7 @@ export const ProProj = [
             alt: "very basic computer fraphic image of a guy wearing a blue Hoodie in front of a laptop black background"
         },
         title: 'Freelancer: Full-Stack Software Engineer',
-        projectLink: "https://stageiv.org",
+        projectLink: false,
         codeLink: false
     }
 ];
@@ -73,7 +73,7 @@ export const PersonalProj = [
         },
         title: "TechCareerTime.com",
         projectLink: 'https://www.techcareertime.com',
-        codeLink: "https://github.com/LWRGitHub/getInTech"
+        codeLink: false
     },
     {
         img: {
@@ -81,8 +81,8 @@ export const PersonalProj = [
             alt: "Job search app in action."
         },
         title: "Auto Job Search",
-        projectLink: 'https://github.com/LWRGitHub/job-search-scraping-linkedin',
-        codeLink: "https://github.com/LWRGitHub/job-search-scraping-linkedin"
+        projectLink: false,
+        codeLink: false
     },
     {
         img: {
@@ -91,7 +91,7 @@ export const PersonalProj = [
         },
         title: "Customized version of ChatGPT | Analytics Expert",
         projectLink: 'https://chat.openai.com/g/g-xKyZbu82T-analytics-expert',
-        codeLink: "https://chat.openai.com/g/g-xKyZbu82T-analytics-expert"
+        codeLink: false
     },
     {
         img: {
@@ -99,8 +99,8 @@ export const PersonalProj = [
             alt: "Screenshot of the home page. The image has photos of the Different vegan dishes with their names such as tomato soup & slaw with coriander."
         },
         title: "Vegan Query",
-        projectLink: 'https://github.com/VeganQuery/VeganQuery.github.io',
-        codeLink: "https://github.com/VeganQuery/VeganQuery.github.io"
+        projectLink: 'https://www.veganquery.com',
+        codeLink: false
     },
     {
         img: {
@@ -108,8 +108,8 @@ export const PersonalProj = [
             alt: "this is a screen shot of the home page for The Midnight Dream Publishing website."
         },
         title: "Amazon KDP E-commerce & Website",
-        projectLink: 'https://lwrgithub.github.io/book-site/#/',
-        codeLink: "https://github.com/LWRGitHub/book-site"
+        projectLink: false,
+        codeLink: false
     },
     {
         img: {
@@ -117,8 +117,8 @@ export const PersonalProj = [
             alt: "this is a screen shot of the home page for women's basketball through the years. Image of a big photo black-and-white of women playing basketball with the chalkboard in the back."
         },
         title: "Women's Basketball Through The Years",
-        projectLink: 'https://lwrgithub.github.io/womens-basketball-website/#/',
-        codeLink: "https://github.com/LWRGitHub/womens-basketball-website"
+        projectLink: false,
+        codeLink: false
     },
     {
         img: {
@@ -126,26 +126,8 @@ export const PersonalProj = [
             alt: "Image of the app having found something & starting to text a number."
         },
         title: "Scraping Craigslist & TrashNothing.com!",
-        projectLink: 'https://github.com/LWRGitHub/cs_scraper',
-        codeLink: "https://github.com/LWRGitHub/cs_scraper"
-    },
-    {
-        img: {
-            src: 'images/experience/lovers-art.webp', 
-            alt: 'This is a screen shot of lovers art websites home page.'
-        },
-        title: "Art Site Template",
-        projectLink: 'https://github.com/LWRGitHub/lover-artist-site', 
-        codeLink: 'https://github.com/LWRGitHub/lover-artist-site' 
-    },
-    {
-        img: {
-            src: "images/experience/duro-ios.webp", 
-            alt: "Image of the app's wallet page."
-        },
-        title: "Duro iOS App!",
-        projectLink: 'https://github.com/LWRGitHub/duro-ios',
-        codeLink: "https://github.com/LWRGitHub/duro-ios"
+        projectLink: false,
+        codeLink: false
     },
     {
         img: {
@@ -153,7 +135,8 @@ export const PersonalProj = [
             alt: "Screenshot of the astrology home page. It has images & names of all the zodiac signs."
         },
         title: "Daily Horoscopes",
-        codeLink: "https://github.com/LWRGitHub/astrology-api"
+        projectLink: false,
+        codeLink: false
     },
 ];
 

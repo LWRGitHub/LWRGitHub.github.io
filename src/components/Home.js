@@ -5,9 +5,9 @@ const Home = () => (
     <div className="m- p-0">
 
         <Header page={'Software Engineer'}
-                focus={'JavaScript, Python, Swift, Java, Go'} 
+                focus={'Python, JavaScript'}
         />
-        
+
     </div>
 );
 

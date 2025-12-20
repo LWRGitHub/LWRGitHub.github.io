@@ -5,9 +5,6 @@ export const mainLang = {
     py: {
         id:'Python',
     },
-    swift: {
-        id:'Swift',
-    },
     go: {
         id:'Go',
     },

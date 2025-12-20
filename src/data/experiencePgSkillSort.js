@@ -13,11 +13,6 @@ export const mainLanguages = [
         alt: "programming language logo for Python"
     },
     {
-        id: mainLang.swift.id,
-        src: "images/experience/swift.svg",
-        alt: "programming language logo for Swift"
-    },
-    {
         id: mainLang.go.id,
         src: "images/experience/go-logo.webp",
         alt: "programming language logo for Golang"

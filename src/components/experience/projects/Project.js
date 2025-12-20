@@ -10,23 +10,27 @@ const InnerCardBody = (codeLink, projectLink) => {
                 {/* IF >>> Project Publicly available */}
                 { 
                     typeof projectLink == "string" ? 
-                    <a type='a' className="btn btn-outline-secondary p-1" href={projectLink}>Project</a>
+                    <a type='a' className="btn btn-outline-secondary p-1" href={projectLink}>View Project</a>
                     : 
-                    <span type='a' className="btn btn-outline-secondary p-1 disabled">Project</span>
+                    <span className="text-start fst-italic text-muted small d-block">
+                        <i>private project</i>
+                    </span>
                 }
             </span>
             <span> </span>
             {/* Link: GitHub button */}
-            <span> 
+            {/* <span>  */}
                 {/* IF >>> GitHub Publicly available */}
-                {
+                {/* {
                     typeof codeLink == "string" ? 
                     <a type='a' className="btn btn-outline-secondary p-1" href={codeLink}>GitHub</a>
                     : 
-                    <span type='a' className="btn btn-outline-secondary p-1 disabled">GitHub</span>
+                    <span type='a' className="btn btn-outline-secondary p-1 disabled">
+                        <s>GitHub</s> (Private Repo)
+                    </span>
                     
-                }
-            </span>
+                } */}
+            {/* </span> */}
             <br />
         </div>
     );   
