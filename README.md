@@ -40,6 +40,9 @@ yarn start
 ```
 git add -A
 git commit -m "Some New Code"
-git push
+
+git checkout -b BRANCH-NAME
+git push origin BRANCH-NAME
+
 npm run deploy
 ```
