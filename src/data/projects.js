@@ -4,8 +4,17 @@ export const ProProj = [
             src: "images/experience/stealthStartup.webp",
             alt: "LinkedIn Stealth Startup logo. A black background with a white up arrow in the middle of the image."
         },
-        title: 'Stealth Startup: Software Engineer L5',
+        title: 'Stealth Startup: Sr. Software Development Engineer (Senior / SWE III)',
         projectLink: false,
+        codeLink: false
+    },
+    {
+        img: {
+            src: "images/experience/paypal-venmo.jpg",
+            alt: "PayPal Venmo logo."
+        },
+        title: 'Venmo @ PayPal: Software Engineer 2 - Python',
+        projectLink: "https://venmo.com/",
         codeLink: false
     },
     {
@@ -13,7 +22,7 @@ export const ProProj = [
             src: "images/experience/adobe.webp",
             alt: "red outline of the letter A and the word Adobe"
         },
-        title: 'Adobe: Web Appications Engineer 3',
+        title: 'Adobe: Web Applications Engineer 3',
         projectLink: "https://business.adobe.com",
         codeLink: false
     },

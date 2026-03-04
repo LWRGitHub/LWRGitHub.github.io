@@ -255,3 +255,25 @@ h3 {
     background-color:rgba(0, 0, 0, 0.05);
 }
 /* --------- p5*js cards page -------------- */
+
+/* --------- About Page Table -------------- */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid rgba(200, 200, 200, 0.5);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(220, 220, 220, 0.3));
+}
+
+table td {
+    padding: 10px 15px;
+    border: 1px solid rgba(200, 200, 200, 0.3);
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(200, 200, 200, 0.1);
+}
+
+table tr:nth-child(odd) {
+    background-color: transparent;
+}
+/* --------- /About Page Table -------------- */
