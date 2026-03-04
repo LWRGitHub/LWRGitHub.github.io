@@ -4,7 +4,7 @@ export const ProProj = [
             src: "images/experience/stealthStartup.webp",
             alt: "LinkedIn Stealth Startup logo. A black background with a white up arrow in the middle of the image."
         },
-        title: 'Stealth Startup: Sr. Software Development Engineer (Senior / SWE III)',
+        title: 'Sr. Software Development Engineer - SWE III',
         projectLink: false,
         codeLink: false
     },

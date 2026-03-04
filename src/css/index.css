@@ -242,6 +242,7 @@ h3 {
 #resume-btn{
     width: 50px;
     height: 46px;
+    background-color: rgba(220, 220, 220, 0.3);
 }
 /* ------------ /Resume Button ----------------- */
 

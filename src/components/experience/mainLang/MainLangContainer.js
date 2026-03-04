@@ -12,6 +12,7 @@ const MainLangContainer = (props) => {
 
     return(
         <section className="container my-5">
+            <h2 className="my-5" id="projects">Top Skills</h2>
             <div className="row">
                 {language}
             </div>
