@@ -13,7 +13,7 @@ const MainContent = () => (
           <br/>
           <br/>
 
-          <p>Drawing on my years of extensive professional experience, I have contributed over 200,000 lines of code across a diverse range of organizations, from innovative startups to industry giants.</p>
+          <p>Drawing on my years of extensive professional experience, I have contributed 500K+ lines of code across a diverse range of organizations, from innovative startups to industry giants.</p>
 
           <p>My career includes key roles at renowned companies such as Adobe, Verizon and Venmo @ PayPal.</p>
 
