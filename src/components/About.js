@@ -17,6 +17,30 @@ const MainContent = () => (
 
           <p>My career includes key roles at renowned companies such as Adobe, Verizon and Venmo @ PayPal.</p>
 
+          <br/>
+
+          <h5>📊 Quick Stats</h5>
+          <table>
+            <tbody>
+              <tr>
+                <td style={{textAlign: 'center'}}>🎯</td>
+                <td>Focus Areas</td>
+              </tr>
+              <tr>
+                <td style={{textAlign: 'center'}}>☁️</td>
+                <td>Cloud Infrastructure, Architecture &amp; IaC</td>
+              </tr>
+              <tr>
+                <td style={{textAlign: 'center'}}>🔧</td>
+                <td>DevOps, Automation &amp; Orchestration</td>
+              </tr>
+              <tr>
+                <td style={{textAlign: 'center'}}>🌐</td>
+                <td>Full Stack Engineering (Front End &amp; Back End)</td>
+              </tr>
+            </tbody>
+          </table>
+
         </div>
       </div>
     </section>
